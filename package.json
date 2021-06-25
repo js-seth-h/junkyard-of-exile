@@ -1,7 +1,7 @@
 {
   "name": "path-of-wealth",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "packages/pow/index.js",
   "repository": "git@github.com:js-seth-h/path-of-wealth.git",
   "author": "js <js.seth.h@gmail.com>",
   "workspaces": [

@@ -1,0 +1,2102 @@
+{
+  "unknownMod": { // 화면에 빨간색으로 처리해주면 되는 옵션들.
+    "implicitMods": [
+      "+28% to Fire Resistance"
+    ],
+    "explicitMods": [
+      "0.21% of Physical Attack Damage Leeched as Life"
+    ]
+  },
+  "skills": [
+    {
+      "name": "Armageddon Brand",
+      "corr": 0.8234, // 82.34%라고 찍음 됨.
+      "ref_items": [
+            {
+              "verified": false,
+              "w": 2,
+              "h": 3,
+              "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?v=c6b09fe119e14b0a1af35c694e705bd3&w=2&h=3&scale=1",
+              "league": "Ultimatum",
+              "id": "effe1ddd32fe282052a3856845de28f0e1425f3d2462fb1e1e6f9e51bd2e7105",
+              "sockets": [
+                {
+                  "group": 0,
+                  "attr": "S",
+                  "sColour": "R"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                }
+              ],
+              "name": "Honour Bane",
+              "typeLine": "Thicket Bow",
+              "baseType": "Thicket Bow",
+              "identified": true,
+              "ilvl": 76,
+              "properties": [
+                {
+                  "name": "Bow",
+                  "values": [],
+                  "displayMode": 0
+                },
+                {
+                  "name": "Quality",
+                  "values": [
+                    [
+                      "+20%",
+                      1
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 6
+                },
+                {
+                  "name": "Physical Damage",
+                  "values": [
+                    [
+                      "26-80",
+                      1
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 9
+                },
+                {
+                  "name": "Elemental Damage",
+                  "values": [
+                    [
+                      "24-52",
+                      5
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 10
+                },
+                {
+                  "name": "Critical Strike Chance",
+                  "values": [
+                    [
+                      "5.00%",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 12
+                },
+                {
+                  "name": "Attacks per Second",
+                  "values": [
+                    [
+                      "1.50",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 13
+                }
+              ],
+              "requirements": [
+                {
+                  "name": "Level",
+                  "values": [
+                    [
+                      "74",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Str",
+                  "values": [
+                    [
+                      "96",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Dex",
+                  "values": [
+                    [
+                      "179",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1
+                },
+                {
+                  "name": "Int",
+                  "values": [
+                    [
+                      "51",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                }
+              ],
+              "explicitMods": [
+                "+2 to Level of Socketed Bow Gems",
+                "Adds 24 to 52 Cold Damage",
+                "Bow Attacks fire an additional Arrow",
+                "19% increased Stun Duration on Enemies"
+              ],
+              "craftedMods": [
+                "+32% to Chaos Damage over Time Multiplier"
+              ],
+              "frameType": 2,
+              "x": 0,
+              "y": 0,
+              "inventoryId": "Weapon",
+              "socketedItems": [
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/Empower.png?v=437c52ca684b8b50eda5fa0e09e669b7&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "2ddb8e2678147b6736dd03e6c3a89ae6ed4f78db62256cdef1e17fbf73685381",
+                  "name": "",
+                  "typeLine": "Empower Support",
+                  "baseType": "Empower Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "corrupted": true,
+                  "properties": [
+                    {
+                      "name": "Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "4 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "125%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "60",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Str",
+                      "values": [
+                        [
+                          "96",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
+                  "explicitMods": [
+                    "+3 to Level of Supported Active Skill Gems"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 0,
+                  "colour": "S"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/RainofSporesGem.png?v=327cf8f47062e8ae016ccc0b801fc506&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "fa4a0161e2b77dc7a53bb5ee15ddade3fa622c38ad5e708f2a8c5779cbc90c92",
+                  "name": "",
+                  "typeLine": "Toxic Rain",
+                  "baseType": "Toxic Rain",
+                  "identified": true,
+                  "ilvl": 0,
+                  "corrupted": true,
+                  "properties": [
+                    {
+                      "name": "Attack, AoE, Chaos, Duration, Projectile, Bow",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "21 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "11 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "74% of base",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Effectiveness of Added Damage",
+                      "values": [
+                        [
+                          "74%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "72",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "159",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and slows their movement speed. The pods last for a duration before bursting, dealing area damage.",
+                  "explicitMods": [
+                    "Deals 316.2 Base Chaos Damage per second",
+                    "Base duration is 1.00 seconds",
+                    "Fires 4 additional Arrows",
+                    "60% of Physical Damage Converted to Chaos Damage",
+                    "Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect",
+                    "10% increased Area of Effect",
+                    "Each Spore Pod applies 5% less Movement Speed to nearby Enemies, to a maximum of 30%"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 1,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/MirageArcher.png?v=2f1445ca7222c25f1cb7287e259e2a42&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "110f13bbaa7747c427e9bd1ce91e74bb58c99f0ace20368c8710227bf5e1eba0",
+                  "name": "",
+                  "typeLine": "Divergent Mirage Archer Support",
+                  "baseType": "Mirage Archer Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Bow, Attack, Support, Duration",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "19",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "140%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    },
+                    {
+                      "name": "",
+                      "values": [
+                        [
+                          "Alternate Quality",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "67",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "106",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "192976308/242081178",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.8,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports attack skills that can be used with bows. Supported skills can only be used with bows. Cannot support Vaal skills, minion skills, movement skills, or skills used by totems, traps, or mines.",
+                  "explicitMods": [
+                    "Maximum 1 Summoned Mirage Archer",
+                    "Supported Skills have 20% increased Skill Effect Duration",
+                    "When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill",
+                    "Mirage Archer uses Supported Skill with 60% less Attack Speed",
+                    "Mirage Archer lasts 4 seconds",
+                    "Mirage Archer deals 31% less Damage with Supported Skills"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 2,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/SupportPlus/RangedPhysicalAttackDamagePlus.png?v=411ac0f34e31b8efd86ccd3d05b9b3b1&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "75ee8e3f974c3f3d04f06eb1ac7d84cabc9477a68f39d5f509f583d0d1a85d1d",
+                  "name": "",
+                  "typeLine": "Awakened Vicious Projectiles Support",
+                  "baseType": "Awakened Vicious Projectiles Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Projectile, Attack, Physical, Chaos, Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "2",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "120%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "117",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "166478845/454977235",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.37,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports projectile attack skills.",
+                  "explicitMods": [
+                    "Supported Skills deal 20% increased Physical Damage",
+                    "Supported Skills deal 61% more Chaos Damage over Time",
+                    "Supported Skills deal 61% more Physical Damage over Time",
+                    "Supported Skills deal 61% more Physical Projectile Attack Damage",
+                    "Supported Skills have 10% less Projectile Attack Speed"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 3,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/SupportPlus/VoidManipulationPlus.png?v=115f18092b4b4cf4faef5f648ac2a9fe&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "dcc24cbc5b2efec851ad0d0734379409540a43431fd3f803c9f093fe584d6c19",
+                  "name": "",
+                  "typeLine": "Awakened Void Manipulation Support",
+                  "baseType": "Awakened Void Manipulation Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Chaos, Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "2",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "120%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "51",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "49290036/455255105",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.11,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports any skill that deals damage.",
+                  "explicitMods": [
+                    "Supported Skills deal 41% more Chaos Damage",
+                    "Supported Skills deal 20% increased Chaos Damage",
+                    "Supported Skills deal 25% reduced Elemental Damage"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 5,
+                  "colour": "D"
+                }
+              ]
+            },
+            {
+              "verified": false,
+              "w": 2,
+              "h": 3,
+              "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/TriggerQuiverBase.png?v=4c4804f93c60a9f1de107c90df412a36&w=2&h=3&scale=1",
+              "league": "Ultimatum",
+              "id": "c54c781c17566e26c0392f5ec0deab93dc6bc55a76bde2e6210271e1c3015493",
+              "sockets": [
+                {
+                  "group": 0,
+                  "attr": "I",
+                  "sColour": "B"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "I",
+                  "sColour": "B"
+                }
+              ],
+              "name": "Maloney's Mechanism",
+              "typeLine": "Ornate Quiver",
+              "baseType": "Ornate Quiver",
+              "identified": true,
+              "ilvl": 76,
+              "requirements": [
+                {
+                  "name": "Level",
+                  "values": [
+                    [
+                      "70",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Dex",
+                  "values": [
+                    [
+                      "155",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Int",
+                  "values": [
+                    [
+                      "111",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                }
+              ],
+              "implicitMods": [
+                "Has 1 Socket"
+              ],
+              "explicitMods": [
+                "Has 2 Sockets",
+                "Trigger a Socketed Bow Skill when you Attack with a Bow, with a 1 second Cooldown",
+                "7% increased Attack Speed",
+                "+66 to maximum Life",
+                "5% chance to Blind Enemies on Hit with Attacks"
+              ],
+              "flavourText": [
+                "Midnight tinkering begets midday murdering;\r",
+                "a sinister shaft surreptitiously shot slays a scoundrel.\r",
+                "I will see them again, but not until my work is done."
+              ],
+              "frameType": 3,
+              "x": 0,
+              "y": 0,
+              "inventoryId": "Offhand",
+              "socketedItems": [
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Despair.png?v=b5e0e40ef9e6fb6d99fc14282230f325&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "7c81977007e6e089f8f9bedb92fd79623f4ad410dadd0a3d532913807d851a83",
+                  "name": "",
+                  "typeLine": "Despair",
+                  "baseType": "Despair",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Spell, AoE, Duration, Chaos, Curse, Hex",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "33 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Cast Time",
+                      "values": [
+                        [
+                          "0.50 sec",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "68",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "98",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Curses all targets in an area, lowering their chaos resistance and increasing damage over time they take. All hits will deal added chaos damage to the cursed enemies.",
+                  "explicitMods": [
+                    "Base duration is 10.90 seconds",
+                    "Curse gains 10 Doom per second if you Cast this Spell yourself",
+                    "+10 to radius",
+                    "Cursed enemies have -29% to Chaos Resistance",
+                    "Cursed enemies take 35% increased Damage from Damage Over Time effects",
+                    "Adds 46 to 57 Chaos Damage to Hits against Cursed Enemies"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 0,
+                  "colour": "I"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/RainofArrows.png?v=4a8307af9b81b48b357121b614a2f408&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "2239cfd4cddffb5b8537d5ffa8222b0894e20dcbdefc1afec63189cdb5352764",
+                  "name": "",
+                  "typeLine": "Rain of Arrows",
+                  "baseType": "Rain of Arrows",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Attack, AoE, Projectile, Bow",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "11 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "60% of base",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Effectiveness of Added Damage",
+                      "values": [
+                        [
+                          "60%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "155",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.",
+                  "explicitMods": [
+                    "Fires 21 additional Arrows",
+                    "10% increased Area of Effect"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 1,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/CurseOnHit.png?v=3b4d00a3f5e38dc9131148d76ba81cd9&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "85ba7f104d774a97ae75ebe07a4a98a5b1203d7307aa23d2a13bd2d2c8e3208c",
+                  "name": "",
+                  "typeLine": "Hextouch Support",
+                  "baseType": "Hextouch Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Support, Hex, Trigger",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "111",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+                  "explicitMods": [
+                    "Supported Skills apply supported Curses on Hit",
+                    "You cannot Cast Supported Curse Spells",
+                    "10% increased Effect of Supported Curses",
+                    "Supported Skills have 12% reduced Curse Duration"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 2,
+                  "colour": "I"
+                }
+              ]
+            }
+      ]
+    },
+    {
+      "name": "Bane",
+      "corr": 0.7341,
+      "ref_items": [
+            {
+              "verified": false,
+              "w": 2,
+              "h": 3,
+              "icon": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?v=c6b09fe119e14b0a1af35c694e705bd3&w=2&h=3&scale=1",
+              "league": "Ultimatum",
+              "id": "effe1ddd32fe282052a3856845de28f0e1425f3d2462fb1e1e6f9e51bd2e7105",
+              "sockets": [
+                {
+                  "group": 0,
+                  "attr": "S",
+                  "sColour": "R"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                }
+              ],
+              "name": "Honour Bane",
+              "typeLine": "Thicket Bow",
+              "baseType": "Thicket Bow",
+              "identified": true,
+              "ilvl": 76,
+              "properties": [
+                {
+                  "name": "Bow",
+                  "values": [],
+                  "displayMode": 0
+                },
+                {
+                  "name": "Quality",
+                  "values": [
+                    [
+                      "+20%",
+                      1
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 6
+                },
+                {
+                  "name": "Physical Damage",
+                  "values": [
+                    [
+                      "26-80",
+                      1
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 9
+                },
+                {
+                  "name": "Elemental Damage",
+                  "values": [
+                    [
+                      "24-52",
+                      5
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 10
+                },
+                {
+                  "name": "Critical Strike Chance",
+                  "values": [
+                    [
+                      "5.00%",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 12
+                },
+                {
+                  "name": "Attacks per Second",
+                  "values": [
+                    [
+                      "1.50",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "type": 13
+                }
+              ],
+              "requirements": [
+                {
+                  "name": "Level",
+                  "values": [
+                    [
+                      "74",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Str",
+                  "values": [
+                    [
+                      "96",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Dex",
+                  "values": [
+                    [
+                      "179",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1
+                },
+                {
+                  "name": "Int",
+                  "values": [
+                    [
+                      "51",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                }
+              ],
+              "explicitMods": [
+                "+2 to Level of Socketed Bow Gems",
+                "Adds 24 to 52 Cold Damage",
+                "Bow Attacks fire an additional Arrow",
+                "19% increased Stun Duration on Enemies"
+              ],
+              "craftedMods": [
+                "+32% to Chaos Damage over Time Multiplier"
+              ],
+              "frameType": 2,
+              "x": 0,
+              "y": 0,
+              "inventoryId": "Weapon",
+              "socketedItems": [
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/Empower.png?v=437c52ca684b8b50eda5fa0e09e669b7&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "2ddb8e2678147b6736dd03e6c3a89ae6ed4f78db62256cdef1e17fbf73685381",
+                  "name": "",
+                  "typeLine": "Empower Support",
+                  "baseType": "Empower Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "corrupted": true,
+                  "properties": [
+                    {
+                      "name": "Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "4 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "125%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "60",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Str",
+                      "values": [
+                        [
+                          "96",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Supports any skill gem. Once this gem reaches level 2 or above, will raise the level of supported gems. Cannot support skills that don't come from gems.",
+                  "explicitMods": [
+                    "+3 to Level of Supported Active Skill Gems"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 0,
+                  "colour": "S"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/RainofSporesGem.png?v=327cf8f47062e8ae016ccc0b801fc506&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "fa4a0161e2b77dc7a53bb5ee15ddade3fa622c38ad5e708f2a8c5779cbc90c92",
+                  "name": "",
+                  "typeLine": "Toxic Rain",
+                  "baseType": "Toxic Rain",
+                  "identified": true,
+                  "ilvl": 0,
+                  "corrupted": true,
+                  "properties": [
+                    {
+                      "name": "Attack, AoE, Chaos, Duration, Projectile, Bow",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "21 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "11 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "74% of base",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Effectiveness of Added Damage",
+                      "values": [
+                        [
+                          "74%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "72",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "159",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Fire arrows into the air that rain down around the targeted area, dealing damage to enemies they hit and creating spore pods where they land. Each spore pod deals chaos damage over time to nearby enemies and slows their movement speed. The pods last for a duration before bursting, dealing area damage.",
+                  "explicitMods": [
+                    "Deals 316.2 Base Chaos Damage per second",
+                    "Base duration is 1.00 seconds",
+                    "Fires 4 additional Arrows",
+                    "60% of Physical Damage Converted to Chaos Damage",
+                    "Modifiers to Projectile Damage apply to this Skill's Damage Over Time effect",
+                    "10% increased Area of Effect",
+                    "Each Spore Pod applies 5% less Movement Speed to nearby Enemies, to a maximum of 30%"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 1,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/MirageArcher.png?v=2f1445ca7222c25f1cb7287e259e2a42&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "110f13bbaa7747c427e9bd1ce91e74bb58c99f0ace20368c8710227bf5e1eba0",
+                  "name": "",
+                  "typeLine": "Divergent Mirage Archer Support",
+                  "baseType": "Mirage Archer Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Bow, Attack, Support, Duration",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "19",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "140%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    },
+                    {
+                      "name": "",
+                      "values": [
+                        [
+                          "Alternate Quality",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "67",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "106",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "192976308/242081178",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.8,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports attack skills that can be used with bows. Supported skills can only be used with bows. Cannot support Vaal skills, minion skills, movement skills, or skills used by totems, traps, or mines.",
+                  "explicitMods": [
+                    "Maximum 1 Summoned Mirage Archer",
+                    "Supported Skills have 20% increased Skill Effect Duration",
+                    "When you Hit an Enemy with an Arrow from a Supported Skill, Summon a Mirage Archer which uses that Skill",
+                    "Mirage Archer uses Supported Skill with 60% less Attack Speed",
+                    "Mirage Archer lasts 4 seconds",
+                    "Mirage Archer deals 31% less Damage with Supported Skills"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 2,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/SupportPlus/RangedPhysicalAttackDamagePlus.png?v=411ac0f34e31b8efd86ccd3d05b9b3b1&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "75ee8e3f974c3f3d04f06eb1ac7d84cabc9477a68f39d5f509f583d0d1a85d1d",
+                  "name": "",
+                  "typeLine": "Awakened Vicious Projectiles Support",
+                  "baseType": "Awakened Vicious Projectiles Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Projectile, Attack, Physical, Chaos, Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "2",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "120%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "117",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "166478845/454977235",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.37,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports projectile attack skills.",
+                  "explicitMods": [
+                    "Supported Skills deal 20% increased Physical Damage",
+                    "Supported Skills deal 61% more Chaos Damage over Time",
+                    "Supported Skills deal 61% more Physical Damage over Time",
+                    "Supported Skills deal 61% more Physical Projectile Attack Damage",
+                    "Supported Skills have 10% less Projectile Attack Speed"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 3,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/SupportPlus/VoidManipulationPlus.png?v=115f18092b4b4cf4faef5f648ac2a9fe&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "dcc24cbc5b2efec851ad0d0734379409540a43431fd3f803c9f093fe584d6c19",
+                  "name": "",
+                  "typeLine": "Awakened Void Manipulation Support",
+                  "baseType": "Awakened Void Manipulation Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Chaos, Support",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "2",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost & Reservation Multiplier",
+                      "values": [
+                        [
+                          "120%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "74",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "51",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "additionalProperties": [
+                    {
+                      "name": "Experience",
+                      "values": [
+                        [
+                          "49290036/455255105",
+                          0
+                        ]
+                      ],
+                      "displayMode": 2,
+                      "progress": 0.11,
+                      "type": 20
+                    }
+                  ],
+                  "secDescrText": "Supports any skill that deals damage.",
+                  "explicitMods": [
+                    "Supported Skills deal 41% more Chaos Damage",
+                    "Supported Skills deal 20% increased Chaos Damage",
+                    "Supported Skills deal 25% reduced Elemental Damage"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 5,
+                  "colour": "D"
+                }
+              ]
+            },
+            {
+              "verified": false,
+              "w": 2,
+              "h": 3,
+              "icon": "https://web.poecdn.com/image/Art/2DItems/Quivers/TriggerQuiverBase.png?v=4c4804f93c60a9f1de107c90df412a36&w=2&h=3&scale=1",
+              "league": "Ultimatum",
+              "id": "c54c781c17566e26c0392f5ec0deab93dc6bc55a76bde2e6210271e1c3015493",
+              "sockets": [
+                {
+                  "group": 0,
+                  "attr": "I",
+                  "sColour": "B"
+                },
+                {
+                  "group": 0,
+                  "attr": "D",
+                  "sColour": "G"
+                },
+                {
+                  "group": 0,
+                  "attr": "I",
+                  "sColour": "B"
+                }
+              ],
+              "name": "Maloney's Mechanism",
+              "typeLine": "Ornate Quiver",
+              "baseType": "Ornate Quiver",
+              "identified": true,
+              "ilvl": 76,
+              "requirements": [
+                {
+                  "name": "Level",
+                  "values": [
+                    [
+                      "70",
+                      0
+                    ]
+                  ],
+                  "displayMode": 0,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Dex",
+                  "values": [
+                    [
+                      "155",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                },
+                {
+                  "name": "Int",
+                  "values": [
+                    [
+                      "111",
+                      0
+                    ]
+                  ],
+                  "displayMode": 1,
+                  "suffix": "(gem)"
+                }
+              ],
+              "implicitMods": [
+                "Has 1 Socket"
+              ],
+              "explicitMods": [
+                "Has 2 Sockets",
+                "Trigger a Socketed Bow Skill when you Attack with a Bow, with a 1 second Cooldown",
+                "7% increased Attack Speed",
+                "+66 to maximum Life",
+                "5% chance to Blind Enemies on Hit with Attacks"
+              ],
+              "flavourText": [
+                "Midnight tinkering begets midday murdering;\r",
+                "a sinister shaft surreptitiously shot slays a scoundrel.\r",
+                "I will see them again, but not until my work is done."
+              ],
+              "frameType": 3,
+              "x": 0,
+              "y": 0,
+              "inventoryId": "Offhand",
+              "socketedItems": [
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Despair.png?v=b5e0e40ef9e6fb6d99fc14282230f325&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "7c81977007e6e089f8f9bedb92fd79623f4ad410dadd0a3d532913807d851a83",
+                  "name": "",
+                  "typeLine": "Despair",
+                  "baseType": "Despair",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Spell, AoE, Duration, Chaos, Curse, Hex",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "33 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Cast Time",
+                      "values": [
+                        [
+                          "0.50 sec",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "68",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "98",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Curses all targets in an area, lowering their chaos resistance and increasing damage over time they take. All hits will deal added chaos damage to the cursed enemies.",
+                  "explicitMods": [
+                    "Base duration is 10.90 seconds",
+                    "Curse gains 10 Doom per second if you Cast this Spell yourself",
+                    "+10 to radius",
+                    "Cursed enemies have -29% to Chaos Resistance",
+                    "Cursed enemies take 35% increased Damage from Damage Over Time effects",
+                    "Adds 46 to 57 Chaos Damage to Hits against Cursed Enemies"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 0,
+                  "colour": "I"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/RainofArrows.png?v=4a8307af9b81b48b357121b614a2f408&w=1&h=1&scale=1",
+                  "support": false,
+                  "id": "2239cfd4cddffb5b8537d5ffa8222b0894e20dcbdefc1afec63189cdb5352764",
+                  "name": "",
+                  "typeLine": "Rain of Arrows",
+                  "baseType": "Rain of Arrows",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Attack, AoE, Projectile, Bow",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Cost",
+                      "values": [
+                        [
+                          "11 Mana",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Attack Damage",
+                      "values": [
+                        [
+                          "60% of base",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Effectiveness of Added Damage",
+                      "values": [
+                        [
+                          "60%",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Dex",
+                      "values": [
+                        [
+                          "155",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Fires multiple arrows into the air, to land in sequence after a delay, starting at the targeted location and spreading outwards in all directions. Each arrow deals damage in an area around it. Half of the arrows will land directly on targets if there are targets in their range.",
+                  "explicitMods": [
+                    "Fires 21 additional Arrows",
+                    "10% increased Area of Effect"
+                  ],
+                  "descrText": "Place into an item socket of the right colour to gain this skill. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 1,
+                  "colour": "D"
+                },
+                {
+                  "verified": false,
+                  "w": 1,
+                  "h": 1,
+                  "icon": "https://web.poecdn.com/image/Art/2DItems/Gems/Support/CurseOnHit.png?v=3b4d00a3f5e38dc9131148d76ba81cd9&w=1&h=1&scale=1",
+                  "support": true,
+                  "id": "85ba7f104d774a97ae75ebe07a4a98a5b1203d7307aa23d2a13bd2d2c8e3208c",
+                  "name": "",
+                  "typeLine": "Hextouch Support",
+                  "baseType": "Hextouch Support",
+                  "identified": true,
+                  "ilvl": 0,
+                  "properties": [
+                    {
+                      "name": "Support, Hex, Trigger",
+                      "values": [],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "20 (Max)",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 5
+                    },
+                    {
+                      "name": "Quality",
+                      "values": [
+                        [
+                          "+20%",
+                          1
+                        ]
+                      ],
+                      "displayMode": 0,
+                      "type": 6
+                    }
+                  ],
+                  "requirements": [
+                    {
+                      "name": "Level",
+                      "values": [
+                        [
+                          "70",
+                          0
+                        ]
+                      ],
+                      "displayMode": 0
+                    },
+                    {
+                      "name": "Int",
+                      "values": [
+                        [
+                          "111",
+                          0
+                        ]
+                      ],
+                      "displayMode": 1
+                    }
+                  ],
+                  "secDescrText": "Must support both a skill that hits enemies, and a hex curse skill to work. The hex will be applied when enemies are hit by the other skill. Cannot support totems, traps, or mines. Minions cannot apply hexes this way.",
+                  "explicitMods": [
+                    "Supported Skills apply supported Curses on Hit",
+                    "You cannot Cast Supported Curse Spells",
+                    "10% increased Effect of Supported Curses",
+                    "Supported Skills have 12% reduced Curse Duration"
+                  ],
+                  "descrText": "This is a Support Gem. It does not grant a bonus to your character, but to skills in sockets connected to it. Place into an item socket connected to a socket containing the Active Skill Gem you wish to augment. Right click to remove from a socket.",
+                  "frameType": 4,
+                  "socket": 2,
+                  "colour": "I"
+                }
+              ]
+            }
+      ]
+    }
+  ]
+
+
+}
