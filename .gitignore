@@ -1,9 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/yarn,vuejs,coffeescript,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=yarn,vuejs,coffeescript,node
-
-### CoffeeScript ###
-*.js
+ 
 
 ### Node ###
 # Logs
