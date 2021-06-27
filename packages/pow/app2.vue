@@ -1,36 +1,42 @@
 <template>
-  <div id="app">
-  <!--  lift list area start  -->
-    <div class="left">
-      <button @click="list_status = !list_status">list {{list_status}}</button>
-      <div v-if="list_status === true">
-        list
-      </div>
-      <div v-else>
-        input
-        <textarea></textarea>
-        <button >save btn</button>
-      </div>
-    </div>
+  <div>
+    <v-container fluid>
+      <v-row>
+<!--        <v-col cols="4" md="4">-->
+<!--          <v-textarea-->
+<!--            no-resize-->
 
-  <!--  lift list area end  -->
 
-  <!--  right area end  -->
-    <div class="right">
-      <!--  selected data start  -->
-      <div class="selected">
-        selected data
-      </div>
-      <!--  selected data start  -->
+<!--            name="input-7-1"-->
+<!--            label="Default style"-->
+<!--            value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."-->
+<!--            hint="Hint text"-->
+<!--          ></v-textarea>-->
+<!--        </v-col>-->
+<!--      </v-row>-->
 
-      <!--  result data start  -->
-      <div class="result">
-        result data
-      </div>
-      <!--  result data start  -->
-    </div>
+<!--      <v-col cols="8" md="8">-->
+<!--        test-->
+<!--      </v-col>-->
 
-    <!--  right area end  -->
+        <v-col cols="12" md="4">
+          <v-textarea
+            no-resize
+            name="input-7-1"
+            label="Default style"
+            value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."
+            hint="Hint text"
+          ></v-textarea>
+        </v-col>
+        <v-col cols="12" md="8">
+          <v-textarea
+            solo
+            name="input-7-4"
+            label="Solo textarea"
+          ></v-textarea>
+        </v-col>
+
+    </v-container>
   </div>
 </template>
 <script>
@@ -40,7 +46,7 @@
     name: 'App',
     data(){
       return{
-        list_status : true
+        list_status : false
       }
     },
     methods: {
@@ -55,25 +61,5 @@
 
 
 <style lang="scss">
-  .left{
-    display: inline-block;
-    width: 40%;
-    background-color: darkkhaki;
-  }
-
-  .right{
-    display: inline-block;
-    width: 40%;
-    background-color: blue;
-    .selected{
-      width: 100%;
-      background-color: violet;
-    }
-    .result{
-      width: 100%;
-      background-color: blueviolet;
-    }
-  }
-
 
 </style>
