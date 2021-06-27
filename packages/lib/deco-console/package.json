@@ -1,0 +1,10 @@
+{
+  "name": "deco-console",
+  "version": "2.0.0",
+  "main": "index",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ansi-colors": "^4.1.1",
+    "moment": "^2.27.0"
+  }
+}
