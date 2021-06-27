@@ -11,7 +11,7 @@
     {
       "name": "Armageddon Brand",
       "corr": 0.8234, // 82.34%라고 찍음 됨.
-      "ref_items": [
+       "ref_items": [
             {
               "verified": false,
               "w": 2,
