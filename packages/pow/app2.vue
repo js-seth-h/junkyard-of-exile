@@ -1,42 +1,73 @@
 <template>
-  <div>
-    <v-container fluid>
-      <v-row>
-<!--        <v-col cols="4" md="4">-->
-<!--          <v-textarea-->
-<!--            no-resize-->
+  <div id="app">
+    <v-app id="inspire">
+      <v-app id="inspire">
+        <v-navigation-drawer
+          v-model="drawer"
+          app
+          clipped
+        >
+          <v-list dense>
+            <v-list-item link>
+              <v-list-item-action>
+                <v-icon>mdi-view-dashboard</v-icon>
+              </v-list-item-action>
+              <v-list-item-content>
+                <v-list-item-title>Dashboard</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+            <v-list-item link>
+              <v-list-item-action>
+                <v-icon>mdi-cog</v-icon>
+              </v-list-item-action>
+              <v-list-item-content>
+                <v-list-item-title>Settings</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+          </v-list>
+        </v-navigation-drawer>
 
+        <v-app-bar
+          app
+          clipped-left
+        >
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          <v-toolbar-title>Application</v-toolbar-title>
+        </v-app-bar>
 
-<!--            name="input-7-1"-->
-<!--            label="Default style"-->
-<!--            value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."-->
-<!--            hint="Hint text"-->
-<!--          ></v-textarea>-->
-<!--        </v-col>-->
-<!--      </v-row>-->
+        <v-main>
+          <v-container
+            class="fill-height"
+            fluid
+          >
+            <v-row
+              align="center"
+              justify="center"
+            >
+              <v-col class="shrink">
+                <v-tooltip right>
+                  <template v-slot:activator="{ on }">
+                    <v-btn
+                      icon
+                      large
+                      target="_blank"
+                      v-on="on"
+                    >
+                      <v-icon large>mdi-code-tags</v-icon>
+                    </v-btn>
+                  </template>
+                  <span>Source</span>
+                </v-tooltip>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-main>
 
-<!--      <v-col cols="8" md="8">-->
-<!--        test-->
-<!--      </v-col>-->
-
-        <v-col cols="12" md="4">
-          <v-textarea
-            no-resize
-            name="input-7-1"
-            label="Default style"
-            value="The Woodman set to work at once, and so sharp was his axe that the tree was soon chopped nearly through."
-            hint="Hint text"
-          ></v-textarea>
-        </v-col>
-        <v-col cols="12" md="8">
-          <v-textarea
-            solo
-            name="input-7-4"
-            label="Solo textarea"
-          ></v-textarea>
-        </v-col>
-
-    </v-container>
+        <v-footer app>
+          <span>&copy; {{ new Date().getFullYear() }}</span>
+        </v-footer>
+      </v-app>
+    </v-app>
   </div>
 </template>
 <script>
@@ -46,7 +77,9 @@
     name: 'App',
     data(){
       return{
-        list_status : false
+        drawer: null,
+        list_status : false,
+
       }
     },
     methods: {
