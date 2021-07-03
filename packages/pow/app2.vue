@@ -23,22 +23,16 @@
               <button @click="get_itemtext">submit</button>
             </v-list-item>
 
-            <v-list-item link>
+
+            <v-list-item link v-for=" (list, key) in list_data" @click="chagne_show_data(key)">
               <v-list-item-action>
                 <v-icon>mdi-view-dashboard</v-icon>
               </v-list-item-action>
               <v-list-item-content>
-                <v-list-item-title>Dashboard</v-list-item-title>
+                <v-list-item-title>{{key}},{{list}}</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-<!--            <v-list-item link>-->
-<!--              <v-list-item-action>-->
-<!--                <v-icon>mdi-cog</v-icon>-->
-<!--              </v-list-item-action>-->
-<!--              <v-list-item-content>-->
-<!--                <v-list-item-title>Settings</v-list-item-title>-->
-<!--              </v-list-item-content>-->
-<!--            </v-list-item>-->
+
           </v-list>
         </v-navigation-drawer>
 
@@ -46,10 +40,10 @@
           app
           clipped-left
         >
-          <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+          <v-app-bar-nav-icon @click.stop="drawer = !drawer"> list </v-app-bar-nav-icon>
           <v-toolbar-title>Application</v-toolbar-title>
         </v-app-bar>
-
+        <!-- contents area start -->
         <v-main>
           <v-container
             fluid
@@ -66,39 +60,17 @@
             </div>
 
             <div>
-              <v-btn>detail</v-btn>
+              <v-btn @click="parsing_text()">detail</v-btn>
+            </div>
+
+            <p>this is show_data value</p>
+            <div>
+              {{show_data}}
             </div>
           </v-container>
         </v-main>
+        <!-- contents area end -->
 
-
-<!--        <v-main>-->
-<!--          <v-container-->
-<!--            class="fill-height"-->
-<!--            fluid-->
-<!--          >-->
-<!--            <v-row-->
-<!--              align="center"-->
-<!--              justify="center"-->
-<!--            >-->
-<!--              <v-col class="shrink">-->
-<!--                <v-tooltip right>-->
-<!--                  <template v-slot:activator="{ on }">-->
-<!--                    <v-btn-->
-<!--                      icon-->
-<!--                      large-->
-<!--                      target="_blank"-->
-<!--                      v-on="on"-->
-<!--                    >-->
-<!--                      <v-icon large>mdi-code-tags</v-icon>-->
-<!--                    </v-btn>-->
-<!--                  </template>-->
-<!--                  <span>Source</span>-->
-<!--                </v-tooltip>-->
-<!--              </v-col>-->
-<!--            </v-row>-->
-<!--          </v-container>-->
-<!--        </v-main>-->
 
         <v-footer app>
           <span>&copy; {{ new Date().getFullYear() }}</span>
@@ -110,64 +82,86 @@
 <script>
 
   import axios from "axios"
+
+  import list_data from "./list_data";
   export default {
     name: 'App',
     data(){
       return{
         // drawer: null,
         //gnb 노출 셋팅
+        // drawer: null,
         drawer: null,
-
         // textarea 보여주기 세팅
         show_textarea : true,
 
-        // textarea 입력된 값
-        // writed_item: '아이템 종류: 한손 철퇴\n' +
-        //   '아이템 희귀도: 희귀\n' +
-        //   '침울한 일격\n' +
-        //   '악몽의 철퇴\n' +
-        //   '--------\n' +
-        //   '한손 철퇴\n' +
-        //   '물리 피해: 39-83 (augmented)\n' +
-        //   '치명타 확률: 6.35% (augmented)\n' +
-        //   '초당 공격 횟수: 1.40\n' +
-        //   '무기 범위: 11\n' +
-        //   '--------\n' +
-        //   '요구사항:\n' +
-        //   '레벨: 68\n' +
-        //   '힘: 212\n' +
-        //   '--------\n' +
-        //   '홈: G-R-R \n' +
-        //   '--------\n' +
-        //   '아이템 레벨: 71\n' +
-        //   '--------\n' +
-        //   '적 기절 한계치 10% 감소 (implicit)\n' +
-        //   '--------\n' +
-        //   '물리 피해 1~3 추가\n' +
-        //   '치명타 확률 27% 증가\n' +
-        //   '화염 저항 +21%\n' +
-        //   '물리 공격 피해의 0.35%를 마나로 흡수\n' +
-        //   '권능 충전 하나당 피해 5% 증가',
 
 
         writed_item:'',
 
         //파싱된 아이템들
-        list_data: {}
+        // list_data: []
+        list_data: list_data,
+        show_data: []
 
       }
     },
     methods: {
+
+      chagne_show_data(key){
+        //리스트 클릭 시 화면에 뿌려지는 값
+        this.show_data = this.list_data[key]
+
+        // console.log(this.show_data)
+      },
+      parsing_text(text){
+      //  입력 후 가져온 텍스트의 모양을 변경한다.
+      //  text = this.writed_item
+
+        text = this.list_data[0]
+
+        console.log('text' , text)
+
+        blocks = R.map R.trim, R.split '--------', item_str
+        blocks = R.map R.split('\n'), blocks
+
+
+        let parts = this.writed_item.split('--------')
+        // console.log('testdata1',parts)
+
+
+
+        // this.list_data.push(parts)
+
+        // Object.assign(this.list_data, this.writed_item)
+        //
+        // console.log(this.list_data)
+
+
+        // let testdata2 = this.writed_item.split('\n')
+        // console.log('testdata2',testdata2)
+
+
+        this.show_data = text
+
+
+      },
       get_itemtext(){
 
+        //get_itemtext = 버튼
+        // writed_item 입력된 값
 
-        console.log(this.writed_item)
-        let testdata1 = this.writed_item.split('--------')
-        console.log('testdata1',testdata1)
+        // 텍스트 입력 후 버튼 클릭 시 값을 가져옴
 
 
-        let testdata2 = this.writed_item.split('\n')
-        console.log('testdata2',testdata2)
+
+        //입력된 값을 list_data arr에 push
+        this.list_data.push(this.writed_item)
+
+        // this.parsing_text(this.list_data[0])
+
+
+
       },
       test(){
       alert(1)
