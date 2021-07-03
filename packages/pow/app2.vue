@@ -122,8 +122,8 @@
 
         console.log('text' , text)
 
-        blocks = R.map R.trim, R.split '--------', item_str
-        blocks = R.map R.split('\n'), blocks
+        // blocks = R.map R.trim, R.split '--------', item_str
+        // blocks = R.map R.split('\n'), blocks
 
 
         let parts = this.writed_item.split('--------')
