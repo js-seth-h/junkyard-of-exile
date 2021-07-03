@@ -9,6 +9,7 @@ dotenvExpand = require('dotenv-expand')
 
 
 createServer = R.once ->
+  encoder = require './encoder'
   CFG = require './cfg'
   FASTIFY = require './fastify'
 
