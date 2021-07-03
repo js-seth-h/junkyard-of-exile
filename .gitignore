@@ -1,7 +1,7 @@
 
 # Created by https://www.toptal.com/developers/gitignore/api/yarn,vuejs,coffeescript,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=yarn,vuejs,coffeescript,node
- 
+
 
 ### Node ###
 # Logs
@@ -154,3 +154,5 @@ yarn-error.log
 # .pnp.*
 
 # End of https://www.toptal.com/developers/gitignore/api/yarn,vuejs,coffeescript,node
+tensorflow
+poedb

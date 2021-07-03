@@ -5,6 +5,9 @@ dcon = require('deco-console')(__filename)
 
 path = require 'path'
 nxJson = require 'nx/jsonfile'
+fs = require 'mz/fs'
+
+tf = require '@tensorflow/tfjs-node'
 
 encode = (item_str)->
   blocks = R.map R.trim, R.split '--------', item_str
@@ -14,8 +17,64 @@ encode = (item_str)->
   # console.log path.join __dirname, './refdata-ai/base_items.kr.json'
   base_items = await nxJson.read path.join __dirname, './refdata-ai/base_items.kr.json'
   base_item = base_items[blocks[0][3]]
+  {item_type} = base_item
+
+  TRANS = JSON.parse await fs.readFile path.join __dirname, "./refdata-ai/#{item_type}.translate.json"
+  Pattern = R.map R.prop('kr'), TRANS
+  re_list = Pattern.map (str)->
+    str = str.replace /#/gm, "([+-\d]+)"
+    # console.log 'str', str
+    new RegExp '^' + str + '$', 'gm'
+
   # console.log blocks
-  console.log {base_item}, blocks
+
+  _asCode = (mod)->
+    for re, inx in re_list
+      is_match = mod.match re
+      if is_match?
+        # console.log inx, is_match, mod, re
+        return inx
+    return null
+  code = RA.compact R.map _asCode, R.flatten blocks
+
+  txts = code.map (inx)-> Pattern[inx]
+
+  fn = "file://./tensorflow/#{item_type}/model.json"
+  model = await tf.loadLayersModel fn
+
+  input = new Array(Pattern.length)
+  input.fill 0
+  for i in code
+    input[i] = 1
+  xs = tf.tensor1d input
+
+  r = model.predict tf.stack [xs]
+  v = Array.from r.dataSync()
+
+  # rating_sum = R.sum v
+  # rating_mean = R.mean v
+  # rating_sd = standard_deviation v
+  # criteria = rating_mean + rating_sd
+
+  criteria = 0.02
+  SKILLS = JSON.parse await fs.readFile "./poedb/skills.json"
+  skill_krs = R.map R.prop('name_kr'), SKILLS
+  rating = zipIV skill_krs, v
+  rating = R.reverse R.sortBy R.prop('value'), rating
+  # console.log {criteria}
+  recommand = R.filter R.o(R.lte(criteria), R.prop('value')), rating
+
+  console.log {base_item, blocks, code, txts, recommand}
+
+variance = (X)=>
+  square_error = R.compose(
+    R.partialRight(Math.pow, [2]),
+    R.subtract(R.__, R.mean(X)),
+  )
+  return R.compose(R.mean, R.map(square_error))(X)
+standard_deviation = R.compose(Math.sqrt, variance)
+
+zipIV = R.zipWith (name, value)-> {name, value}
 
 
 item_strs = [
