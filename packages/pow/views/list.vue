@@ -2,14 +2,14 @@
   <div id="app">
     asdfsadf
     <br />
-    <img src="./grapefruit.jpeg" alt="">
+    <img src="grapefruit.jpeg" alt="">
     <br />
     <button @click="test">test</button>
   </div>
 </template>
 <script>
 
-  import axios from "axios"
+  // import axios from "axios"
   export default {
     name: 'App',
     data(){

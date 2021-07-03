@@ -5,12 +5,14 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "es6-promise": "^4.2.8",
     "parcel-bundler": "^1.12.5",
     "vue": "^2.6.4",
     "vue-hot-reload-api": "^2.3.4",
     "vue-router": "^3.5.1",
     "vue-template-compiler": "^2.6.14",
-    "vuetify": "^2.5.5"
+    "vuetify": "^2.5.5",
+    "vuex": "^3.6.2"
   },
   "browserslist": [
     "Chrome 75"

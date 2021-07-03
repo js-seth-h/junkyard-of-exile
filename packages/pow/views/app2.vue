@@ -8,20 +8,20 @@
           clipped
         >
           <v-list dense>
-            <v-list-item>
 
+            <div class="area_wrap">
               <button @click="show_textarea=!show_textarea">show_textarea</button>
-            </v-list-item>
-            <v-list-item v-if="show_textarea === true">
-              <v-textarea
-                outlined
-                label="Outlined textarea"
-                value=""
-                v-model="writed_item"
-              >
-              </v-textarea>
-              <button @click="get_itemtext">submit</button>
-            </v-list-item>
+              <div v-if="show_textarea === true">
+                <v-textarea
+                  outlined
+                  label="Outlined textarea"
+                  value=""
+                  v-model="writed_item"
+                >
+                </v-textarea>
+                <button @click="get_itemtext">submit</button>
+              </div>
+            </div>
 
 
             <v-list-item link v-for=" (list, key) in list_data" @click="chagne_show_data(key)">
@@ -49,24 +49,33 @@
             fluid
           >
             <div class="detail">
-              <v-btn>detail</v-btn>
-              <div class="title wrap">
-                <p>title1</p>
-                <p>title2</p>
-              </div>
-              <div class="content">
-                test
+              <div>
+
+                <v-btn>detail</v-btn>
+
+                <p>item_group / {{item_group}}</p>
+                <div class="title wrap">
+                  <p>{{ item_name }}</p>
+                  <p>{{ item_type }}</p>
+                </div>
+                <div class="content">
+                  <div v-for="(list, inx) of item_value">
+                    <div v-for="(data, data_inx) of list">
+                      {{inx}} - {{data_inx}} / {{data}}
+                    </div>
+                    ---------------
+                  </div>
+                </div>
               </div>
             </div>
 
             <div>
               <v-btn @click="parsing_text()">detail</v-btn>
             </div>
-
-            <p>this is show_data value</p>
             <div>
-              {{show_data}}
+              contents
             </div>
+
           </v-container>
         </v-main>
         <!-- contents area end -->
@@ -81,11 +90,37 @@
 </template>
 <script>
 
-  import axios from "axios"
+  // import axios from "axios"
 
-  import list_data from "./list_data";
+  import list_data from "../settings/list_data";
+
+  import * as R from 'ramda'
+
   export default {
     name: 'App',
+    computed: {
+      item_group(){
+        let group = this.show_data[0][0]
+        if(group !== undefined ){
+          group = group.split(':')
+        }else{
+          group = ''
+        }
+        return group[1]
+      },
+      item_name(){
+        return this.show_data[0][2]
+      },
+      item_type(){
+        return this.show_data[0][3]
+      },
+      item_value(){
+        // this.show_data.shift()
+        let copied_show_data = this.show_data
+        copied_show_data = copied_show_data.splice(1, this.show_data.length)
+        return copied_show_data
+      }
+    },
     data(){
       return{
         // drawer: null,
@@ -102,7 +137,7 @@
         //파싱된 아이템들
         // list_data: []
         list_data: list_data,
-        show_data: []
+        show_data: [[],[],[],[]]
 
       }
     },
@@ -122,27 +157,14 @@
 
         console.log('text' , text)
 
-        // blocks = R.map R.trim, R.split '--------', item_str
-        // blocks = R.map R.split('\n'), blocks
+        // console.log('this is R', R)
 
+        var blocks = R.map(R.trim,R.split( '--------' ,  text ))
+        blocks = R.map( R.split('\n'), blocks)
 
-        let parts = this.writed_item.split('--------')
-        // console.log('testdata1',parts)
+        console.log(blocks)
 
-
-
-        // this.list_data.push(parts)
-
-        // Object.assign(this.list_data, this.writed_item)
-        //
-        // console.log(this.list_data)
-
-
-        // let testdata2 = this.writed_item.split('\n')
-        // console.log('testdata2',testdata2)
-
-
-        this.show_data = text
+        this.show_data = blocks
 
 
       },

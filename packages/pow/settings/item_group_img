@@ -1,0 +1,11 @@
+let group_img =
+  {
+    name: {
+      title:"",
+      url:""
+    }
+
+  }
+
+
+export default group_img

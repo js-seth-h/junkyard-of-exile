@@ -7,6 +7,10 @@ Vue.prototype.$http = axios;
 import Vuetify from "vuetify"
 import 'vuetify/dist/vuetify.min.css'
 
+import Vuex from 'vuex'
+
+import 'es6-promise/auto'
+
 // import Vuetify from "vuetify/lib/framework"
 // import * as components from "vuetify/lib/components"
 // import * as directives from "vuetify/lib/directives"
@@ -14,6 +18,7 @@ import 'vuetify/dist/vuetify.min.css'
 
 Vue.config.productionTip = false
 
+Vue.use(Vuex)
 Vue.use( Vuetify )
 
 // Vue.use( Vuetify, {
