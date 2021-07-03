@@ -1,0 +1,12 @@
+{
+  "name": "jsl",
+  "version": "1.0.0",
+  "main": "index",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "capture-stack-trace": "^1.0.1",
+    "coffeescript": "^2.5.0",
+    "cron-parser": "^2.15.0",
+    "node-forge": "^0.9.1"
+  }
+}
