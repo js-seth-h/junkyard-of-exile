@@ -1,0 +1,4292 @@
+{
+  "Paua Amulet": {
+    "code": "Paua_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Coral Amulet": {
+    "code": "Coral_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Amber Amulet": {
+    "code": "Amber_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Jade Amulet": {
+    "code": "Jade_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Lapis Amulet": {
+    "code": "Lapis_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Gold Amulet": {
+    "code": "Gold_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Onyx Amulet": {
+    "code": "Onyx_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Turquoise Amulet": {
+    "code": "Turquoise_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TurquoiseAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Agate Amulet": {
+    "code": "Agate_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/AgateAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Citrine Amulet": {
+    "code": "Citrine_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Ruby Amulet": {
+    "code": "Ruby_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/RubyAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Astrolabe Amulet": {
+    "code": "Astrolabe_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/HeistAmulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Simplex Amulet": {
+    "code": "Simplex_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/HeistAmulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Jet Amulet": {
+    "code": "Jet_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Blue Pearl Amulet": {
+    "code": "Blue_Pearl_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/BluePearlAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Marble Amulet": {
+    "code": "Marble_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/MarbleAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Seaglass Amulet": {
+    "code": "Seaglass_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/CrescentAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Black Maw Talisman": {
+    "code": "Black_Maw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Bonespire Talisman": {
+    "code": "Bonespire_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Ashscale Talisman": {
+    "code": "Ashscale_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Lone Antler Talisman": {
+    "code": "Lone_Antler_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Deep One Talisman": {
+    "code": "Deep_One_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Breakrib Talisman": {
+    "code": "Breakrib_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Deadhand Talisman": {
+    "code": "Deadhand_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Undying Flesh Talisman": {
+    "code": "Undying_Flesh_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Rot Head Talisman": {
+    "code": "Rot_Head_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/FishTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Mandible Talisman": {
+    "code": "Mandible_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Chrysalis Talisman": {
+    "code": "Chrysalis_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Writhing Talisman": {
+    "code": "Writhing_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Hexclaw Talisman": {
+    "code": "Hexclaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Primal Skull Talisman": {
+    "code": "Primal_Skull_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Wereclaw Talisman": {
+    "code": "Wereclaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/DireClawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Splitnewt Talisman": {
+    "code": "Splitnewt_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Clutching Talisman": {
+    "code": "Clutching_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Avian Twins Talisman": {
+    "code": "Avian_Twins_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Fangjaw Talisman": {
+    "code": "Fangjaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Horned Talisman": {
+    "code": "Horned_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Spinefuse Talisman": {
+    "code": "Spinefuse_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Three Rat Talisman": {
+    "code": "Three_Rat_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Monkey Twins Talisman": {
+    "code": "Monkey_Twins_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Longtooth Talisman": {
+    "code": "Longtooth_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Rotfeather Talisman": {
+    "code": "Rotfeather_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Monkey Paw Talisman": {
+    "code": "Monkey_Paw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/MonkeyPawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Three Hands Talisman": {
+    "code": "Three_Hands_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Greatwolf Talisman": {
+    "code": "Greatwolf_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/T4Talisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Rustic Sash": {
+    "code": "Rustic_Sash",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Chain Belt": {
+    "code": "Chain_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Leather Belt": {
+    "code": "Leather_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt3.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Heavy Belt": {
+    "code": "Heavy_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt5.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Cloth Belt": {
+    "code": "Cloth_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt4.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Studded Belt": {
+    "code": "Studded_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt6.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Micro-Distillery Belt": {
+    "code": "Micro-Distillery_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/HeistBelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Mechalarm Belt": {
+    "code": "Mechalarm_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/HeistBelt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Vanguard Belt": {
+    "code": "Vanguard_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt7.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Crystal Belt": {
+    "code": "Crystal_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/CrystalBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Golden Obi": {
+    "code": "Golden_Obi",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Demibelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Stygian Vise": {
+    "code": "Stygian_Vise",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/AbyssBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Plate Vest": {
+    "code": "Plate_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Chestplate": {
+    "code": "Chestplate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Copper Plate": {
+    "code": "Copper_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "War Plate": {
+    "code": "War_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Plate": {
+    "code": "Full_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Arena Plate": {
+    "code": "Arena_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Lordly Plate": {
+    "code": "Lordly_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Bronze Plate": {
+    "code": "Bronze_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Battle Plate": {
+    "code": "Battle_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sun Plate": {
+    "code": "Sun_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Colosseum Plate": {
+    "code": "Colosseum_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Majestic Plate": {
+    "code": "Majestic_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Golden Plate": {
+    "code": "Golden_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Crusader Plate": {
+    "code": "Crusader_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Astral Plate": {
+    "code": "Astral_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Gladiator Plate": {
+    "code": "Gladiator_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Glorious Plate": {
+    "code": "Glorious_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Kaom's Plate": {
+    "code": "Kaoms_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3CUnique.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Shabby Jerkin": {
+    "code": "Shabby_Jerkin",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Strapped Leather": {
+    "code": "Strapped_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Buckskin Tunic": {
+    "code": "Buckskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Wild Leather": {
+    "code": "Wild_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Leather": {
+    "code": "Full_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sun Leather": {
+    "code": "Sun_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Thief's Garb": {
+    "code": "Thiefs_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Eelskin Tunic": {
+    "code": "Eelskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Frontier Leather": {
+    "code": "Frontier_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Glorious Leather": {
+    "code": "Glorious_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Coronal Leather": {
+    "code": "Coronal_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Cutthroat's Garb": {
+    "code": "Cutthroats_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sharkskin Tunic": {
+    "code": "Sharkskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Destiny Leather": {
+    "code": "Destiny_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Exquisite Leather": {
+    "code": "Exquisite_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Zodiac Leather": {
+    "code": "Zodiac_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Assassin's Garb": {
+    "code": "Assassins_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Simple Robe": {
+    "code": "Simple_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Silken Vest": {
+    "code": "Silken_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Scholar's Robe": {
+    "code": "Scholars_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Silken Garb": {
+    "code": "Silken_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Mage's Vestment": {
+    "code": "Mages_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Silk Robe": {
+    "code": "Silk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Cabalist Regalia": {
+    "code": "Cabalist_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sage's Robe": {
+    "code": "Sages_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Silken Wrap": {
+    "code": "Silken_Wrap",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Conjurer's Vestment": {
+    "code": "Conjurers_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Spidersilk Robe": {
+    "code": "Spidersilk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Destroyer Regalia": {
+    "code": "Destroyer_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Savant's Robe": {
+    "code": "Savants_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Necromancer Silks": {
+    "code": "Necromancer_Silks",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Occultist's Vestment": {
+    "code": "Occultists_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Widowsilk Robe": {
+    "code": "Widowsilk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Vaal Regalia": {
+    "code": "Vaal_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Scale Vest": {
+    "code": "Scale_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Light Brigandine": {
+    "code": "Light_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Scale Doublet": {
+    "code": "Scale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Infantry Brigandine": {
+    "code": "Infantry_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Scale Armour": {
+    "code": "Full_Scale_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Soldier's Brigandine": {
+    "code": "Soldiers_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Field Lamellar": {
+    "code": "Field_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Wyrmscale Doublet": {
+    "code": "Wyrmscale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Hussar Brigandine": {
+    "code": "Hussar_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Wyrmscale": {
+    "code": "Full_Wyrmscale",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Commander's Brigandine": {
+    "code": "Commanders_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Battle Lamellar": {
+    "code": "Battle_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Dragonscale Doublet": {
+    "code": "Dragonscale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Desert Brigandine": {
+    "code": "Desert_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Dragonscale": {
+    "code": "Full_Dragonscale",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "General's Brigandine": {
+    "code": "Generals_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Triumphant Lamellar": {
+    "code": "Triumphant_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Chainmail Vest": {
+    "code": "Chainmail_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Chainmail Tunic": {
+    "code": "Chainmail_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Ringmail Coat": {
+    "code": "Ringmail_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Chainmail Doublet": {
+    "code": "Chainmail_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Ringmail": {
+    "code": "Full_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Full Chainmail": {
+    "code": "Full_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Holy Chainmail": {
+    "code": "Holy_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Latticed Ringmail": {
+    "code": "Latticed_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Crusader Chainmail": {
+    "code": "Crusader_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Ornate Ringmail": {
+    "code": "Ornate_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Chain Hauberk": {
+    "code": "Chain_Hauberk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Devout Chainmail": {
+    "code": "Devout_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Loricated Ringmail": {
+    "code": "Loricated_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Conquest Chainmail": {
+    "code": "Conquest_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Elegant Ringmail": {
+    "code": "Elegant_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Saint's Hauberk": {
+    "code": "Saints_Hauberk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Saintly Chainmail": {
+    "code": "Saintly_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Padded Vest": {
+    "code": "Padded_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Oiled Vest": {
+    "code": "Oiled_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Padded Jacket": {
+    "code": "Padded_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Oiled Coat": {
+    "code": "Oiled_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Scarlet Raiment": {
+    "code": "Scarlet_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Waxed Garb": {
+    "code": "Waxed_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Bone Armour": {
+    "code": "Bone_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Quilted Jacket": {
+    "code": "Quilted_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sleek Coat": {
+    "code": "Sleek_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Crimson Raiment": {
+    "code": "Crimson_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Lacquered Garb": {
+    "code": "Lacquered_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Crypt Armour": {
+    "code": "Crypt_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sentinel Jacket": {
+    "code": "Sentinel_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Varnished Coat": {
+    "code": "Varnished_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Blood Raiment": {
+    "code": "Blood_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sadist Garb": {
+    "code": "Sadist_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Carnal Armour": {
+    "code": "Carnal_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Sacrificial Garb": {
+    "code": "Sacrificial_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/SacrificialGarb.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Golden Mantle": {
+    "code": "Golden_Mantle",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/DemigodsArmour.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Grasping Mail": {
+    "code": "Grasping_Mail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/GraspingMail.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Iron Greaves": {
+    "code": "Iron_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Steel Greaves": {
+    "code": "Steel_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Plated Greaves": {
+    "code": "Plated_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Reinforced Greaves": {
+    "code": "Reinforced_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Antique Greaves": {
+    "code": "Antique_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ancient Greaves": {
+    "code": "Ancient_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Goliath Greaves": {
+    "code": "Goliath_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Vaal Greaves": {
+    "code": "Vaal_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Titan Greaves": {
+    "code": "Titan_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Basemetal Treads": {
+    "code": "Basemetal_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Darksteel Treads": {
+    "code": "Darksteel_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Brimstone Treads": {
+    "code": "Brimstone_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Kaom's Greaves": {
+    "code": "Kaoms_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Rawhide Boots": {
+    "code": "Rawhide_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Goathide Boots": {
+    "code": "Goathide_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Deerskin Boots": {
+    "code": "Deerskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Nubuck Boots": {
+    "code": "Nubuck_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Eelskin Boots": {
+    "code": "Eelskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Sharkskin Boots": {
+    "code": "Sharkskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Shagreen Boots": {
+    "code": "Shagreen_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Stealth Boots": {
+    "code": "Stealth_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Slink Boots": {
+    "code": "Slink_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Cloudwhisper Boots": {
+    "code": "Cloudwhisper_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Windbreak Boots": {
+    "code": "Windbreak_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Stormrider Boots": {
+    "code": "Stormrider_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Wool Shoes": {
+    "code": "Wool_Shoes",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Velvet Slippers": {
+    "code": "Velvet_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Silk Slippers": {
+    "code": "Silk_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Scholar Boots": {
+    "code": "Scholar_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Satin Slippers": {
+    "code": "Satin_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Samite Slippers": {
+    "code": "Samite_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Conjurer Boots": {
+    "code": "Conjurer_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Arcanist Slippers": {
+    "code": "Arcanist_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Sorcerer Boots": {
+    "code": "Sorcerer_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Duskwalk Slippers": {
+    "code": "Duskwalk_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Nightwind Slippers": {
+    "code": "Nightwind_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Dreamquest Slippers": {
+    "code": "Dreamquest_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Leatherscale Boots": {
+    "code": "Leatherscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ironscale Boots": {
+    "code": "Ironscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Bronzescale Boots": {
+    "code": "Bronzescale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Steelscale Boots": {
+    "code": "Steelscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Serpentscale Boots": {
+    "code": "Serpentscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Wyrmscale Boots": {
+    "code": "Wyrmscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Hydrascale Boots": {
+    "code": "Hydrascale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Dragonscale Boots": {
+    "code": "Dragonscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Chain Boots": {
+    "code": "Chain_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ringmail Boots": {
+    "code": "Ringmail_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Mesh Boots": {
+    "code": "Mesh_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Riveted Boots": {
+    "code": "Riveted_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Zealot Boots": {
+    "code": "Zealot_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Soldier Boots": {
+    "code": "Soldier_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Legion Boots": {
+    "code": "Legion_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Crusader Boots": {
+    "code": "Crusader_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Wrapped Boots": {
+    "code": "Wrapped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Strapped Boots": {
+    "code": "Strapped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Clasped Boots": {
+    "code": "Clasped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Shackled Boots": {
+    "code": "Shackled_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Trapper Boots": {
+    "code": "Trapper_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ambush Boots": {
+    "code": "Ambush_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Carnal Boots": {
+    "code": "Carnal_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Assassin's Boots": {
+    "code": "Assassins_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Murder Boots": {
+    "code": "Murder_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Golden Caligae": {
+    "code": "Golden_Caligae",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/DemigodsStride.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Avian Slippers": {
+    "code": "Avian_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Two-Toned Boots": {
+    "code": "Two-Toned_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots3B.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Blessed Boots": {
+    "code": "Blessed_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/HalfTonedBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Crude Bow": {
+    "code": "Crude_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow1.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Short Bow": {
+    "code": "Short_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Long Bow": {
+    "code": "Long_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Composite Bow": {
+    "code": "Composite_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Recurve Bow": {
+    "code": "Recurve_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Bone Bow": {
+    "code": "Bone_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Royal Bow": {
+    "code": "Royal_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Death Bow": {
+    "code": "Death_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Reflex Bow": {
+    "code": "Reflex_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Grove Bow": {
+    "code": "Grove_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Decurve Bow": {
+    "code": "Decurve_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Compound Bow": {
+    "code": "Compound_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Sniper Bow": {
+    "code": "Sniper_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Ivory Bow": {
+    "code": "Ivory_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Highborn Bow": {
+    "code": "Highborn_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Decimation Bow": {
+    "code": "Decimation_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Steelwood Bow": {
+    "code": "Steelwood_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Thicket Bow": {
+    "code": "Thicket_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Citadel Bow": {
+    "code": "Citadel_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Ranger Bow": {
+    "code": "Ranger_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Assassin Bow": {
+    "code": "Assassin_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Spine Bow": {
+    "code": "Spine_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Imperial Bow": {
+    "code": "Imperial_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Harbinger Bow": {
+    "code": "Harbinger_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Maraketh Bow": {
+    "code": "Maraketh_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Hedron Bow": {
+    "code": "Hedron_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Foundry Bow": {
+    "code": "Foundry_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Solarine Bow": {
+    "code": "Solarine_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Nailed Fist": {
+    "code": "Nailed_Fist",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw1.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Sharktooth Claw": {
+    "code": "Sharktooth_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Awl": {
+    "code": "Awl",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Cat's Paw": {
+    "code": "Cats_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Blinder": {
+    "code": "Blinder",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Timeworn Claw": {
+    "code": "Timeworn_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Sparkling Claw": {
+    "code": "Sparkling_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Fright Claw": {
+    "code": "Fright_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Double Claw": {
+    "code": "Double_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Thresher Claw": {
+    "code": "Thresher_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Gouger": {
+    "code": "Gouger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Tiger's Paw": {
+    "code": "Tigers_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Gut Ripper": {
+    "code": "Gut_Ripper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Prehistoric Claw": {
+    "code": "Prehistoric_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Noble Claw": {
+    "code": "Noble_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Eagle Claw": {
+    "code": "Eagle_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Twin Claw": {
+    "code": "Twin_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Great White Claw": {
+    "code": "Great_White_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Throat Stabber": {
+    "code": "Throat_Stabber",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Hellion's Paw": {
+    "code": "Hellions_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Eye Gouger": {
+    "code": "Eye_Gouger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Vaal Claw": {
+    "code": "Vaal_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Imperial Claw": {
+    "code": "Imperial_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Terror Claw": {
+    "code": "Terror_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Gemini Claw": {
+    "code": "Gemini_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Shadow Fangs": {
+    "code": "Shadow_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Malign Fangs": {
+    "code": "Malign_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Void Fangs": {
+    "code": "Void_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Glass Shank": {
+    "code": "Glass_Shank",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Skinning Knife": {
+    "code": "Skinning_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Stiletto": {
+    "code": "Stiletto",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Prong Dagger": {
+    "code": "Prong_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Flaying Knife": {
+    "code": "Flaying_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Poignard": {
+    "code": "Poignard",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Trisula": {
+    "code": "Trisula",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Gutting Knife": {
+    "code": "Gutting_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Ambusher": {
+    "code": "Ambusher",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Sai": {
+    "code": "Sai",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Hollowpoint Dagger": {
+    "code": "Hollowpoint_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Pressurised Dagger": {
+    "code": "Pressurised_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Pneumatic Dagger": {
+    "code": "Pneumatic_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Ethereal Blade": {
+    "code": "Ethereal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Carving Knife": {
+    "code": "Carving_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Boot Knife": {
+    "code": "Boot_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Copper Kris": {
+    "code": "Copper_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Skean": {
+    "code": "Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Imp Dagger": {
+    "code": "Imp_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Butcher Knife": {
+    "code": "Butcher_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Boot Blade": {
+    "code": "Boot_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Golden Kris": {
+    "code": "Golden_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Royal Skean": {
+    "code": "Royal_Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Fiend Dagger": {
+    "code": "Fiend_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Slaughter Knife": {
+    "code": "Slaughter_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Ezomyte Dagger": {
+    "code": "Ezomyte_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Platinum Kris": {
+    "code": "Platinum_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Imperial Skean": {
+    "code": "Imperial_Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Demon Dagger": {
+    "code": "Demon_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Flickerflame Blade": {
+    "code": "Flickerflame_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Flashfire Blade": {
+    "code": "Flashfire_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Infernal Blade": {
+    "code": "Infernal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Iron Gauntlets": {
+    "code": "Iron_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Plated Gauntlets": {
+    "code": "Plated_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Bronze Gauntlets": {
+    "code": "Bronze_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Steel Gauntlets": {
+    "code": "Steel_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Antique Gauntlets": {
+    "code": "Antique_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Ancient Gauntlets": {
+    "code": "Ancient_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Goliath Gauntlets": {
+    "code": "Goliath_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Vaal Gauntlets": {
+    "code": "Vaal_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Titan Gauntlets": {
+    "code": "Titan_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Taxing Gauntlets": {
+    "code": "Taxing_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Gruelling Gauntlets": {
+    "code": "Gruelling_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Debilitation Gauntlets": {
+    "code": "Debilitation_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Rawhide Gloves": {
+    "code": "Rawhide_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Goathide Gloves": {
+    "code": "Goathide_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Deerskin Gloves": {
+    "code": "Deerskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Nubuck Gloves": {
+    "code": "Nubuck_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Eelskin Gloves": {
+    "code": "Eelskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Sharkskin Gloves": {
+    "code": "Sharkskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Shagreen Gloves": {
+    "code": "Shagreen_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Stealth Gloves": {
+    "code": "Stealth_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Slink Gloves": {
+    "code": "Slink_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Gauche Gloves": {
+    "code": "Gauche_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Southswing Gloves": {
+    "code": "Southswing_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Sinistral Gloves": {
+    "code": "Sinistral_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Wool Gloves": {
+    "code": "Wool_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Velvet Gloves": {
+    "code": "Velvet_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Silk Gloves": {
+    "code": "Silk_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Embroidered Gloves": {
+    "code": "Embroidered_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Satin Gloves": {
+    "code": "Satin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Samite Gloves": {
+    "code": "Samite_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Conjurer Gloves": {
+    "code": "Conjurer_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Arcanist Gloves": {
+    "code": "Arcanist_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Sorcerer Gloves": {
+    "code": "Sorcerer_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Leyline Gloves": {
+    "code": "Leyline_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Aetherwind Gloves": {
+    "code": "Aetherwind_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Nexus Gloves": {
+    "code": "Nexus_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Fishscale Gauntlets": {
+    "code": "Fishscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Ironscale Gauntlets": {
+    "code": "Ironscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Bronzescale Gauntlets": {
+    "code": "Bronzescale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Steelscale Gauntlets": {
+    "code": "Steelscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Serpentscale Gauntlets": {
+    "code": "Serpentscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Wyrmscale Gauntlets": {
+    "code": "Wyrmscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Hydrascale Gauntlets": {
+    "code": "Hydrascale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Dragonscale Gauntlets": {
+    "code": "Dragonscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Chain Gloves": {
+    "code": "Chain_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Ringmail Gloves": {
+    "code": "Ringmail_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Mesh Gloves": {
+    "code": "Mesh_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Riveted Gloves": {
+    "code": "Riveted_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Zealot Gloves": {
+    "code": "Zealot_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Soldier Gloves": {
+    "code": "Soldier_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Legion Gloves": {
+    "code": "Legion_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Crusader Gloves": {
+    "code": "Crusader_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Wrapped Mitts": {
+    "code": "Wrapped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Strapped Mitts": {
+    "code": "Strapped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Clasped Mitts": {
+    "code": "Clasped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Trapper Mitts": {
+    "code": "Trapper_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Ambush Mitts": {
+    "code": "Ambush_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Carnal Mitts": {
+    "code": "Carnal_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Assassin's Mitts": {
+    "code": "Assassins_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Murder Mitts": {
+    "code": "Murder_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Golden Bracers": {
+    "code": "Golden_Bracers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/DemigodsTouch.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Spiked Gloves": {
+    "code": "Spiked_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SpikedGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Gripped Gloves": {
+    "code": "Gripped_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GripGlovesBaseType.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Fingerless Silk Gloves": {
+    "code": "Fingerless_Silk_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/FingerlessSilkGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Apothecary's Gloves": {
+    "code": "Apothecarys_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ChemistGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Iron Hat": {
+    "code": "Iron_Hat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Cone Helmet": {
+    "code": "Cone_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Barbute Helmet": {
+    "code": "Barbute_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Close Helmet": {
+    "code": "Close_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Gladiator Helmet": {
+    "code": "Gladiator_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Reaver Helmet": {
+    "code": "Reaver_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Siege Helmet": {
+    "code": "Siege_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Samnite Helmet": {
+    "code": "Samnite_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Ezomyte Burgonet": {
+    "code": "Ezomyte_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Royal Burgonet": {
+    "code": "Royal_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Eternal Burgonet": {
+    "code": "Eternal_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Leather Cap": {
+    "code": "Leather_Cap",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Tricorne": {
+    "code": "Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Leather Hood": {
+    "code": "Leather_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Wolf Pelt": {
+    "code": "Wolf_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Hunter Hood": {
+    "code": "Hunter_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Noble Tricorne": {
+    "code": "Noble_Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Ursine Pelt": {
+    "code": "Ursine_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Silken Hood": {
+    "code": "Silken_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Sinner Tricorne": {
+    "code": "Sinner_Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Lion Pelt": {
+    "code": "Lion_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Vine Circlet": {
+    "code": "Vine_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Iron Circlet": {
+    "code": "Iron_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Torture Cage": {
+    "code": "Torture_Cage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Tribal Circlet": {
+    "code": "Tribal_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Bone Circlet": {
+    "code": "Bone_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Lunaris Circlet": {
+    "code": "Lunaris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Steel Circlet": {
+    "code": "Steel_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Necromancer Circlet": {
+    "code": "Necromancer_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Solaris Circlet": {
+    "code": "Solaris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Mind Cage": {
+    "code": "Mind_Cage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Hubris Circlet": {
+    "code": "Hubris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Battered Helm": {
+    "code": "Battered_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Sallet": {
+    "code": "Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Visored Sallet": {
+    "code": "Visored_Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Gilded Sallet": {
+    "code": "Gilded_Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Secutor Helm": {
+    "code": "Secutor_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Fencer Helm": {
+    "code": "Fencer_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Lacquered Helmet": {
+    "code": "Lacquered_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Fluted Bascinet": {
+    "code": "Fluted_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Pig-Faced Bascinet": {
+    "code": "Pig-Faced_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Nightmare Bascinet": {
+    "code": "Nightmare_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Sorrow Mask": {
+    "code": "Sorrow_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Atonement Mask": {
+    "code": "Atonement_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Penitent Mask": {
+    "code": "Penitent_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Rusted Coif": {
+    "code": "Rusted_Coif",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Soldier Helmet": {
+    "code": "Soldier_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Great Helmet": {
+    "code": "Great_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Crusader Helmet": {
+    "code": "Crusader_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Aventail Helmet": {
+    "code": "Aventail_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Zealot Helmet": {
+    "code": "Zealot_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Great Crown": {
+    "code": "Great_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Magistrate Crown": {
+    "code": "Magistrate_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Prophet Crown": {
+    "code": "Prophet_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Praetor Crown": {
+    "code": "Praetor_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Imp Crown": {
+    "code": "Imp_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Demon Crown": {
+    "code": "Demon_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Archdemon Crown": {
+    "code": "Archdemon_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Scare Mask": {
+    "code": "Scare_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Plague Mask": {
+    "code": "Plague_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Iron Mask": {
+    "code": "Iron_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Festival Mask": {
+    "code": "Festival_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Golden Mask": {
+    "code": "Golden_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Raven Mask": {
+    "code": "Raven_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Callous Mask": {
+    "code": "Callous_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Regicide Mask": {
+    "code": "Regicide_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Harlequin Mask": {
+    "code": "Harlequin_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Vaal Mask": {
+    "code": "Vaal_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Deicide Mask": {
+    "code": "Deicide_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Gale Crown": {
+    "code": "Gale_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Winter Crown": {
+    "code": "Winter_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Blizzard Crown": {
+    "code": "Blizzard_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Golden Wreath": {
+    "code": "Golden_Wreath",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/Demigodstriumph.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Golden Visage": {
+    "code": "Golden_Visage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/DemigodsImmortality.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Bone Helmet": {
+    "code": "Bone_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/BoneHelm.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Rusted Hatchet": {
+    "code": "Rusted_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1.png?w=1&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Jade Hatchet": {
+    "code": "Jade_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Boarding Axe": {
+    "code": "Boarding_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Cleaver": {
+    "code": "Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Broad Axe": {
+    "code": "Broad_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Arming Axe": {
+    "code": "Arming_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Decorative Axe": {
+    "code": "Decorative_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Spectral Axe": {
+    "code": "Spectral_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Etched Hatchet": {
+    "code": "Etched_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Jasper Axe": {
+    "code": "Jasper_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Tomahawk": {
+    "code": "Tomahawk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Wrist Chopper": {
+    "code": "Wrist_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "War Axe": {
+    "code": "War_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Chest Splitter": {
+    "code": "Chest_Splitter",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Ceremonial Axe": {
+    "code": "Ceremonial_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Wraith Axe": {
+    "code": "Wraith_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Engraved Hatchet": {
+    "code": "Engraved_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Karui Axe": {
+    "code": "Karui_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Siege Axe": {
+    "code": "Siege_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Reaver Axe": {
+    "code": "Reaver_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Butcher Axe": {
+    "code": "Butcher_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Vaal Hatchet": {
+    "code": "Vaal_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Royal Axe": {
+    "code": "Royal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Infernal Axe": {
+    "code": "Infernal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Runic Hatchet": {
+    "code": "Runic_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Maltreatment Axe": {
+    "code": "Maltreatment_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Disapprobation Axe": {
+    "code": "Disapprobation_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Psychotic Axe": {
+    "code": "Psychotic_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Driftwood Club": {
+    "code": "Driftwood_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace1.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Tribal Club": {
+    "code": "Tribal_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Spiked Club": {
+    "code": "Spiked_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Stone Hammer": {
+    "code": "Stone_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "War Hammer": {
+    "code": "War_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Bladed Mace": {
+    "code": "Bladed_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Ceremonial Mace": {
+    "code": "Ceremonial_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Dream Mace": {
+    "code": "Dream_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Wyrm Mace": {
+    "code": "Wyrm_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Petrified Club": {
+    "code": "Petrified_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Barbed Club": {
+    "code": "Barbed_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Rock Breaker": {
+    "code": "Rock_Breaker",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Battle Hammer": {
+    "code": "Battle_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Flanged Mace": {
+    "code": "Flanged_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Ornate Mace": {
+    "code": "Ornate_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Phantom Mace": {
+    "code": "Phantom_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Dragon Mace": {
+    "code": "Dragon_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Ancestral Club": {
+    "code": "Ancestral_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Tenderizer": {
+    "code": "Tenderizer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Gavel": {
+    "code": "Gavel",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Legion Hammer": {
+    "code": "Legion_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Pernach": {
+    "code": "Pernach",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Auric Mace": {
+    "code": "Auric_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Nightmare Mace": {
+    "code": "Nightmare_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Behemoth Mace": {
+    "code": "Behemoth_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Flare Mace": {
+    "code": "Flare_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Crack Mace": {
+    "code": "Crack_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Boom Mace": {
+    "code": "Boom_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Charan's Sword": {
+    "code": "Charans_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/TheGoddessUnleashed.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Golden Blade": {
+    "code": "Golden_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/DemigodsAuthority.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Rusted Sword": {
+    "code": "Rusted_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Copper Sword": {
+    "code": "Copper_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Sabre": {
+    "code": "Sabre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Broad Sword": {
+    "code": "Broad_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "War Sword": {
+    "code": "War_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Ancient Sword": {
+    "code": "Ancient_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Elegant Sword": {
+    "code": "Elegant_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Dusk Blade": {
+    "code": "Dusk_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Hook Sword": {
+    "code": "Hook_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Variscite Blade": {
+    "code": "Variscite_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Cutlass": {
+    "code": "Cutlass",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Baselard": {
+    "code": "Baselard",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Battle Sword": {
+    "code": "Battle_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Elder Sword": {
+    "code": "Elder_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Graceful Sword": {
+    "code": "Graceful_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Twilight Blade": {
+    "code": "Twilight_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Grappler": {
+    "code": "Grappler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Gemstone Sword": {
+    "code": "Gemstone_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Corsair Sword": {
+    "code": "Corsair_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Gladius": {
+    "code": "Gladius",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Legion Sword": {
+    "code": "Legion_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Vaal Blade": {
+    "code": "Vaal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Eternal Sword": {
+    "code": "Eternal_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Midnight Blade": {
+    "code": "Midnight_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Tiger Hook": {
+    "code": "Tiger_Hook",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Fickle Spiritblade": {
+    "code": "Fickle_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Capricious Spiritblade": {
+    "code": "Capricious_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Anarchic Spiritblade": {
+    "code": "Anarchic_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Rusted Spike": {
+    "code": "Rusted_Spike",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier1.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Whalebone Rapier": {
+    "code": "Whalebone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Battered Foil": {
+    "code": "Battered_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Basket Rapier": {
+    "code": "Basket_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Jagged Foil": {
+    "code": "Jagged_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Antique Rapier": {
+    "code": "Antique_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Elegant Foil": {
+    "code": "Elegant_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Thorn Rapier": {
+    "code": "Thorn_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Smallsword": {
+    "code": "Smallsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Wyrmbone Rapier": {
+    "code": "Wyrmbone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Burnished Foil": {
+    "code": "Burnished_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Estoc": {
+    "code": "Estoc",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Serrated Foil": {
+    "code": "Serrated_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Primeval Rapier": {
+    "code": "Primeval_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Fancy Foil": {
+    "code": "Fancy_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Apex Rapier": {
+    "code": "Apex_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Courtesan Sword": {
+    "code": "Courtesan_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Dragonbone Rapier": {
+    "code": "Dragonbone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Tempered Foil": {
+    "code": "Tempered_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Pecoraro": {
+    "code": "Pecoraro",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Spiraled Foil": {
+    "code": "Spiraled_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Vaal Rapier": {
+    "code": "Vaal_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Jewelled Foil": {
+    "code": "Jewelled_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Harpy Rapier": {
+    "code": "Harpy_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Dragoon Sword": {
+    "code": "Dragoon_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Cured Quiver": {
+    "code": "Cured_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver1.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Rugged Quiver": {
+    "code": "Rugged_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver2.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Conductive Quiver": {
+    "code": "Conductive_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver3.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Heavy Quiver": {
+    "code": "Heavy_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver4.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Light Quiver": {
+    "code": "Light_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver5.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Serrated Arrow Quiver": {
+    "code": "Serrated_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSerrated.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Two-Point Arrow Quiver": {
+    "code": "Two-Point_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverTwo-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Sharktooth Arrow Quiver": {
+    "code": "Sharktooth_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSharktooth.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Blunt Arrow Quiver": {
+    "code": "Blunt_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverBlunt.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Fire Arrow Quiver": {
+    "code": "Fire_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverFire.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Broadhead Arrow Quiver": {
+    "code": "Broadhead_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverBroadhead.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Penetrating Arrow Quiver": {
+    "code": "Penetrating_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverPenetrating.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Spike-Point Arrow Quiver": {
+    "code": "Spike-Point_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSpike-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Ornate Quiver": {
+    "code": "Ornate_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/TriggerQuiverUnique.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Artillery Quiver": {
+    "code": "Artillery_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/ChiselQuiver.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Golden Hoop": {
+    "code": "Golden_Hoop",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/DemigodsBand.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Iron Ring": {
+    "code": "Iron_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Coral Ring": {
+    "code": "Coral_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Paua Ring": {
+    "code": "Paua_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring3.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Gold Ring": {
+    "code": "Gold_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring4.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Topaz Ring": {
+    "code": "Topaz_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring5.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Sapphire Ring": {
+    "code": "Sapphire_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring6.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Ruby Ring": {
+    "code": "Ruby_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring7.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Prismatic Ring": {
+    "code": "Prismatic_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring12.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Moonstone Ring": {
+    "code": "Moonstone_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/MoonstoneRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Amethyst Ring": {
+    "code": "Amethyst_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/AmethystRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Diamond Ring": {
+    "code": "Diamond_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/DiamondRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Two-Stone Ring": {
+    "code": "Two-Stone_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/SapphireRuby.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Unset Ring": {
+    "code": "Unset_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Empty-Socket.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Cogwork Ring": {
+    "code": "Cogwork_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/HeistRing1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Geodesic Ring": {
+    "code": "Geodesic_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/HeistRing2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Jet Ring": {
+    "code": "Jet_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/RingoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Steel Ring": {
+    "code": "Steel_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/AdamantineRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Opal Ring": {
+    "code": "Opal_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/OpalRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Vermillion Ring": {
+    "code": "Vermillion_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/VermillionRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Cerulean Ring": {
+    "code": "Cerulean_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/CeruleanRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Iolite Ring": {
+    "code": "Iolite_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/ChaosDmgRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Breach Ring": {
+    "code": "Breach_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/BreachRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Driftwood Sceptre": {
+    "code": "Driftwood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter1.png?w=1&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Darkwood Sceptre": {
+    "code": "Darkwood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Bronze Sceptre": {
+    "code": "Bronze_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Quartz Sceptre": {
+    "code": "Quartz_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Iron Sceptre": {
+    "code": "Iron_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Ochre Sceptre": {
+    "code": "Ochre_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Ritual Sceptre": {
+    "code": "Ritual_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Shadow Sceptre": {
+    "code": "Shadow_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Horned Sceptre": {
+    "code": "Horned_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Grinning Fetish": {
+    "code": "Grinning_Fetish",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Sekhem": {
+    "code": "Sekhem",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Crystal Sceptre": {
+    "code": "Crystal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Lead Sceptre": {
+    "code": "Lead_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Blood Sceptre": {
+    "code": "Blood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Royal Sceptre": {
+    "code": "Royal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Abyssal Sceptre": {
+    "code": "Abyssal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Stag Sceptre": {
+    "code": "Stag_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Karui Sceptre": {
+    "code": "Karui_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Tyrant's Sekhem": {
+    "code": "Tyrants_Sekhem",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Opal Sceptre": {
+    "code": "Opal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Platinum Sceptre": {
+    "code": "Platinum_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Vaal Sceptre": {
+    "code": "Vaal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Carnal Sceptre": {
+    "code": "Carnal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Void Sceptre": {
+    "code": "Void_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Sambar Sceptre": {
+    "code": "Sambar_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Oscillating Sceptre": {
+    "code": "Oscillating_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Stabilising Sceptre": {
+    "code": "Stabilising_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Alternating Sceptre": {
+    "code": "Alternating_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Splintered Tower Shield": {
+    "code": "Splintered_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr1.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Corroded Tower Shield": {
+    "code": "Corroded_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr2.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Rawhide Tower Shield": {
+    "code": "Rawhide_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Cedar Tower Shield": {
+    "code": "Cedar_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Copper Tower Shield": {
+    "code": "Copper_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Reinforced Tower Shield": {
+    "code": "Reinforced_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Painted Tower Shield": {
+    "code": "Painted_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Buckskin Tower Shield": {
+    "code": "Buckskin_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Mahogany Tower Shield": {
+    "code": "Mahogany_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Bronze Tower Shield": {
+    "code": "Bronze_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Girded Tower Shield": {
+    "code": "Girded_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Crested Tower Shield": {
+    "code": "Crested_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Shagreen Tower Shield": {
+    "code": "Shagreen_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ebony Tower Shield": {
+    "code": "Ebony_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ezomyte Tower Shield": {
+    "code": "Ezomyte_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Colossal Tower Shield": {
+    "code": "Colossal_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Pinnacle Tower Shield": {
+    "code": "Pinnacle_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Exothermic Tower Shield": {
+    "code": "Exothermic_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Magmatic Tower Shield": {
+    "code": "Magmatic_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Heat-attuned Tower Shield": {
+    "code": "Heat-attuned_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Goathide Buckler": {
+    "code": "Goathide_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Pine Buckler": {
+    "code": "Pine_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Painted Buckler": {
+    "code": "Painted_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Hammered Buckler": {
+    "code": "Hammered_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "War Buckler": {
+    "code": "War_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Gilded Buckler": {
+    "code": "Gilded_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Oak Buckler": {
+    "code": "Oak_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Enameled Buckler": {
+    "code": "Enameled_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Corrugated Buckler": {
+    "code": "Corrugated_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Battle Buckler": {
+    "code": "Battle_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Golden Buckler": {
+    "code": "Golden_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ironwood Buckler": {
+    "code": "Ironwood_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Lacquered Buckler": {
+    "code": "Lacquered_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Vaal Buckler": {
+    "code": "Vaal_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Crusader Buckler": {
+    "code": "Crusader_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Imperial Buckler": {
+    "code": "Imperial_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Endothermic Buckler": {
+    "code": "Endothermic_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Polar Buckler": {
+    "code": "Polar_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Cold-attuned Buckler": {
+    "code": "Cold-attuned_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Twig Spirit Shield": {
+    "code": "Twig_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Yew Spirit Shield": {
+    "code": "Yew_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Bone Spirit Shield": {
+    "code": "Bone_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Tarnished Spirit Shield": {
+    "code": "Tarnished_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Jingling Spirit Shield": {
+    "code": "Jingling_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Brass Spirit Shield": {
+    "code": "Brass_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Walnut Spirit Shield": {
+    "code": "Walnut_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ivory Spirit Shield": {
+    "code": "Ivory_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ancient Spirit Shield": {
+    "code": "Ancient_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Chiming Spirit Shield": {
+    "code": "Chiming_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Thorium Spirit Shield": {
+    "code": "Thorium_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Lacewood Spirit Shield": {
+    "code": "Lacewood_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Fossilised Spirit Shield": {
+    "code": "Fossilised_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Vaal Spirit Shield": {
+    "code": "Vaal_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Harmonic Spirit Shield": {
+    "code": "Harmonic_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Titanium Spirit Shield": {
+    "code": "Titanium_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Exhausting Spirit Shield": {
+    "code": "Exhausting_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Subsuming Spirit Shield": {
+    "code": "Subsuming_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Transfer-attuned Spirit Shield": {
+    "code": "Transfer-attuned_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Rotted Round Shield": {
+    "code": "Rotted_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Fir Round Shield": {
+    "code": "Fir_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Studded Round Shield": {
+    "code": "Studded_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Scarlet Round Shield": {
+    "code": "Scarlet_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Splendid Round Shield": {
+    "code": "Splendid_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Maple Round Shield": {
+    "code": "Maple_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Spiked Round Shield": {
+    "code": "Spiked_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Crimson Round Shield": {
+    "code": "Crimson_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Baroque Round Shield": {
+    "code": "Baroque_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Teak Round Shield": {
+    "code": "Teak_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Spiny Round Shield": {
+    "code": "Spiny_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Cardinal Round Shield": {
+    "code": "Cardinal_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Elegant Round Shield": {
+    "code": "Elegant_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Plank Kite Shield": {
+    "code": "Plank_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Linden Kite Shield": {
+    "code": "Linden_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Reinforced Kite Shield": {
+    "code": "Reinforced_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Layered Kite Shield": {
+    "code": "Layered_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Ceremonial Kite Shield": {
+    "code": "Ceremonial_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Etched Kite Shield": {
+    "code": "Etched_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Steel Kite Shield": {
+    "code": "Steel_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Laminated Kite Shield": {
+    "code": "Laminated_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Angelic Kite Shield": {
+    "code": "Angelic_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Branded Kite Shield": {
+    "code": "Branded_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Champion Kite Shield": {
+    "code": "Champion_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Mosaic Kite Shield": {
+    "code": "Mosaic_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Archon Kite Shield": {
+    "code": "Archon_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Spiked Bundle": {
+    "code": "Spiked_Bundle",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Driftwood Spiked Shield": {
+    "code": "Driftwood_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Alloyed Spiked Shield": {
+    "code": "Alloyed_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Burnished Spiked Shield": {
+    "code": "Burnished_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ornate Spiked Shield": {
+    "code": "Ornate_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Redwood Spiked Shield": {
+    "code": "Redwood_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Compound Spiked Shield": {
+    "code": "Compound_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Polished Spiked Shield": {
+    "code": "Polished_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Sovereign Spiked Shield": {
+    "code": "Sovereign_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Alder Spiked Shield": {
+    "code": "Alder_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ezomyte Spiked Shield": {
+    "code": "Ezomyte_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Mirrored Spiked Shield": {
+    "code": "Mirrored_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Supreme Spiked Shield": {
+    "code": "Supreme_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Golden Flame": {
+    "code": "Golden_Flame",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DemigodsShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Gnarled Branch": {
+    "code": "Gnarled_Branch",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff1.png?w=1&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Primitive Staff": {
+    "code": "Primitive_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Long Staff": {
+    "code": "Long_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Royal Staff": {
+    "code": "Royal_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Crescent Staff": {
+    "code": "Crescent_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Woodful Staff": {
+    "code": "Woodful_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Quarterstaff": {
+    "code": "Quarterstaff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Highborn Staff": {
+    "code": "Highborn_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Moon Staff": {
+    "code": "Moon_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Primordial Staff": {
+    "code": "Primordial_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Lathi": {
+    "code": "Lathi",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Imperial Staff": {
+    "code": "Imperial_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Eclipse Staff": {
+    "code": "Eclipse_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Transformer Staff": {
+    "code": "Transformer_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Reciprocation Staff": {
+    "code": "Reciprocation_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Battery Staff": {
+    "code": "Battery_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Iron Staff": {
+    "code": "Iron_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Coiled Staff": {
+    "code": "Coiled_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Vile Staff": {
+    "code": "Vile_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Military Staff": {
+    "code": "Military_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Serpentine Staff": {
+    "code": "Serpentine_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Foul Staff": {
+    "code": "Foul_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Ezomyte Staff": {
+    "code": "Ezomyte_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Maelström Staff": {
+    "code": "Maelstr%C3%B6m_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Judgement Staff": {
+    "code": "Judgement_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Capacity Rod": {
+    "code": "Capacity_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Potentiality Rod": {
+    "code": "Potentiality_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Eventuality Rod": {
+    "code": "Eventuality_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Stone Axe": {
+    "code": "Stone_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Jade Chopper": {
+    "code": "Jade_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Woodsplitter": {
+    "code": "Woodsplitter",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Poleaxe": {
+    "code": "Poleaxe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Double Axe": {
+    "code": "Double_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Gilded Axe": {
+    "code": "Gilded_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Shadow Axe": {
+    "code": "Shadow_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Dagger Axe": {
+    "code": "Dagger_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Jasper Chopper": {
+    "code": "Jasper_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Timber Axe": {
+    "code": "Timber_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Headsman Axe": {
+    "code": "Headsman_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Labrys": {
+    "code": "Labrys",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Noble Axe": {
+    "code": "Noble_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Abyssal Axe": {
+    "code": "Abyssal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Talon Axe": {
+    "code": "Talon_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Karui Chopper": {
+    "code": "Karui_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Sundering Axe": {
+    "code": "Sundering_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Ezomyte Axe": {
+    "code": "Ezomyte_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Vaal Axe": {
+    "code": "Vaal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Despot Axe": {
+    "code": "Despot_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Void Axe": {
+    "code": "Void_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Fleshripper": {
+    "code": "Fleshripper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Prime Cleaver": {
+    "code": "Prime_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Honed Cleaver": {
+    "code": "Honed_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Apex Cleaver": {
+    "code": "Apex_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Driftwood Maul": {
+    "code": "Driftwood_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace1.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Tribal Maul": {
+    "code": "Tribal_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Mallet": {
+    "code": "Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Sledgehammer": {
+    "code": "Sledgehammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Jagged Maul": {
+    "code": "Jagged_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Brass Maul": {
+    "code": "Brass_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Fright Maul": {
+    "code": "Fright_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Morning Star": {
+    "code": "Morning_Star",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Totemic Maul": {
+    "code": "Totemic_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Great Mallet": {
+    "code": "Great_Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Steelhead": {
+    "code": "Steelhead",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Spiny Maul": {
+    "code": "Spiny_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Plated Maul": {
+    "code": "Plated_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Dread Maul": {
+    "code": "Dread_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Solar Maul": {
+    "code": "Solar_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Karui Maul": {
+    "code": "Karui_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Colossus Mallet": {
+    "code": "Colossus_Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Piledriver": {
+    "code": "Piledriver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Meatgrinder": {
+    "code": "Meatgrinder",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Imperial Maul": {
+    "code": "Imperial_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Terror Maul": {
+    "code": "Terror_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Coronal Maul": {
+    "code": "Coronal_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Blunt Force Condenser": {
+    "code": "Blunt_Force_Condenser",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Crushing Force Magnifier": {
+    "code": "Crushing_Force_Magnifier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Impact Force Propagator": {
+    "code": "Impact_Force_Propagator",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Corroded Blade": {
+    "code": "Corroded_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1.png?w=1&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Longsword": {
+    "code": "Longsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Bastard Sword": {
+    "code": "Bastard_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Two-Handed Sword": {
+    "code": "Two-Handed_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Etched Greatsword": {
+    "code": "Etched_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Ornate Sword": {
+    "code": "Ornate_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Spectral Sword": {
+    "code": "Spectral_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Curved Blade": {
+    "code": "Curved_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Butcher Sword": {
+    "code": "Butcher_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Footman Sword": {
+    "code": "Footman_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Highland Blade": {
+    "code": "Highland_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Engraved Greatsword": {
+    "code": "Engraved_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Tiger Sword": {
+    "code": "Tiger_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Wraith Sword": {
+    "code": "Wraith_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Lithe Blade": {
+    "code": "Lithe_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Headman's Sword": {
+    "code": "Headmans_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Reaver Sword": {
+    "code": "Reaver_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Ezomyte Blade": {
+    "code": "Ezomyte_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Vaal Greatsword": {
+    "code": "Vaal_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Lion Sword": {
+    "code": "Lion_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Infernal Sword": {
+    "code": "Infernal_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Exquisite Blade": {
+    "code": "Exquisite_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Rebuking Blade": {
+    "code": "Rebuking_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Blasting Blade": {
+    "code": "Blasting_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Banishing Blade": {
+    "code": "Banishing_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Driftwood Wand": {
+    "code": "Driftwood_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand1.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Goat's Horn": {
+    "code": "Goats_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Carved Wand": {
+    "code": "Carved_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Quartz Wand": {
+    "code": "Quartz_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Spiraled Wand": {
+    "code": "Spiraled_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Sage Wand": {
+    "code": "Sage_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Pagan Wand": {
+    "code": "Pagan_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Faun's Horn": {
+    "code": "Fauns_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Engraved Wand": {
+    "code": "Engraved_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Crystal Wand": {
+    "code": "Crystal_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Serpent Wand": {
+    "code": "Serpent_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Omen Wand": {
+    "code": "Omen_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Heathen Wand": {
+    "code": "Heathen_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Demon's Horn": {
+    "code": "Demons_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Imbued Wand": {
+    "code": "Imbued_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Opal Wand": {
+    "code": "Opal_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Tornado Wand": {
+    "code": "Tornado_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Prophecy Wand": {
+    "code": "Prophecy_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Profane Wand": {
+    "code": "Profane_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Assembler Wand": {
+    "code": "Assembler_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Congregator Wand": {
+    "code": "Congregator_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Accumulator Wand": {
+    "code": "Accumulator_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Convoking Wand": {
+    "code": "Convoking_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/ConvokingWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  }
+}

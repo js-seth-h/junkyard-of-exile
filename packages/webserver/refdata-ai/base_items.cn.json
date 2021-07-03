@@ -1,0 +1,4282 @@
+{
+  "海灵护身符": {
+    "code": "Paua_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "珊瑚护身符": {
+    "code": "Coral_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "琥珀护身符": {
+    "code": "Amber_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "翠玉护身符": {
+    "code": "Jade_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "海玉护身符": {
+    "code": "Lapis_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "帝金护身符": {
+    "code": "Gold_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "黑曜护身符": {
+    "code": "Onyx_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/Amulet7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "青玉护身符": {
+    "code": "Turquoise_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TurquoiseAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "玛瑙护身符": {
+    "code": "Agate_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/AgateAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "黄晶护身符": {
+    "code": "Citrine_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/CitrineAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "血色护身符": {
+    "code": "Ruby_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/RubyAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "星盘项链": {
+    "code": "Astrolabe_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/HeistAmulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "朴实项链": {
+    "code": "Simplex_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/HeistAmulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "杰特护身符": {
+    "code": "Jet_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "碧珠护身符": {
+    "code": "Blue_Pearl_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/BluePearlAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "大理石护身符": {
+    "code": "Marble_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/MarbleAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "海晶护符": {
+    "code": "Seaglass_Amulet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/CrescentAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "黑牙魔符": {
+    "code": "Black_Maw_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "脊骨魔符": {
+    "code": "Bonespire_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "灰烬魔符": {
+    "code": "Ashscale_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "孤角魔符": {
+    "code": "Lone_Antler_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "深渊魔符": {
+    "code": "Deep_One_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "碎骨魔符": {
+    "code": "Breakrib_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "亡手魔符": {
+    "code": "Deadhand_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "不朽魔符": {
+    "code": "Undying_Flesh_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanWhite6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "腐首魔符": {
+    "code": "Rot_Head_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/FishTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "巨颚魔符": {
+    "code": "Mandible_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/NewTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "虫蛹魔符": {
+    "code": "Chrysalis_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/NewTalisman2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "狂癫魔符": {
+    "code": "Writhing_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/NewTalisman3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "幻爪魔符": {
+    "code": "Hexclaw_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "皇骨魔符": {
+    "code": "Primal_Skull_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "亡爪魔符": {
+    "code": "Wereclaw_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/DireClawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "断螈魔符": {
+    "code": "Splitnewt_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "咒箍魔符": {
+    "code": "Clutching_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "双子魔符": {
+    "code": "Avian_Twins_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "齿鲨魔符": {
+    "code": "Fangjaw_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanBlack5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "尖角魔符": {
+    "code": "Horned_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/NewTalisman7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "潜能魔符": {
+    "code": "Spinefuse_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "三鼠魔符": {
+    "code": "Three_Rat_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "双猴魔符": {
+    "code": "Monkey_Twins_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "长牙魔符": {
+    "code": "Longtooth_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "死羽魔符": {
+    "code": "Rotfeather_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "猴掌魔符": {
+    "code": "Monkey_Paw_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/MonkeyPawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "三手魔符": {
+    "code": "Three_Hands_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/TalismanRed8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "狼王魔符": {
+    "code": "Greatwolf_Talisman",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Amulets/T4Talisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "素布腰带": {
+    "code": "Rustic_Sash",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "扣链腰带": {
+    "code": "Chain_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "皮革腰带": {
+    "code": "Leather_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt3.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "重革腰带": {
+    "code": "Heavy_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt5.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "饰布腰带": {
+    "code": "Cloth_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt4.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "扣钉腰带": {
+    "code": "Studded_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt6.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "低酿腰带": {
+    "code": "Micro-Distillery_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/HeistBelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "警戒腰带": {
+    "code": "Mechalarm_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/HeistBelt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "先锋腰带": {
+    "code": "Vanguard_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Belt7.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "水晶腰带": {
+    "code": "Crystal_Belt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/CrystalBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "金羽腰带": {
+    "code": "Golden_Obi",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/Demibelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "深渊腰带": {
+    "code": "Stygian_Vise",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Belts/AbyssBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "铁制背心": {
+    "code": "Plate_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "胸甲": {
+    "code": "Chestplate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "铜锻板甲": {
+    "code": "Copper_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "战争之铠": {
+    "code": "War_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身铠甲": {
+    "code": "Full_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "斗者之铠": {
+    "code": "Arena_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "领主护铠": {
+    "code": "Lordly_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "青铜铠甲": {
+    "code": "Bronze_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "战铠": {
+    "code": "Battle_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "日光之铠": {
+    "code": "Sun_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "决斗之铠": {
+    "code": "Colosseum_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "庄严之铠": {
+    "code": "Majestic_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "金耀之铠": {
+    "code": "Golden_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "征战重铠": {
+    "code": "Crusader_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "星芒战铠": {
+    "code": "Astral_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "角斗重铠": {
+    "code": "Gladiator_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "荣耀战铠": {
+    "code": "Glorious_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "冈姆的重铠": {
+    "code": "Kaoms_Plate",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3CUnique.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "破旧外套": {
+    "code": "Shabby_Jerkin",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "扣环皮甲": {
+    "code": "Strapped_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "鹿皮外套": {
+    "code": "Buckskin_Tunic",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "狂野部族皮甲": {
+    "code": "Wild_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身皮甲": {
+    "code": "Full_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "日光皮甲": {
+    "code": "Sun_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "窃贼之装": {
+    "code": "Thiefs_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "鳗皮之衣": {
+    "code": "Eelskin_Tunic",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "边戍皮甲": {
+    "code": "Frontier_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "荣耀皮甲": {
+    "code": "Glorious_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "光耀皮甲": {
+    "code": "Coronal_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "死神之装": {
+    "code": "Cutthroats_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "鲨皮之衣": {
+    "code": "Sharkskin_Tunic",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "命运皮甲": {
+    "code": "Destiny_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "精制皮甲": {
+    "code": "Exquisite_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "星辰皮甲": {
+    "code": "Zodiac_Leather",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "暗影之装": {
+    "code": "Assassins_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "简易之袍": {
+    "code": "Simple_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "绸缎背心": {
+    "code": "Silken_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "学者之袍": {
+    "code": "Scholars_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "丝绸之衣": {
+    "code": "Silken_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "博学长衣": {
+    "code": "Mages_Vestment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "丝质之袍": {
+    "code": "Silk_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "秘术法衣": {
+    "code": "Cabalist_Regalia",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "贤者之袍": {
+    "code": "Sages_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "丝绒背心": {
+    "code": "Silken_Wrap",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "咒者长衣": {
+    "code": "Conjurers_Vestment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "蛛丝之袍": {
+    "code": "Spidersilk_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "灭世法衣": {
+    "code": "Destroyer_Regalia",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "智者之袍": {
+    "code": "Savants_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "操灵者背心": {
+    "code": "Necromancer_Silks",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "秘术长衣": {
+    "code": "Occultists_Vestment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "毒蛛丝之袍": {
+    "code": "Widowsilk_Robe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "瓦尔法衣": {
+    "code": "Vaal_Regalia",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "细鳞背心": {
+    "code": "Scale_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "轻锁甲": {
+    "code": "Light_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "合身鳞甲": {
+    "code": "Scale_Doublet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "步兵锁甲": {
+    "code": "Infantry_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身鳞甲": {
+    "code": "Full_Scale_Armour",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "战士锁甲": {
+    "code": "Soldiers_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "野战薄甲": {
+    "code": "Field_Lamellar",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "龙鳞战甲": {
+    "code": "Wyrmscale_Doublet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "轻骑锁甲": {
+    "code": "Hussar_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身龙鳞战甲": {
+    "code": "Full_Wyrmscale",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "指挥者锁甲": {
+    "code": "Commanders_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "争战鳞甲": {
+    "code": "Battle_Lamellar",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "龙鳞护甲": {
+    "code": "Dragonscale_Doublet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "荒野锁铠": {
+    "code": "Desert_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身龙鳞铠": {
+    "code": "Full_Dragonscale",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "将军铠甲": {
+    "code": "Generals_Brigandine",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "胜利盔甲": {
+    "code": "Triumphant_Lamellar",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "锁链背心": {
+    "code": "Chainmail_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "链甲外衣": {
+    "code": "Chainmail_Tunic",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "环甲外套": {
+    "code": "Ringmail_Coat",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "护体锁甲": {
+    "code": "Chainmail_Doublet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身环甲": {
+    "code": "Full_Ringmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "连身锁甲": {
+    "code": "Full_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "圣语锁甲": {
+    "code": "Holy_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "精制环甲": {
+    "code": "Latticed_Ringmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "圣战锁甲": {
+    "code": "Crusader_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "华丽环甲": {
+    "code": "Ornate_Ringmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "锁子长甲": {
+    "code": "Chain_Hauberk",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "虔诚链甲": {
+    "code": "Devout_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "覆体环甲": {
+    "code": "Loricated_Ringmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "征战锁甲": {
+    "code": "Conquest_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "权贵环甲": {
+    "code": "Elegant_Ringmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "圣者链甲": {
+    "code": "Saints_Hauberk",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "圣洁锁甲": {
+    "code": "Saintly_Chainmail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "薄衬衣": {
+    "code": "Padded_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "防水背心": {
+    "code": "Oiled_Vest",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "长袖棉袄": {
+    "code": "Padded_Jacket",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "防水外衣": {
+    "code": "Oiled_Coat",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "炽红之衣": {
+    "code": "Scarlet_Raiment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "蜡封束衣": {
+    "code": "Waxed_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "骨制战甲": {
+    "code": "Bone_Armour",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "菱纹外衣": {
+    "code": "Quilted_Jacket",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "滑布外套": {
+    "code": "Sleek_Coat",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "绯红之衣": {
+    "code": "Crimson_Raiment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "漆彩束衣": {
+    "code": "Lacquered_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "地穴战甲": {
+    "code": "Crypt_Armour",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "哨兵之衣": {
+    "code": "Sentinel_Jacket",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "映彩外套": {
+    "code": "Varnished_Coat",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "血色之衣": {
+    "code": "Blood_Raiment",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "狂虐者束衣": {
+    "code": "Sadist_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "禁礼之甲": {
+    "code": "Carnal_Armour",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "祭礼束衣": {
+    "code": "Sacrificial_Garb",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/SacrificialGarb.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "黄金战甲": {
+    "code": "Golden_Mantle",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/DemigodsArmour.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "扼杀链甲": {
+    "code": "Grasping_Mail",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/BodyArmours/GraspingMail.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "铁锻胫甲": {
+    "code": "Iron_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "冷钢胫甲": {
+    "code": "Steel_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "坚铁胫甲": {
+    "code": "Plated_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "强化胫甲": {
+    "code": "Reinforced_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "古钢胫甲": {
+    "code": "Antique_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "远古胫甲": {
+    "code": "Ancient_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "巨灵胫甲": {
+    "code": "Goliath_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "瓦尔胫甲": {
+    "code": "Vaal_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "巨人胫甲": {
+    "code": "Titan_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "劣金之履": {
+    "code": "Basemetal_Treads",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "乌钢之履": {
+    "code": "Darksteel_Treads",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "踏烟之履": {
+    "code": "Brimstone_Treads",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "冈姆胫甲": {
+    "code": "Kaoms_Greaves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "生皮短靴": {
+    "code": "Rawhide_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "羊皮短靴": {
+    "code": "Goathide_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "鹿皮短靴": {
+    "code": "Deerskin_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "砂影短靴": {
+    "code": "Nubuck_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "鳗皮短靴": {
+    "code": "Eelskin_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "鲨皮短靴": {
+    "code": "Sharkskin_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "粗革短靴": {
+    "code": "Shagreen_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "匿踪短靴": {
+    "code": "Stealth_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "迷踪短靴": {
+    "code": "Slink_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "唤云之靴": {
+    "code": "Cloudwhisper_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "破风之靴": {
+    "code": "Windbreak_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "御风之靴": {
+    "code": "Stormrider_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "羊毛之鞋": {
+    "code": "Wool_Shoes",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "丝绒便鞋": {
+    "code": "Velvet_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "丝绸便鞋": {
+    "code": "Silk_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "学者长靴": {
+    "code": "Scholar_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "缎布便鞋": {
+    "code": "Satin_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "绣布便鞋": {
+    "code": "Samite_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "咒者长靴": {
+    "code": "Conjurer_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "秘术便鞋": {
+    "code": "Arcanist_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "术士长靴": {
+    "code": "Sorcerer_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "踏暮之鞋": {
+    "code": "Duskwalk_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "夜风之鞋": {
+    "code": "Nightwind_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "探梦之鞋": {
+    "code": "Dreamquest_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "粗鳞皮靴": {
+    "code": "Leatherscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "铁影长靴": {
+    "code": "Ironscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "铜影长靴": {
+    "code": "Bronzescale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "钢影长靴": {
+    "code": "Steelscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "蛇鳞长靴": {
+    "code": "Serpentscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "地蝮鳞长靴": {
+    "code": "Wyrmscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "火蝮鳞长靴": {
+    "code": "Hydrascale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "龙鳞长靴": {
+    "code": "Dragonscale_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "链甲长靴": {
+    "code": "Chain_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "环甲筒靴": {
+    "code": "Ringmail_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "网眼长靴": {
+    "code": "Mesh_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "仪式短靴": {
+    "code": "Riveted_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "狂热者长靴": {
+    "code": "Zealot_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "战士之靴": {
+    "code": "Soldier_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "军团长靴": {
+    "code": "Legion_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "圣战长靴": {
+    "code": "Crusader_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "裹趾凉鞋": {
+    "code": "Wrapped_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "扣环短靴": {
+    "code": "Strapped_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "环带长靴": {
+    "code": "Clasped_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "缚足长靴": {
+    "code": "Shackled_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "猎人之靴": {
+    "code": "Trapper_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "伏击之靴": {
+    "code": "Ambush_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "禁礼之靴": {
+    "code": "Carnal_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "暗影之靴": {
+    "code": "Assassins_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "暗影者长靴": {
+    "code": "Murder_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "黄金缠鞋": {
+    "code": "Golden_Caligae",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/DemigodsStride.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "飞羽便鞋": {
+    "code": "Avian_Slippers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "异色鞋 (火闪)": {
+    "code": "Two-Toned_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots3B.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "受福之靴": {
+    "code": "Blessed_Boots",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Boots/HalfTonedBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "粗制弓": {
+    "code": "Crude_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow1.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "短弓": {
+    "code": "Short_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "长弓": {
+    "code": "Long_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "合成弓": {
+    "code": "Composite_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "反曲弓": {
+    "code": "Recurve_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "骨制弓": {
+    "code": "Bone_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "皇家猎弓": {
+    "code": "Royal_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "死亡之弓": {
+    "code": "Death_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "反射弓": {
+    "code": "Reflex_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "丛林猎弓": {
+    "code": "Grove_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "直弓": {
+    "code": "Decurve_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "复合弓": {
+    "code": "Compound_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "狙击弓": {
+    "code": "Sniper_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "象牙弓": {
+    "code": "Ivory_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "贵族之弓": {
+    "code": "Highborn_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "猎魂之弓": {
+    "code": "Decimation_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "钢木之弓": {
+    "code": "Steelwood_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "林野猎弓": {
+    "code": "Thicket_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "城塞战弓": {
+    "code": "Citadel_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "游侠弓": {
+    "code": "Ranger_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "暗影弓": {
+    "code": "Assassin_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "脊弓": {
+    "code": "Spine_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "帝国之弓": {
+    "code": "Imperial_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "先驱者之弓": {
+    "code": "Harbinger_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "马拉克斯弓": {
+    "code": "Maraketh_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "多面弓": {
+    "code": "Hedron_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "铸造弓": {
+    "code": "Foundry_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "日裔弓": {
+    "code": "Solarine_Bow",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "拳钉": {
+    "code": "Nailed_Fist",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw1.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "鲨颚爪": {
+    "code": "Sharktooth_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "凿钉": {
+    "code": "Awl",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "猫爪刃": {
+    "code": "Cats_Paw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "袭眼钩": {
+    "code": "Blinder",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "远古战爪": {
+    "code": "Timeworn_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "眩目爪刃": {
+    "code": "Sparkling_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "恐惧之爪": {
+    "code": "Fright_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "双刃爪": {
+    "code": "Double_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "撕裂尖爪": {
+    "code": "Thresher_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "穿体凿": {
+    "code": "Gouger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "虎爪刃": {
+    "code": "Tigers_Paw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "裂脏钩": {
+    "code": "Gut_Ripper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "史前战爪": {
+    "code": "Prehistoric_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "贵族战爪": {
+    "code": "Noble_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "鹰爪刃": {
+    "code": "Eagle_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "重刃爪": {
+    "code": "Twin_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "白灵之爪": {
+    "code": "Great_White_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "刺喉刃": {
+    "code": "Throat_Stabber",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "魔爪刃": {
+    "code": "Hellions_Paw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "刺眼钩": {
+    "code": "Eye_Gouger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "瓦尔战爪": {
+    "code": "Vaal_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "帝国战爪": {
+    "code": "Imperial_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "恐惧之牙": {
+    "code": "Terror_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "双子战爪": {
+    "code": "Gemini_Claw",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "暗影之牙": {
+    "code": "Shadow_Fangs",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "恶毒之牙": {
+    "code": "Malign_Fangs",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "虚空之牙": {
+    "code": "Void_Fangs",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "玻璃利片": {
+    "code": "Glass_Shank",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "剥皮刀": {
+    "code": "Skinning_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "锐利刺匕": {
+    "code": "Stiletto",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "尖耙短匕": {
+    "code": "Prong_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "残体利刃": {
+    "code": "Flaying_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "夺命刺": {
+    "code": "Poignard",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "三叉短匕": {
+    "code": "Trisula",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "重伤短刀": {
+    "code": "Gutting_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "伏击刺刃": {
+    "code": "Ambusher",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "战叉": {
+    "code": "Sai",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "折叠匕首": {
+    "code": "Hollowpoint_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "冲压匕首": {
+    "code": "Pressurised_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "气动匕首": {
+    "code": "Pneumatic_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "虚空飞刃": {
+    "code": "Ethereal_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "刻骨刀": {
+    "code": "Carving_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "窃者短刃": {
+    "code": "Boot_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "铜锻波刃": {
+    "code": "Copper_Kris",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "双刃匕": {
+    "code": "Skean",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "魔性之刃": {
+    "code": "Imp_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "屠兽利刃": {
+    "code": "Butcher_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "窃者短匕": {
+    "code": "Boot_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "金光波刃": {
+    "code": "Golden_Kris",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "皇家短匕": {
+    "code": "Royal_Skean",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "兽血短匕": {
+    "code": "Fiend_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "猎者之刃": {
+    "code": "Slaughter_Knife",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "艾兹麦之匕": {
+    "code": "Ezomyte_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "白金波刃": {
+    "code": "Platinum_Kris",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "帝国短匕": {
+    "code": "Imperial_Skean",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "魔灵短匕": {
+    "code": "Demon_Dagger",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "火焰刀": {
+    "code": "Flickerflame_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "闪火刀": {
+    "code": "Flashfire_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "炼狱刀": {
+    "code": "Infernal_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "铁锻护手": {
+    "code": "Iron_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "坚铁护手": {
+    "code": "Plated_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "青铜护手": {
+    "code": "Bronze_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "冷钢护手": {
+    "code": "Steel_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "古钢护手": {
+    "code": "Antique_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "远古护手": {
+    "code": "Ancient_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "巨灵护手": {
+    "code": "Goliath_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "瓦尔护手": {
+    "code": "Vaal_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "巨人护手": {
+    "code": "Titan_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "沉重手甲": {
+    "code": "Taxing_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "磨人手甲": {
+    "code": "Gruelling_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "衰弱手甲": {
+    "code": "Debilitation_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "生皮手套": {
+    "code": "Rawhide_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "羊皮手套": {
+    "code": "Goathide_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "鹿皮手套": {
+    "code": "Deerskin_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "砂影手套": {
+    "code": "Nubuck_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "鳗皮手套": {
+    "code": "Eelskin_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "鲨皮手套": {
+    "code": "Sharkskin_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "粗革手套": {
+    "code": "Shagreen_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "匿踪手套": {
+    "code": "Stealth_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "迷踪手套": {
+    "code": "Slink_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "笨重手套": {
+    "code": "Gauche_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "南风手套": {
+    "code": "Southswing_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "左旋手套": {
+    "code": "Sinistral_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "羊毛手套": {
+    "code": "Wool_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "丝绒手套": {
+    "code": "Velvet_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "丝绸手套": {
+    "code": "Fingerless_Silk_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/FingerlessSilkGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "刺绣手套": {
+    "code": "Embroidered_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "缎布手套": {
+    "code": "Satin_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "绣布手套": {
+    "code": "Samite_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "咒者手套": {
+    "code": "Conjurer_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "秘术手套": {
+    "code": "Arcanist_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "术士手套": {
+    "code": "Sorcerer_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "雷线手套": {
+    "code": "Leyline_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "灵风手套": {
+    "code": "Aetherwind_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "枢纽手套": {
+    "code": "Nexus_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "鱼鳞手套": {
+    "code": "Fishscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "铁影手套": {
+    "code": "Ironscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "铜影手套": {
+    "code": "Bronzescale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "钢影护手": {
+    "code": "Steelscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "蛇鳞手套": {
+    "code": "Serpentscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "蝮鳞手套": {
+    "code": "Wyrmscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "火蝮鳞手套": {
+    "code": "Hydrascale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "龙鳞手套": {
+    "code": "Dragonscale_Gauntlets",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "链甲手套": {
+    "code": "Chain_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "环甲手套": {
+    "code": "Ringmail_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "网眼手套": {
+    "code": "Mesh_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "仪式手套": {
+    "code": "Riveted_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "狂热者手套": {
+    "code": "Zealot_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "战士手套": {
+    "code": "Soldier_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "军团手套": {
+    "code": "Legion_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "圣战手套": {
+    "code": "Crusader_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "裹趾护手": {
+    "code": "Wrapped_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "扣环护手": {
+    "code": "Strapped_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "环带护手": {
+    "code": "Clasped_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "猎人护手": {
+    "code": "Trapper_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "伏击护手": {
+    "code": "Ambush_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "禁礼护手": {
+    "code": "Carnal_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "暗影护手": {
+    "code": "Assassins_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "暗影者护手": {
+    "code": "Murder_Mitts",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "黄金臂甲": {
+    "code": "Golden_Bracers",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/DemigodsTouch.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "扣钉手套": {
+    "code": "Spiked_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/SpikedGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "擒拿手套": {
+    "code": "Gripped_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/GripGlovesBaseType.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "药剂师手套": {
+    "code": "Apothecarys_Gloves",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Gloves/ChemistGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "粗铁盔": {
+    "code": "Iron_Hat",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "锥顶盔": {
+    "code": "Cone_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "轻骑盔": {
+    "code": "Barbute_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "护面盔": {
+    "code": "Close_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "角斗者之盔": {
+    "code": "Gladiator_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "掠夺者之盔": {
+    "code": "Reaver_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "破城之盔": {
+    "code": "Siege_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "萨姆尼盔": {
+    "code": "Samnite_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "艾兹麦坚盔": {
+    "code": "Ezomyte_Burgonet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "皇室坚盔": {
+    "code": "Royal_Burgonet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "永恒坚盔": {
+    "code": "Eternal_Burgonet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStr11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "皮帽": {
+    "code": "Leather_Cap",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "三角帽": {
+    "code": "Tricorne",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "革兜": {
+    "code": "Leather_Hood",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "狼首皮盔": {
+    "code": "Wolf_Pelt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "猎者之兜": {
+    "code": "Hunter_Hood",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "贵族三角帽": {
+    "code": "Noble_Tricorne",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "熊首皮盔": {
+    "code": "Ursine_Pelt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "绸缎之兜": {
+    "code": "Silken_Hood",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "罪者之帽": {
+    "code": "Sinner_Tricorne",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "狮首皮盔": {
+    "code": "Lion_Pelt",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "藤蔓之冠": {
+    "code": "Vine_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "铁锻之冠": {
+    "code": "Iron_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "刑罚头笼": {
+    "code": "Torture_Cage",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "祭仪之冠": {
+    "code": "Tribal_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "灵骨之冠": {
+    "code": "Bone_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "月影之冠": {
+    "code": "Lunaris_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "冷钢之冠": {
+    "code": "Steel_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "操灵者之冠": {
+    "code": "Necromancer_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "日耀之冠": {
+    "code": "Solaris_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "灵能之笼": {
+    "code": "Mind_Cage",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "灵主之环": {
+    "code": "Hubris_Circlet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "残破之盔": {
+    "code": "Battered_Helm",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "轻铁护盔": {
+    "code": "Sallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "清视护盔": {
+    "code": "Visored_Sallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "金面护盔": {
+    "code": "Gilded_Sallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "精兵之盔": {
+    "code": "Secutor_Helm",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "击剑士之盔": {
+    "code": "Fencer_Helm",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "漆彩之盔": {
+    "code": "Lacquered_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "全罩战盔": {
+    "code": "Fluted_Bascinet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "猪面头盔": {
+    "code": "Pig-Faced_Bascinet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "梦魇战盔": {
+    "code": "Nightmare_Bascinet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "悲伤面具": {
+    "code": "Sorrow_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "赎罪面具": {
+    "code": "Atonement_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "忏悔面具": {
+    "code": "Penitent_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "锈铁链盔": {
+    "code": "Rusted_Coif",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "士兵之盔": {
+    "code": "Soldier_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "巨盔": {
+    "code": "Great_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "圣战之盔": {
+    "code": "Crusader_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "战意之盔": {
+    "code": "Aventail_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "热战之盔": {
+    "code": "Zealot_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "强化巨盔": {
+    "code": "Great_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "行政者战冠": {
+    "code": "Magistrate_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "箴言战冠": {
+    "code": "Prophet_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "领主战冠": {
+    "code": "Praetor_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "小鬼之冠": {
+    "code": "Imp_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "恶魔之冠": {
+    "code": "Demon_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "大恶魔之冠": {
+    "code": "Archdemon_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "幽惧之面": {
+    "code": "Scare_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "疫灾之面": {
+    "code": "Plague_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "铁锻之面": {
+    "code": "Iron_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "节庆之面": {
+    "code": "Festival_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "黄金之面": {
+    "code": "Golden_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "祸鸦之面": {
+    "code": "Raven_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "无情之面": {
+    "code": "Callous_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "弑君之面": {
+    "code": "Regicide_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "鹰喙之面": {
+    "code": "Harlequin_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "瓦尔之面": {
+    "code": "Vaal_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "弑神之面": {
+    "code": "Deicide_Mask",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "飓风之冠": {
+    "code": "Gale_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "寒冬之冠": {
+    "code": "Winter_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "暴雪之冠": {
+    "code": "Blizzard_Crown",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "金黄花环": {
+    "code": "Golden_Wreath",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/Demigodstriumph.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "金色面具": {
+    "code": "Golden_Visage",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/DemigodsImmortality.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "唤骨头盔": {
+    "code": "Bone_Helmet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Helmets/BoneHelm.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "锈斧": {
+    "code": "Rusted_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1.png?w=1&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "碎玉斧": {
+    "code": "Jade_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "万用手斧": {
+    "code": "Boarding_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "切割者": {
+    "code": "Cleaver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "阔斧": {
+    "code": "Broad_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "长柄斧": {
+    "code": "Arming_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "富贵之斧": {
+    "code": "Decorative_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "幽魂之斧": {
+    "code": "Spectral_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "蚀刻战斧": {
+    "code": "Etched_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "灵玉斧": {
+    "code": "Jasper_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "征战之斧": {
+    "code": "Tomahawk",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "断腕之刃": {
+    "code": "Wrist_Chopper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "行军斧": {
+    "code": "War_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "开膛利刃": {
+    "code": "Chest_Splitter",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "血仪之斧": {
+    "code": "Ceremonial_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "凶灵之斧": {
+    "code": "Wraith_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "雕文战斧": {
+    "code": "Engraved_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "卡鲁古斧": {
+    "code": "Karui_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "破城斧": {
+    "code": "Siege_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "残暴之斧": {
+    "code": "Reaver_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "屠戮之斧": {
+    "code": "Butcher_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "瓦尔战斧": {
+    "code": "Vaal_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "皇家之斧": {
+    "code": "Royal_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "狱火之刃": {
+    "code": "Infernal_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "密文之斧": {
+    "code": "Runic_Hatchet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "凌虐斧": {
+    "code": "Maltreatment_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "否认斧": {
+    "code": "Disapprobation_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "癫狂斧": {
+    "code": "Psychotic_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "朽木之棒": {
+    "code": "Driftwood_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace1.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "祭仪之杵": {
+    "code": "Tribal_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "钝钉木棒": {
+    "code": "Spiked_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "石锤": {
+    "code": "Stone_Hammer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "战锤": {
+    "code": "War_Hammer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "多刃锤": {
+    "code": "Bladed_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "祭礼之锤": {
+    "code": "Ceremonial_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "梦境之锤": {
+    "code": "Dream_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "古龙之锤": {
+    "code": "Wyrm_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "坚石木棒": {
+    "code": "Petrified_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "锐刺木棒": {
+    "code": "Barbed_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "破岩锤": {
+    "code": "Rock_Breaker",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "强化战锤": {
+    "code": "Battle_Hammer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "护体之锤": {
+    "code": "Flanged_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "华丽之锤": {
+    "code": "Ornate_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "幻象之锤": {
+    "code": "Phantom_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "龙之锤": {
+    "code": "Dragon_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "祖灵之杵": {
+    "code": "Ancestral_Club",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "裂肉之锤": {
+    "code": "Tenderizer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "坚锤": {
+    "code": "Gavel",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "军团之锤": {
+    "code": "Legion_Hammer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "锋刃重锤": {
+    "code": "Pernach",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "圣约之锤": {
+    "code": "Auric_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "梦魇之锤": {
+    "code": "Nightmare_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "巴哈姆特": {
+    "code": "Behemoth_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "明亮锤": {
+    "code": "Flare_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "开裂锤": {
+    "code": "Crack_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "风雷锤": {
+    "code": "Boom_Mace",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "查兰之剑": {
+    "code": "Charans_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/TheGoddessUnleashed.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "金色之刃": {
+    "code": "Golden_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/DemigodsAuthority.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "锈剑": {
+    "code": "Rusted_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "青铜短剑": {
+    "code": "Copper_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "旧军刀": {
+    "code": "Sabre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "阔剑": {
+    "code": "Broad_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "征战之剑": {
+    "code": "War_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "远古之剑": {
+    "code": "Ancient_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "贵族之剑": {
+    "code": "Elegant_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "暮色之刃": {
+    "code": "Dusk_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "钩爪剑": {
+    "code": "Hook_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "碧铜短剑": {
+    "code": "Variscite_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "军用长刃": {
+    "code": "Cutlass",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "冷光长剑": {
+    "code": "Baselard",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "士兵长剑": {
+    "code": "Battle_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "智者长剑": {
+    "code": "Elder_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "权贵之剑": {
+    "code": "Graceful_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "暮光长剑": {
+    "code": "Twilight_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "捕捉者": {
+    "code": "Grappler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "宝石之剑": {
+    "code": "Gemstone_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "海贼长刀": {
+    "code": "Corsair_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "斗士长剑": {
+    "code": "Gladius",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "军团长剑": {
+    "code": "Legion_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "瓦尔军刃": {
+    "code": "Vaal_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "永恒之剑": {
+    "code": "Eternal_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "夜语长剑": {
+    "code": "Midnight_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "虎钩": {
+    "code": "Tiger_Hook",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "无常魂刃": {
+    "code": "Fickle_Spiritblade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "莫测魂刃": {
+    "code": "Capricious_Spiritblade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "无序魂刃": {
+    "code": "Anarchic_Spiritblade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "锈刺剑": {
+    "code": "Rusted_Spike",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier1.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "鲸骨细刃": {
+    "code": "Whalebone_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "钝刃细剑": {
+    "code": "Battered_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "练武者细剑": {
+    "code": "Basket_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "锯状薄刃": {
+    "code": "Jagged_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "古代细剑": {
+    "code": "Antique_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "贵族细剑": {
+    "code": "Elegant_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "棘刺细剑": {
+    "code": "Thorn_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "小剑": {
+    "code": "Smallsword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "龙骨细剑": {
+    "code": "Dragonbone_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "冷芒刺剑": {
+    "code": "Burnished_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "穿甲刺剑": {
+    "code": "Estoc",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "锯齿细剑": {
+    "code": "Serrated_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "古典刺剑": {
+    "code": "Primeval_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "华丽细剑": {
+    "code": "Fancy_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "锐锋细剑": {
+    "code": "Apex_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "花魁之剑": {
+    "code": "Courtesan_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "强化细剑": {
+    "code": "Tempered_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "寒光刺剑": {
+    "code": "Pecoraro",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "螺纹细剑": {
+    "code": "Spiraled_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "瓦尔细剑": {
+    "code": "Vaal_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "宝饰细剑": {
+    "code": "Jewelled_Foil",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "魔喙细剑": {
+    "code": "Harpy_Rapier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "骑兵军刀": {
+    "code": "Dragoon_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "火焰箭袋": {
+    "code": "Cured_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/Quiver1.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "冰晶箭袋": {
+    "code": "Rugged_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/Quiver2.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "电光箭袋": {
+    "code": "Conductive_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/Quiver3.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "重矢箭袋": {
+    "code": "Heavy_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/Quiver4.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "轻巧箭袋": {
+    "code": "Light_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/Quiver5.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "锯齿箭袋": {
+    "code": "Serrated_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverSerrated.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "双锋箭袋": {
+    "code": "Two-Point_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverTwo-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "鲨齿箭袋": {
+    "code": "Sharktooth_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverSharktooth.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "钝矢箭袋": {
+    "code": "Blunt_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverBlunt.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "火灵箭袋": {
+    "code": "Fire_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverFire.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "宽矢箭袋": {
+    "code": "Broadhead_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverBroadhead.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "穿射箭袋": {
+    "code": "Penetrating_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverPenetrating.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "刺锋箭袋": {
+    "code": "Spike-Point_Arrow_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/QuiverSpike-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "华美箭袋": {
+    "code": "Ornate_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/TriggerQuiverUnique.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "火炮箭袋": {
+    "code": "Artillery_Quiver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Quivers/ChiselQuiver.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "金环": {
+    "code": "Golden_Hoop",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/DemigodsBand.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "锻铁戒指": {
+    "code": "Iron_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "珊瑚戒指": {
+    "code": "Coral_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "海灵戒指": {
+    "code": "Paua_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring3.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "金光戒指": {
+    "code": "Gold_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring4.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "黄玉戒指": {
+    "code": "Topaz_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring5.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "蓝玉戒指": {
+    "code": "Sapphire_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring6.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "红玉戒指": {
+    "code": "Ruby_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring7.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "三相戒指": {
+    "code": "Prismatic_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Ring12.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "月光石戒指": {
+    "code": "Moonstone_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/MoonstoneRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "紫晶戒指": {
+    "code": "Amethyst_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/AmethystRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "宝钻戒指": {
+    "code": "Diamond_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/DiamondRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "双玉戒指": {
+    "code": "Two-Stone_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/SapphireRuby.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "潜能之戒": {
+    "code": "Unset_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/Empty-Socket.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "齿轮戒指": {
+    "code": "Cogwork_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/HeistRing1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "地线戒指": {
+    "code": "Geodesic_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/HeistRing2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "杰特戒指": {
+    "code": "Jet_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/RingoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "合金戒指": {
+    "code": "Steel_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/AdamantineRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "蛋白石戒指": {
+    "code": "Opal_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/OpalRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "朱砂之戒": {
+    "code": "Vermillion_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/VermillionRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "天蓝之戒": {
+    "code": "Cerulean_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/CeruleanRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "青石戒指": {
+    "code": "Iolite_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/ChaosDmgRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "裂隙戒指": {
+    "code": "Breach_Ring",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Rings/BreachRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "朽木短杖": {
+    "code": "Driftwood_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter1.png?w=1&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "乌木短杖": {
+    "code": "Darkwood_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "铜锻短杖": {
+    "code": "Bronze_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "石英短杖": {
+    "code": "Quartz_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "冷铁短杖": {
+    "code": "Iron_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "赤色短杖": {
+    "code": "Ochre_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "祭仪短杖": {
+    "code": "Ritual_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "影语短杖": {
+    "code": "Shadow_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "犄角短杖": {
+    "code": "Horned_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "远古之祭": {
+    "code": "Grinning_Fetish",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "威能短杖": {
+    "code": "Sekhem",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "水晶短杖": {
+    "code": "Crystal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "铅铸短杖": {
+    "code": "Lead_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "血色短杖": {
+    "code": "Blood_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "皇家短杖": {
+    "code": "Royal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "深渊短杖": {
+    "code": "Abyssal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "灵鹿短杖": {
+    "code": "Stag_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "卡鲁短杖": {
+    "code": "Karui_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "暴君之统": {
+    "code": "Tyrants_Sekhem",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "灵石短杖": {
+    "code": "Opal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "白金短杖": {
+    "code": "Platinum_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "瓦尔短杖": {
+    "code": "Vaal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "禁礼短杖": {
+    "code": "Carnal_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "虚影短杖": {
+    "code": "Void_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "恶魔短杖": {
+    "code": "Sambar_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "摇摆短杖": {
+    "code": "Oscillating_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "平稳短杖": {
+    "code": "Stabilising_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "变化短杖": {
+    "code": "Alternating_Sceptre",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "朽木塔盾": {
+    "code": "Splintered_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr1.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "斑驳塔盾": {
+    "code": "Corroded_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr2.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "生皮塔盾": {
+    "code": "Rawhide_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "松木塔盾": {
+    "code": "Cedar_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "铜锻塔盾": {
+    "code": "Copper_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "强化塔盾": {
+    "code": "Reinforced_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "彩绘塔盾": {
+    "code": "Painted_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "鹿皮塔盾": {
+    "code": "Buckskin_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "桃木塔盾": {
+    "code": "Mahogany_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "青铜塔盾": {
+    "code": "Bronze_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "征战塔盾": {
+    "code": "Girded_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "荣冠塔盾": {
+    "code": "Crested_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "粗革塔盾": {
+    "code": "Shagreen_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "乌木塔盾": {
+    "code": "Ebony_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "艾兹麦塔盾": {
+    "code": "Ezomyte_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "巨型塔盾": {
+    "code": "Colossal_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "坚毅塔盾": {
+    "code": "Pinnacle_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "排热型塔盾": {
+    "code": "Exothermic_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "熔岩塔盾": {
+    "code": "Magmatic_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "适热型塔盾": {
+    "code": "Heat-attuned_Tower_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "羊皮轻盾": {
+    "code": "Goathide_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "松木轻盾": {
+    "code": "Pine_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "彩绘轻盾": {
+    "code": "Painted_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "铆钉轻盾": {
+    "code": "Hammered_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "战争轻盾": {
+    "code": "War_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "金面轻盾": {
+    "code": "Gilded_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "橡木轻盾": {
+    "code": "Oak_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "釉彩轻盾": {
+    "code": "Enameled_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "波纹轻盾": {
+    "code": "Corrugated_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "斗者轻盾": {
+    "code": "Battle_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "金阳轻盾": {
+    "code": "Golden_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "钢木轻盾": {
+    "code": "Ironwood_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "漆彩轻盾": {
+    "code": "Lacquered_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "瓦尔轻盾": {
+    "code": "Vaal_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "圣战轻盾": {
+    "code": "Crusader_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "帝国轻盾": {
+    "code": "Imperial_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "吸热型轻盾": {
+    "code": "Endothermic_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "极地轻盾": {
+    "code": "Polar_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "适寒型轻盾": {
+    "code": "Cold-attuned_Buckler",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "残枝魔盾": {
+    "code": "Twig_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "紫衫魔盾": {
+    "code": "Yew_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "骨制魔盾": {
+    "code": "Bone_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "环形魔盾": {
+    "code": "Tarnished_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "灵相魔盾": {
+    "code": "Jingling_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "铜锻魔盾": {
+    "code": "Brass_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "桃木魔盾": {
+    "code": "Walnut_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "象牙魔盾": {
+    "code": "Ivory_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "远古魔盾": {
+    "code": "Ancient_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "魂相魔盾": {
+    "code": "Chiming_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "暗金魔盾": {
+    "code": "Thorium_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "软橡魔盾": {
+    "code": "Lacewood_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "石化魔盾": {
+    "code": "Fossilised_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "瓦尔魔盾": {
+    "code": "Vaal_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "和谐魔盾": {
+    "code": "Harmonic_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "巨人魔盾": {
+    "code": "Titanium_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "力竭魔盾": {
+    "code": "Exhausting_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "归纳魔盾": {
+    "code": "Subsuming_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "适应型魔盾": {
+    "code": "Transfer-attuned_Spirit_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "朽木圆盾": {
+    "code": "Rotted_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "杉木圆盾": {
+    "code": "Fir_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "铆钉圆盾": {
+    "code": "Studded_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "炽红圆盾": {
+    "code": "Scarlet_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "光辉圆盾": {
+    "code": "Splendid_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "枫木圆盾": {
+    "code": "Maple_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "尖刺圆盾": {
+    "code": "Spiked_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "绯红圆盾": {
+    "code": "Crimson_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "古代圆盾": {
+    "code": "Baroque_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "柚木圆盾": {
+    "code": "Teak_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "棘刺圆盾": {
+    "code": "Spiny_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "祭者圆盾": {
+    "code": "Cardinal_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "权贵圆盾": {
+    "code": "Elegant_Round_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "朽木鸢盾": {
+    "code": "Plank_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "椴木鸢盾": {
+    "code": "Linden_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "强化鸢盾": {
+    "code": "Reinforced_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "层板鸢盾": {
+    "code": "Layered_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "祭仪鸢盾": {
+    "code": "Ceremonial_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "刻文鸢盾": {
+    "code": "Etched_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "冷钢鸢盾": {
+    "code": "Steel_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "合板鸢盾": {
+    "code": "Laminated_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "天使鸢盾": {
+    "code": "Angelic_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "圣记鸢盾": {
+    "code": "Branded_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "斗士鸢盾": {
+    "code": "Champion_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "厚装鸢盾": {
+    "code": "Mosaic_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "威能鸢盾": {
+    "code": "Archon_Kite_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "尖木刺盾": {
+    "code": "Spiked_Bundle",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "朽木刺盾": {
+    "code": "Driftwood_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "合金刺盾": {
+    "code": "Alloyed_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "冷芒刺盾": {
+    "code": "Burnished_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "华丽刺盾": {
+    "code": "Ornate_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "红木刺盾": {
+    "code": "Redwood_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "复合刺盾": {
+    "code": "Compound_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "光辉刺盾": {
+    "code": "Polished_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "王权刺盾": {
+    "code": "Sovereign_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "桤木刺盾": {
+    "code": "Alder_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "艾兹麦刺盾": {
+    "code": "Ezomyte_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "钢镜刺盾": {
+    "code": "Mirrored_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "霸者刺盾": {
+    "code": "Supreme_Spiked_Shield",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "黄金圣炎": {
+    "code": "Golden_Flame",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Armours/Shields/DemigodsShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "朽木之干": {
+    "code": "Gnarled_Branch",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff1.png?w=1&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "粗制长杖": {
+    "code": "Primitive_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "长杖": {
+    "code": "Long_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "皇家长杖": {
+    "code": "Royal_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "新月长杖": {
+    "code": "Crescent_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "坚木长杖": {
+    "code": "Woodful_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "细柄长杖": {
+    "code": "Quarterstaff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "贵族长杖": {
+    "code": "Highborn_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "月神长杖": {
+    "code": "Moon_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "史典长杖": {
+    "code": "Primordial_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "武术长杖": {
+    "code": "Lathi",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "帝国长杖": {
+    "code": "Imperial_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "月蚀长杖": {
+    "code": "Eclipse_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "变形长杖": {
+    "code": "Transformer_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "交换长杖": {
+    "code": "Reciprocation_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "蓄能长杖": {
+    "code": "Battery_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "铁锻长杖": {
+    "code": "Iron_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "强化长杖": {
+    "code": "Coiled_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "毒牙长杖": {
+    "code": "Vile_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "军用长杖": {
+    "code": "Military_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "蛇纹长杖": {
+    "code": "Serpentine_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "恶灵长杖": {
+    "code": "Foul_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "艾兹麦长杖": {
+    "code": "Ezomyte_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "风暴长杖": {
+    "code": "Maelstr%C3%B6m_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "审判长杖": {
+    "code": "Judgement_Staff",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "载荷之杖": {
+    "code": "Capacity_Rod",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "潜力之杖": {
+    "code": "Potentiality_Rod",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "潜能之杖": {
+    "code": "Eventuality_Rod",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "石斧": {
+    "code": "Stone_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "碎玉大斧": {
+    "code": "Jade_Chopper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "柴斧": {
+    "code": "Woodsplitter",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "巨战斧": {
+    "code": "Poleaxe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "双刃巨斧": {
+    "code": "Double_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "金柄之斧": {
+    "code": "Gilded_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "幽影巨斧": {
+    "code": "Shadow_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "匕斧": {
+    "code": "Dagger_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "灵玉巨斧": {
+    "code": "Jasper_Chopper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "裂木巨斧": {
+    "code": "Timber_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "行刑巨斧": {
+    "code": "Headsman_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "双影巨斧": {
+    "code": "Labrys",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "权贵巨斧": {
+    "code": "Noble_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "深渊巨斧": {
+    "code": "Abyssal_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "猛禽爪斧": {
+    "code": "Talon_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "卡鲁巨斧": {
+    "code": "Karui_Chopper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "裂甲巨斧": {
+    "code": "Sundering_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "艾兹麦巨斧": {
+    "code": "Ezomyte_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "瓦尔巨斧": {
+    "code": "Vaal_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "霸主巨斧": {
+    "code": "Despot_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "虚影巨斧": {
+    "code": "Void_Axe",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "裂肉者": {
+    "code": "Fleshripper",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "首要砍刀": {
+    "code": "Prime_Cleaver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "磨利砍刀": {
+    "code": "Honed_Cleaver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "锋锐砍刀": {
+    "code": "Apex_Cleaver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "朽木巨锤": {
+    "code": "Driftwood_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace1.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "祭仪巨锤": {
+    "code": "Tribal_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "千斤锤": {
+    "code": "Mallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "冷铁重锤": {
+    "code": "Sledgehammer",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "狼牙重锤": {
+    "code": "Jagged_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "铜影巨锤": {
+    "code": "Brass_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "恐惧重锤": {
+    "code": "Fright_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "晨星": {
+    "code": "Morning_Star",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "图腾巨锤": {
+    "code": "Totemic_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "刚猛巨锤": {
+    "code": "Great_Mallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "沉钢重锤": {
+    "code": "Steelhead",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "凶刺巨锤": {
+    "code": "Spiny_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "华丽重锤": {
+    "code": "Plated_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "威权巨锤": {
+    "code": "Dread_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "日光锤": {
+    "code": "Solar_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "卡鲁重锤": {
+    "code": "Karui_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "巨型重锤": {
+    "code": "Colossus_Mallet",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "扫荡者": {
+    "code": "Piledriver",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "戮魂重锤": {
+    "code": "Meatgrinder",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "帝国重锤": {
+    "code": "Imperial_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "惧灵重锤": {
+    "code": "Terror_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "花冠重锤": {
+    "code": "Coronal_Maul",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "钝击之力凝聚器": {
+    "code": "Blunt_Force_Condenser",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "破坏之力放大器": {
+    "code": "Crushing_Force_Magnifier",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "冲击之力扩散器": {
+    "code": "Impact_Force_Propagator",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "锈斑巨剑": {
+    "code": "Corroded_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1.png?w=1&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "大剑": {
+    "code": "Longsword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "重剑": {
+    "code": "Bastard_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "双手剑": {
+    "code": "Two-Handed_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "术雕巨剑": {
+    "code": "Etched_Greatsword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "名贵巨剑": {
+    "code": "Ornate_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "幽魂巨剑": {
+    "code": "Spectral_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "弯刃": {
+    "code": "Curved_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "冷血巨剑": {
+    "code": "Butcher_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "士兵巨剑": {
+    "code": "Footman_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "高山重刃": {
+    "code": "Highland_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "符文巨剑": {
+    "code": "Engraved_Greatsword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "虎牙巨剑": {
+    "code": "Tiger_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "凶灵巨剑": {
+    "code": "Wraith_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "细刃": {
+    "code": "Lithe_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "行刑巨剑": {
+    "code": "Headmans_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "残暴巨剑": {
+    "code": "Reaver_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "艾兹麦巨剑": {
+    "code": "Ezomyte_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "瓦尔巨剑": {
+    "code": "Vaal_Greatsword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "狮爪巨剑": {
+    "code": "Lion_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "狱炎重剑": {
+    "code": "Infernal_Sword",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "精致之刃": {
+    "code": "Exquisite_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "责难刀": {
+    "code": "Rebuking_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "爆破刀": {
+    "code": "Blasting_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "放逐刀": {
+    "code": "Banishing_Blade",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "朽木法杖": {
+    "code": "Driftwood_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand1.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "羊角法杖": {
+    "code": "Goats_Horn",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "粗纹法杖": {
+    "code": "Carved_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "石英法杖": {
+    "code": "Quartz_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "螺纹法杖": {
+    "code": "Spiraled_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "贤者法杖": {
+    "code": "Sage_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "异教法杖": {
+    "code": "Pagan_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "兽角法杖": {
+    "code": "Fauns_Horn",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "符文法杖": {
+    "code": "Engraved_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "水晶法杖": {
+    "code": "Crystal_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "蛇眼法杖": {
+    "code": "Serpent_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "灵兆法杖": {
+    "code": "Omen_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "异徒法杖": {
+    "code": "Heathen_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "魔角法杖": {
+    "code": "Demons_Horn",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "魔性法杖": {
+    "code": "Imbued_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "灵石法杖": {
+    "code": "Opal_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "狂风法杖": {
+    "code": "Tornado_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "箴言法杖": {
+    "code": "Prophecy_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "亵渎法杖": {
+    "code": "Profane_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "装配法杖": {
+    "code": "Assembler_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "集合法杖": {
+    "code": "Congregator_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "蓄能法杖": {
+    "code": "Accumulator_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "召集法杖": {
+    "code": "Convoking_Wand",
+    "img": "https://poe.game.qq.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/ConvokingWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  }
+}

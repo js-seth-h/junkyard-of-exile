@@ -1,0 +1,1782 @@
+[
+  {
+    "kr": "공격 시 화염 피해 #~# 추가",
+    "us": "Adds # to # Fire Damage to Attacks",
+    "ru": "Добавляет от # до # урона от огня к атакам",
+    "pt": "Adiciona # a # de Dano de Fogo em Ataques",
+    "th": "เสริมความเสียหาย ไฟ # ถึง # ให้กับการโจมตี",
+    "fr": "Ajoute # à # Dégâts de feu aux Attaques",
+    "de": "Fügt Angriffen # bis # Feuerschaden hinzu",
+    "sp": "Agrega # a # de Daño de Fuego a los Ataques"
+  },
+  {
+    "kr": "공격 시 번개 피해 #~# 추가",
+    "us": "Adds # to # Lightning Damage to Attacks",
+    "ru": "Добавляет от # до # урона от молнии к атакам",
+    "pt": "Adiciona # a # de Dano de Raio em Ataques",
+    "th": "เสริมความเสียหาย สายฟ้า # ถึง # ให้กับการโจมตี",
+    "fr": "Ajoute # à # Dégâts de foudre aux Attaques",
+    "de": "Fügt Angriffen # bis # Blitzschaden hinzu",
+    "sp": "Agrega # a # de Daño de Rayo a los Ataques"
+  },
+  {
+    "kr": "공격 시 물리 피해 #~# 추가",
+    "us": "Adds # to # Physical Damage to Attacks",
+    "ru": "Добавляет от # до # физического урона к атакам",
+    "pt": "Adiciona # a # de Dano Físico em Ataques",
+    "th": "เสริมความเสียหาย กายภาพ # ถึง # ให้กับการโจมตี",
+    "fr": "Ajoute # à # Dégâts physiques aux Attaques",
+    "de": "Fügt Angriffen # bis # physischen Schaden hinzu",
+    "sp": "Agrega # a # de Daño Físico a los Ataques"
+  },
+  {
+    "kr": "생명력 최대치 #",
+    "us": "# to maximum Life",
+    "ru": "# к максимуму здоровья",
+    "pt": "# de Vida máxima",
+    "th": "ค่า พลังชีวิตสูงสุด #",
+    "fr": "# de Vie maximale",
+    "de": "# zu maximalem Leben",
+    "sp": "# de Vida máxima"
+  },
+  {
+    "kr": "방어도 #% 증가",
+    "us": "#% increased Armour",
+    "ru": "#% повышение брони",
+    "pt": "Armadura aumentada em #%",
+    "th": "เพิ่มค่า เกราะ #%",
+    "fr": "#% d'Augmentation de l'Armure",
+    "de": "#% erhöhte Rüstung",
+    "sp": "Armadura aumentada un #%"
+  },
+  {
+    "kr": "공격 시 냉기 피해 #~# 추가",
+    "us": "Adds # to # Cold Damage to Attacks",
+    "ru": "Добавляет от # до # урона от холода к атакам",
+    "pt": "Adiciona # a # de Dano de Gelo em Ataques",
+    "th": "เสริมความเสียหาย น้ำแข็ง # ถึง # ให้กับการโจมตี",
+    "fr": "Ajoute # à # Dégâts de froid aux Attaques",
+    "de": "Fügt Angriffen # bis # Kälteschaden hinzu",
+    "sp": "Agrega # a # de Daño de Hielo a los Ataques"
+  },
+  {
+    "kr": "회피 #% 증가",
+    "us": "#% increased Evasion Rating",
+    "ru": "#% увеличение уклонения",
+    "pt": "Evasão aumentada em #%",
+    "th": "เพิ่มอัตราการหลบหลีกขึ้น #%",
+    "fr": "#% d'Augmentation du Score d'Évasion",
+    "de": "#% erhöhter Ausweichwert",
+    "sp": "Evasión aumentada un #%"
+  },
+  {
+    "kr": "물리 공격 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Physical Attack Damage Leeched as Life",
+    "ru": "#% физического урона от атак похищается в виде здоровья",
+    "pt": "#% do Dano de Ataques Físicos é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย โจมตี กายภาพ ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts physiques des Attaques Drainent de la Vie",
+    "de": "#% des physischen Angriffsschadens werden als Leben geraubt",
+    "sp": "#% del Daño de Ataques Físicos se Absorbe como Vida"
+  },
+  {
+    "kr": "물리 공격 피해의 #%를 마나로 흡수",
+    "us": "#% of Physical Attack Damage Leeched as Mana",
+    "ru": "#% физического урона от атак похищается в виде маны",
+    "pt": "#% do Dano de Ataques Físicos é Drenado como Mana",
+    "th": "ดูด #% ของความเสียหาย โจมตี กายภาพ ไปเป็น มานา",
+    "fr": "#% des Dégâts physiques des Attaques Drainent du Mana",
+    "de": "#% des physischen Angriffsschadens werden als Mana geraubt",
+    "sp": "#% del Daño de Ataques Físicos se Absorbe como Maná"
+  },
+  {
+    "kr": "주문 피해 #% 증가",
+    "us": "#% increased Spell Damage",
+    "ru": "#% увеличение урона от чар",
+    "pt": "Dano Mágico aumentado em #%",
+    "th": "เพิ่มความเสียหาย เวทย์ #%",
+    "fr": "#% d'Augmentation des Dégâts des Sorts",
+    "de": "#% erhöhter Zauberschaden",
+    "sp": "Daño de Hechizos aumentado un #%"
+  },
+  {
+    "kr": "에너지 보호막 최대치 #% 증가",
+    "us": "#% increased maximum Energy Shield",
+    "ru": "#% увеличение максимума энергетического щита",
+    "pt": "Escudo de Energia máximo aumentado em #%",
+    "th": "เพิ่มโล่พลังงานสูงสุด #%",
+    "fr": "#% d'Augmentation du Bouclier d'énergie maximal",
+    "de": "#% erhöhter maximaler Energieschild",
+    "sp": "Escudo de Energía máximo aumentado un #%"
+  },
+  {
+    "kr": "에너지 보호막 최대치 #",
+    "us": "# to maximum Energy Shield",
+    "ru": "# к максимуму энергетического щита",
+    "pt": "# de Escudo de Energia máximo",
+    "th": "ค่า โล่พลังงานสูงสุด #",
+    "fr": "# de Bouclier d'énergie maximal",
+    "de": "# zu maximalem Energieschild",
+    "sp": "# de Escudo de Energía máximo"
+  },
+  {
+    "kr": "발견하는 아이템 희귀도 #% 증가",
+    "us": "#% increased Rarity of Items found",
+    "ru": "#% повышение редкости найденных предметов",
+    "pt": "Raridade de Itens encontrados aumentada em #%",
+    "th": "เพิ่มระดับไอเทมหายากที่พบขึ้น #%",
+    "fr": "#% d'Augmentation de la Rareté des Objets cédés",
+    "de": "#% erhöhte Seltenheit gefundener Gegenstände",
+    "sp": "Rareza de Objetos encontrados aumentada un #%"
+  },
+  {
+    "kr": "마나 최대치 #",
+    "us": "# to maximum Mana",
+    "ru": "# к максимуму маны",
+    "pt": "# de Mana máxima",
+    "th": "ค่า มานาสูงสุด #",
+    "fr": "# de Mana maximal",
+    "de": "# zu maximalem Mana",
+    "sp": "# de Maná máximo"
+  },
+  {
+    "kr": "공격 스킬의 원소 피해 #% 증가",
+    "us": "#% increased Elemental Damage with Attack Skills",
+    "ru": "#% увеличение урона от стихий от умений атак",
+    "pt": "Dano Elemental aumentado em #% com Habilidades de Ataque",
+    "th": "เพิ่มความเสียหาย ธาตุ ด้วย สกิลโจมตี #%",
+    "fr": "#% d'Augmentation des Dégâts élémentaires avec les Aptitudes d'Attaque",
+    "de": "#% erhöhter Elementarschaden mit Angriffsfertigkeiten",
+    "sp": "Daño Elemental aumentado un #% con Habilidades de Ataque"
+  },
+  {
+    "kr": "플레이어의 공격으로 명중하는 적 하나당 획득하는 생명력 #",
+    "us": "# Life gained for each Enemy hit by your Attacks",
+    "ru": "# здоровья за каждый удар атаками по врагу",
+    "pt": "# de Vida recebida por cada Inimigo acertado por seus Ataques",
+    "th": "ได้พลังชีวิต # ต่อการโจมตีที่โดนศัตรู",
+    "fr": "# de Vie gagnée par Ennemi Touché par vos Attaques",
+    "de": "Erhaltet # Leben für jeden Gegner, der durch Eure Angriffe getroffen wird",
+    "sp": "# de Vida ganada por cada Enemigo golpeado por tus Ataques"
+  },
+  {
+    "kr": "시전 속도 #% 증가",
+    "us": "#% increased Cast Speed",
+    "ru": "#% повышение скорости сотворения чар",
+    "pt": "Velocidade de Conjuração aumentada em #%",
+    "th": "เพิ่มความเร็วในการร่าย #%",
+    "fr": "#% d'Augmentation de la Vitesse d'incantation",
+    "de": "#% erhöhte Zaubergeschwindigkeit",
+    "sp": "Velocidad de Lanzamiento de Hechizos aumentada un #%"
+  },
+  {
+    "kr": "일반 치명타 확률 #% 증가",
+    "us": "#% increased Global Critical Strike Chance",
+    "ru": "#% повышение глобального шанса критического удара",
+    "pt": "Chance Global de Crítico aumentada em #%",
+    "th": "เพิ่มโอกาสคริติคอล ทุกอย่าง #%",
+    "fr": "#% d'Augmentation des Chances de coup critique Globales",
+    "de": "#% erhöhte globale kritische Trefferchance",
+    "sp": "Probabilidad Global de Golpe Crítico aumentada un #%"
+  },
+  {
+    "kr": "처치 시 생명력 #",
+    "us": "# Life gained on Kill",
+    "ru": "# здоровья за убийство",
+    "pt": "# de Vida recebidos ao Matar",
+    "th": "ได้รับ พลังชีวิต # เมื่อสังหาร",
+    "fr": "# de Vie gagnée en Tuant",
+    "de": "Erhaltet # Leben bei Tötung",
+    "sp": "# de Vida ganada al Matar"
+  },
+  {
+    "kr": "처치 시 마나 #",
+    "us": "# Mana gained on Kill",
+    "ru": "# маны за убийство",
+    "pt": "# de Mana recebida ao Matar",
+    "th": "ได้รับ มานา # เมื่อสังหาร",
+    "fr": "# de Mana gagné en Tuant",
+    "de": "Erhaltet # Mana bei Tötung",
+    "sp": "# de Maná ganado al Matar"
+  },
+  {
+    "kr": "마나 재생 속도 #% 증가",
+    "us": "#% increased Mana Regeneration Rate",
+    "ru": "#% повышение скорости регенерации маны",
+    "pt": "Regeneração de Mana aumentada em #%",
+    "th": "เพิ่มอัตราการฟื้นฟูมานา #%",
+    "fr": "#% d'Augmentation du Taux de Régénération de Mana",
+    "de": "#% erhöhte Manaregenerations-Rate",
+    "sp": "Velocidad de regeneración de maná aumentada un #%"
+  },
+  {
+    "kr": "번개 피해 #% 증가",
+    "us": "#% increased Lightning Damage",
+    "ru": "#% увеличение урона от молнии",
+    "pt": "Dano de Raio aumentado em #%",
+    "th": "เพิ่มความเสียหาย สายฟ้า #%",
+    "fr": "#% d'Augmentation des Dégâts de foudre",
+    "de": "#% erhöhter Blitzschaden",
+    "sp": "Daño de Rayo aumentado un #%"
+  },
+  {
+    "kr": "냉기 피해 #% 증가",
+    "us": "#% increased Cold Damage",
+    "ru": "#% увеличение урона от холода",
+    "pt": "Dano de Gelo aumentado em #%",
+    "th": "เพิ่มความเสียหาย น้ำแข็ง #%",
+    "fr": "#% d'Augmentation des Dégâts de froid",
+    "de": "#% erhöhter Kälteschaden",
+    "sp": "Daño de Hielo aumentado un #%"
+  },
+  {
+    "kr": "화염 피해 #% 증가",
+    "us": "#% increased Fire Damage",
+    "ru": "#% увеличение урона от огня",
+    "pt": "Dano de Fogo aumentado em #%",
+    "th": "เพิ่มความเสียหาย ไฟ #%",
+    "fr": "#% d'Augmentation des Dégâts de feu",
+    "de": "#% erhöhter Feuerschaden",
+    "sp": "Daño de Fuego aumentado un #%"
+  },
+  {
+    "kr": "일반 치명타 피해 배율 #%",
+    "us": "#% to Global Critical Strike Multiplier",
+    "ru": "#% к глобальному множителю критического удара",
+    "pt": "#% ao Multiplicador Global de Crítico",
+    "th": "ตัวคูณคริติคอล ทุกอย่าง #%",
+    "fr": "#% au Multiplicateur de coup critique Global",
+    "de": "#% zu globalem Multiplikator für kritische Treffer",
+    "sp": "#% al Multiplicador Global de Golpe Crítico"
+  },
+  {
+    "kr": "정확도 #",
+    "us": "# to Accuracy Rating",
+    "ru": "# к меткости",
+    "pt": "# de Precisão",
+    "th": "ค่า ความแม่นยำ #",
+    "fr": "# au Score de Précision",
+    "de": "# zu Treffgenauigkeit",
+    "sp": "# de Precisión"
+  },
+  {
+    "kr": "카오스 저항 #%",
+    "us": "#% to Chaos Resistance",
+    "ru": "#% к сопротивлению хаосу",
+    "pt": "#% de Resistência a Caos",
+    "th": "ต้านทาน เคออส #%",
+    "fr": "#% à la Résistance au chaos",
+    "de": "#% zu Chaoswiderstand",
+    "sp": "#% de Resistencia al Caos"
+  },
+  {
+    "kr": "민첩 #",
+    "us": "# to Dexterity",
+    "ru": "# к ловкости",
+    "pt": "# de Destreza",
+    "th": "ค่า Dexterity #",
+    "fr": "# de Dextérité",
+    "de": "# zu Geschick",
+    "sp": "# de Destreza"
+  },
+  {
+    "kr": "지능 #",
+    "us": "# to Intelligence",
+    "ru": "# к интеллекту",
+    "pt": "# de Inteligência",
+    "th": "ค่า Intelligence #",
+    "fr": "# d'Intelligence",
+    "de": "# zu Intelligenz",
+    "sp": "# de Inteligencia"
+  },
+  {
+    "kr": "힘 #",
+    "us": "# to Strength",
+    "ru": "# к силе",
+    "pt": "# de Força",
+    "th": "ค่า Strength #",
+    "fr": "# de Force",
+    "de": "# zu Stärke",
+    "sp": "# de Fuerza"
+  },
+  {
+    "kr": "냉기 저항 #%",
+    "us": "#% to Cold Resistance",
+    "ru": "#% к сопротивлению холоду",
+    "pt": "#% de Resistência a Gelo",
+    "th": "ต้านทาน น้ำแข็ง #%",
+    "fr": "#% à la Résistance au froid",
+    "de": "#% zu Kältewiderstand",
+    "sp": "#% de Resistencia al Hielo"
+  },
+  {
+    "kr": "화염 저항 #%",
+    "us": "#% to Fire Resistance",
+    "ru": "#% к сопротивлению огню",
+    "pt": "#% de Resistência a Fogo",
+    "th": "ต้านทาน ไฟ #%",
+    "fr": "#% à la Résistance au feu",
+    "de": "#% zu Feuerwiderstand",
+    "sp": "#% de Resistencia al Fuego"
+  },
+  {
+    "kr": "번개 저항 #%",
+    "us": "#% to Lightning Resistance",
+    "ru": "#% к сопротивлению молнии",
+    "pt": "#% de Resistência a Raio",
+    "th": "ต้านทาน สายฟ้า #%",
+    "fr": "#% à la Résistance à la foudre",
+    "de": "#% zu Blitzwiderstand",
+    "sp": "#% de Resistencia al Rayo"
+  },
+  {
+    "kr": "모든 능력치 #",
+    "us": "# to all Attributes",
+    "ru": "# ко всем характеристикам",
+    "pt": "# de todos Atributos",
+    "th": "ค่า คุณสมบัติทั้งหมด #",
+    "fr": "# à tous les Attributs",
+    "de": "# zu allen Attributen",
+    "sp": "# a todos los Atributos"
+  },
+  {
+    "kr": "모든 원소 저항 #%",
+    "us": "#% to all Elemental Resistances",
+    "ru": "#% к сопротивлению всем стихиям",
+    "pt": "#% de todas Resistências Elementais",
+    "th": "ต้านทาน ทุกธาตุ #%",
+    "fr": "#% à toutes les Résistances élémentaires",
+    "de": "#% zu allen Elementarwiderständen",
+    "sp": "#% a todas las Resistencias Elementales"
+  },
+  {
+    "kr": "스킬 사용 시 #%의 확률로 마나의 10% 회복",
+    "us": "#% chance to Recover 10% of Mana when you use a Skill",
+    "ru": "#% шанс восстановить 10% маны, когда вы используете умение",
+    "pt": "#% de chance de Recuperar 10% da Mana ao usar uma Habilidade",
+    "th": "มีโอกาส #% ที่จะฟื้นฟูมานา 10% เมื่อคุณใช้สกิล",
+    "fr": "#% de chances de Récupérer 10% de Mana lorsque vous utilisez une Aptitude",
+    "de": "#% Chance, 10% des Manas wiederherzustellen, wenn Ihr eine Fertigkeit benutzt",
+    "sp": "#% de probabilidad de recuperar un 10% de maná cuando usas una habilidad"
+  },
+  {
+    "kr": "플레이어에게 적용되는 방어 상승 효과 #% 증가",
+    "us": "#% increased Effect of Fortify on you",
+    "ru": "#% усиление эффекта Укрепления на вас",
+    "pt": "Efeito do Fortificar em você aumentado em #%",
+    "th": "เพิ่มผลของบัฟ Fortify ที่มีต่อคุณ #%",
+    "fr": "#% d'Augmentation de l'Effet de Renforcement sur vous",
+    "de": "#% erhöhte Wirkung von Verstärken auf Euch",
+    "sp": "Efecto de Fortificar aumentado un #% sobre Ti"
+  },
+  {
+    "kr": "생명력 흡수 시 초당 회복량 #% 증가",
+    "us": "#% increased Recovery per second from Life Leech",
+    "ru": "#% увеличение восстановления здоровья в секунду от похищения",
+    "pt": "Recuperação por segundo do Dreno de Vida aumentada em #%",
+    "th": "เพิ่มอัตราการเติมจากการดูด พลังชีวิต #%",
+    "fr": "#% d'Augmentation du Drain de Vie par seconde",
+    "de": "#% erhöhte Wiederherstellung pro Sekunde, die durch Lebensraub erfolgt",
+    "sp": "Recuperación por segundo por absorción de vida aumentada un #%"
+  },
+  {
+    "kr": "지속 피해 배율 #%",
+    "us": "#% to Damage over Time Multiplier",
+    "ru": "#% к множителю постепенного урона",
+    "pt": "#% de Multiplicador do Dano Degenerativo",
+    "th": "ตัวคูณความเสียหายต่อเนื่อง #%",
+    "fr": "#% au Multiplicateur des dégâts sur la durée",
+    "de": "#% zu Multiplikator für Schaden über Zeit",
+    "sp": "#% al Multiplicador de Daño Degenerativo"
+  },
+  {
+    "kr": "공격 속도 #% 증가",
+    "us": "#% increased Attack Speed",
+    "ru": "#% повышение скорости атаки",
+    "pt": "Velocidade de Ataque aumentada em #%",
+    "th": "เพิ่มความเร็วในการโจมตี #%",
+    "fr": "#% d'Augmentation de la Vitesse d'attaque",
+    "de": "#% erhöhte Angriffsgeschwindigkeit",
+    "sp": "Velocidad de Ataque aumentada un #%"
+  },
+  {
+    "kr": "카오스 피해 #% 증가",
+    "us": "#% increased Chaos Damage",
+    "ru": "#% увеличение урона хаосом",
+    "pt": "Dano de Caos aumentado em #%",
+    "th": "เพิ่มความเสียหาย เคออส #%",
+    "fr": "#% d'Augmentation des Dégâts de chaos",
+    "de": "#% erhöhter Chaosschaden",
+    "sp": "Daño de Caos aumentado un #%"
+  },
+  {
+    "kr": "소환수의 이동 속도 #% 증가",
+    "us": "Minions have #% increased Movement Speed",
+    "ru": "Приспешники имеют #% повышение скорости передвижения",
+    "pt": "Lacaios têm #% da Velocidade de Movimento aumentada",
+    "th": "เพิ่มความเร็วในการเคลื่อนที่ ของมิเนียน #%",
+    "fr": "Les Créatures ont #% d'Augmentation de la Vitesse de déplacement",
+    "de": "Kreaturen haben #% erhöhte Bewegungsgeschwindigkeit",
+    "sp": "Los Esbirros tienen Velocidad de Movimiento aumentada un #%"
+  },
+  {
+    "kr": "1초마다 생명력 # 재생",
+    "us": "Regenerate # Life per second",
+    "ru": "Регенерация # здоровья в секунду",
+    "pt": "# de Vida Regenerada por segundo",
+    "th": "ฟื้นฟูพลังชีวิต # ต่อวินาที",
+    "fr": "# de Vie Régénérée par seconde",
+    "de": "Regeneriert # Leben pro Sekunde",
+    "sp": "Regeneras # de vida por segundo"
+  },
+  {
+    "kr": "흡수 시 초당 총 에너지 보호막 회복량 최대치 #% 증가",
+    "us": "#% increased Maximum total Energy Shield Recovery per second from Leech",
+    "ru": "#% увеличение максимального итогового восстановления энергетического щита в секунду от похищения",
+    "pt": "Recuperação de Escudo de Energia Máxima total do Dreno por segundo aumentada em #%",
+    "th": "เพิ่มอัตราการเติม โล่พลังงาน สุทธิสูงสุด จากการดูด #%",
+    "fr": "#% d'Augmentation du Drain de Bouclier d'énergie maximal par seconde",
+    "de": "#% erhöhte maximale Energieschild-Gesamtwiederherstellung pro Sekunde durch Raub",
+    "sp": "Recuperación de escudo de energía total máximo por segundo por absorción aumentada un #%"
+  },
+  {
+    "kr": "흡수 시 초당 총 생명력 회복량 최대치 #% 증가",
+    "us": "#% increased Maximum total Life Recovery per second from Leech",
+    "ru": "#% увеличение максимального итогового восстановления здоровья в секунду от похищения",
+    "pt": "Recuperação de Vida Máxima total do Dreno por segundo aumentada em #%",
+    "th": "เพิ่มอัตราการเติม พลังชีวิต สุทธิสูงสุด จากการดูด #%",
+    "fr": "#% d'Augmentation du Drain de Vie par seconde maximal",
+    "de": "#% erhöhte maximale Lebens-Gesamtwiederherstellung pro Sekunde durch Raub",
+    "sp": "Recuperación de vida total máxima por segundo por absorción aumentada un #%"
+  },
+  {
+    "kr": "번개 피해의 #%를 에너지 보호막으로 흡수",
+    "us": "#% of Lightning Damage Leeched as Energy Shield",
+    "ru": "#% урона от молнии похищается в виде энергетического щита",
+    "pt": "#% do Dano de Raio Drenado como Escudo de Energia",
+    "th": "ดูด #% ของความเสียหาย สายฟ้า ไปเป็น โล่พลังงาน",
+    "fr": "#% de vos Dégâts de foudre Drainent du Bouclier d'énergie",
+    "de": "#% des Blitzschadens werden als Energieschild geraubt",
+    "sp": "#% del Daño de Rayo se absorbe como Escudo de Energía"
+  },
+  {
+    "kr": "번개 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Lightning Damage Leeched as Life",
+    "ru": "#% урона от молнии похищается в виде здоровья",
+    "pt": "#% do Dano de Raio é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย สายฟ้า ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts de foudre Drainent de la Vie",
+    "de": "#% des Blitzschadens werden als Leben geraubt",
+    "sp": "#% del Daño de Rayo se Absorbe como Vida"
+  },
+  {
+    "kr": "물리 피해의 #%를 추가 번개 피해로 획득",
+    "us": "Gain #% of Physical Damage as Extra Lightning Damage",
+    "ru": "Дарует #% от физического урона в виде дополнительного урона от молнии",
+    "pt": "Receba #% do Dano Físico como Dano de Raio Extra",
+    "th": "นำ #% ของความเสียหาย กายภาพ ไปเสริมเป็น สายฟ้า",
+    "fr": "Rajoutez #% des Dégâts physiques sous forme de Dégâts de foudre",
+    "de": "Erhaltet #% des physischen Schadens als extra Blitzschaden",
+    "sp": "Gana #% de Daño Físico como Daño Extra de Rayo"
+  },
+  {
+    "kr": "지능 15당 피해 #% 증가",
+    "us": "#% increased Damage per 15 Intelligence",
+    "ru": "#% увеличение урона за каждые 15 интеллекта",
+    "pt": "Dano aumentado em #% a cada 15 de Inteligência",
+    "th": "โจมตีแรงขึ้น #% ต่อ 15 Intelligence",
+    "fr": "#% d'Augmentation de Dégâts tous les 15 d'Intelligence",
+    "de": "#% erhöhter Schaden pro 15 Intelligenz",
+    "sp": "Daño aumentado un #% por cada 15 de Inteligencia"
+  },
+  {
+    "kr": "권능 충전 하나당 피해 #% 증가",
+    "us": "#% increased Damage per Power Charge",
+    "ru": "#% увеличение урона за заряд энергии",
+    "pt": "Dano aumentado em #% por Carga de Poder",
+    "th": "เพิ่มความเสียหาย #% ต่อ Power Charge หนึ่งลูก",
+    "fr": "#% d'Augmentation des Dégâts par Charge de pouvoir",
+    "de": "#% erhöhter Schaden pro Energie-Ladung",
+    "sp": "Daño aumentado un #% por cada Carga de Poder"
+  },
+  {
+    "kr": "모든 번개 스킬 젬 레벨 #",
+    "us": "# to Level of all Lightning Skill Gems",
+    "ru": "# к уровню всех камней умений молнии",
+    "pt": "# ao Nível de todas as Gemas Habilidade de Raio",
+    "th": "เลเวลของหินสกิล สายฟ้า ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de foudre",
+    "de": "# zur Stufe aller Blitz-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de rayo"
+  },
+  {
+    "kr": "피해가 #%의 번개 저항 관통",
+    "us": "Damage Penetrates #% Lightning Resistance",
+    "ru": "Урон пробивает #% сопротивления молнии",
+    "pt": "Dano Penetra #% de Resistência a Raio",
+    "th": "เจาะต้านทาน สายฟ้า #%",
+    "fr": "Les Dégâts ont #% de Pénétration de Résistance à la foudre",
+    "de": "Schaden durchdringt #% Blitzwiderstand",
+    "sp": "El Daño Penetra #% de la Resistencia al Rayo"
+  },
+  {
+    "kr": "주문 피해 막기 확률 최대치 #%",
+    "us": "#% to maximum Chance to Block Spell Damage",
+    "ru": "#% к максимальному шансу блокировать урон от чар",
+    "pt": "#% à Chance máxima de Bloquear Dano Mágico",
+    "th": "โอกาสในการบล็อคเวทย์สูงสุด #%",
+    "fr": "#% aux Chances maximales de Bloquer les Dégâts des Sorts",
+    "de": "#% zu maximaler Chance, Zauberschaden zu blocken",
+    "sp": "#% a la probabilidad máxima de Bloquear Daño de Hechizos"
+  },
+  {
+    "kr": "지능 #% 증가",
+    "us": "#% increased Intelligence",
+    "ru": "#% повышение интеллекта",
+    "pt": "Inteligência aumentada em #%",
+    "th": "เพิ่ม Intelligence ขึ้น #%",
+    "fr": "#% d'Augmentation de l'Intelligence",
+    "de": "#% erhöhte Intelligenz",
+    "sp": "Inteligencia aumentada un #%"
+  },
+  {
+    "kr": "단련의 점유 #% 감소",
+    "us": "Discipline has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Дисциплиной",
+    "pt": "Disciplina tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Discipline #%",
+    "fr": "Discipline a #% de Réduction de Réservation",
+    "de": "'Disziplin' hat #% verringerte Reservierung",
+    "sp": "Disciplina tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "번개의 순수함의 점유 #% 감소",
+    "us": "Purity of Lightning has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Спасением от молний",
+    "pt": "Pureza do Raio tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Purity of Lightning #%",
+    "fr": "Pureté de la foudre a #% de Réduction de Réservation",
+    "de": "'Reinheit des Blitzes' hat #% verringerte Reservierung",
+    "sp": "Pureza de rayo tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "1초마다 에너지 보호막 #% 재생",
+    "us": "Regenerate #% of Energy Shield per second",
+    "ru": "Регенерация #% энергетического щита в секунду",
+    "pt": "#% do Escudo de Energia Regenerado por segundo",
+    "th": "ฟื้นฟู #% ของโล่พลังงานต่อวินาที",
+    "fr": "#% du Bouclier d'énergie est Régénéré par seconde",
+    "de": "Regeneriert #% des Energieschilds pro Sekunde",
+    "sp": "#% del Escudo de Energía Regenerado por segundo"
+  },
+  {
+    "kr": "진노의 점유 #% 감소",
+    "us": "Wrath has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Грозным гневом",
+    "pt": "Ira tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Wrath #%",
+    "fr": "Fureur a #% de Réduction de Réservation",
+    "de": "'Zorn' hat #% verringerte Reservierung",
+    "sp": "Cólera tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "열광의 점유 #% 감소",
+    "us": "Zealotry has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Фанатизмом",
+    "pt": "Fanatismo tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Zealotry #%",
+    "fr": "Fanatisme a #% de Réduction de Réservation",
+    "de": "'Glaubenseifer' hat #% verringerte Reservierung",
+    "sp": "Exaltación tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "#%의 확률로 주문 피해를 막아냄",
+    "us": "#% Chance to Block Spell Damage",
+    "ru": "#% шанс блокировать урон от чар",
+    "pt": "#% de Chance de Bloquear o Dano Mágico",
+    "th": "โอกาสบล็อคเวทย์ #%",
+    "fr": "#% de Chances de Bloquer les Dégâts des Sorts",
+    "de": "#% Chance, Zauberschaden zu blocken",
+    "sp": "#% a la probabilidad de Bloquear Daño de Hechizos"
+  },
+  {
+    "kr": "카오스 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Chaos Damage Leeched as Life",
+    "ru": "#% урона хаосом похищается в виде здоровья",
+    "pt": "#% do Dano de Caos é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย เคออส ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts de chaos Drainent de la Vie",
+    "de": "#% des Chaosschadens werden als Leben geraubt",
+    "sp": "#% del Daño de Caos se Absorbe como Vida"
+  },
+  {
+    "kr": "물리 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Physical Damage Leeched as Life",
+    "ru": "#% от физического урона похищается в виде здоровья",
+    "pt": "#% do Dano Físico é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย กายภาพ ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts physiques Drainent de la Vie",
+    "de": "#% des physischen Schadens werden als Leben geraubt",
+    "sp": "#% del Daño Físico se Absorbe como Vida"
+  },
+  {
+    "kr": "투사체가 대상을 추가 관통",
+    "us": "Projectiles Pierce an additional Target",
+    "ru": "Снаряды пронзают дополнительную цель",
+    "pt": "Projéteis Perfuram um Alvo adicional",
+    "th": "กระสุนจะเจาะเกราะเป้าหมายเพิ่มอีกเป้า",
+    "fr": "Les Projectiles Transpercent une cible supplémentaire",
+    "de": "Projektile durchbohren ein zusätzliches Ziel",
+    "sp": "Los Proyectiles Perforan un Objetivo adicional"
+  },
+  {
+    "kr": "이동 속도 #% 증가",
+    "us": "#% increased Movement Speed",
+    "ru": "#% повышение скорости передвижения",
+    "pt": "Velocidade de Movimento aumentada em #%",
+    "th": "เพิ่มความเร็วในการเคลื่อนที่ขึ้น #%",
+    "fr": "#% d'Augmentation de la Vitesse de déplacement",
+    "de": "#% erhöhte Bewegungsgeschwindigkeit",
+    "sp": "Velocidad de Movimiento aumentada un #%"
+  },
+  {
+    "kr": "모든 카오스 스킬 젬 레벨 #",
+    "us": "# to Level of all Chaos Skill Gems",
+    "ru": "# к уровню всех камней умений хаоса",
+    "pt": "# ao Nível de Todas as Gemas de Habilidade de Caos",
+    "th": "เลเวลของหินสกิล เคออส ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de chaos",
+    "de": "# zur Stufe aller Chaos-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de caos"
+  },
+  {
+    "kr": "모든 민첩 스킬 젬 레벨 #",
+    "us": "# to Level of all Dexterity Skill Gems",
+    "ru": "# к уровню всех камней умений ловкости",
+    "pt": "# ao Nível de Todas as Gemas de Habilidade de Destreza",
+    "th": "เลเวลของหินสกิล Dexterity ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de Dextérité",
+    "de": "# zur Stufe aller Geschick-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de destreza"
+  },
+  {
+    "kr": "모든 지능 스킬 젬 레벨 #",
+    "us": "# to Level of all Intelligence Skill Gems",
+    "ru": "# к уровню всех камней умений интеллекта",
+    "pt": "# ao Nível de todas as Gemas Habilidade de Inteligência",
+    "th": "เลเวลของหินสกิล Intelligence ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude d'Intelligence",
+    "de": "# zur Stufe aller Intelligenz-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de inteligencia"
+  },
+  {
+    "kr": "모든 힘 스킬 젬 레벨 #",
+    "us": "# to Level of all Strength Skill Gems",
+    "ru": "# к уровню всех камней умений силы",
+    "pt": "# ao Nível de Todas as Gemas de Habilidade de Força",
+    "th": "เลเวลของหินสกิล Strength ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de Force",
+    "de": "# zur Stufe aller Stärke-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de fuerza"
+  },
+  {
+    "kr": "피해가 #%의 원소 저항 관통",
+    "us": "Damage Penetrates #% Elemental Resistances",
+    "ru": "Урон пробивает #% сопротивления стихиям",
+    "pt": "Dano Penetra #% de Resistências Elementais",
+    "th": "เจาะต้านทาน ทุกธาตุ #%",
+    "fr": "Les Dégâts ont #% de Pénétration des Résistances élémentaires",
+    "de": "Schaden durchdringt #% Elementarwiderstände",
+    "sp": "El Daño Penetra #% de las Resistencias Elementales"
+  },
+  {
+    "kr": "처치 시 #%의 확률로 권능, 격분 또는 인내 충전 획득",
+    "us": "#% chance to gain a Power, Frenzy or Endurance Charge on Kill",
+    "ru": "#% шанс получить заряд энергии, ярости или выносливости при убийстве",
+    "pt": "#% de chance de ganhar uma Carga de Poder, Frenesi ou Tolerância ao Matar",
+    "th": "มีโอกาส #% ที่จะได้รับ Power, Frenzy หรือ Endurance Charge แบบสุ่มหนึ่งลูก เมื่อสังหาร",
+    "fr": "#% de chances de gagner une Charge de pouvoir, frénésie ou endurance en Tuant",
+    "de": "#% Chance, bei Tötung eine Energie-, Raserei- oder Widerstands-Ladung zu erhalten",
+    "sp": "#% de probabilidad de ganar una Carga de Poder, Frenesí o Aguante al Matar"
+  },
+  {
+    "kr": "아이템 및 젬의 능력치 요구사항 #% 감소",
+    "us": "Items and Gems have #% reduced Attribute Requirements",
+    "ru": "Предметы и камни имеют #% понижение требований к характеристикам",
+    "pt": "Itens e Gemas têm o Requisito de Atributos reduzido em #%",
+    "th": "ลด คุณสมบัติ ที่ไอเทมและหินสกิล ต้องการ #%",
+    "fr": "Les Objets et les Gemmes ont #% de Réduction du prérequis d'Attributs",
+    "de": "Gegenstände und Gemmen haben #% verringerte Attributanforderungen",
+    "sp": "Los Objetos y Gemas tienen Requerimientos de Atributos reducidos un #%"
+  },
+  {
+    "kr": "악의의 점유 #% 감소",
+    "us": "Malevolence has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Злорадством",
+    "pt": "Malevolência tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Malevolence #%",
+    "fr": "Malfaisance a #% de Réduction de Réservation",
+    "de": "'Boshaftigkeit' hat #% verringerte Reservierung",
+    "sp": "Malevolencia tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "지속 카오스 피해 배율 #%",
+    "us": "#% to Chaos Damage over Time Multiplier",
+    "ru": "#% к множителю постепенного урона хаосом",
+    "pt": "#% do Multiplicador de Dano de Caos",
+    "th": "ตัวคูณความเสียหาย เคออส ต่อเนื่อง #%",
+    "fr": "#% au Multiplicateur des dégâts de chaos sur la durée",
+    "de": "#% zu Multiplikator für Chaosschaden über Zeit",
+    "sp": "#% al multiplicador de daño degenerativo de Caos"
+  },
+  {
+    "kr": "지속 냉기 피해 배율 #%",
+    "us": "#% to Cold Damage over Time Multiplier",
+    "ru": "#% к множителю постепенного урона от холода",
+    "pt": "#% de Multiplicador de Dano de Gelo Degenerativo",
+    "th": "ตัวคูณความเสียหาย น้ำแข็ง ต่อเนื่อง #%",
+    "fr": "#% au Multiplicateur des Dégâts de froid sur la durée",
+    "de": "#% zu Multiplikator für Kälteschaden über Zeit",
+    "sp": "#% al Multiplicador de Daño Degenerativo de Hielo"
+  },
+  {
+    "kr": "지속 화염 피해 배율 #%",
+    "us": "#% to Fire Damage over Time Multiplier",
+    "ru": "#% к множителю постепенного урона от огня",
+    "pt": "#% de Multiplicador do Dano Degenerativo de Fogo",
+    "th": "ตัวคูณความเสียหาย ไฟ ต่อเนื่อง #%",
+    "fr": "#% au Multiplicateur des dégâts de feu sur la durée",
+    "de": "#% zu Multiplikator für Feuerschaden über Zeit",
+    "sp": "#% al multiplicador de daño degenerativo de fuego"
+  },
+  {
+    "kr": "지속 물리 피해 배율 #%",
+    "us": "#% to Physical Damage over Time Multiplier",
+    "ru": "#% к множителю физического постепенного урона",
+    "pt": "#% de Multiplicador do Dano Físico Degenerativo",
+    "th": "ตัวคูณความเสียหาย กายภาพ ต่อเนื่อง #%",
+    "fr": "#% au Multiplicateur des dégâts physiques sur la durée",
+    "de": "#% zu Multiplikator für physischen Schaden über Zeit",
+    "sp": "#% al multiplicador de daño físico degenerativo"
+  },
+  {
+    "kr": "1초마다 생명력의 #% 재생",
+    "us": "Regenerate #% of Life per second",
+    "ru": "Регенерация #% здоровья в секунду",
+    "pt": "#% de Vida Regenerada por segundo",
+    "th": "#% ของค่าฟื้นฟูพลังชีวิตต่อวินาที",
+    "fr": "#% de Vie Régénérée par seconde",
+    "de": "Regeneriert #% des Lebens pro Sekunde",
+    "sp": "Regeneras un #% de vida por segundo"
+  },
+  {
+    "kr": "냉기 피해의 #%를 에너지 보호막으로 흡수",
+    "us": "#% of Cold Damage Leeched as Energy Shield",
+    "ru": "#% урона от холода похищается в виде энергетического щита",
+    "pt": "#% do Dano de Gelo Drenado como Escudo de Energia",
+    "th": "ดูด #% ของความเสียหาย น้ำแข็ง ไปเป็น โล่พลังงาน",
+    "fr": "#% de vos Dégâts de froid Drainent du Bouclier d'énergie",
+    "de": "#% des Kälteschadens werden als Energieschild geraubt",
+    "sp": "#% del Daño de Hielo se absorbe como Escudo de Energía"
+  },
+  {
+    "kr": "냉기 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Cold Damage Leeched as Life",
+    "ru": "#% урона от холода похищается в виде здоровья",
+    "pt": "#% do Dano de Gelo é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย น้ำแข็ง ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts de froid Drainent de la Vie",
+    "de": "#% des Kälteschadens werden als Leben geraubt",
+    "sp": "#% del Daño de Hielo se Absorbe como Vida"
+  },
+  {
+    "kr": "물리 피해의 #%를 추가 냉기 피해로 획득",
+    "us": "Gain #% of Physical Damage as Extra Cold Damage",
+    "ru": "Дарует #% от физического урона в виде дополнительного урона от холода",
+    "pt": "Receba #% do Dano Físico como Dano de Gelo Extra",
+    "th": "นำ #% ของความเสียหาย กายภาพ ไปเสริมเป็น น้ำแข็ง",
+    "fr": "Rajoutez #% des Dégâts physiques sous forme de Dégâts de froid",
+    "de": "Erhaltet #% des physischen Schadens als extra Kälteschaden",
+    "sp": "Ganas el #% del daño físico como daño de hielo extra"
+  },
+  {
+    "kr": "민첩 15당 피해 #% 증가",
+    "us": "#% increased Damage per 15 Dexterity",
+    "ru": "#% увеличение урона за каждые 15 ловкости",
+    "pt": "Dano aumentado em #% a cada 15 de Destreza",
+    "th": "โจมตีแรงขึ้น #% ต่อ 15 Dexterity",
+    "fr": "#% d'Augmentation de Dégâts tous les 15 de Dextérité",
+    "de": "#% erhöhter Schaden pro 15 Geschick",
+    "sp": "Daño aumentado un #% por cada 15 de Destreza"
+  },
+  {
+    "kr": "격분 충전 하나당 피해 #% 증가",
+    "us": "#% increased Damage per Frenzy Charge",
+    "ru": "#% увеличение урона за заряд ярости",
+    "pt": "#% de aumento de Dano por Carga de Frenesi",
+    "th": "เพิ่มความเสียหาย #% ต่อ Frenzy Charge หนึ่งลูก",
+    "fr": "#% d'Augmentation des Dégâts par Charge de frénésie",
+    "de": "#% erhöhter Schaden pro Raserei-Ladung",
+    "sp": "Daño aumentado un #% por cada Carga de Frenesí"
+  },
+  {
+    "kr": "모든 냉기 스킬 젬 레벨 #",
+    "us": "# to Level of all Cold Skill Gems",
+    "ru": "# к уровню всех камней умений холода",
+    "pt": "# ao Nível de Todas as Gemas de Habilidade de Gelo",
+    "th": "เลเวลของหินสกิล น้ำแข็ง ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de froid",
+    "de": "# zur Stufe aller Kälte-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de hielo"
+  },
+  {
+    "kr": "피해가 #%의 냉기 저항 관통",
+    "us": "Damage Penetrates #% Cold Resistance",
+    "ru": "Урон пробивает #% сопротивления холоду",
+    "pt": "Dano Penetra #% da Resistência a Gelo",
+    "th": "ความเสียหาย เจาะต้านทาน น้ำแข็ง #% ",
+    "fr": "Vos Dégâts ont #% de Pénétration de Résistance au froid",
+    "de": "Schaden durchdringt #% Kältewiderstand",
+    "sp": "El daño penetra el #% de la resistencia al hielo"
+  },
+  {
+    "kr": "공격 적중 완벽회피 최대 확률 #%",
+    "us": "#% to maximum Chance to Dodge Attack Hits",
+    "ru": "#% к максимальному шансу уворота от ударов атаками",
+    "pt": "#% de Chance máxima de Esquivar de Acertos de Ataques",
+    "th": "โอกาสหลีกเลี่ยงการโจมตีสูงสุด #%",
+    "fr": "#% de chances maximales d'Esquiver les Attaques au Toucher",
+    "de": "#% zur maximalen Chance, Angriffstreffern zu entgehen",
+    "sp": "#% a la probabilidad máxima de esquivar golpes de ataques"
+  },
+  {
+    "kr": "주문 적중 완벽회피 최대 확률 #%",
+    "us": "#% to maximum Chance to Dodge Spell Hits",
+    "ru": "#% к максимальному шансу уворота от ударов чарами",
+    "pt": "#% de Chance máxima de Esquivar de Acertos Mágicos",
+    "th": "โอกาสหลีกเลี่ยงเวทย์สูงสุด #%",
+    "fr": "#% de chances maximales d'Esquiver les Sorts au Toucher",
+    "de": "#% zur maximalen Chance, Zaubertreffern zu entgehen",
+    "sp": "#% a la probabilidad máxima de esquivar golpes de hechizos"
+  },
+  {
+    "kr": "공격 적중 회피 확률 #%",
+    "us": "#% chance to Evade Attack Hits",
+    "ru": "#% шанс уклониться от ударов от атак",
+    "pt": "#% de chance de Evadir Acertos de Ataques",
+    "th": "โอกาสในการหลบหลีกการโจมตี #%",
+    "fr": "#% de chances d'Éviter les Attaques au Toucher",
+    "de": "#% Chance, Angriffstreffern auszuweichen",
+    "sp": "#% de probabilidad de evadir golpes de ataques"
+  },
+  {
+    "kr": "민첩 #% 증가",
+    "us": "#% increased Dexterity",
+    "ru": "#% повышение ловкости",
+    "pt": "Destreza aumentada em #%",
+    "th": "เพิ่ม Dexterity ขึ้น #%",
+    "fr": "#% d'Augmentation de la Dextérité",
+    "de": "#% erhöhtes Geschick",
+    "sp": "Destreza aumentada un #%"
+  },
+  {
+    "kr": "비-피해 상태 이상 효과 #% 증가",
+    "us": "#% increased Effect of Non-Damaging Ailments",
+    "ru": "#% усиление эффекта не наносящих урон состояний",
+    "pt": "Efeito de Afecções Não-Danificadoras aumentado em #%",
+    "th": "เพิ่มผลของสถานะเจ็บป่วยที่ไม่สร้างความเสียหาย #%",
+    "fr": "#% d'Augmentation des Effets des Altérations n'infligeant pas de Dégâts",
+    "de": "#% erhöhte Wirkung von nicht schädigenden Beeinträchtigungen",
+    "sp": "Efecto de achaques no dañinos aumentado un #%"
+  },
+  {
+    "kr": "스킬의 점유 #% 감소",
+    "us": "#% reduced Reservation of Skills",
+    "ru": "#% уменьшение количества удержанных умениями ресурсов",
+    "pt": "Reserva de Habilidades reduzida em #%",
+    "th": "ลดค่าสำรองของ สกิลต่างๆ #%",
+    "fr": "#% de Réduction de la Réservation des Aptitudes",
+    "de": "#% verringerte Reservierung von Fertigkeiten",
+    "sp": "Reserva de las habilidades reducida un #%"
+  },
+  {
+    "kr": "은총의 점유 #% 감소",
+    "us": "Grace has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Грацией",
+    "pt": "Graça tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Grace #%",
+    "fr": "Grâce a #% de Réduction de Réservation",
+    "de": "'Anmut' hat #% verringerte Reservierung",
+    "sp": "Gracia tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "증오의 점유 #% 감소",
+    "us": "Hatred has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Холодной ненавистью",
+    "pt": "Ódio tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Hatred #%",
+    "fr": "Haine a #% de Réduction de Réservation",
+    "de": "'Hass' hat #% verringerte Reservierung",
+    "sp": "Odio tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "얼음의 순수함의 점유 #% 감소",
+    "us": "Purity of Ice has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Спасением от холода",
+    "pt": "Pureza do Gelo tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Purity of Ice #%",
+    "fr": "Pureté de la glace a #% de Réduction de Réservation",
+    "de": "'Reinheit des Eises' hat #% verringerte Reservierung",
+    "sp": "Pureza de hielo tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "함성 속도 #% 증가",
+    "us": "#% increased Warcry Speed",
+    "ru": "#% повышение скорости применения боевых кличей",
+    "pt": "Velocidade dos Clamores aumentada em #%",
+    "th": "เพิ่มความเร็ว Warcry ขึ้น #%",
+    "fr": "#% d'Augmentation de la Vitesse des Cris de guerre",
+    "de": "#% verlängerte Kriegsschrei-Geschwindigkeit",
+    "sp": "Velocidad de Grito de Guerra aumentada un #%"
+  },
+  {
+    "kr": "최근 4초 이내 적을 기절시킨 경우 #%의 확률로 2배의 피해를 줌",
+    "us": "#% chance to deal Double Damage if you have Stunned an Enemy Recently",
+    "ru": "#% шанс нанести двойной урон, если недавно вы оглушали врага",
+    "pt": "#% de chance de causar Dano Dobrado se você Atordoou um Inimigo Recentemente",
+    "th": "มีโอกาส #% ที่จะสร้างความเสียหายเป็นสองเท่า ถ้าคุณได้ทำให้ศัตรูติดสถานะ มึนงง มาเร็วๆนี้",
+    "fr": "#% de chances d'infliger des Dégâts doublés si vous avez Étourdi un Ennemi Récemment",
+    "de": "#% Chance, doppelten Schaden zu verursachen, wenn Ihr kürzlich einen Gegner betäubt habt",
+    "sp": "#% de probabilidad de infligir daño doble si has aturdido a un enemigo recientemente"
+  },
+  {
+    "kr": "화염 피해의 #%를 에너지 보호막으로 흡수",
+    "us": "#% of Fire Damage Leeched as Energy Shield",
+    "ru": "#% урона от огня похищается в виде энергетического щита",
+    "pt": "#% do Dano de Fogo Drenado como Escudo de Energia",
+    "th": "ดูด #% ของความเสียหาย ไฟ ไปเป็น โล่พลังงาน",
+    "fr": "#% de vos Dégâts de feu Drainent du Bouclier d'énergie",
+    "de": "#% des Feuerschadens werden als Energieschild geraubt",
+    "sp": "#% del Daño de Fuego se absorbe como Escudo de Energía"
+  },
+  {
+    "kr": "화염 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Fire Damage Leeched as Life",
+    "ru": "#% урона от огня похищается в виде здоровья",
+    "pt": "#% do Dano de Fogo é Drenado como Vida",
+    "th": "ดูด #% ของความเสียหาย ไฟ ไปเป็น พลังชีวิต",
+    "fr": "#% des Dégâts de feu Drainent de la Vie",
+    "de": "#% des Feuerschadens werden als Leben geraubt",
+    "sp": "#% del Daño de Fuego se Absorbe como Vida"
+  },
+  {
+    "kr": "물리 피해의 #%를 추가 화염 피해로 획득",
+    "us": "Gain #% of Physical Damage as Extra Fire Damage",
+    "ru": "Дарует #% от физического урона в виде дополнительного урона от огня",
+    "pt": "Receba #% do Dano Físico como Dano de Fogo Extra",
+    "th": "นำ #% ของความเสียหาย กายภาพ ไปเสริมเป็น ไฟ",
+    "fr": "Rajoutez #% des Dégâts physiques sous forme de Dégâts de feu",
+    "de": "Erhaltet #% des physischen Schadens als extra Feuerschaden",
+    "sp": "Gana #% de Daño Físico como Daño Extra de Fuego"
+  },
+  {
+    "kr": "효과 범위 #% 증가",
+    "us": "#% increased Area of Effect",
+    "ru": "#% увеличение области действия",
+    "pt": "Efeito em Área aumentado em #%",
+    "th": "เพิ่มพื้นที่ส่งผลขึ้น #%",
+    "fr": "#% d'Augmentation de Zone d'effet",
+    "de": "#% vergrößerter Wirkungsbereich",
+    "sp": "Área de Efecto aumentada un #%"
+  },
+  {
+    "kr": "힘 15당 피해 #% 증가",
+    "us": "#% increased Damage per 15 Strength",
+    "ru": "#% увеличение урона за каждые 15 силы",
+    "pt": "Dano aumentado em #% a cada 15 de Força",
+    "th": "โจมตีแรงขึ้น #% ต่อ 15 Strength",
+    "fr": "#% d'Augmentation de Dégâts tous les 15 de Force",
+    "de": "#% erhöhter Schaden pro 15 Stärke",
+    "sp": "Daño aumentado un #% por cada 15 de Fuerza"
+  },
+  {
+    "kr": "인내 충전 하나당 피해 #% 증가",
+    "us": "#% increased Damage per Endurance Charge",
+    "ru": "#% увеличение урона за заряд выносливости",
+    "pt": "Dano aumentado em #% por Carga de Tolerância",
+    "th": "เพิ่มความเสียหายขึ้น #% ต่อ Endurance Charge",
+    "fr": "#% d'Augmentation de Dégâts par Charge d'endurance",
+    "de": "#% erhöhter Schaden pro Widerstands-Ladung",
+    "sp": "Daño aumentado un #% por cada Carga de Aguante"
+  },
+  {
+    "kr": "모든 화염 스킬 젬 레벨 #",
+    "us": "# to Level of all Fire Skill Gems",
+    "ru": "# к уровню всех камней умений огня",
+    "pt": "# ao Nível de todas as Gemas Habilidade de Fogo",
+    "th": "เลเวลของหินสกิล ไฟ ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude de feu",
+    "de": "# zur Stufe aller Feuer-Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad de fuego"
+  },
+  {
+    "kr": "모든 물리 스킬 젬 레벨 #",
+    "us": "# to Level of all Physical Skill Gems",
+    "ru": "# к уровню всех физических камней умений",
+    "pt": "# ao Nível de todas as Gemas de Habilidade Físicas",
+    "th": "เลเวลของหินสกิล กายภาพ ทุกเม็ด #",
+    "fr": "# au Niveau de toutes les Gemmes d'Aptitude physiques",
+    "de": "# zur Stufe aller physischen Fertigkeitengemmen",
+    "sp": "# al nivel de todas las gemas de habilidad físicas"
+  },
+  {
+    "kr": "피해가 #%의 화염 저항 관통",
+    "us": "Damage Penetrates #% Fire Resistance",
+    "ru": "Урон пробивает #% сопротивления огню",
+    "pt": "Dano Penetra #% de Resistência a Fogo",
+    "th": "เจาะต้านทาน ไฟ #%",
+    "fr": "Les Dégâts ont #% de Pénétration de Résistance au feu",
+    "de": "Schaden durchdringt #% Feuerwiderstand",
+    "sp": "El Daño Penetra #% de la Resistencia al Fuego"
+  },
+  {
+    "kr": "공격 피해 막기 확률 최대치 #%",
+    "us": "#% to maximum Chance to Block Attack Damage",
+    "ru": "#% к максимальному шансу блокировать урон от атак",
+    "pt": "#% à Chance máxima de Bloquear o Dano de Ataques",
+    "th": "โอกาสในการบล็อคการโจมตีสูงสุด #%",
+    "fr": "#% aux Chances maximales de Bloquer les Dégâts d'Attaque",
+    "de": "#% zu maximaler Chance, Angriffsschaden zu blocken",
+    "sp": "#% a la probabilidad máxima de Bloquear Daño de Ataques"
+  },
+  {
+    "kr": "받는 물리 피해 #% 추가 감소",
+    "us": "#% additional Physical Damage Reduction",
+    "ru": "#% дополнительного уменьшения получаемого физического урона",
+    "pt": "Redução de Dano Físico aumentada em #%",
+    "th": "เสริมป้องกันกายภาพ #%",
+    "fr": "Vous gagnez une Réduction supplémentaire des Dégâts physiques de #%",
+    "de": "#% zusätzliche physische Schadensminderung",
+    "sp": "#% de Reducción adicional al Daño Físico"
+  },
+  {
+    "kr": "힘 #% 증가",
+    "us": "#% increased Strength",
+    "ru": "#% повышение силы",
+    "pt": "Força aumentada em #%",
+    "th": "เพิ่ม Strength ขึ้น #%",
+    "fr": "#% d'Augmentation de la Force",
+    "de": "#% erhöhte Stärke",
+    "sp": "Fuerza aumentada un #%"
+  },
+  {
+    "kr": "분노의 점유 #% 감소",
+    "us": "Anger has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Жгучей злобой",
+    "pt": "Cólera tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Anger #%",
+    "fr": "Colère a #% de Réduction de Réservation",
+    "de": "'Wut' hat #% verringerte Reservierung",
+    "sp": "Cólera tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "결의의 점유 #% 감소",
+    "us": "Determination has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Решимостью",
+    "pt": "Determinação tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Determination #%",
+    "fr": "Détermination a #% de Réduction de Réservation",
+    "de": "'Entschlossenheit' hat #% verringerte Reservierung",
+    "sp": "Determinación tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "자부심의 점유 #% 감소",
+    "us": "Pride has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Гордостью",
+    "pt": "Orgulho tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Pride #%",
+    "fr": "Fierté a #% de Réduction de Réservation",
+    "de": "'Stolz' hat #% verringerte Reservierung",
+    "sp": "Orgullo tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "불의 순수함의 점유 #% 감소",
+    "us": "Purity of Fire has #% reduced Reservation",
+    "ru": "#% уменьшение количества ресурсов, удержанных Спасением от огня",
+    "pt": "Pureza do Fogo tem Reserva reduzida em #%",
+    "th": "ลดค่าสำรองของ Purity of Fire #%",
+    "fr": "Pureté du feu a #% de Réduction de Réservation",
+    "de": "'Reinheit des Feuers' hat #% verringerte Reservierung",
+    "sp": "Pureza de fuego tiene la reserva reducida un #%"
+  },
+  {
+    "kr": "능력치 #% 증가",
+    "us": "#% increased Attributes",
+    "ru": "#% увеличение характеристик",
+    "pt": "Atributos aumentados em #%",
+    "th": "เพิ่ม คุณสมบัติ #%",
+    "fr": "#% d'Augmentation des Attributs",
+    "de": "#% erhöhte Attribute",
+    "sp": "Atributos aumentados un #%"
+  },
+  {
+    "kr": "#레벨 명상 스킬 사용 가능",
+    "us": "Grants Level # Clarity Skill",
+    "ru": "Дарует умение Ясность ума # уровня",
+    "pt": "Concede a habilidade Clareza nível #",
+    "th": "ได้รับสกิล Clarity เลเวล #",
+    "fr": "Octroie l'Aptitude Clarté (Niveau #)",
+    "de": "Gewährt die Fertigkeit Klarheit Stufe #",
+    "sp": "Otorga la Habilidad Claridad Nivel #"
+  },
+  {
+    "kr": "#레벨 결의 스킬 사용 가능",
+    "us": "Grants Level # Determination Skill",
+    "ru": "Дарует умение Решимость # уровня",
+    "pt": "Concede a habilidade Determinação nível #",
+    "th": "ได้รับสกิล ปณิธาน เลเวล #",
+    "fr": "Octroie l'Aptitude Détermination (Niveau #)",
+    "de": "Gewährt die Fertigkeit Entschlossenheit Stufe #",
+    "sp": "Otorga la Habilidad Determinación Nivel #"
+  },
+  {
+    "kr": "#레벨 단련 스킬 사용 가능",
+    "us": "Grants Level # Discipline Skill",
+    "ru": "Дарует умение Дисциплина # уровня",
+    "pt": "Concede a habilidade Disciplina nível #",
+    "th": "ได้รับสกิล วินัย เลเวล #",
+    "fr": "Octroie l'Aptitude Discipline (Niveau #)",
+    "de": "Gewährt die Fertigkeit Disziplin Stufe #",
+    "sp": "Otorga la Habilidad Disciplina Nivel #"
+  },
+  {
+    "kr": "#레벨 은총 스킬 사용 가능",
+    "us": "Grants Level # Grace Skill",
+    "ru": "Дарует умение Грация # уровня",
+    "pt": "Concede a habilidade Graça nível #",
+    "th": "ได้รับสกิล สง่างาม เลเวล #",
+    "fr": "Octroie l'Aptitude Grâce (Niveau #)",
+    "de": "Gewährt die Fertigkeit Anmut Stufe #",
+    "sp": "Otorga la Habilidad Gracia Nivel #"
+  },
+  {
+    "kr": "#레벨 가속 스킬 사용 가능",
+    "us": "Grants Level # Haste Skill",
+    "ru": "Дарует умение Спешка # уровня",
+    "pt": "Concede a habilidade Aceleração nível #",
+    "th": "ได้รับสกิล ว่องไว เลเวล #",
+    "fr": "Octroie l'Aptitude Hâte (Niveau #)",
+    "de": "Gewährt die Fertigkeit Hast Stufe #",
+    "sp": "Otorga la Habilidad Celeridad Nivel #"
+  },
+  {
+    "kr": "#레벨 활력 스킬 사용 가능",
+    "us": "Grants Level # Vitality Skill",
+    "ru": "Дарует умение Живучесть # уровня",
+    "pt": "Concede a habilidade Vitalidade nível #",
+    "th": "ได้รับสกิล Vitality เลเวล #",
+    "fr": "Octroie l'Aptitude Vitalité (Niveau #)",
+    "de": "Gewährt die Fertigkeit Vitalität Stufe #",
+    "sp": "Otorga la Habilidad Vitalidad Nivel #"
+  },
+  {
+    "kr": "발견하는 아이템 수량 #% 증가",
+    "us": "#% increased Quantity of Items found",
+    "ru": "#% увеличение количества найденных предметов",
+    "pt": "Quantidade de Itens encontrados aumentada em #%",
+    "th": "เพิ่มจำนวนไอเทมที่พบขึ้น #%",
+    "fr": "#% d'Augmentation de la Quantité d'Objets cédés",
+    "de": "#% erhöhte Menge an Gegenständen",
+    "sp": "Cantidad de Objetos encontrados aumentada un #%"
+  },
+  {
+    "kr": "소환 가능한 좀비 최대치 #",
+    "us": "# to maximum number of Raised Zombies",
+    "ru": "# к максимальному числу зомби",
+    "pt": "# ao número máximo de Zumbis",
+    "th": "จำนวน Raised Zombie สูงสุด #",
+    "fr": "# au nombre maximal de Zombies",
+    "de": "# zu maximaler Anzahl an Zombies",
+    "sp": "# al número máximo de Zombis"
+  },
+  {
+    "kr": "해골 최대치 #",
+    "us": "# to maximum number of Skeletons",
+    "ru": "# к максимальному числу скелетов",
+    "pt": "# ao número máximo de Esqueletos",
+    "th": "จำนวน โครงกระดูก สูงสุด #",
+    "fr": "# au nombre maximal de Squelettes",
+    "de": "# zu maximaler Anzahl an Skeletten",
+    "sp": "# al número máximo de Esqueletos"
+  },
+  {
+    "kr": "비-카오스 피해의 #%를 추가 카오스 피해로 획득",
+    "us": "Gain #% of Non-Chaos Damage as extra Chaos Damage",
+    "ru": "Наносит #% от урона не-хаосом в виде дополнительного урона хаосом",
+    "pt": "Ganha #% de Dano Não Caos como Dano de Caos extra",
+    "th": "นำ #% ของความเสียหาย ที่ไม่ใช่เคออส ไปเสริมเป็น เคออส",
+    "fr": "Rajoutez #% de vos Dégâts physiques et élémentaires sous forme de Dégâts de chaos",
+    "de": "Erhaltet #% des Schadens (Chaosschaden ausgenommen) als extra Chaosschaden",
+    "sp": "Ganas el #% del daño que no es de caos como daño de caos extra"
+  },
+  {
+    "kr": "#레벨 분노 스킬 사용 가능",
+    "us": "Grants Level # Anger Skill",
+    "ru": "Дарует умение Жгучая злоба # уровня",
+    "pt": "Concede a habilidade Cólera nível #",
+    "th": "ได้รับสกิล โทสะ เลเวล #",
+    "fr": "Octroie l'Aptitude Colère (Niveau #)",
+    "de": "Gewährt die Fertigkeit Wut Stufe #",
+    "sp": "Otorga la Habilidad Rabia Nivel #"
+  },
+  {
+    "kr": "#레벨 증오 스킬 사용 가능",
+    "us": "Grants Level # Hatred Skill",
+    "ru": "Дарует умение Холодная ненависть # уровня",
+    "pt": "Concede a habilidade Ódio nível #",
+    "th": "ได้รับสกิล เทวศ เลเวล #",
+    "fr": "Octroie l'Aptitude Haine (Niveau #)",
+    "de": "Gewährt die Fertigkeit Hass Stufe #",
+    "sp": "Otorga la Habilidad Odio Nivel #"
+  },
+  {
+    "kr": "#레벨 진노 스킬 사용 가능",
+    "us": "Grants Level # Wrath Skill",
+    "ru": "Дарует умение Грозный гнев # уровня",
+    "pt": "Concede a habilidade Ira nível #",
+    "th": "ได้รับสกิล พิโรธ เลเวล #",
+    "fr": "Octroie l'Aptitude Fureur (Niveau #)",
+    "de": "Gewährt die Fertigkeit Zorn Stufe #",
+    "sp": "Otorga la Habilidad Cólera Nivel #"
+  },
+  {
+    "kr": "#레벨 선망 스킬 사용 가능",
+    "us": "Grants Level # Envy Skill",
+    "ru": "Дает умение Зависть # уровня",
+    "pt": "Concede a Habilidade Inveja nível #",
+    "th": "ได้รับสกิล Envy เลเวล #",
+    "fr": "Octroie l'Aptitude Convoitise (Niveau #)",
+    "de": "Gewährt die Fertigkeit Neid Stufe #",
+    "sp": "Otorga la Habilidad Envidia Nivel #"
+  },
+  {
+    "kr": "일반 물리 피해 #% 증가",
+    "us": "#% increased Global Physical Damage",
+    "ru": "#% увеличение глобального физического урона",
+    "pt": "#% de aumento do Dano Físico Global",
+    "th": "เพิ่มความเสียหาย กายภาพ ทุกอย่าง #%",
+    "fr": "#% d'Augmentation des Dégâts physiques Globaux",
+    "de": "#% erhöhter globaler physischer Schaden",
+    "sp": "Daño Físico Global aumentado un #%"
+  },
+  {
+    "kr": "적에게 걸린 저주 하나당 적중 피해 및 상태 이상 피해 #% 증가",
+    "us": "#% increased Damage with Hits and Ailments per Curse on Enemy",
+    "ru": "#% увеличение урона от ударов и состояний за каждое проклятие на враге",
+    "pt": "Dano com Acertos e Afecções aumentado em #% por Maldição no Inimigo",
+    "th": "เพิ่มความเสียหาย #% ด้วยการโจมตีและความเจ็บคำสาปต่อครั้งใส่ศัตรู",
+    "fr": "#% d'Augmentation des Dégâts au Toucher et avec les Altérations par Malédiction affectant l'Ennemi",
+    "de": "#% erhöhter Schaden mit Treffern und Beeinträchtigungen pro Fluch auf dem Gegner",
+    "sp": "Daño con Golpes y Achaques aumentado un #% por cada Maldición sobre el Enemigo"
+  },
+  {
+    "kr": "최대 마나 #% 증가",
+    "us": "#% increased maximum Mana",
+    "ru": "#% увеличение максимума маны",
+    "pt": "Mana máxima aumentada em #%",
+    "th": "เพิ่มมานาสูงสุด #%",
+    "fr": "#% d'Augmentation du Mana maximal",
+    "de": "#% erhöhtes maximales Mana",
+    "sp": "Maná máximo aumentado un #%"
+  },
+  {
+    "kr": "#% 확률로 2배의 방어도로 방어",
+    "us": "#% chance to Defend with Double Armour",
+    "ru": "#% шанс на защиту с удвоенной бронёй",
+    "pt": "#% de chance de Defender com Armadura Dobrada",
+    "th": "มีโอกาส #% ที่จะป้องกันด้วยค่าเกราะสองเท่า",
+    "fr": "#% de chances de vous défendre avec une Armure doublée",
+    "de": "#% Chance, mit doppelter Rüstung zu verteidigen",
+    "sp": "#% de probabilidad de defender con el doble de armadura"
+  },
+  {
+    "kr": "상태 이상 피해 #% 증가",
+    "us": "#% increased Damage with Ailments",
+    "ru": "#% увеличение урона от состояний",
+    "pt": "#% de aumento de Dano com Afecções",
+    "th": "เพิ่มความเสียหายด้วย สถานะเจ็บป่วย #%",
+    "fr": "#% d'Augmentation des Dégâts avec les Altérations",
+    "de": "#% erhöhter Schaden mit Beeinträchtigungen",
+    "sp": "Daño con Achaques aumentado un #%"
+  },
+  {
+    "kr": "갑옷에서 얻는 에너지 보호막 #% 증가",
+    "us": "#% increased Energy Shield from Body Armour",
+    "ru": "#% увеличение энергетического щита от нательного доспеха",
+    "pt": "#% de aumento do Escudo de Energia do Peitoral",
+    "th": "เพิ่มโล่พลังจากเสื้อเกราะขึ้น #%",
+    "fr": "#% d'Augmentation du Bouclier d'énergie de l'armure de torse",
+    "de": "#% erhöhter Energieschild von der Körperrüstung",
+    "sp": "Escudo de Energía de la Armadura aumentado un #%"
+  },
+  {
+    "kr": "플라스크로 얻는 생명력 회복 #% 증가",
+    "us": "#% increased Life Recovery from Flasks",
+    "ru": "#% увеличение восстановления здоровья от флаконов",
+    "pt": "Recuperação de Vida dos Frascos aumentada em #%",
+    "th": "เพิ่มการฟื้นฟูพลังชีวิตจากขวดขึ้น #%",
+    "fr": "#% d'Augmentation de la Récupération de Vie des Flacons",
+    "de": "#% erhöhte Lebenswiederherstellung von Fläschchen",
+    "sp": "Recuperación de Vida por Frascos aumentada un #%"
+  },
+  {
+    "kr": "마나 회복 속도 #% 증가",
+    "us": "#% increased Mana Recovery rate",
+    "ru": "#% повышение скорости восстановления маны",
+    "pt": "Velocidade de Recuperação de Mana aumentada em #%",
+    "th": "เพิ่มการฟื้นฟูมานาจากทุกแหล่ง #%",
+    "fr": "#% d'Augmentation de la Récupération de Mana",
+    "de": "#% erhöhte Manawiederherstellungs-Rate",
+    "sp": "Velocidad de Recuperación de Maná aumentada un #%"
+  },
+  {
+    "kr": "바알 스킬 효과 지속시간 #% 증가",
+    "us": "#% increased Vaal Skill Effect Duration",
+    "ru": "#% увеличение длительности эффекта умений ваал",
+    "pt": "Duração de Efeitos de Habilidades Vaal aumentada em #%",
+    "th": "เพิ่มระยะเวลาผลของสกิล Vaal ขึ้น #%",
+    "fr": "#% d'Augmentation de la Durée des Effets des Aptitudes vaal",
+    "de": "#% verlängerte Wirkungsdauer von Vaal-Fertigkeiten",
+    "sp": "Duración del Efecto de Habilidades Vaal aumentada un #%"
+  },
+  {
+    "kr": "이동 중 냉각 또는 동결 면역",
+    "us": "Cannot be Chilled or Frozen while moving",
+    "ru": "Не может быть охлаждён или заморожен во время передвижения",
+    "pt": "Não pode ser Resfriado ou Congelado enquanto se move",
+    "th": "ไม่ติดสถานะ หนาวเย็น และ แช่แข็ง ขณะเคลื่อนที่",
+    "fr": "Vous ne pouvez pas être Frigorifié ou Gelé pendant le déplacement",
+    "de": "Kann während Bewegung nicht unterkühlt oder eingefroren werden",
+    "sp": "No puedes ser Escarchado o Congelado mientras te mueves"
+  },
+  {
+    "kr": "소환수가 주는 피해 #% 증가",
+    "us": "Minions deal #% increased Damage",
+    "ru": "Приспешники имеют #% увеличение урона",
+    "pt": "Lacaios causam #% de Dano aumentado",
+    "th": "เพิ่มความเสียหายของ มิเนียน #%",
+    "fr": "Les Créatures ont #% d'Augmentation de Dégâts",
+    "de": "Kreaturen verursachen #% erhöhten Schaden",
+    "sp": "Los Esbirros infligen Daño aumentado un #%"
+  },
+  {
+    "kr": "1초마다 마나 # 재생",
+    "us": "Regenerate # Mana per second",
+    "ru": "# регенерации маны в секунду",
+    "pt": "# de Mana Regenerada por segundo",
+    "th": "ฟื้นฟูมานา # ต่อวินาที",
+    "fr": "# de Mana Régénéré par seconde",
+    "de": "Regeneriert # Mana pro Sekunde",
+    "sp": "Regeneras # de maná por segundo"
+  },
+  {
+    "kr": "냉기 및 카오스 저항 #%",
+    "us": "#% to Cold and Chaos Resistances",
+    "ru": "#% к сопротивлениям холоду и хаосу",
+    "pt": "#% de Resistência a Gelo e Caos",
+    "th": "ต้านทาน น้ำแข็ง และ เคออส #%",
+    "fr": "#% aux Résistances au froid et au chaos",
+    "de": "#% zu Kälte- und Chaoswiderständen",
+    "sp": "#% a las Resistencias al Hielo y al Caos"
+  },
+  {
+    "kr": "최대 생명력 #% 증가",
+    "us": "#% increased maximum Life",
+    "ru": "#% увеличение максимума здоровья",
+    "pt": "Vida máxima aumentada em #%",
+    "th": "เพิ่มพลังชีวิตสูงสุด #%",
+    "fr": "#% d'Augmentation de la Vie maximale",
+    "de": "#% erhöhtes maximales Leben",
+    "sp": "Vida máxima aumentada un #%"
+  },
+  {
+    "kr": "접미어 변경 불가",
+    "us": "Suffixes Cannot Be Changed",
+    "ru": "Суффиксы нельзя изменить",
+    "pt": "Sufixos Não Podem Ser Modificados",
+    "th": "ไม่สามารถเปลี่ยน Suffix ได้",
+    "fr": "Les Suffixes ne peuvent pas être changés",
+    "de": "Suffixe können nicht verändert werden",
+    "sp": "Los Sufijos no Pueden Ser Modificados"
+  },
+  {
+    "kr": "공격 시 카오스 피해 #~# 추가",
+    "us": "Adds # to # Chaos Damage to Attacks",
+    "ru": "Добавляет от # до # урона хаосом к атакам",
+    "pt": "Adiciona # a # de Dano de Caos em Ataques",
+    "th": "เสริมความเสียหาย เคออส # ถึง # ให้กับการโจมตี",
+    "fr": "Ajoute # à # Dégâts de chaos aux Attaques",
+    "de": "Fügt Angriffen # bis # Chaosschaden hinzu",
+    "sp": "Agrega # a # de Daño de Caos a los Ataques"
+  },
+  {
+    "kr": "근접 타격 범위 #",
+    "us": "# to Melee Strike Range",
+    "ru": "# к дальности ударов ближнего боя",
+    "pt": "# de Alcance de Golpe Corpo a Corpo",
+    "th": "ระยะการฟาด #",
+    "fr": "# à l'Allonge",
+    "de": "# zu Nahkampfschlagreichweite",
+    "sp": "# al rango de golpes cuerpo a cuerpo"
+  },
+  {
+    "kr": "범위 피해 #% 증가",
+    "us": "#% increased Area Damage",
+    "ru": "#% увеличение урона по области",
+    "pt": "Dano em Área aumentado em #%",
+    "th": "เพิ่มความเสียหาย พื้นที่ #%",
+    "fr": "#% d'Augmentation des Dégâts de Zone",
+    "de": "#% erhöhter Flächenschaden",
+    "sp": "Daño de Área aumentado un #%"
+  },
+  {
+    "kr": "흡수하는 동안 피해 #% 증가",
+    "us": "#% increased Damage while Leeching",
+    "ru": "#% увеличение урона во время похищения",
+    "pt": "Dano aumentado em #% enquanto Drenando",
+    "th": "เพิ่มความเสียหายขึ้น #% ขณะดูดพลัง",
+    "fr": "#% d'Augmentation des Dégâts tant que vous Drainez",
+    "de": "#% erhöhter Schaden während des Raubs",
+    "sp": "Daño aumentado un #% mientras Absorbes"
+  },
+  {
+    "kr": "근접 피해 #% 증가",
+    "us": "#% increased Melee Damage",
+    "ru": "#% увеличение урона в ближнем бою",
+    "pt": "Dano Corpo a Corpo aumentado em #%",
+    "th": "เพิ่มความเสียหาย ประชิด #%",
+    "fr": "#% d'Augmentation des Dégâts de mêlée",
+    "de": "#% erhöhter Nahkampfschaden",
+    "sp": "Daño Cuerpo a Cuerpo aumentado un #%"
+  },
+  {
+    "kr": "투사체 피해 #% 증가",
+    "us": "#% increased Projectile Damage",
+    "ru": "#% увеличение урона снарядов",
+    "pt": "Dano de Projétil aumentado em #%",
+    "th": "เพิ่มความเสียหาย กระสุน #%",
+    "fr": "#% d'Augmentation des Dégâts des Projectiles",
+    "de": "#% erhöhter Projektilschaden",
+    "sp": "Daño de Proyectiles aumentado un #%"
+  },
+  {
+    "kr": "투사체 속도 #% 증가",
+    "us": "#% increased Projectile Speed",
+    "ru": "#% повышение скорости снарядов",
+    "pt": "Velocidade do Projétil aumentada em #%",
+    "th": "เพิ่มความเร็ว Projectile ขึ้น #%",
+    "fr": "#% d'Augmentation de la Vitesse des Projectiles",
+    "de": "#% erhöhte Projektilgeschwindigkeit",
+    "sp": "Velocidad de Proyectiles aumentada un #%"
+  },
+  {
+    "kr": "받은 피해의 #%를 마나로 회복",
+    "us": "#% of Damage taken Recouped as Mana",
+    "ru": "#% полученного урона восполняется в виде маны",
+    "pt": "#% do Dano sofrido é Recuperado como Mana",
+    "th": "ความเสียหายที่ได้รับ #% ถูกเยียวยาเป็นมานา",
+    "fr": "#% des Dégâts subis Recouvrés en Mana",
+    "de": "#% des erlittenen Schadens werden als Mana wiedergewonnen",
+    "sp": "El #% del daño recibido se recupera como maná"
+  },
+  {
+    "kr": "스킬의 마나 소모 #% 감소",
+    "us": "#% reduced Mana Cost of Skills",
+    "ru": "#% снижение затрат маны умениями",
+    "pt": "Custo de Mana das Habilidades reduzido em #%",
+    "th": "ลดมานาในการใช้สกิลลง #%",
+    "fr": "#% de Réduction du coût en Mana des Aptitudes",
+    "de": "#% verringerte Manakosten von Fertigkeiten",
+    "sp": "Coste de Maná de las Habilidades reducido un #%"
+  },
+  {
+    "kr": "집중 유지 스킬의 총 마나 소모 #",
+    "us": "Channelling Skills have # to Total Mana Cost",
+    "ru": "# к итоговому расходу маны поддерживаемыми умениями",
+    "pt": "Habilidades Canalizadoras possuem # de Custo Total de Mana",
+    "th": "สกิลแชนเนล มีค่าใช้สุทธิ #",
+    "fr": "# au Coût en Mana total des Aptitudes canalisées",
+    "de": "Kanalisierungsfertigkeiten haben # zu Gesamtkosten",
+    "sp": "Las habilidades de canalización tienen # al coste total de maná"
+  },
+  {
+    "kr": "비-집중 유지 스킬의 총 마나 소모 #",
+    "us": "Non-Channelling Skills have # to Total Mana Cost",
+    "ru": "# к итоговому расходу маны неподдерживаемыми умениями",
+    "pt": "Habilidades Não Canalizadoras tem # de Custo de Mana Total",
+    "th": "สกิลที่ไม่ใช่แชนเนลใช้มานาสุทธิ #",
+    "fr": "Vos Aptitudes qui ne sont pas Canalisées ont # de Coût en Mana total",
+    "de": "Nicht-kanalisierende Fertigkeiten haben # zu Gesamtmanakosten",
+    "sp": "Las habilidades que no son de canalización tienen # al coste total de maná"
+  },
+  {
+    "kr": "제작 속성 부여 최대 3개 보유 가능",
+    "us": "Can have up to 3 Crafted Modifiers",
+    "ru": "Может иметь до 3 ремесленных свойств",
+    "pt": "Pode ter até 3 Modificadores Criados",
+    "th": "สามารถมีม็อดคราฟได้สูงสุด 3 ม็อด",
+    "fr": "Cet Objet peut avoir jusqu'à 3 Modificateurs d'Artisanat",
+    "de": "Kann über bis zu 3 angefertigte Modifikatoren verfügen",
+    "sp": "Puede tener hasta 3 modificadores fabricados"
+  },
+  {
+    "kr": "공격 속성 부여 불가",
+    "us": "Cannot roll Attack Modifiers",
+    "ru": "Не может иметь свойства атак",
+    "pt": "Não pode rolar Modificadores de Ataque",
+    "th": "การสุ่มม็อดจะไม่ออกม็อดการโจมตี",
+    "fr": "Ne peut pas acquérir aléatoirement des Modificateurs d'Attaque",
+    "de": "Kann keine Angriffsmodifikatoren annehmen",
+    "sp": "No puede generar Modificadores de Ataque"
+  },
+  {
+    "kr": "시전 속성 부여 불가",
+    "us": "Cannot roll Caster Modifiers",
+    "ru": "Не может иметь свойства чар",
+    "pt": "Não pode rolar Modificadores de Conjuração",
+    "th": "การสุ่มม็อดจะไม่ออกม็อดนักเวท",
+    "fr": "Ne peut pas acquérir aléatoirement des Modificateurs de Lanceur de Sorts",
+    "de": "Kann keine Zaubermodifikatoren annehmen",
+    "sp": "No puede generar Modificadores de Lanzamiento de Hechizos"
+  },
+  {
+    "kr": "접두어 변경 불가",
+    "us": "Prefixes Cannot Be Changed",
+    "ru": "Префиксы нельзя изменить",
+    "pt": "Prefixos Não Podem Ser Modificados",
+    "th": "ไม่สามารถเปลี่ยน Prefix ได้",
+    "fr": "Les Préfixes ne peuvent pas être changés",
+    "de": "Präfixe können nicht verändert werden",
+    "sp": "Los Prefijos no Pueden Ser Modificados"
+  },
+  {
+    "kr": "함성이 이동 전용 스킬의 전력 공격 횟수를 소비하지 않음",
+    "us": "Warcries cannot Exert Travel Skills",
+    "ru": "Боевые кличи не могут улучшить умения Смещения",
+    "pt": "Clamores não podem Impelir Habilidades de Deslocamento",
+    "th": "คำราม ไม่สามารถทำให้สกิล เดินทาง อยู่ในสภาวะ ฮึกเหิม ได้",
+    "fr": "Les Cris de guerre ne peuvent pas Stimuler les Aptitudes de trajet",
+    "de": "Kriegsschreie können keine Fortbewegungsfertigkeiten potenzieren",
+    "sp": "Los gritos de guerra no pueden optimizar habilidades de viaje"
+  },
+  {
+    "kr": "냉기 및 번개 저항 #%",
+    "us": "#% to Cold and Lightning Resistances",
+    "ru": "#% к сопротивлению холоду и молнии",
+    "pt": "#% de Resistências a Gelo e Raio",
+    "th": "ต้านทาน น้ำแข็ง และ สายฟ้า #%",
+    "fr": "#% aux Résistances au froid et à la foudre",
+    "de": "#% zu Kälte- und Blitzwiderstand",
+    "sp": "#% a las Resistencias al Hielo y al Rayo"
+  },
+  {
+    "kr": "화염 및 냉기 저항 #%",
+    "us": "#% to Fire and Cold Resistances",
+    "ru": "#% к сопротивлению огню и холоду",
+    "pt": "#% de Resistências a Fogo e Gelo",
+    "th": "ต้านทาน ไฟ และ น้ำแข็ง #%",
+    "fr": "#% aux Résistances au feu et au froid",
+    "de": "#% zu Feuer- und Kältewiderstand",
+    "sp": "#% a las Resistencias al Hielo y al Fuego"
+  },
+  {
+    "kr": "화염 및 번개 저항 #%",
+    "us": "#% to Fire and Lightning Resistances",
+    "ru": "#% к сопротивлению огню и молнии",
+    "pt": "#% de Resistências a Fogo e Raio",
+    "th": "ต้านทาน ไฟ และ สายฟ้า #%",
+    "fr": "#% aux Résistances au feu et à la foudre",
+    "de": "#% zu Feuer- und Blitzwiderstand",
+    "sp": "#% a las Resistencias al Fuego y al Rayo"
+  },
+  {
+    "kr": "공격 및 시전 속도 #% 증가",
+    "us": "#% increased Attack and Cast Speed",
+    "ru": "#% повышение скорости атаки и сотворения чар",
+    "pt": "Velocidade de Ataque e Conjuração aumentada em #%",
+    "th": "เพิ่มความเร็วในการโจมตีและการร่าย #%",
+    "fr": "#% d'Augmentation de la Vitesse d'attaque et d'incantation",
+    "de": "#% erhöhte Angriffs- und Zaubergeschwindigkeit",
+    "sp": "Velocidad de Ataque y de Lanzamiento de Hechizos aumentada un #%"
+  },
+  {
+    "kr": "집중하는 동안 피해의 #%를 생명력으로 흡수",
+    "us": "#% of Damage Leeched as Life while Focussed",
+    "ru": "#% урона похищается в виде здоровья, пока вы сфокусированы",
+    "pt": "#% de Dano Drenado como Vida enquanto Concentrado",
+    "th": "ดูด #% ของความเสียหายไปเป็น พลังชีวิต ขณะอยู่ในสถานะ Focus",
+    "fr": "#% des Dégâts Drainent de la Vie tant que vous êtes Focalisé",
+    "de": "#% des Schadens werden als Leben geraubt, während Ihr fokussiert seid",
+    "sp": "#% del Daño se Aborsbe como Vida mientras estás Concentrado"
+  },
+  {
+    "kr": "처치 시 10%의 확률로 10레벨 영체 늑대 소환 발동",
+    "us": "10% Chance to Trigger Level 10 Summon Spectral Wolf on Kill",
+    "ru": "10% шанс вызвать срабатывание Призыва призрачного волка 18 уровня при убийстве",
+    "pt": "10% de Chance de Ativar Convocar Lobo Espectral Nível 18 ao Matar",
+    "th": "มีโอกาส 10% ที่จะเรียก Spectral Wolf เลเวล 18 เมื่อสังหาร",
+    "fr": "10% de chances de déclencher Invocation de Loup spectral (Niveau 18) en Tuant",
+    "de": "10% Chance, bei Tötung 'Spektralwolf beschwören' Stufe 18 auszulösen",
+    "sp": "10% de probabilidad de activar Invocar Lobo Espectral nivel 18 al Matar"
+  },
+  {
+    "kr": "소환수의 모든 원소 저항 #%",
+    "us": "Minions have #% to all Elemental Resistances",
+    "ru": "Приспешники имеют #% к сопротивлению всем стихиям",
+    "pt": "Lacaios possuem #% de todas Resistências Elementais",
+    "th": "ต้านทาน ทุกธาตุ ของมิเนียน #%",
+    "fr": "Les Créatures ont #% à toutes les Résistances élémentaires",
+    "de": "Kreaturen haben #% zu allen Elementarwiderständen",
+    "sp": "Los Esbirros tienen #% a todas las Resistencias Elementales"
+  },
+  {
+    "kr": "집중하는 동안 스킬에 소모가 없음",
+    "us": "Skills Cost no Mana or Life while Focussed",
+    "ru": "Умения не расходую ресурсы во время Фокуса",
+    "pt": "Habilidades não tem Custo enquanto Focado",
+    "th": "สกิลไม่มีค่าใช้งานขณะที่อยู่ในสถานะ Focus",
+    "fr": "Vos Aptitudes n'ont pas de Coût tant que vous êtes Focalisé",
+    "de": "Fertigkeiten haben keine Kosten, während Ihr fokussiert seid",
+    "sp": "Las habilidades no tienen costo mientras estés concentrado"
+  },
+  {
+    "kr": "집중하는 동안 바알의 계약 획득",
+    "us": "You have Vaal Pact while Focussed",
+    "ru": "Вы получаете Соглашение с ваал, пока сфокусированы",
+    "pt": "Você tem Pacto Vaal enquanto Focado",
+    "th": "คุณมี Vaal Pact ขณะอยู่ในสถานะ Focus",
+    "fr": "Vous avez Pacte vaal pendant que vous êtes Focalisé(e)",
+    "de": "Ihr verfügt über Vaal-Pakt, während Ihr fokussiert seid",
+    "sp": "Tienes Pacto Vaal mientras estás Concentrado"
+  },
+  {
+    "kr": "최소 인내 충전 #",
+    "us": "# to Minimum Endurance Charges",
+    "ru": "# к минимуму зарядов выносливости",
+    "pt": "# ao Mínimo de Cargas de Tolerância",
+    "th": "จำนวน Endurance Charge ต่ำสุด #",
+    "fr": "# au nombre minimum de Charges d'endurance",
+    "de": "# zu minimaler Anzahl an Widerstands-Ladungen",
+    "sp": "# a las Cargas de Aguante Mínimas"
+  },
+  {
+    "kr": "최소 격분 충전 #",
+    "us": "# to Minimum Frenzy Charges",
+    "ru": "# к минимуму зарядов ярости",
+    "pt": "# ao Mínimo de Cargas de Frenesi",
+    "th": "จำนวน Frenzy Charge ต่ำสุด #",
+    "fr": "# au nombre minimum de Charges de frénésie",
+    "de": "# zu minimaler Anzahl an Raserei-Ladungen",
+    "sp": "# a las Cargas de Frenesí Mínimas"
+  },
+  {
+    "kr": "최소 권능 충전 #",
+    "us": "# to Minimum Power Charges",
+    "ru": "# к минимуму зарядов энергии",
+    "pt": "# ao Mínimo de Cargas de Poder",
+    "th": "จำนวน Power Charge ต่ำสุด #",
+    "fr": "# au nombre minimum de Charges de pouvoir",
+    "de": "# zu minimaler Anzahl an Energie-Ladungen",
+    "sp": "# a las Cargas de Poder Mínimas"
+  },
+  {
+    "kr": "민첩 및 지능 #",
+    "us": "# to Dexterity and Intelligence",
+    "ru": "# к ловкости и интеллекту",
+    "pt": "# de Destreza e Inteligência",
+    "th": "ค่า Dexterity และ Intelligence #",
+    "fr": "# de Dextérité et d'Intelligence",
+    "de": "# zu Geschick und Intelligenz",
+    "sp": "# a Destreza e Inteligencia"
+  },
+  {
+    "kr": "힘 및 민첩 #",
+    "us": "# to Strength and Dexterity",
+    "ru": "# к силе и ловкости",
+    "pt": "# de Força e Destreza",
+    "th": "ค่า Strength และ Dexterity #",
+    "fr": "# de Force et de Dextérité",
+    "de": "# zu Stärke und Geschick",
+    "sp": "# a Fuerza y Destreza"
+  },
+  {
+    "kr": "힘 및 지능 #",
+    "us": "# to Strength and Intelligence",
+    "ru": "# к силе и интеллекту",
+    "pt": "# de Força e Inteligência",
+    "th": "ค่า Strength และ Intelligence #",
+    "fr": "# de Force et d'Intelligence",
+    "de": "# zu Stärke und Intelligenz",
+    "sp": "# a Fuerza e Inteligencia"
+  },
+  {
+    "kr": "낙인 부착 범위 #% 증가",
+    "us": "#% increased Brand Attachment range",
+    "ru": "#% увеличение дальности прикрепления клейма",
+    "pt": "Alcance do Vínculo de Runas aumentado em #%",
+    "th": "เพิ่มระยะการเกาะของ Brand #%",
+    "fr": "#% d'Augmentation du Rayon de ciblage des Symboles",
+    "de": "#% erhöhte Zeichen-Anheftungsreichweite",
+    "sp": "Rango de adhesión de Marcas aumentado un #%"
+  },
+  {
+    "kr": "지뢰 투척 속도 #% 증가",
+    "us": "#% increased Mine Throwing Speed",
+    "ru": "#% повышение скорости броска мины",
+    "pt": "Velocidade de Arremesso de Minas aumentada em #%",
+    "th": "เพิ่มความเร็วในการโยนทุ่นระเบิด #%",
+    "fr": "#% d'Augmentation de la Vitesse de jet des Mines",
+    "de": "#% erhöhte Minen-Wurfgeschwindigkeit",
+    "sp": "Velocidad de lanzamiento de minas aumentada un #%"
+  },
+  {
+    "kr": "토템 설치 속도 #% 증가",
+    "us": "#% increased Totem Placement speed",
+    "ru": "#% повышение скорости установки тотемов",
+    "pt": "Velocidade de Posicionamento do Totem aumentada em #%",
+    "th": "เพิ่มความเร็วในการเรียก โทเทม #%",
+    "fr": "#% d'Augmentation de la Vitesse de placement des Totems",
+    "de": "#% erhöhte Totem-Platzierungsgeschwindigkeit",
+    "sp": "Velocidad de Colocación de Tótems aumentada un #%"
+  },
+  {
+    "kr": "덫 투척 속도 #% 증가",
+    "us": "#% increased Trap Throwing Speed",
+    "ru": "#% повышение скорости броска ловушки",
+    "pt": "Velocidade de Arremesso da Armadilha aumentada em #%",
+    "th": "เพิ่มความเร็วในการโยนกับดักขึ้น #%",
+    "fr": "#% d'Augmentation de la Vitesse de jet des Pièges",
+    "de": "#% erhöhte Fallen-Wurfgeschwindigkeit",
+    "sp": "Velocidad de Lanzamiento de Trampas aumentada un #%"
+  },
+  {
+    "kr": "화염 및 카오스 저항 #%",
+    "us": "#% to Fire and Chaos Resistances",
+    "ru": "#% к сопротивлениям огню и хаосу",
+    "pt": "#% de Resistência de Fogo e Caos",
+    "th": "ต้านทาน ไฟ และ เคออส #%",
+    "fr": "#% aux Résistances au feu et au chaos",
+    "de": "#% zu Feuer- und Chaoswiderständen",
+    "sp": "#% a las Resistencias al Fuego y al Caos"
+  },
+  {
+    "kr": "번개 및 카오스 저항 #%",
+    "us": "#% to Lightning and Chaos Resistances",
+    "ru": "#% к сопротивлениям молнии и хаосу",
+    "pt": "#% de Resistência a Raio e Caos",
+    "th": "ต้านทาน สายฟ้า และ เคออส #%",
+    "fr": "#% aux Résistances à la foudre et au chaos",
+    "de": "#% zu Blitz- und Chaoswiderständen",
+    "sp": "#% a las Resistencias al Rayo y al Caos"
+  }
+]

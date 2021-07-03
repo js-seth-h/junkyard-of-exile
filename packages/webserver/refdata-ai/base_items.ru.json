@@ -1,0 +1,4292 @@
+{
+  "Амулет из ракушек": {
+    "code": "Paua_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с кораллом": {
+    "code": "Coral_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с янтарем": {
+    "code": "Amber_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с нефритом": {
+    "code": "Jade_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с лазуритом": {
+    "code": "Lapis_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Золотой амулет": {
+    "code": "Gold_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с ониксом": {
+    "code": "Onyx_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/Amulet7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с бирюзой": {
+    "code": "Turquoise_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TurquoiseAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с агатом": {
+    "code": "Agate_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/AgateAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с цитрином": {
+    "code": "Citrine_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/CitrineAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с рубином": {
+    "code": "Ruby_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/RubyAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет-астролябия": {
+    "code": "Astrolabe_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/HeistAmulet1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Простой амулет": {
+    "code": "Simplex_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/HeistAmulet2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с чёрной яшмой": {
+    "code": "Jet_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет с голубой жемчужиной": {
+    "code": "Blue_Pearl_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/BluePearlAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Мраморный амулет": {
+    "code": "Marble_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/MarbleAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Амулет из морского стекла": {
+    "code": "Seaglass_Amulet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/CrescentAmulet.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман чёрной пасти": {
+    "code": "Black_Maw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман костешипа": {
+    "code": "Bonespire_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман пепельного чешуйника": {
+    "code": "Ashscale_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман оленерога-одиночки": {
+    "code": "Lone_Antler_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман глубинника": {
+    "code": "Deep_One_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман ребролома": {
+    "code": "Breakrib_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман смерторука": {
+    "code": "Deadhand_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман бессмертной плоти": {
+    "code": "Undying_Flesh_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanWhite6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман гнилой головы": {
+    "code": "Rot_Head_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/FishTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман мандибулы": {
+    "code": "Mandible_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман кокона": {
+    "code": "Chrysalis_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман личинок": {
+    "code": "Writhing_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман ведьмокогтя": {
+    "code": "Hexclaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман первочерепа": {
+    "code": "Primal_Skull_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман когтистого оборотня": {
+    "code": "Wereclaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/DireClawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман колотритона": {
+    "code": "Splitnewt_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Сжимающий талисман": {
+    "code": "Clutching_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман пернатых близнецов": {
+    "code": "Avian_Twins_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack2.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман клыкастика": {
+    "code": "Fangjaw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanBlack5.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман рогов": {
+    "code": "Horned_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/NewTalisman7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман хребтоплава": {
+    "code": "Spinefuse_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed3.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман трёх крыс": {
+    "code": "Three_Rat_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed7.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман близнецов-обезьян": {
+    "code": "Monkey_Twins_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed6.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман длиннозуба": {
+    "code": "Longtooth_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed4.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман перогнильца": {
+    "code": "Rotfeather_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed1.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман обезьяньей лапки": {
+    "code": "Monkey_Paw_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/MonkeyPawTalisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман трёх рук": {
+    "code": "Three_Hands_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/TalismanRed8.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Талисман Великого волка": {
+    "code": "Greatwolf_Talisman",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Amulets/T4Talisman.png?w=1&h=1&scale=1",
+    "item_type": "amulet"
+  },
+  "Кушак": {
+    "code": "Rustic_Sash",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Цепочка": {
+    "code": "Chain_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Ремень": {
+    "code": "Leather_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt3.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Широкий ремень": {
+    "code": "Heavy_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt5.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Матерчатый пояс": {
+    "code": "Cloth_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt4.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Клёпаный ремень": {
+    "code": "Studded_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt6.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Микро-перегонный пояс": {
+    "code": "Micro-Distillery_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/HeistBelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Меха-сигнальный пояс": {
+    "code": "Mechalarm_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/HeistBelt2.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Ремень гастата": {
+    "code": "Vanguard_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Belt7.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Кристальный пояс": {
+    "code": "Crystal_Belt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/CrystalBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Шитый золотом пояс": {
+    "code": "Golden_Obi",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/Demibelt1.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Тёмные тиски": {
+    "code": "Stygian_Vise",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Belts/AbyssBelt.png?w=2&h=1&scale=1",
+    "item_type": "belt"
+  },
+  "Панцирь": {
+    "code": "Plate_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Нагрудник": {
+    "code": "Chestplate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Медные латы": {
+    "code": "Copper_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех бойца": {
+    "code": "War_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полные латы": {
+    "code": "Full_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех драчуна": {
+    "code": "Arena_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Роскошные латы": {
+    "code": "Lordly_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бронзовые латы": {
+    "code": "Bronze_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех воина": {
+    "code": "Battle_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Солнечные латы": {
+    "code": "Sun_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех поединщика": {
+    "code": "Colosseum_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Величественные латы": {
+    "code": "Majestic_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Золотые латы": {
+    "code": "Golden_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех поборника": {
+    "code": "Crusader_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Звёздные латы": {
+    "code": "Astral_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех гладиатора": {
+    "code": "Gladiator_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Великолепные латы": {
+    "code": "Glorious_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех каома": {
+    "code": "Kaoms_Plate",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr3CUnique.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Рваная кожанка": {
+    "code": "Shabby_Jerkin",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Ременной кожаный доспех": {
+    "code": "Strapped_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шерстяной полукафтан": {
+    "code": "Buckskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Охотничья кожанка": {
+    "code": "Wild_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полный кожаный доспех": {
+    "code": "Full_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Солнечный кожаный доспех": {
+    "code": "Sun_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Облачение вора": {
+    "code": "Thiefs_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Щучий полукафтан": {
+    "code": "Eelskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кожанка разведчика": {
+    "code": "Frontier_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Великолепный кожаный доспех": {
+    "code": "Glorious_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кожаный доспех короны": {
+    "code": "Coronal_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Облачение головореза": {
+    "code": "Cutthroats_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Акулий полукафтан": {
+    "code": "Sharkskin_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кожанка призвания": {
+    "code": "Destiny_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Превосходный кожаный доспех": {
+    "code": "Exquisite_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кожаный доспех зодиака": {
+    "code": "Zodiac_Leather",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Облачение убийцы": {
+    "code": "Assassins_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Матерчатая безрукавка": {
+    "code": "Simple_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шёлковый нагрудник": {
+    "code": "Silken_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Одеяние ученого": {
+    "code": "Scholars_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шёлковое облачение": {
+    "code": "Silken_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Халат мага": {
+    "code": "Mages_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шёлковое одеяние": {
+    "code": "Silk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Наряд мистика": {
+    "code": "Cabalist_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Одеяние мудреца": {
+    "code": "Sages_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шёлковая одежда": {
+    "code": "Silken_Wrap",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Халат чародея": {
+    "code": "Conjurers_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Одеяние из паучьего шёлка": {
+    "code": "Spidersilk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Наряд разрушителя": {
+    "code": "Destroyer_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Одеяние эрудита": {
+    "code": "Savants_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Шелка некроманта": {
+    "code": "Necromancer_Silks",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Халат волшебника": {
+    "code": "Occultists_Vestment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Одеяние чёрной вдовы": {
+    "code": "Widowsilk_Robe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Наряд ваал": {
+    "code": "Vaal_Regalia",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Чешуйчатый нагрудник": {
+    "code": "Scale_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Лёгкая бригандина": {
+    "code": "Light_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Чешуйчатый дублет": {
+    "code": "Scale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина ауксилария": {
+    "code": "Infantry_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полный чешуйчатый доспех": {
+    "code": "Full_Scale_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина солдата": {
+    "code": "Soldiers_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Пластинчатый доспех": {
+    "code": "Field_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Дублет из чешуи змея": {
+    "code": "Wyrmscale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина всадника": {
+    "code": "Hussar_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полный доспех из чешуи змея": {
+    "code": "Full_Wyrmscale",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина командира": {
+    "code": "Commanders_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Боевой пластинчатый доспех": {
+    "code": "Battle_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Дублет из чешуи дракона": {
+    "code": "Dragonscale_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина кочевника": {
+    "code": "Desert_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полный доспех из чешуи дракона": {
+    "code": "Full_Dragonscale",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Бригандина легата": {
+    "code": "Generals_Brigandine",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrDex2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Пластинчатый доспех триумфатора": {
+    "code": "Triumphant_Lamellar",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStr4A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчужный жилет": {
+    "code": "Chainmail_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчужный жилет с пластинами": {
+    "code": "Chainmail_Tunic",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Байдана": {
+    "code": "Ringmail_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчужный дублет": {
+    "code": "Chainmail_Doublet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полный кольчатый доспех": {
+    "code": "Full_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Полная кольчуга": {
+    "code": "Full_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчуга послушника": {
+    "code": "Holy_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Усиленная байдана": {
+    "code": "Latticed_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчуга святого воина": {
+    "code": "Crusader_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Парадный кольчатый доспех": {
+    "code": "Ornate_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Хауберг": {
+    "code": "Chain_Hauberk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчуга праведника": {
+    "code": "Devout_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Калантарь": {
+    "code": "Loricated_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчуга завоевателя": {
+    "code": "Conquest_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Изящный кольчатый доспех": {
+    "code": "Elegant_Ringmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Хауберг святого": {
+    "code": "Saints_Hauberk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кольчуга святого": {
+    "code": "Saintly_Chainmail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyStrInt3C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Стёганый доспех": {
+    "code": "Padded_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Жилет из дублёной кожи": {
+    "code": "Oiled_Vest",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2A.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Набивной доспех": {
+    "code": "Padded_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Доспех из дублёной кожи": {
+    "code": "Oiled_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Алый камзол": {
+    "code": "Scarlet_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Лощёное облачение": {
+    "code": "Waxed_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Костяной доспех": {
+    "code": "Bone_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Стёганая куртка": {
+    "code": "Quilted_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Модный жакет": {
+    "code": "Sleek_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Багряный камзол": {
+    "code": "Crimson_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Лакированное облачение": {
+    "code": "Lacquered_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Могильный доспех": {
+    "code": "Crypt_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Куртка стража": {
+    "code": "Sentinel_Jacket",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Франтоватый жакет": {
+    "code": "Varnished_Coat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2B.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кровавый камзол": {
+    "code": "Blood_Raiment",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt1C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Облачение мучителя": {
+    "code": "Sadist_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt2C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Кровожадный доспех": {
+    "code": "Carnal_Armour",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/BodyDexInt4C.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Жертвенное облачение": {
+    "code": "Sacrificial_Garb",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/SacrificialGarb.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Золотая мантия": {
+    "code": "Golden_Mantle",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/DemigodsArmour.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Цепкая кольчуга": {
+    "code": "Grasping_Mail",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/BodyArmours/GraspingMail.png?w=2&h=3&scale=1",
+    "item_type": "chest"
+  },
+  "Железные поножи": {
+    "code": "Iron_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Стальные поножи": {
+    "code": "Steel_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Латные поножи": {
+    "code": "Plated_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Усиленные поножи": {
+    "code": "Reinforced_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Старинные поножи": {
+    "code": "Antique_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Древние поножи": {
+    "code": "Ancient_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Поножи великана": {
+    "code": "Goliath_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Поножи ваал": {
+    "code": "Vaal_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Поножи титана": {
+    "code": "Titan_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги из чёрного металла": {
+    "code": "Basemetal_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги из тёмной стали": {
+    "code": "Darksteel_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Серные сапоги": {
+    "code": "Brimstone_Treads",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualStrBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Поножи каома": {
+    "code": "Kaoms_Greaves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStr4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сыромятные ботинки": {
+    "code": "Rawhide_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сафьяновые ботинки": {
+    "code": "Goathide_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Юфтевые ботинки": {
+    "code": "Deerskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Нубуковые ботинки": {
+    "code": "Nubuck_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Щучьи ботинки": {
+    "code": "Eelskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Акульи ботинки": {
+    "code": "Sharkskin_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Шагреневые ботинки": {
+    "code": "Shagreen_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Шевровые ботинки": {
+    "code": "Stealth_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Замшевые ботинки": {
+    "code": "Slink_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDex4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Башмаки облачного шёпота": {
+    "code": "Cloudwhisper_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Башмаки противления ветру": {
+    "code": "Windbreak_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Башмаки наездника бури": {
+    "code": "Stormrider_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualDexBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Шерстяные башмаки": {
+    "code": "Wool_Shoes",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Бархатные тапочки": {
+    "code": "Velvet_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Шёлковые сапоги": {
+    "code": "Silk_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги ученика": {
+    "code": "Scholar_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сатиновые тапочки": {
+    "code": "Satin_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Атласные сапоги": {
+    "code": "Samite_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги чародея": {
+    "code": "Conjurer_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги тайнописца": {
+    "code": "Arcanist_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги волшебника": {
+    "code": "Sorcerer_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Тапочки закатного шага": {
+    "code": "Duskwalk_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Тапочки ночного ветра": {
+    "code": "Nightwind_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Тапочки погони за мечтой": {
+    "code": "Dreamquest_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/RitualIntBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Башмаки из варёной кожи": {
+    "code": "Leatherscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Железные ботинки": {
+    "code": "Ironscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Бронзовые ботинки": {
+    "code": "Bronzescale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Стальные башмаки": {
+    "code": "Steelscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ботинки из чешуи гадюки": {
+    "code": "Serpentscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ботинки из чешуи змея": {
+    "code": "Wyrmscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ботинки из чешуи гидры": {
+    "code": "Hydrascale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ботинки из чешуи дракона": {
+    "code": "Dragonscale_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Кольчужные башмаки": {
+    "code": "Chain_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Кольчужные сапоги": {
+    "code": "Ringmail_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Полукольчужные сапоги": {
+    "code": "Mesh_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Клёпаные башмаки": {
+    "code": "Riveted_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги фанатика": {
+    "code": "Zealot_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги ауксилария": {
+    "code": "Soldier_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги легионера": {
+    "code": "Legion_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги ревнителя веры": {
+    "code": "Crusader_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сандалии": {
+    "code": "Wrapped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сандалеты": {
+    "code": "Strapped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Калиги": {
+    "code": "Clasped_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги оков": {
+    "code": "Shackled_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Ботинки капканщика": {
+    "code": "Trapper_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сандалеты разбойника": {
+    "code": "Ambush_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги крови": {
+    "code": "Carnal_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Калиги убийцы": {
+    "code": "Assassins_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Сапоги смерти": {
+    "code": "Murder_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Золотые калиги": {
+    "code": "Golden_Caligae",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/DemigodsStride.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Тапочки проворства": {
+    "code": "Avian_Slippers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/BootsInt1.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Двухцветные ботинки": {
+    "code": "Two-Toned_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/TwoTonedBoots2B.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Благословенные сапоги": {
+    "code": "Blessed_Boots",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Boots/HalfTonedBoots.png?w=2&h=2&scale=1",
+    "item_type": "boots"
+  },
+  "Грубый лук": {
+    "code": "Crude_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow1.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Короткий лук": {
+    "code": "Short_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Длинный лук": {
+    "code": "Long_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Составной лук": {
+    "code": "Composite_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Загнутый лук": {
+    "code": "Recurve_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Костяной лук": {
+    "code": "Bone_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Царский лук": {
+    "code": "Royal_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук смерти": {
+    "code": "Death_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук прыти": {
+    "code": "Reflex_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лесной лук": {
+    "code": "Grove_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Мощный лук": {
+    "code": "Decurve_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Сложный лук": {
+    "code": "Compound_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук птицебоя": {
+    "code": "Sniper_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук из бивня": {
+    "code": "Ivory_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук патриция": {
+    "code": "Highborn_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук палача": {
+    "code": "Decimation_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Железный лук": {
+    "code": "Steelwood_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Чащобный лук": {
+    "code": "Thicket_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow2.png?w=2&h=3&scale=1",
+    "item_type": "bow"
+  },
+  "Осадный лук": {
+    "code": "Citadel_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow3.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук охотника": {
+    "code": "Ranger_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow4.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук убийцы": {
+    "code": "Assassin_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow5.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук из рога": {
+    "code": "Spine_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow6.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Императорский лук": {
+    "code": "Imperial_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук предвестника": {
+    "code": "Harbinger_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук маракета": {
+    "code": "Maraketh_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow9.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Лук с гранями": {
+    "code": "Hedron_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Литой лук": {
+    "code": "Foundry_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Солнечный лук": {
+    "code": "Solarine_Bow",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/HeistBowFire.png?w=2&h=4&scale=1",
+    "item_type": "bow"
+  },
+  "Шипастый кулак": {
+    "code": "Nailed_Fist",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw1.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Кастет с зубами акулы": {
+    "code": "Sharktooth_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Шило": {
+    "code": "Awl",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Кошачья лапа": {
+    "code": "Cats_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Ослепитель": {
+    "code": "Blinder",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Истёртый кастет": {
+    "code": "Timeworn_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Блестящий коготь": {
+    "code": "Sparkling_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Пугающий коготь": {
+    "code": "Fright_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Двойной коготь": {
+    "code": "Double_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Кастет молотильщика": {
+    "code": "Thresher_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Тычок": {
+    "code": "Gouger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Тигриная лапа": {
+    "code": "Tigers_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Вспарыватель": {
+    "code": "Gut_Ripper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Доисторический кастет": {
+    "code": "Prehistoric_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Коготь патриция": {
+    "code": "Noble_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Орлиный коготь": {
+    "code": "Eagle_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Парный коготь": {
+    "code": "Twin_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Большой белый коготь": {
+    "code": "Great_White_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw2.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Затыкатель": {
+    "code": "Throat_Stabber",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw3.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Лапа волкодава": {
+    "code": "Hellions_Paw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw4.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Выкалыватель": {
+    "code": "Eye_Gouger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw5.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Коготь ваал": {
+    "code": "Vaal_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw6.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Имперский коготь": {
+    "code": "Imperial_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw7.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Жуткий коготь": {
+    "code": "Terror_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw8.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Коготь-близнец": {
+    "code": "Gemini_Claw",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/Claw9.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Теневые клыки": {
+    "code": "Shadow_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Чёрные клыки": {
+    "code": "Malign_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Пустотные клыки": {
+    "code": "Void_Fangs",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Claws/HeistClaw.png?w=2&h=2&scale=1",
+    "item_type": "claw"
+  },
+  "Осколок стекла": {
+    "code": "Glass_Shank",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Нож скорняка": {
+    "code": "Skinning_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Стилет": {
+    "code": "Stiletto",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Жало": {
+    "code": "Prong_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Нож свежевателя": {
+    "code": "Flaying_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Дага": {
+    "code": "Poignard",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Трезубец": {
+    "code": "Trisula",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Нож потрошителя": {
+    "code": "Gutting_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger2.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Рондел": {
+    "code": "Ambusher",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger4.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Сай": {
+    "code": "Sai",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger9.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Экспансивный кинжал": {
+    "code": "Hollowpoint_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Герметизированный кинжал": {
+    "code": "Pressurised_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Пневматический кинжал": {
+    "code": "Pneumatic_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Бесплотный клинок": {
+    "code": "Ethereal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger1.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Разделочный нож": {
+    "code": "Carving_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Засапожный нож": {
+    "code": "Boot_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Медный крис": {
+    "code": "Copper_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Гаэльский кинжал": {
+    "code": "Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал беса": {
+    "code": "Imp_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Нож мясника": {
+    "code": "Butcher_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Засапожный клинок": {
+    "code": "Boot_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Золотой крис": {
+    "code": "Golden_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал царя": {
+    "code": "Royal_Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал изверга": {
+    "code": "Fiend_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал душегуба": {
+    "code": "Slaughter_Knife",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал эзомита": {
+    "code": "Ezomyte_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger5.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Платиновый крис": {
+    "code": "Platinum_Kris",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger6.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал императора": {
+    "code": "Imperial_Skean",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger7.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Кинжал демона": {
+    "code": "Demon_Dagger",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger8.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Мерцающий клинок": {
+    "code": "Flickerflame_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Вспышечный клинок": {
+    "code": "Flashfire_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Инфернальный клинок": {
+    "code": "Infernal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/HeistRuneDagger.png?w=1&h=3&scale=1",
+    "item_type": "dagger"
+  },
+  "Железные рукавицы": {
+    "code": "Iron_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Латные перчатки": {
+    "code": "Plated_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Бронзовые перчатки": {
+    "code": "Bronze_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Стальные перчатки": {
+    "code": "Steel_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Старинные перчатки": {
+    "code": "Antique_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Древние перчатки": {
+    "code": "Ancient_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки гиганта": {
+    "code": "Goliath_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки ваал": {
+    "code": "Vaal_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки титана": {
+    "code": "Titan_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStr4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Обременяющие перчатки": {
+    "code": "Taxing_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Изнуряющие перчатки": {
+    "code": "Gruelling_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Истощающие перчатки": {
+    "code": "Debilitation_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualStrGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Сыромятные перчатки": {
+    "code": "Rawhide_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Сафьяновые перчатки": {
+    "code": "Goathide_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Юфтевые перчатки": {
+    "code": "Deerskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Нубуковые перчатки": {
+    "code": "Nubuck_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Щучьи перчатки": {
+    "code": "Eelskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Акульи перчатки": {
+    "code": "Sharkskin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Шагреневые перчатки": {
+    "code": "Shagreen_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Шевровые перчатки": {
+    "code": "Stealth_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Замшевые перчатки": {
+    "code": "Slink_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDex4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Грубые перчатки": {
+    "code": "Gauche_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Правосторонние перчатки": {
+    "code": "Southswing_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки левши": {
+    "code": "Sinistral_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualDexGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Шерстяные перчатки": {
+    "code": "Wool_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Бархатные перчатки": {
+    "code": "Velvet_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Шёлковые перчатки": {
+    "code": "Silk_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Расшитые перчатки": {
+    "code": "Embroidered_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Сатиновые перчатки": {
+    "code": "Satin_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Атласные перчатки": {
+    "code": "Samite_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки чародея": {
+    "code": "Conjurer_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки тайнописца": {
+    "code": "Arcanist_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки волшебника": {
+    "code": "Sorcerer_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesInt4.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки лучей": {
+    "code": "Leyline_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки эфирного ветра": {
+    "code": "Aetherwind_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки нексуса": {
+    "code": "Nexus_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/RitualIntGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Чешуйчатые перчатки": {
+    "code": "Fishscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Чешуйчатые железные перчатки": {
+    "code": "Ironscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Чешуйчатые бронзовые перчатки": {
+    "code": "Bronzescale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Чешуйчатые стальные перчатки": {
+    "code": "Steelscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки из чешуи гадюки": {
+    "code": "Serpentscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки из чешуи змея": {
+    "code": "Wyrmscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки из чешуи гидры": {
+    "code": "Hydrascale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки из чешуи дракона": {
+    "code": "Dragonscale_Gauntlets",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Кольчужные перчатки": {
+    "code": "Chain_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Кольчатые перчатки": {
+    "code": "Ringmail_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Усиленные кольчужные перчатки": {
+    "code": "Mesh_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Клёпаные кольчужные перчатки": {
+    "code": "Riveted_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки фанатика": {
+    "code": "Zealot_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки ауксилария": {
+    "code": "Soldier_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки легионера": {
+    "code": "Legion_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки поборника": {
+    "code": "Crusader_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Тканевые перчатки": {
+    "code": "Wrapped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Ременные перчатки": {
+    "code": "Strapped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки оков": {
+    "code": "Clasped_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки капканщика": {
+    "code": "Trapper_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки разбойника": {
+    "code": "Ambush_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки крови": {
+    "code": "Carnal_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки убийцы": {
+    "code": "Assassins_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки смерти": {
+    "code": "Murder_Mitts",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GlovesDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Золотые перчатки": {
+    "code": "Golden_Bracers",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/DemigodsTouch.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Колючие перчатки": {
+    "code": "Spiked_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/SpikedGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Крепкие перчатки": {
+    "code": "Gripped_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/GripGlovesBaseType.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Шёлковые митенки": {
+    "code": "Fingerless_Silk_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/FingerlessSilkGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Перчатки аптекаря": {
+    "code": "Apothecarys_Gloves",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Gloves/ChemistGloves.png?w=2&h=2&scale=1",
+    "item_type": "gloves"
+  },
+  "Железная шапка": {
+    "code": "Iron_Hat",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Кабассет": {
+    "code": "Cone_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Барбют": {
+    "code": "Barbute_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Закрытый шлем": {
+    "code": "Close_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем гладиатора": {
+    "code": "Gladiator_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Полный шлем": {
+    "code": "Reaver_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Осадный шлем": {
+    "code": "Siege_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем самнита": {
+    "code": "Samnite_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Полный шлем эзомита": {
+    "code": "Ezomyte_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Полный шлем царя": {
+    "code": "Royal_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Полный шлем вечного": {
+    "code": "Eternal_Burgonet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStr11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Кожаный чепец": {
+    "code": "Leather_Cap",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Треуголка": {
+    "code": "Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Кожаный капюшон": {
+    "code": "Leather_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Волчья морда": {
+    "code": "Wolf_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Капюшон охотника": {
+    "code": "Hunter_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Парадная треуголка": {
+    "code": "Noble_Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Медвежья морда": {
+    "code": "Ursine_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шёлковый капюшон": {
+    "code": "Silken_Hood",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Треуголка грешника": {
+    "code": "Sinner_Tricorne",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Львиная морда": {
+    "code": "Lion_Pelt",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Венок из лозы": {
+    "code": "Vine_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Железный обруч": {
+    "code": "Iron_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Клеть мучений": {
+    "code": "Torture_Cage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Обруч аборигена": {
+    "code": "Tribal_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Обруч с костью": {
+    "code": "Bone_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Диадема Лунарис": {
+    "code": "Lunaris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Стальной обруч": {
+    "code": "Steel_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Обруч некроманта": {
+    "code": "Necromancer_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Диадема Солярис": {
+    "code": "Solaris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Клеть разума": {
+    "code": "Mind_Cage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Венец гордыни": {
+    "code": "Hubris_Circlet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Пробитый шлем": {
+    "code": "Battered_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Салад": {
+    "code": "Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Салад с забралом": {
+    "code": "Visored_Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Позолоченный салад": {
+    "code": "Gilded_Sallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем секутора": {
+    "code": "Secutor_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем фехтовальщика": {
+    "code": "Fencer_Helm",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем командира": {
+    "code": "Lacquered_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Волнистый бацинет": {
+    "code": "Fluted_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Клювастый бацинет": {
+    "code": "Pig-Faced_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Кошмарный бацинет": {
+    "code": "Nightmare_Bascinet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDex10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска скорби": {
+    "code": "Sorrow_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска искупления": {
+    "code": "Atonement_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска кающегося": {
+    "code": "Penitent_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrDexR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Ржавый койф": {
+    "code": "Rusted_Coif",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем солдата": {
+    "code": "Soldier_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Большой шлем": {
+    "code": "Great_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем подвижника": {
+    "code": "Crusader_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем с бармицей": {
+    "code": "Aventail_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шлем фанатика": {
+    "code": "Zealot_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Большая корона": {
+    "code": "Great_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона правителя": {
+    "code": "Magistrate_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона провидца": {
+    "code": "Prophet_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона претора": {
+    "code": "Praetor_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetStrInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона беса": {
+    "code": "Imp_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона демона": {
+    "code": "Demon_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона архидемона": {
+    "code": "Archdemon_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/MaskCrown.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Пугающая маска": {
+    "code": "Scare_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Чумная маска": {
+    "code": "Plague_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Железная маска": {
+    "code": "Iron_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Карнавальная маска": {
+    "code": "Festival_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Золотая маска": {
+    "code": "Golden_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Воронья маска": {
+    "code": "Raven_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt6.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска равнодушия": {
+    "code": "Callous_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt7.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска цареубийцы": {
+    "code": "Regicide_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt8.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Шутовская маска": {
+    "code": "Harlequin_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt9.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска ваал": {
+    "code": "Vaal_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt10.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Маска богоубийцы": {
+    "code": "Deicide_Mask",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexInt11.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона ветра": {
+    "code": "Gale_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона зимы": {
+    "code": "Winter_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Корона метели": {
+    "code": "Blizzard_Crown",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/HelmetDexIntR.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Золотой венок": {
+    "code": "Golden_Wreath",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/Demigodstriumph.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Золотой лик": {
+    "code": "Golden_Visage",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/DemigodsImmortality.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Костяной шлем": {
+    "code": "Bone_Helmet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Helmets/BoneHelm.png?w=2&h=2&scale=1",
+    "item_type": "helmet"
+  },
+  "Ржавый топорик": {
+    "code": "Rusted_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe1.png?w=1&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Нефритовый топор": {
+    "code": "Jade_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Абордажный топор": {
+    "code": "Boarding_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Секач": {
+    "code": "Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Плотничий топор": {
+    "code": "Broad_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Боевой топор": {
+    "code": "Arming_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Украшенный топор": {
+    "code": "Decorative_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Призрачный топор": {
+    "code": "Spectral_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Травлёный топорик": {
+    "code": "Etched_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Яшмовый топор": {
+    "code": "Jasper_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Томагавк": {
+    "code": "Tomahawk",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Рукоруб": {
+    "code": "Wrist_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Воинский топор": {
+    "code": "War_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Рассекатель рёбер": {
+    "code": "Chest_Splitter",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Церемониальный топор": {
+    "code": "Ceremonial_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Потусторонний топор": {
+    "code": "Wraith_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Гравированный топорик": {
+    "code": "Engraved_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Топор каруи": {
+    "code": "Karui_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe2.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Осадный топор": {
+    "code": "Siege_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Разбойничий топор": {
+    "code": "Reaver_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Топор мясника": {
+    "code": "Butcher_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe5.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Топорик ваал": {
+    "code": "Vaal_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe6.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Царский топор": {
+    "code": "Royal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Бесовской топор": {
+    "code": "Infernal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe8.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Рунический топорик": {
+    "code": "Runic_Hatchet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe9.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Жестокий топор": {
+    "code": "Maltreatment_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Осуждающий топор": {
+    "code": "Disapprobation_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Психотический топор": {
+    "code": "Psychotic_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/HeistOnehandAxe.png?w=2&h=3&scale=1",
+    "item_type": "oneaxe"
+  },
+  "Дубинка из плавника": {
+    "code": "Driftwood_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace1.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Дубинка аборигена": {
+    "code": "Tribal_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Шипастая дубинка": {
+    "code": "Spiked_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Каменный молот": {
+    "code": "Stone_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Воинский молот": {
+    "code": "War_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Булава с пластинами": {
+    "code": "Bladed_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Церемониальная булава": {
+    "code": "Ceremonial_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Булава видений": {
+    "code": "Dream_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Булава червя": {
+    "code": "Wyrm_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Окаменелая дубинка": {
+    "code": "Petrified_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Колючая дубинка": {
+    "code": "Barbed_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Камнедробитель": {
+    "code": "Rock_Breaker",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Боевой молот": {
+    "code": "Battle_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Шестопёр": {
+    "code": "Flanged_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Украшенная булава": {
+    "code": "Ornate_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Призрачная булава": {
+    "code": "Phantom_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Булава дракона": {
+    "code": "Dragon_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Дубинка предков": {
+    "code": "Ancestral_Club",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace2.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Палица": {
+    "code": "Tenderizer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace3.png?w=1&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Камнетёс": {
+    "code": "Gavel",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace4.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Молот легионера": {
+    "code": "Legion_Hammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace5.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Пернач": {
+    "code": "Pernach",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace6.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Золотая булава": {
+    "code": "Auric_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace7.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Кошмарная булава": {
+    "code": "Nightmare_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace8.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Булава бегемота": {
+    "code": "Behemoth_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/OneHandMace9.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Cверкающая булава": {
+    "code": "Flare_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Трескучая булава": {
+    "code": "Crack_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Грохочущая булава": {
+    "code": "Boom_Mace",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandMaces/HeistOneHandMace.png?w=2&h=3&scale=1",
+    "item_type": "onemace"
+  },
+  "Меч Чарана": {
+    "code": "Charans_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/TheGoddessUnleashed.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Золотой клинок": {
+    "code": "Golden_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/DemigodsAuthority.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Ржавый меч": {
+    "code": "Rusted_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword1.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Медный меч": {
+    "code": "Copper_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Сабля": {
+    "code": "Sabre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Широкий меч": {
+    "code": "Broad_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Воинский меч": {
+    "code": "War_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Древний меч": {
+    "code": "Ancient_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Элегантный меч": {
+    "code": "Elegant_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Закатный клинок": {
+    "code": "Dusk_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Меч-крюк": {
+    "code": "Hook_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Варисцитовый меч": {
+    "code": "Variscite_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Абордажная сабля": {
+    "code": "Cutlass",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Короткий меч": {
+    "code": "Baselard",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Боевой меч": {
+    "code": "Battle_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Меч старейшины": {
+    "code": "Elder_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Изящный меч": {
+    "code": "Graceful_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Сумрачный клинок": {
+    "code": "Twilight_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Хвататель": {
+    "code": "Grappler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Самоцветный меч": {
+    "code": "Gemstone_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword2.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Пиратский тесак": {
+    "code": "Corsair_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?w=1&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Гладиус": {
+    "code": "Gladius",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword4.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Меч всадника": {
+    "code": "Legion_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword5.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Клинок ваал": {
+    "code": "Vaal_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword6.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Меч вечного": {
+    "code": "Eternal_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword7.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Полуночный меч": {
+    "code": "Midnight_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Тигровый крюк": {
+    "code": "Tiger_Hook",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword9.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Изменчивый меч духа": {
+    "code": "Fickle_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Своенравный меч духа": {
+    "code": "Capricious_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Сумбурный меч духа": {
+    "code": "Anarchic_Spiritblade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/HeistOneHandSword.png?w=2&h=3&scale=1",
+    "item_type": "onesword"
+  },
+  "Ржавый шип": {
+    "code": "Rusted_Spike",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier1.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира из китовой кости": {
+    "code": "Whalebone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Тупая шпага": {
+    "code": "Battered_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира с чашей": {
+    "code": "Basket_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Зазубренная шпага": {
+    "code": "Jagged_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Старинная рапира": {
+    "code": "Antique_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Элегантная шпага": {
+    "code": "Elegant_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Колючая рапира": {
+    "code": "Thorn_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Малый меч": {
+    "code": "Smallsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира из кости змея": {
+    "code": "Wyrmbone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Полированная шпага": {
+    "code": "Burnished_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Короткая шпага": {
+    "code": "Estoc",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Шпага с зубцами": {
+    "code": "Serrated_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Древняя рапира": {
+    "code": "Primeval_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Вычурная шпага": {
+    "code": "Fancy_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Острая рапира": {
+    "code": "Apex_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Меч кокотки": {
+    "code": "Courtesan_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира из кости дракона": {
+    "code": "Dragonbone_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Закалённая шпага": {
+    "code": "Tempered_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier3.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Сабля пекораро": {
+    "code": "Pecoraro",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier4.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Витая шпага": {
+    "code": "Spiraled_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier5.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира ваал": {
+    "code": "Vaal_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier6.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Инкрустированная шпага": {
+    "code": "Jewelled_Foil",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier7.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Рапира гарпии": {
+    "code": "Harpy_Rapier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier8.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Сабля драгуна": {
+    "code": "Dragoon_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier9.png?w=1&h=4&scale=1",
+    "item_type": "onesword"
+  },
+  "Дублёный колчан": {
+    "code": "Cured_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver1.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Грубый колчан": {
+    "code": "Rugged_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver2.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Гудящий колчан": {
+    "code": "Conductive_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver3.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Тяжелый колчан": {
+    "code": "Heavy_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver4.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Лёгкий колчан": {
+    "code": "Light_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/Quiver5.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан зазубренных стрел": {
+    "code": "Serrated_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSerrated.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан двуглавых стрел": {
+    "code": "Two-Point_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverTwo-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан акульих стрел": {
+    "code": "Sharktooth_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSharktooth.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан промысловых стрел": {
+    "code": "Blunt_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverBlunt.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан огненных стрел": {
+    "code": "Fire_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverFire.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан охотничьих стрел": {
+    "code": "Broadhead_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverBroadhead.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан боевых стрел": {
+    "code": "Penetrating_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverPenetrating.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Колчан точных стрел": {
+    "code": "Spike-Point_Arrow_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/QuiverSpike-Point.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Витиеватый колчан": {
+    "code": "Ornate_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/TriggerQuiverUnique.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Артиллерийский колчан": {
+    "code": "Artillery_Quiver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Quivers/ChiselQuiver.png?w=2&h=3&scale=1",
+    "item_type": "quiver"
+  },
+  "Золотой обруч": {
+    "code": "Golden_Hoop",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/DemigodsBand.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Железное кольцо": {
+    "code": "Iron_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с кораллом": {
+    "code": "Coral_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с ракушкой": {
+    "code": "Paua_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring3.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Золотое кольцо": {
+    "code": "Gold_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring4.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с топазом": {
+    "code": "Topaz_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring5.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с сапфиром": {
+    "code": "Sapphire_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring6.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с рубином": {
+    "code": "Ruby_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring7.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Радужное кольцо": {
+    "code": "Prismatic_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Ring12.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с лунным камнем": {
+    "code": "Moonstone_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/MoonstoneRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с аметистом": {
+    "code": "Amethyst_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/AmethystRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с бриллиантом": {
+    "code": "Diamond_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/DiamondRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с двумя камнями": {
+    "code": "Two-Stone_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/TopazSapphire.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо без камня": {
+    "code": "Unset_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/Empty-Socket.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Шестерёнчатое кольцо": {
+    "code": "Cogwork_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/HeistRing1.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Геодезическое кольцо": {
+    "code": "Geodesic_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/HeistRing2.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с чёрной яшмой": {
+    "code": "Jet_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/RingoftheVictor.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Стальное кольцо": {
+    "code": "Steel_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/AdamantineRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с опалом": {
+    "code": "Opal_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/OpalRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с киноварью": {
+    "code": "Vermillion_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/VermillionRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо с аквамарином": {
+    "code": "Cerulean_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/CeruleanRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Иолитовое кольцо": {
+    "code": "Iolite_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/ChaosDmgRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Кольцо Разлома": {
+    "code": "Breach_Ring",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Rings/BreachRing.png?w=1&h=1&scale=1",
+    "item_type": "ring"
+  },
+  "Скипетр из плавника": {
+    "code": "Driftwood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter1.png?w=1&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Прогнивший скипетр": {
+    "code": "Darkwood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Бронзовый скипетр": {
+    "code": "Bronze_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Кварцевый скипетр": {
+    "code": "Quartz_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Железный скипетр": {
+    "code": "Iron_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Бурый скипетр": {
+    "code": "Ochre_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Ритуальный скипетр": {
+    "code": "Ritual_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр тени": {
+    "code": "Shadow_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Рогатый скипетр": {
+    "code": "Horned_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Оскаленный фетиш": {
+    "code": "Grinning_Fetish",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Сехем": {
+    "code": "Sekhem",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Кристальный скипетр": {
+    "code": "Crystal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр командира": {
+    "code": "Lead_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Багряный скипетр": {
+    "code": "Blood_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Царский скипетр": {
+    "code": "Royal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр кромешной тьмы": {
+    "code": "Abyssal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Олений скипетр": {
+    "code": "Stag_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр каруи": {
+    "code": "Karui_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Сехем тирана": {
+    "code": "Tyrants_Sekhem",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Опаловый скипетр": {
+    "code": "Opal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter4.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Платиновый скипетр": {
+    "code": "Platinum_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter5.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр ваал": {
+    "code": "Vaal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter6.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Кровавый скипетр": {
+    "code": "Carnal_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter7.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр пустоты": {
+    "code": "Void_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter8.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Скипетр замбара": {
+    "code": "Sambar_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter9.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Дрожащий скипетр": {
+    "code": "Oscillating_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Стабилизующий скипетр": {
+    "code": "Stabilising_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Альтернирующий скипетр": {
+    "code": "Alternating_Sceptre",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/HeistSceptreElemental.png?w=2&h=3&scale=1",
+    "item_type": "sceptre"
+  },
+  "Разбитый ростовой щит": {
+    "code": "Splintered_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr1.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ржавый ростовой щит": {
+    "code": "Corroded_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr2.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Сыромятный ростовой щит": {
+    "code": "Rawhide_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Кедровый ростовой щит": {
+    "code": "Cedar_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Медный ростовой щит": {
+    "code": "Copper_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Укреплённый ростовой щит": {
+    "code": "Reinforced_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Расписной ростовой щит": {
+    "code": "Painted_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Кожаный ростовой щит": {
+    "code": "Buckskin_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Палисандровый ростовой щит": {
+    "code": "Mahogany_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Бронзовый ростовой щит": {
+    "code": "Bronze_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ростовой щит с умбоном": {
+    "code": "Girded_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ростовой щит с гербом": {
+    "code": "Crested_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ростовой щит из акульей кожи": {
+    "code": "Shagreen_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr3.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Эбеновый ростовой щит": {
+    "code": "Ebony_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr4.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Ростовой щит эзомита": {
+    "code": "Ezomyte_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr5.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Массивный ростовой щит": {
+    "code": "Colossal_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr6.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Лучший ростовой щит": {
+    "code": "Pinnacle_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStr7.png?w=2&h=4&scale=1",
+    "item_type": "shield"
+  },
+  "Экзотермический ростовой щит": {
+    "code": "Exothermic_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Магматический ростовой щит": {
+    "code": "Magmatic_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Пламенный ростовой щит": {
+    "code": "Heat-attuned_Tower_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/HeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Кожаный баклер": {
+    "code": "Goathide_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Сосновый баклер": {
+    "code": "Pine_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Железный баклер": {
+    "code": "Painted_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Кованый баклер": {
+    "code": "Hammered_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Воинский баклер": {
+    "code": "War_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Позолоченный баклер": {
+    "code": "Gilded_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Дубовый баклер": {
+    "code": "Oak_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Стальной баклер": {
+    "code": "Enameled_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Рифлёный баклер": {
+    "code": "Corrugated_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Боевой баклер": {
+    "code": "Battle_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Золотой баклер": {
+    "code": "Golden_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Самшитовый баклер": {
+    "code": "Ironwood_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Многослойный баклер": {
+    "code": "Lacquered_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Баклер ваал": {
+    "code": "Vaal_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Баклер подвижника": {
+    "code": "Crusader_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Императорский баклер": {
+    "code": "Imperial_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDex6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Эндотермический баклер": {
+    "code": "Endothermic_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Полярный баклер": {
+    "code": "Polar_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ледяной баклер": {
+    "code": "Cold-attuned_Buckler",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DexHeistShield.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Сучковатый щит духа": {
+    "code": "Twig_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Тисовый щит духа": {
+    "code": "Yew_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Щит духа из костей": {
+    "code": "Bone_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Потёртый щит духа": {
+    "code": "Tarnished_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Звенящий щит духа": {
+    "code": "Jingling_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Бронзовый щит духа": {
+    "code": "Brass_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ореховый щит духа": {
+    "code": "Walnut_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Щит духа из старых костей": {
+    "code": "Ivory_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Древний щит духа": {
+    "code": "Ancient_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Мелодичный щит духа": {
+    "code": "Chiming_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Орихалковый щит духа": {
+    "code": "Thorium_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Платановый щит духа": {
+    "code": "Lacewood_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Щит духа из окаменелостей": {
+    "code": "Fossilised_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Щит духа ваал": {
+    "code": "Vaal_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Поющий щит духа": {
+    "code": "Harmonic_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Адамантиевый щит духа": {
+    "code": "Titanium_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldInt6.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Истощающий щит духа": {
+    "code": "Exhausting_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Поглощающий щит духа": {
+    "code": "Subsuming_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Переливающий щит духа": {
+    "code": "Transfer-attuned_Spirit_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/IntHeistShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Прогнивший круглый щит": {
+    "code": "Rotted_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Пихтовый круглый щит": {
+    "code": "Fir_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Клёпаный круглый щит": {
+    "code": "Studded_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Алый круглый щит": {
+    "code": "Scarlet_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Украшенный круглый щит": {
+    "code": "Splendid_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Кленовый круглый щит": {
+    "code": "Maple_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Усиленный круглый щит": {
+    "code": "Spiked_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Багряный круглый щит": {
+    "code": "Crimson_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Вычурный круглый щит": {
+    "code": "Baroque_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Тиковый круглый щит": {
+    "code": "Teak_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Укреплённый круглый щит": {
+    "code": "Spiny_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Червлёный круглый щит": {
+    "code": "Cardinal_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Элегантный круглый щит": {
+    "code": "Elegant_Round_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrDex5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Дощатый каплевидный щит": {
+    "code": "Plank_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt1.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Липовый каплевидный щит": {
+    "code": "Linden_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Укреплённый каплевидный щит": {
+    "code": "Reinforced_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Многослойный каплевидный щит": {
+    "code": "Layered_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Церемониальный каплевидный щит": {
+    "code": "Ceremonial_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Каплевидный щит с рисунком": {
+    "code": "Etched_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Стальной каплевидный щит": {
+    "code": "Steel_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Проклеенный каплевидный щит": {
+    "code": "Laminated_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Каплевидный щит ангела": {
+    "code": "Angelic_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Каплевидный щит с символом": {
+    "code": "Branded_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt2.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Каплевидный щит триумфатора": {
+    "code": "Champion_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt4.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Мозаичный каплевидный щит": {
+    "code": "Mosaic_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt3.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Каплевидный щит архонта": {
+    "code": "Archon_Kite_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldStrInt5.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Колючая повязка": {
+    "code": "Spiked_Bundle",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt1.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Колючий щит из плавника": {
+    "code": "Driftwood_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Бронзовый колючий щит": {
+    "code": "Alloyed_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Воронёный колючий щит": {
+    "code": "Burnished_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Украшенный колючий щит": {
+    "code": "Ornate_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Сандаловый колючий щит": {
+    "code": "Redwood_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Латунный колючий щит": {
+    "code": "Compound_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Полированный колючий щит": {
+    "code": "Polished_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Царский колючий щит": {
+    "code": "Sovereign_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Ольховый колючий щит": {
+    "code": "Alder_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt2.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Колючий щит эзомита": {
+    "code": "Ezomyte_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt3.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Зеркальный колючий щит": {
+    "code": "Mirrored_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt4.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Императорский колючий щит": {
+    "code": "Supreme_Spiked_Shield",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/ShieldDexInt5.png?w=2&h=2&scale=1",
+    "item_type": "shield"
+  },
+  "Золотое пламя": {
+    "code": "Golden_Flame",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Armours/Shields/DemigodsShield.png?w=2&h=3&scale=1",
+    "item_type": "shield"
+  },
+  "Сучковатая ветка": {
+    "code": "Gnarled_Branch",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff1.png?w=1&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Простейший посох": {
+    "code": "Primitive_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Длинный посох": {
+    "code": "Long_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Царский посох": {
+    "code": "Royal_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох с полумесяцем": {
+    "code": "Crescent_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Старинный посох": {
+    "code": "Woodful_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Окованный посох": {
+    "code": "Quarterstaff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох патриция": {
+    "code": "Highborn_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Лунный посох": {
+    "code": "Moon_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Древний посох": {
+    "code": "Primordial_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff2.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Бамбуковый посох": {
+    "code": "Lathi",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff3.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Императорский посох": {
+    "code": "Imperial_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff6.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох затмения": {
+    "code": "Eclipse_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff8.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Трансформирующий посох": {
+    "code": "Transformer_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох сопряжения": {
+    "code": "Reciprocation_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Гальванический посох": {
+    "code": "Battery_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Крепкий посох": {
+    "code": "Iron_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Кручёный посох": {
+    "code": "Coiled_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох нечистого": {
+    "code": "Vile_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Боевой посох": {
+    "code": "Military_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Змеиный посох": {
+    "code": "Serpentine_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох падшего": {
+    "code": "Foul_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох эзомита": {
+    "code": "Ezomyte_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff4.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох вихрей": {
+    "code": "Maelstr%C3%B6m_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff5.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Посох судьи": {
+    "code": "Judgement_Staff",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/Staff7.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Стержень способности": {
+    "code": "Capacity_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Стержень потенциала": {
+    "code": "Potentiality_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Стержень допустимости": {
+    "code": "Eventuality_Rod",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/Staves/HeistWarStaff.png?w=2&h=4&scale=1",
+    "item_type": "staff"
+  },
+  "Каменный топор": {
+    "code": "Stone_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe1.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Нефритовое рубило": {
+    "code": "Jade_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Колун": {
+    "code": "Woodsplitter",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Алебарда": {
+    "code": "Poleaxe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Секира": {
+    "code": "Double_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Золочёный топор": {
+    "code": "Gilded_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор тени": {
+    "code": "Shadow_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор-кинжал": {
+    "code": "Dagger_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Яшмовое рубило": {
+    "code": "Jasper_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор лесоруба": {
+    "code": "Timber_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор палача": {
+    "code": "Headsman_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Лабрис": {
+    "code": "Labrys",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор вельможи": {
+    "code": "Noble_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор кромешной тьмы": {
+    "code": "Abyssal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор когтя": {
+    "code": "Talon_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Рубило каруи": {
+    "code": "Karui_Chopper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe2.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Раскалыватель": {
+    "code": "Sundering_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe3.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор эзомита": {
+    "code": "Ezomyte_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe4.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор ваал": {
+    "code": "Vaal_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe5.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор деспота": {
+    "code": "Despot_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe6.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Топор пустоты": {
+    "code": "Void_Axe",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe7.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Раздиратель": {
+    "code": "Fleshripper",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/TwoHandAxe8.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Превосходный секач": {
+    "code": "Prime_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Заточенный секач": {
+    "code": "Honed_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Острейший секач": {
+    "code": "Apex_Cleaver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandAxes/HeistTwoHandAxe.png?w=2&h=4&scale=1",
+    "item_type": "twoaxe"
+  },
+  "Дубина из плавника": {
+    "code": "Driftwood_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace1.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Дубина аборигена": {
+    "code": "Tribal_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Колотушка": {
+    "code": "Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Кувалда": {
+    "code": "Sledgehammer",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Зубастый молот": {
+    "code": "Jagged_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Латунный молот": {
+    "code": "Brass_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Пугающий молот": {
+    "code": "Fright_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Моргенштерн": {
+    "code": "Morning_Star",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Тотемная дубина": {
+    "code": "Totemic_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Большая колотушка": {
+    "code": "Great_Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Стальной молот": {
+    "code": "Steelhead",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Колючая дубина": {
+    "code": "Spiny_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Позолоченный молот": {
+    "code": "Plated_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Ужасающий молот": {
+    "code": "Dread_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Молот светила": {
+    "code": "Solar_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Дубина каруи": {
+    "code": "Karui_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Громадная колотушка": {
+    "code": "Colossus_Mallet",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace3.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Забиватель": {
+    "code": "Piledriver",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace4.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Мясодёр": {
+    "code": "Meatgrinder",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace5.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Императорский молот": {
+    "code": "Imperial_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace6.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Чудовищный молот": {
+    "code": "Terror_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Венечный молот": {
+    "code": "Coronal_Maul",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace8.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Накопитель грубой силы": {
+    "code": "Blunt_Force_Condenser",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Усилитель разрушения": {
+    "code": "Crushing_Force_Magnifier",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Распространитель удара": {
+    "code": "Impact_Force_Propagator",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/HeistTwoHandMace.png?w=2&h=4&scale=1",
+    "item_type": "twomace"
+  },
+  "Ржавый клинок": {
+    "code": "Corroded_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword1.png?w=1&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Длинный меч": {
+    "code": "Longsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Полуторный меч": {
+    "code": "Bastard_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Двуручный меч": {
+    "code": "Two-Handed_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Большой меч с травлением": {
+    "code": "Etched_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Украшенный меч": {
+    "code": "Ornate_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Призрачный меч": {
+    "code": "Spectral_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Кривой клинок": {
+    "code": "Curved_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч мясника": {
+    "code": "Butcher_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч пехотинца": {
+    "code": "Footman_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Клинок горца": {
+    "code": "Highland_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Большой меч с чеканкой": {
+    "code": "Engraved_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч тигра": {
+    "code": "Tiger_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Потусторонний меч": {
+    "code": "Wraith_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Гибкий клинок": {
+    "code": "Lithe_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч палача": {
+    "code": "Headmans_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч наёмника": {
+    "code": "Reaver_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword3.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Клинок эзомита": {
+    "code": "Ezomyte_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword4.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Большой меч ваал": {
+    "code": "Vaal_Greatsword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч льва": {
+    "code": "Lion_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword6.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Меч подземного царства": {
+    "code": "Infernal_Sword",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword7.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Изысканный клинок": {
+    "code": "Exquisite_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword8.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Обличающий клинок": {
+    "code": "Rebuking_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Проклинающий клинок": {
+    "code": "Blasting_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Изгоняющий клинок": {
+    "code": "Banishing_Blade",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/HeistTwoHandSword.png?w=2&h=4&scale=1",
+    "item_type": "twosword"
+  },
+  "Жезл из плавника": {
+    "code": "Driftwood_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand1.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Козий рог": {
+    "code": "Goats_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Оструганный жезл": {
+    "code": "Carved_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Кварцевый жезл": {
+    "code": "Quartz_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Витой жезл": {
+    "code": "Spiraled_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл провидца": {
+    "code": "Sage_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл язычника": {
+    "code": "Pagan_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Рог фавна": {
+    "code": "Fauns_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Резной жезл": {
+    "code": "Engraved_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Кристальный жезл": {
+    "code": "Crystal_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Змеиный жезл": {
+    "code": "Serpent_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл предвестия": {
+    "code": "Omen_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл варвара": {
+    "code": "Heathen_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Рог демона": {
+    "code": "Demons_Horn",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Волшебный жезл": {
+    "code": "Imbued_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand3.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Опаловый жезл": {
+    "code": "Opal_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand4.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл торнадо": {
+    "code": "Tornado_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand5.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл пророчества": {
+    "code": "Prophecy_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand6.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл отступника": {
+    "code": "Profane_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand7.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Собирающий жезл": {
+    "code": "Assembler_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Накопляющий жезл": {
+    "code": "Congregator_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Аккумулирующий жезл": {
+    "code": "Accumulator_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/HeistWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  },
+  "Жезл призыва": {
+    "code": "Convoking_Wand",
+    "img": "https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/ConvokingWand.png?w=1&h=3&scale=1",
+    "item_type": "wand"
+  }
+}
