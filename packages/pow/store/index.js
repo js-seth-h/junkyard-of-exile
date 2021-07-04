@@ -10,7 +10,7 @@ export default new Vuex.Store({
   state: {
 
 
-    data:''
+    data:'testststst'
 
   },
   mutations: {
@@ -21,5 +21,6 @@ export default new Vuex.Store({
 
   },
   modules: {
+
   }
 })

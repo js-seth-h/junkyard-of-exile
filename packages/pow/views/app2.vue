@@ -2,6 +2,7 @@
   <div id="app">
     <v-app id="inspire">
       <v-app id="inspire">
+        <!-- gnb area start -->
         <v-navigation-drawer
           v-model="drawer"
           app
@@ -19,7 +20,7 @@
                   v-model="writed_item"
                 >
                 </v-textarea>
-<!--                <button @click="get_itemtext">submit</button>-->
+                <button @click="get_itemtext">submit</button>
               </div>
             </div>
 
@@ -35,14 +36,20 @@
 
           </v-list>
         </v-navigation-drawer>
+        <!-- gnb area start -->
 
+
+        <!-- header area start -->
         <v-app-bar
           app
           clipped-left
         >
           <v-app-bar-nav-icon @click.stop="drawer = !drawer"> list </v-app-bar-nav-icon>
+
+          <v-btn @click="dialog_event"> dialog btn </v-btn>
           <v-toolbar-title>Application</v-toolbar-title>
         </v-app-bar>
+        <!-- header area end -->
         <!-- contents area start -->
         <v-main>
           <v-container
@@ -60,7 +67,7 @@
                 </div>
                 <div class="content">
                   <div v-for="(list, inx) of item_value">
-                    {{list}}
+<!--                    {{list}}-->
                     <div v-for="(data, data_inx) of list">
                       {{inx}} - {{data_inx}} / {{data}}
                     </div>
@@ -101,6 +108,7 @@
     name: 'App',
     computed: {
       item_group(){
+
         if(this.show_data[0] !== undefined){
 
           let group = this.show_data[0][0]
@@ -156,9 +164,15 @@
       }
     },
     methods: {
-
+      dialog_event(){
+        console.log('dialog')
+      },
       chagne_show_data(key){
         //리스트 클릭 시 화면에 뿌려지는 값
+
+
+        console.log('store.state.count', this.$store.state.data)
+
         this.show_data = this.list_data[key]
 
         this.parsing_text(this.show_data)
@@ -219,6 +233,9 @@
 
 
 <style lang="scss">
+  body{
+    font-size: 14px;
+  }
   .detail{
     width: 400px;
   }
