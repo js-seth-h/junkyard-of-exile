@@ -13,24 +13,32 @@ fs = require 'mz/fs'
 FASTIFY = require('fastify') {}
 module.exports = FASTIFY
 
+FASTIFY.register require('fastify-websocket')
+
+# FASTIFY.register require('fastify-cors'), {
+#   origin: "*"
+# }
+
 FASTIFY.decorateRequest 'pathname',
   getter: ->
     unless @_pathname?
       [@_pathname, queries] = R.split '?', @raw.url
     return @_pathname
 
-FASTIFY.decorateRequest 'isApi',
-  getter: ->
-    @_is_api ?= R.startsWith '/api/', @pathname
-    return @_is_api
+# FASTIFY.decorateRequest 'isApi',
+#   getter: ->
+#     @_is_api ?= R.startsWith '/api/', @pathname
+#     return @_is_api
 
-
+ws = require './ws'
+FASTIFY.get '/ws', {websocket: true}
+, ws.handleFastify
 FASTIFY.setNotFoundHandler (req, reply)->
   {pathname} = req
   dcon.debug 'NotFoundHandler', req.url
   # if R.startsWith '/api/', pathname
-  if req.isApi
-    return reply.send new httpErrors.NotFound
+  # if req.isApi
+  #   return reply.send new httpErrors.NotFound
 
   # console.log 'pathname', pathname
   ext = path.extname(pathname)
