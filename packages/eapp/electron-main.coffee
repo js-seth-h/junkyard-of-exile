@@ -37,6 +37,7 @@ main = ()->
     # }
     # await require('cips/elec-app')()
     await createWindow()
+    require './sensor-copy'
 
     url = args.url or args.u
     # url = "http://naver.com"
