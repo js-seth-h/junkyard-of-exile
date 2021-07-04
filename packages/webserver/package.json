@@ -6,15 +6,17 @@
   },
   "main": "index",
   "license": "MIT",
-  "dependencies": { 
+  "dependencies": {
     "dotenv": "^10.0.0",
     "dotenv-expand": "^5.1.0",
     "fastify": "^3.18.1",
+    "fastify-websocket": "^3.2.0",
     "http-errors": "^1.8.0",
     "mime": "^2.5.2",
     "moment": "^2.29.1",
     "mz": "^2.7.0",
     "ramda": "^0.27.1",
-    "ramda-adjunct": "^2.33.0"
+    "ramda-adjunct": "^2.33.0",
+    "shortid": "^2.2.16"
   }
 }

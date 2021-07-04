@@ -7,7 +7,7 @@ path = require 'path'
 nxJson = require 'nx/jsonfile'
 fs = require 'mz/fs'
 
-tf = require '@tensorflow/tfjs-node'
+# tf = require '@tensorflow/tfjs-node'
 
 encode = (item_str)->
   blocks = R.map R.trim, R.split '--------', item_str
@@ -39,32 +39,27 @@ encode = (item_str)->
 
   txts = code.map (inx)-> Pattern[inx]
 
-  fn = "file://./tensorflow/#{item_type}/model.json"
-  model = await tf.loadLayersModel fn
-
-  input = new Array(Pattern.length)
-  input.fill 0
-  for i in code
-    input[i] = 1
-  xs = tf.tensor1d input
-
-  r = model.predict tf.stack [xs]
-  v = Array.from r.dataSync()
-
-  # rating_sum = R.sum v
-  # rating_mean = R.mean v
-  # rating_sd = standard_deviation v
-  # criteria = rating_mean + rating_sd
-
-  criteria = 0.02
-  SKILLS = JSON.parse await fs.readFile "./poedb/skills.json"
-  skill_krs = R.map R.prop('name_kr'), SKILLS
-  rating = zipIV skill_krs, v
-  rating = R.reverse R.sortBy R.prop('value'), rating
-  # console.log {criteria}
-  recommand = R.filter R.o(R.lte(criteria), R.prop('value')), rating
-
-  console.log {base_item, blocks, code, txts, recommand}
+  # fn = "file://./tensorflow/#{item_type}/model.json"
+  # model = await tf.loadLayersModel fn
+  #
+  # input = new Array(Pattern.length)
+  # input.fill 0
+  # for i in code
+  #   input[i] = 1
+  # xs = tf.tensor1d input
+  #
+  # r = model.predict tf.stack [xs]
+  # v = Array.from r.dataSync()
+  #
+  # criteria = 0.02
+  # SKILLS = JSON.parse await fs.readFile "./poedb/skills.json"
+  # skill_krs = R.map R.prop('name_kr'), SKILLS
+  # rating = zipIV skill_krs, v
+  # rating = R.reverse R.sortBy R.prop('value'), rating
+  # # console.log {criteria}
+  # recommand = R.filter R.o(R.lte(criteria), R.prop('value')), rating
+  #
+  # console.log {base_item, blocks, code, txts, recommand}
 
 variance = (X)=>
   square_error = R.compose(
@@ -196,8 +191,8 @@ item_strs = [
   # """
 ]
 
-for s in item_strs
-  encode s
+# for s in item_strs
+#   encode s
 
 Object.assign exports, {
   encode
