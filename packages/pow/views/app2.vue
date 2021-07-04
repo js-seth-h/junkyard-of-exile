@@ -19,7 +19,7 @@
                   v-model="writed_item"
                 >
                 </v-textarea>
-                <button @click="get_itemtext">submit</button>
+<!--                <button @click="get_itemtext">submit</button>-->
               </div>
             </div>
 
@@ -60,6 +60,7 @@
                 </div>
                 <div class="content">
                   <div v-for="(list, inx) of item_value">
+                    {{list}}
                     <div v-for="(data, data_inx) of list">
                       {{inx}} - {{data_inx}} / {{data}}
                     </div>
@@ -70,7 +71,7 @@
             </div>
 
             <div>
-              <v-btn @click="parsing_text()">detail</v-btn>
+              <v-btn @click="parsing_text(show_data)">detail</v-btn>
             </div>
             <div>
               contents
@@ -100,25 +101,37 @@
     name: 'App',
     computed: {
       item_group(){
-        let group = this.show_data[0][0]
-        if(group !== undefined ){
-          group = group.split(':')
-        }else{
-          group = ''
+        if(this.show_data[0] !== undefined){
+
+          let group = this.show_data[0][0]
+          if(group !== undefined ){
+            group = group.split(':')
+          }else{
+            group = ''
+          }
+          return group[1]
+
         }
-        return group[1]
       },
       item_name(){
-        return this.show_data[0][2]
+        if(this.show_data[0] !== undefined){
+          return this.show_data[0][2]
+        }
       },
       item_type(){
-        return this.show_data[0][3]
+        if(this.show_data[0] !== undefined) {
+          return this.show_data[0][3]
+        }
       },
-      item_value(){
+      item_value() {
         // this.show_data.shift()
-        let copied_show_data = this.show_data
-        copied_show_data = copied_show_data.splice(1, this.show_data.length)
-        return copied_show_data
+
+        if (this.show_data[0] !== undefined) {
+
+          let copied_show_data = this.show_data
+          copied_show_data = copied_show_data.splice(1, this.show_data.length)
+          return copied_show_data
+        }
       }
     },
     data(){
@@ -137,7 +150,8 @@
         //파싱된 아이템들
         // list_data: []
         list_data: list_data,
-        show_data: [[],[],[],[]]
+        // show_data: [[],[],[],[]],
+        show_data: [],
 
       }
     },
@@ -147,15 +161,24 @@
         //리스트 클릭 시 화면에 뿌려지는 값
         this.show_data = this.list_data[key]
 
+        this.parsing_text(this.show_data)
+
         // console.log(this.show_data)
       },
       parsing_text(text){
       //  입력 후 가져온 텍스트의 모양을 변경한다.
-      //  text = this.writed_item
 
-        text = this.list_data[0]
+        console.log('text', text)
 
-        console.log('text' , text)
+        if(text.length ){
+          console.log('-------is empty ----')
+
+        }else{
+          console.log("is not empty")
+        }
+      //  text = this.show_data
+
+        // console.log('text' , text)
 
         // console.log('this is R', R)
 
