@@ -19,8 +19,8 @@ ws.on 'open', ->
 ws.on 'message', (evt)->
   data = JSON.parse evt.data
   dcon.debug 'ws msg', data
-
-  alert data.txt
+  
+  alert data.text
 
   # if data.current?
   #   store.commit 'setAll', data.current

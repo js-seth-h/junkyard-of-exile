@@ -37,11 +37,18 @@ main = ()->
     # }
     # await require('cips/elec-app')()
     await createWindow()
-    require './sensor-copy'
 
+    webserver = require 'webserver'
+    await webserver.createServer()
     url = args.url or args.u
     # url = "http://naver.com"
     await G.MAIN_WINDOW.loadURL url
+
+    ws = require 'webserver/ws'
+    sensor_poecopy = require './sensor-copy'
+    sensor_poecopy.on 'poe-item-copied', (text)->
+      dcon.F.debug 'copied', text
+      ws.addItem text
 
   catch error
     console.error error

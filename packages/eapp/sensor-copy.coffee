@@ -15,7 +15,7 @@ checkClipboard = ->
   return if PREV_TXT is text
   PREV_TXT = text
   return if not R.includes '--------', text
-  console.log "copyied text", {text}
+  # console.log "copyied text", {text}
   EBUS.emit "poe-item-copied", text
 
 
