@@ -83,11 +83,13 @@
             <div>
               contents
             </div>
+            <Dialog></Dialog>
 
           </v-container>
         </v-main>
         <!-- contents area end -->
 
+<!--        <Dialog></Dialog>-->
 
         <v-footer app>
           <span>&copy; {{ new Date().getFullYear() }}</span>
@@ -101,11 +103,14 @@
   // import axios from "axios"
 
   import list_data from "../settings/list_data";
+  import Dialog from "./dialog.vue";
+
 
   import * as R from 'ramda'
 
   export default {
     name: 'App',
+    components: {Dialog},
     computed: {
       item_group(){
 
@@ -166,6 +171,7 @@
     methods: {
       dialog_event(){
         console.log('dialog')
+
       },
       chagne_show_data(key){
         //리스트 클릭 시 화면에 뿌려지는 값
