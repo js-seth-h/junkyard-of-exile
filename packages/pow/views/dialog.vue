@@ -20,23 +20,38 @@
         dark
         color="primary"
       >
-        <v-btn
-          icon
-          dark
-          @click="dialog = false"
-        >
-          <v-icon>mdi-close</v-icon>
-        </v-btn>
+<!--        <v-btn-->
+<!--          icon-->
+<!--          dark-->
+<!--          @click="dialog = false"-->
+<!--        >-->
+<!--          <v-icon>mdi-close</v-icon>-->
+<!--        </v-btn>-->
         <v-toolbar-title>Settings</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items>
+
+          <v-btn
+            @click="dialog = false"
+          >
+            dialog close
+          </v-btn>
           <v-btn
             dark
             text
-            @click="dialog = false"
+            @click="alert('prev')"
           >
-            Save
+            prev
           </v-btn>
+
+          <v-btn
+            dark
+            text
+            @click="alert('next')"
+          >
+            next
+          </v-btn>
+
         </v-toolbar-items>
       </v-toolbar>
       <v-list

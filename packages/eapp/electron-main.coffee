@@ -40,7 +40,7 @@ main = ()->
 
     webserver = require 'webserver'
     await webserver.createServer()
-    url = args.url or args.u
+    url = args.url or args.u or "http://localhost:1234"
     # url = "http://naver.com"
     await G.MAIN_WINDOW.loadURL url
 
