@@ -19,7 +19,7 @@ Vue.config.productionTip = false
 // Vue.use(Vuex)
 Vue.use( Vuetify )
 
-new Vue({
+let v = new Vue({
   vuetify:new Vuetify({
     theme: { dark: true },
   }),
@@ -27,3 +27,8 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount('#webapp')
+
+
+export default v
+
+

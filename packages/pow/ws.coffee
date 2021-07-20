@@ -1,3 +1,4 @@
+import store from './store'
 R = require 'ramda'
 RA = require 'ramda-adjunct'
 dcon = require('deco-console')(__filename)
@@ -19,8 +20,12 @@ ws.on 'open', ->
 ws.on 'message', (evt)->
   data = JSON.parse evt.data
   dcon.debug 'ws msg', data
-  
-  alert data.text
+  console.log('store', store)
+
+#  alert data.text
+#  ws.emit('MESSAGE', data)
+
+
 
   # if data.current?
   #   store.commit 'setAll', data.current

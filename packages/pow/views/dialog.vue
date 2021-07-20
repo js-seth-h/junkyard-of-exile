@@ -27,7 +27,7 @@
 <!--        >-->
 <!--          <v-icon>mdi-close</v-icon>-->
 <!--        </v-btn>-->
-        <v-toolbar-title>Settings</v-toolbar-title>
+        <v-toolbar-title>Patron</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-toolbar-items>
 
@@ -112,7 +112,7 @@
 
 <script>
   export default {
-    name: "dialog",
+    name: "dialog_wall",
     data () {
       return {
         dialog: false,

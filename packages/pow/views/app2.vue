@@ -71,6 +71,7 @@
                     <div v-for="(data, data_inx) of list">
                       {{inx}} - {{data_inx}} / {{data}}
                     </div>
+                    <span class="separator"></span>
                     ---------------
                   </div>
                 </div>
@@ -168,7 +169,14 @@
 
       }
     },
+    mounted() {
+
+    },
     methods: {
+      sendMessage(message) {
+        console.log(this.connection);
+      },
+
       dialog_event(){
         console.log('dialog')
 
@@ -243,7 +251,7 @@
     font-size: 14px;
   }
   .detail{
-    width: 400px;
+    /*width: 400px;*/
   }
   .detail .title{
 
@@ -265,6 +273,12 @@
   }
   .detail .content{
     background-color: rgba(0, 0, 0, 0.8);;
+    text-align: center;
+  }
+
+  .separator{
+    background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1624341092737) top center no-repeat;
+    height: 8px;
   }
 
 </style>
