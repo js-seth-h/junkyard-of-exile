@@ -58,6 +58,10 @@
             <div class="detail">
               <div>
 
+                test: {{this.$store.state}} <br />
+                this_state : {{this_state}} <br />
+                list_data : {{list_data}} <br />
+                show_data : {{show_data}} <br />
                 <v-btn>detail</v-btn>
 
                 <p>item_group / {{item_group}}</p>
@@ -103,7 +107,7 @@
 
   // import axios from "axios"
 
-  import list_data from "../settings/list_data";
+  // import list_data from "../settings/list_data";
   import Dialog from "./dialog.vue";
 
 
@@ -113,6 +117,17 @@
     name: 'App',
     components: {Dialog},
     computed: {
+      this_state(){
+         return this.$store.state
+      },
+      show_data(){
+        return this.$store.state.show_data
+      },
+      list_data(){
+
+        return this.$store.state.list_data
+      },
+
       item_group(){
 
         if(this.show_data[0] !== undefined){
@@ -163,14 +178,19 @@
 
         //파싱된 아이템들
         // list_data: []
-        list_data: list_data,
+        // list_data: list_data,
         // show_data: [[],[],[],[]],
-        show_data: [],
+        // show_data: [],
 
       }
     },
+
     mounted() {
 
+      // list_data:{
+      //   return this.$store.state.list_data
+      //   // }
+      // }
     },
     methods: {
       sendMessage(message) {
@@ -240,7 +260,10 @@
       alert(1)
       }
 
+    },
+    watch : {
     }
+
 
   }
 </script>

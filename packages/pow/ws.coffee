@@ -1,4 +1,4 @@
-import store from './store'
+import store from './store/index'
 R = require 'ramda'
 RA = require 'ramda-adjunct'
 dcon = require('deco-console')(__filename)
@@ -19,12 +19,11 @@ ws.on 'open', ->
 
 ws.on 'message', (evt)->
   data = JSON.parse evt.data
+
   dcon.debug 'ws msg', data
-  console.log('store', store)
 
-#  alert data.text
-#  ws.emit('MESSAGE', data)
-
+  store.dispatch('increment', [data])
+  console.log('after increment list-data', store.state.list_data)
 
 
   # if data.current?

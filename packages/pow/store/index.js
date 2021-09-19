@@ -10,15 +10,22 @@ export default new Vuex.Store({
   state: {
 
 
-    data:'testststst'
+    data:'testststst',
+    list_data: [],
+    show_data: {}
 
   },
   mutations: {
 
+    increment (state, payload) {
+      state.list_data.push(payload)
 
+    }
   },
   actions: {
-
+    increment (context, payload) {
+      context.commit('increment', payload)
+    }
   },
   modules: {
 
