@@ -58,11 +58,11 @@
             <div class="detail">
               <div>
 
-                test: {{this.$store.state}} <br />
-                this_state : {{this_state}} <br />
+<!--                test: {{this.$store.state}} <br />-->
+<!--                this_state : {{this_state}} <br />-->
                 list_data : {{list_data}} <br />
                 show_data : {{show_data}} <br />
-                <v-btn>detail</v-btn>
+                <v-btn >detail</v-btn>
 
                 <p>item_group / {{item_group}}</p>
                 <div class="title wrap">
@@ -261,7 +261,21 @@
       }
 
     },
-    watch : {
+    watch: {
+
+      this_state(newData, oldData){
+        console.log('new, old', newData, oldData)
+      }
+      // this_state:{
+      //   deep: true,
+      //   handler(val){
+      //
+      //     this.this_state = val
+      //     console.log('this is val ', val)
+      //
+      //   }
+      // },
+
     }
 
 

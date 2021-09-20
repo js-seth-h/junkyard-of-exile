@@ -17,14 +17,16 @@ export default new Vuex.Store({
   },
   mutations: {
 
-    increment (state, payload) {
+    add_item (state, payload) {
+
       state.list_data.push(payload)
+      console.log('mutations increment', state.list_data)
 
     }
   },
   actions: {
-    increment (context, payload) {
-      context.commit('increment', payload)
+    add_item (context, payload) {
+      return context.commit('add_item', payload)
     }
   },
   modules: {

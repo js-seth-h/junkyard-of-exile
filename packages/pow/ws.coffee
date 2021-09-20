@@ -1,4 +1,4 @@
-import store from './store/index'
+#import app from './index'
 R = require 'ramda'
 RA = require 'ramda-adjunct'
 dcon = require('deco-console')(__filename)
@@ -17,14 +17,13 @@ ws.on 'open', ->
     hi: 'hi'
   }
 
+STORE = null
 ws.on 'message', (evt)->
   data = JSON.parse evt.data
 
-  dcon.debug 'ws msg', data
+  dcon.F.debug 'ws msg', data
 
-  store.dispatch('increment', [data])
-  console.log('after increment list-data', store.state.list_data)
-
+  STORE.dispatch('add_item', [data])
 
   # if data.current?
   #   store.commit 'setAll', data.current
@@ -34,3 +33,11 @@ ws.on 'message', (evt)->
   # #   store.commit 'setWorkLog', data.work_logs
   # if data.work_log?
   #   store.commit 'updateWorkLog', data.work_log
+
+
+setStore = (store)->
+  STORE = store
+
+Object.assign exports, {
+    setStore
+}

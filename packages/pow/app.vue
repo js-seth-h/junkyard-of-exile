@@ -7,8 +7,7 @@
 </template>
 
 
-<script> 
-  require('./ws')
+<script>
   export default {
     name: 'App',
     components: {
