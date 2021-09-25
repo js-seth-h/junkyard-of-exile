@@ -25,12 +25,17 @@
             </div>
 
 
-            <v-list-item link v-for=" (list, key) in list_data" @click="chagne_show_data(key)">
+            <v-list-item link v-for=" (list, key) in list_data" @click="change_show_data(key)">
+
+              {{key}}
               <v-list-item-action>
                 <v-icon>mdi-view-dashboard</v-icon>
               </v-list-item-action>
               <v-list-item-content>
-                <v-list-item-title>{{key}},{{list}}</v-list-item-title>
+                <v-list-item-title>
+                  {{list.parsed_items.group[2]}}
+                  {{list.parsed_items.group[3]}}
+                </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
 
@@ -60,23 +65,45 @@
 
 <!--                test: {{this.$store.state}} <br />-->
 <!--                this_state : {{this_state}} <br />-->
-                list_data : {{list_data}} <br />
-                show_data : {{show_data}} <br />
+<!--                list_data : {{list_data}} <br />-->
+<!--                show_data : {{show_data}} <br />-->
                 <v-btn >detail</v-btn>
 
-                <p>item_group / {{item_group}}</p>
-                <div class="title wrap">
-                  <p>{{ item_name }}</p>
-                  <p>{{ item_type }}</p>
-                </div>
-                <div class="content">
-                  <div v-for="(list, inx) of item_value">
-<!--                    {{list}}-->
-                    <div v-for="(data, data_inx) of list">
-                      {{inx}} - {{data_inx}} / {{data}}
+                <div v-for="(choice_data, inx) of show_data.parsed_items">
+                  <div v-if="inx === 'group'" class="title wrap">
+
+                    <div v-for="(data, data_inx) of choice_data">
+                      <p v-if="data_inx === 2"> {{data}} </p>
+                      <p v-if="data_inx === 3"> {{data}} </p>
                     </div>
-                    <span class="separator"></span>
-                    ---------------
+                  </div>
+                  <div class="content">
+                    {{inx}}
+                    <div v-if="inx === 'requirements'" class="show_requirements">
+                      <div v-for="(data, data_inx) of choice_data">
+                        <span v-if="data_inx === 0" class="contents_subtitle">
+                          {{data[0]}}
+                        </span>
+                        <span v-else>
+                          {{data[0]}} {{data[1]}}
+                        </span>
+                      </div>
+                      <span class="separator"></span>
+                    </div>
+
+                    <div v-else>
+                      <div v-for="(data, data_inx) of choice_data">
+                        <div v-if='typeof data[1] === "undefined"'>
+                          {{data[0]}}
+                        </div>
+                        <div v-else>
+                          {{data[0]}}: {{data[1]}}
+                        </div>
+                      </div>
+                      <span class="separator"></span>
+                    </div>
+
+
                   </div>
                 </div>
               </div>
@@ -120,48 +147,45 @@
       this_state(){
          return this.$store.state
       },
-      show_data(){
-        return this.$store.state.show_data
-      },
       list_data(){
 
         return this.$store.state.list_data
       },
-
-      item_group(){
-
-        if(this.show_data[0] !== undefined){
-
-          let group = this.show_data[0][0]
-          if(group !== undefined ){
-            group = group.split(':')
-          }else{
-            group = ''
-          }
-          return group[1]
-
-        }
-      },
-      item_name(){
-        if(this.show_data[0] !== undefined){
-          return this.show_data[0][2]
-        }
-      },
-      item_type(){
-        if(this.show_data[0] !== undefined) {
-          return this.show_data[0][3]
-        }
-      },
-      item_value() {
-        // this.show_data.shift()
-
-        if (this.show_data[0] !== undefined) {
-
-          let copied_show_data = this.show_data
-          copied_show_data = copied_show_data.splice(1, this.show_data.length)
-          return copied_show_data
-        }
-      }
+      //
+      // item_group(){
+      //
+      //   if(this.show_data[0] !== undefined){
+      //
+      //     let group = this.show_data[0][0]
+      //     if(group !== undefined ){
+      //       group = group.split(':')
+      //     }else{
+      //       group = ''
+      //     }
+      //     return group[1]
+      //
+      //   }
+      // },
+      // item_name(){
+      //   if(this.show_data[0] !== undefined){
+      //     return this.show_data[0][2]
+      //   }
+      // },
+      // item_type(){
+      //   if(this.show_data[0] !== undefined) {
+      //     return this.show_data[0][3]
+      //   }
+      // },
+      // item_value() {
+      //   // this.show_data.shift()
+      //
+      //   if (this.show_data[0] !== undefined) {
+      //
+      //     let copied_show_data = this.show_data
+      //     copied_show_data = copied_show_data.splice(1, this.show_data.length)
+      //     return copied_show_data
+      //   }
+      // }
     },
     data(){
       return{
@@ -180,7 +204,7 @@
         // list_data: []
         // list_data: list_data,
         // show_data: [[],[],[],[]],
-        // show_data: [],
+        show_data: {},
 
       }
     },
@@ -201,44 +225,50 @@
         console.log('dialog')
 
       },
-      chagne_show_data(key){
+      change_show_data(key){
         //리스트 클릭 시 화면에 뿌려지는 값
 
 
-        console.log('store.state.count', this.$store.state.data)
+        // console.log('store.state.count', this.$store.state.data)
 
+        console.log('this.list_data[key]', this.list_data[key].parsed_items.group[2])
         this.show_data = this.list_data[key]
 
-        this.parsing_text(this.show_data)
+        console.log('this.list_data[key].parsed_items', this.list_data[key].parsed_items)
+        console.log('this.show_data', this.show_data)
+
+
+
+
 
         // console.log(this.show_data)
       },
-      parsing_text(text){
-      //  입력 후 가져온 텍스트의 모양을 변경한다.
-
-        console.log('text', text)
-
-        if(text.length ){
-          console.log('-------is empty ----')
-
-        }else{
-          console.log("is not empty")
-        }
-      //  text = this.show_data
-
-        // console.log('text' , text)
-
-        // console.log('this is R', R)
-
-        var blocks = R.map(R.trim,R.split( '--------' ,  text ))
-        blocks = R.map( R.split('\n'), blocks)
-
-        console.log(blocks)
-
-        this.show_data = blocks
-
-
-      },
+      // parsing_text(text){
+      // //  입력 후 가져온 텍스트의 모양을 변경한다.
+      //
+      //   console.log('text', text)
+      //
+      //   if(text.length ){
+      //     console.log('-------is empty ----')
+      //
+      //   }else{
+      //     console.log("is not empty")
+      //   }
+      // //  text = this.show_data
+      //
+      //   // console.log('text' , text)
+      //
+      //   // console.log('this is R', R)
+      //
+      //   var blocks = R.map(R.trim,R.split( '--------' ,  text ))
+      //   blocks = R.map( R.split('\n'), blocks)
+      //
+      //   console.log(blocks)
+      //
+      //   this.show_data = blocks
+      //
+      //
+      // },
       get_itemtext(){
 
         //get_itemtext = 버튼
@@ -314,8 +344,20 @@
   }
 
   .separator{
-    background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1624341092737) top center no-repeat;
+    background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1629690613755) center center no-repeat;
+    /*background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1624341092737) top center no-repeat;*/
     height: 8px;
+    width: 100%;
+    display: flex;
+  }
+
+  .show_requirements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .show_requirements:first-child{
+    padding-right: 10px;
   }
 
 </style>
