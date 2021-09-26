@@ -63,8 +63,10 @@ function parse_item(data){
     .set('stat',items[5])
     // 무기 추가 데미지 스텟
     .set('add_stat',items[6])
-    // 타락
+  // 타락, 메모
     .set('unmet',items[7])
+
+
 
   console.log('parsed_items', parsed_items)
 

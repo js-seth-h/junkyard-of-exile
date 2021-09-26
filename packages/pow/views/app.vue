@@ -33,8 +33,8 @@
               </v-list-item-action>
               <v-list-item-content>
                 <v-list-item-title>
-                  {{list.parsed_items.group[2]}}
-                  {{list.parsed_items.group[3]}}
+                  {{list.parsed_items.group[2][0]}}
+                  {{list.parsed_items.group[3][0]}}
                 </v-list-item-title>
               </v-list-item-content>
             </v-list-item>
@@ -57,52 +57,33 @@
         <!-- header area end -->
         <!-- contents area start -->
         <v-main>
-          <v-container
-            fluid
-          >
+          <v-container fluid>
             <div class="detail">
               <div>
-
-<!--                test: {{this.$store.state}} <br />-->
-<!--                this_state : {{this_state}} <br />-->
-<!--                list_data : {{list_data}} <br />-->
-<!--                show_data : {{show_data}} <br />-->
                 <v-btn >detail</v-btn>
 
-                <div v-for="(choice_data, inx) of show_data.parsed_items">
-                  <div v-if="inx === 'group'" class="title wrap">
+                <div v-for="(selected_data, inx) of show_data.parsed_items" class="selected_data_area">
 
-                    <div v-for="(data, data_inx) of choice_data">
-                      <p v-if="data_inx === 2"> {{data}} </p>
-                      <p v-if="data_inx === 3"> {{data}} </p>
+                  <div v-if="inx === 'group'" class="title wrap">
+                    <div v-for="(data, data_inx) of selected_data">
+                      <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
                     </div>
                   </div>
-                  <div class="content">
-                    {{inx}}
-                    <div v-if="inx === 'requirements'" class="show_requirements">
-                      <div v-for="(data, data_inx) of choice_data">
-                        <span v-if="data_inx === 0" class="contents_subtitle">
-                          {{data[0]}}
-                        </span>
-                        <span v-else>
-                          {{data[0]}} {{data[1]}}
-                        </span>
-                      </div>
-                      <span class="separator"></span>
-                    </div>
 
-                    <div v-else>
-                      <div v-for="(data, data_inx) of choice_data">
-                        <div v-if='typeof data[1] === "undefined"'>
+                  <div class="content">
+                    <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
+                      <div v-if='inx !== "group" '>
+                        <div v-if='typeof data[1] === "undefined"' class="single">
                           {{data[0]}}
                         </div>
-                        <div v-else>
+                        <div v-else class="multiple">
                           {{data[0]}}: {{data[1]}}
                         </div>
                       </div>
-                      <span class="separator"></span>
                     </div>
 
+                    <span v-if='inx !== "group"  && selected_data !== undefined '
+                          :class="inx+'_separator'" class="separator"></span>
 
                   </div>
                 </div>
@@ -121,7 +102,7 @@
         </v-main>
         <!-- contents area end -->
 
-<!--        <Dialog></Dialog>-->
+        <!--        <Dialog></Dialog>-->
 
         <v-footer app>
           <span>&copy; {{ new Date().getFullYear() }}</span>
@@ -145,47 +126,12 @@
     components: {Dialog},
     computed: {
       this_state(){
-         return this.$store.state
+        return this.$store.state
       },
       list_data(){
 
         return this.$store.state.list_data
       },
-      //
-      // item_group(){
-      //
-      //   if(this.show_data[0] !== undefined){
-      //
-      //     let group = this.show_data[0][0]
-      //     if(group !== undefined ){
-      //       group = group.split(':')
-      //     }else{
-      //       group = ''
-      //     }
-      //     return group[1]
-      //
-      //   }
-      // },
-      // item_name(){
-      //   if(this.show_data[0] !== undefined){
-      //     return this.show_data[0][2]
-      //   }
-      // },
-      // item_type(){
-      //   if(this.show_data[0] !== undefined) {
-      //     return this.show_data[0][3]
-      //   }
-      // },
-      // item_value() {
-      //   // this.show_data.shift()
-      //
-      //   if (this.show_data[0] !== undefined) {
-      //
-      //     let copied_show_data = this.show_data
-      //     copied_show_data = copied_show_data.splice(1, this.show_data.length)
-      //     return copied_show_data
-      //   }
-      // }
     },
     data(){
       return{
@@ -243,40 +189,7 @@
 
         // console.log(this.show_data)
       },
-      // parsing_text(text){
-      // //  입력 후 가져온 텍스트의 모양을 변경한다.
-      //
-      //   console.log('text', text)
-      //
-      //   if(text.length ){
-      //     console.log('-------is empty ----')
-      //
-      //   }else{
-      //     console.log("is not empty")
-      //   }
-      // //  text = this.show_data
-      //
-      //   // console.log('text' , text)
-      //
-      //   // console.log('this is R', R)
-      //
-      //   var blocks = R.map(R.trim,R.split( '--------' ,  text ))
-      //   blocks = R.map( R.split('\n'), blocks)
-      //
-      //   console.log(blocks)
-      //
-      //   this.show_data = blocks
-      //
-      //
-      // },
       get_itemtext(){
-
-        //get_itemtext = 버튼
-        // writed_item 입력된 값
-
-        // 텍스트 입력 후 버튼 클릭 시 값을 가져옴
-
-
 
         //입력된 값을 list_data arr에 push
         this.list_data.push(this.writed_item)
@@ -287,7 +200,7 @@
 
       },
       test(){
-      alert(1)
+        alert(1)
       }
 
     },
@@ -325,9 +238,9 @@
     height: 53px;
     color:#ffff77;
     background:
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-left.png?1621837936832) top left no-repeat,
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-right.png?1621837936832) top right no-repeat,
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-middle.png?1621837936832) top center repeat-x;
+      url(https://web.poecdn.com/image/item/popup/header-double-rare-left.png?1621837936832) top left no-repeat,
+      url(https://web.poecdn.com/image/item/popup/header-double-rare-right.png?1621837936832) top right no-repeat,
+      url(https://web.poecdn.com/image/item/popup/header-double-rare-middle.png?1621837936832) top center repeat-x;
   }
 
   .detail .title p{
@@ -358,6 +271,11 @@
   }
   .show_requirements:first-child{
     padding-right: 10px;
+  }
+  /*:last-child .content .separator*/
+  .selected_data_area:last-child .separator{
+    /*display: none;*/
+    background-color: red;
   }
 
 </style>
