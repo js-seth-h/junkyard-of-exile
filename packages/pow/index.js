@@ -9,6 +9,8 @@ import router from './router'
 import Vuetify from "vuetify"
 import 'vuetify/dist/vuetify.min.css'
 
+import '@fortawesome/fontawesome-free/css/all.css'
+
 
 import store from './store'
 
@@ -25,6 +27,7 @@ import ws from './ws.coffee'
 let v = new Vue({
   vuetify:new Vuetify({
     theme: { dark: true },
+    icons: {iconfont: 'fa'},
   }),
   router,
   store,

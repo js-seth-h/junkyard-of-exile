@@ -18,6 +18,7 @@
     "Chrome 75"
   ],
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@vue/component-compiler-utils": "^3.2.0",
     "coffeescript": "^2.5.1",
     "sass": "^1.35.1",

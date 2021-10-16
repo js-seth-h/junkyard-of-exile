@@ -17,8 +17,8 @@ function splited_item(data){
     // blocks = R.map( R.split(':'), blocks)
 
     for(let data in blocks){
-      console.log('!!!!!!!!!!!data', data)
-      // for(let child_data of blocks[data]){
+      // console.log('!!!!!!!!!!!data', data)
+      // for(let child_data of  blocks[data]){
       //   blocks[data].replace(/[\r]*/g,'')
 
         blocks[data] = R.map( R.split(":"), blocks[data] )
@@ -66,6 +66,13 @@ function parse_item(data){
   // 타락, 메모
     .set('unmet',items[7])
 
+
+  // let test_parsed_items = items
+  // test_parsed_items.map((v) => {
+  //   console.log('test_parsed_items v', v)
+  //
+  // });
+  // console.log('test_parsed_items000', test_parsed_items)
 
 
   console.log('parsed_items', parsed_items)

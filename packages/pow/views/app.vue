@@ -7,12 +7,13 @@
           v-model="drawer"
           app
           clipped
+          width="27%"
         >
           <v-list dense>
 
             <div class="area_wrap">
-              <button @click="show_textarea=!show_textarea">show_textarea</button>
-              <div v-if="show_textarea === true">
+              <button @click="show_textarea=!show_textarea">+</button>
+              <div v-if="show_textarea === false">
                 <v-textarea
                   outlined
                   label="Outlined textarea"
@@ -23,6 +24,8 @@
                 <button @click="get_itemtext">submit</button>
               </div>
             </div>
+
+            <button> SEND </button>
 
 
             <v-list-item link v-for=" (list, key) in list_data" @click="change_show_data(key)">
@@ -37,6 +40,7 @@
                   {{list.parsed_items.group[3][0]}}
                 </v-list-item-title>
               </v-list-item-content>
+              <i class="fas fa-check"></i>
             </v-list-item>
 
           </v-list>
@@ -83,7 +87,9 @@
                     </div>
 
                     <span v-if='inx !== "group"  && selected_data !== undefined '
-                          :class="inx+'_separator'" class="separator"></span>
+                          :class="inx+'_separator'" class="separator">
+                    </span>
+
 
                   </div>
                 </div>
@@ -227,8 +233,8 @@
 
 
 <style lang="scss">
-  body{
-    font-size: 14px;
+  .area_wrap{
+    margin: 10px;
   }
   .detail{
     /*width: 400px;*/
@@ -274,8 +280,10 @@
   }
   /*:last-child .content .separator*/
   .selected_data_area:last-child .separator{
-    /*display: none;*/
+    display: none;
     background-color: red;
   }
+
+
 
 </style>
