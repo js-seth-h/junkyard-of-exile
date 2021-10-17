@@ -25,7 +25,13 @@
               </div>
             </div>
 
-            <button> SEND </button>
+            <button @click="get_data"> SEND </button>
+
+            <br />
+
+            <Dialog></Dialog>
+
+
 
 
             <v-list-item link v-for=" (list, key) in list_data" @click="change_show_data(key)">
@@ -55,7 +61,7 @@
         >
           <v-app-bar-nav-icon @click.stop="drawer = !drawer"> list </v-app-bar-nav-icon>
 
-          <v-btn @click="dialog_event"> dialog btn </v-btn>
+          <v-btn> dialog btn </v-btn>
           <v-toolbar-title>Application</v-toolbar-title>
         </v-app-bar>
         <!-- header area end -->
@@ -102,7 +108,6 @@
             <div>
               contents
             </div>
-            <Dialog></Dialog>
 
           </v-container>
         </v-main>
@@ -119,9 +124,10 @@
 </template>
 <script>
 
-  // import axios from "axios"
+  import axios from "axios"
 
   // import list_data from "../settings/list_data";
+
   import Dialog from "./dialog.vue";
 
 
@@ -173,10 +179,23 @@
         console.log(this.connection);
       },
 
-      dialog_event(){
-        console.log('dialog')
+      get_data(){
+        let data = false
+        if(data){
+          console.log('call data pass -- data exist')
+        }else{
+          console.log('call data block -- data not exist -- call wall')
+          this.call_dialog_event()
+        }
+      },
+
+      call_dialog_event(){
+      // 다이얼로그 이벤트 call
+        alert('call dialog')
+        return true
 
       },
+
       change_show_data(key){
         //리스트 클릭 시 화면에 뿌려지는 값
 
