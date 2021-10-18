@@ -12,6 +12,7 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
+
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
@@ -152,6 +153,10 @@ yarn-error.log
 
 # and uncomment the following lines
 # .pnp.*
+
+# 인텔리제이?
+.idea
+
 
 # End of https://www.toptal.com/developers/gitignore/api/yarn,vuejs,coffeescript,node
 tensorflow
