@@ -70,7 +70,6 @@
           <v-container fluid>
             <div class="detail">
               <div>
-                <v-btn >detail</v-btn>
 
                 <div v-for="(selected_data, inx) of show_data.parsed_items" class="selected_data_area">
 
@@ -103,10 +102,7 @@
             </div>
 
             <div>
-              <v-btn @click="parsing_text(show_data)">detail</v-btn>
-            </div>
-            <div>
-              contents
+              ----contents----
             </div>
 
           </v-container>
@@ -124,7 +120,7 @@
 </template>
 <script>
 
-  import axios from "axios"
+  // import axios from "axios"
 
   // import list_data from "../settings/list_data";
 
@@ -219,7 +215,6 @@
         //입력된 값을 list_data arr에 push
         this.list_data.push(this.writed_item)
 
-        // this.parsing_text(this.list_data[0])
 
 
 
