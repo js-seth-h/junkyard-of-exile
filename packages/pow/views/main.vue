@@ -1,124 +1,16 @@
 <template>
-  <div id="app">
-    <v-app id="inspire">
-      <v-app id="inspire">
-        <!-- gnb area start -->
-        <v-navigation-drawer
-          v-model="drawer"
-          app
-          clipped
-          width="27%"
-        >
-          <v-list dense>
+  <div id="app"  @scroll="header_action">
+<!--    <div class="header" @scroll="header_action" >-->
+      <div class="header" :class="header_active === false?'off' : ''">
+      header
 
-            <div class="area_wrap">
-              <button @click="show_textarea=!show_textarea">+</button>
-              <div v-if="show_textarea === false">
-                <v-textarea
-                  outlined
-                  label="Outlined textarea"
-                  value=""
-                  v-model="writed_item"
-                >
-                </v-textarea>
-                <button @click="get_itemtext">submit</button>
-              </div>
-            </div>
-            <br />
-            <button @click="$router.push({ path:'/' })">login</button>
-            <br />
-
-            <button @click="get_data"> SEND </button>
-
-            <br />
-
-            <Dialog></Dialog>
-
-
-
-
-            <v-list-item link v-for=" (list, key) in list_data" @click="change_show_data(key)">
-
-              {{key}}
-              <v-list-item-action>
-                <v-icon>mdi-view-dashboard</v-icon>
-              </v-list-item-action>
-              <v-list-item-content>
-                <v-list-item-title>
-                  {{list.parsed_items.group[2][0]}}
-                  {{list.parsed_items.group[3][0]}}
-                </v-list-item-title>
-              </v-list-item-content>
-              <i class="fas fa-check"></i>
-            </v-list-item>
-
-          </v-list>
-        </v-navigation-drawer>
-        <!-- gnb area start -->
-
-
-        <!-- header area start -->
-        <v-app-bar
-          app
-          clipped-left
-        >
-          <v-app-bar-nav-icon @click.stop="drawer = !drawer"> list </v-app-bar-nav-icon>
-
-          <v-btn> dialog btn </v-btn>
-          <v-toolbar-title>Application</v-toolbar-title>
-        </v-app-bar>
-        <!-- header area end -->
-        <!-- contents area start -->
-        <v-main>
-          <v-container fluid>
-            <div class="detail">
-              <div>
-
-                <div v-for="(selected_data, inx) of show_data.parsed_items" class="selected_data_area">
-
-                  <div v-if="inx === 'group'" class="title wrap">
-                    <div v-for="(data, data_inx) of selected_data">
-                      <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
-                      <div v-if='inx !== "group" '>
-                        <div v-if='typeof data[1] === "undefined"' class="single">
-                          {{data[0]}}
-                        </div>
-                        <div v-else class="multiple">
-                          {{data[0]}}: {{data[1]}}
-                        </div>
-                      </div>
-                    </div>
-
-                    <span v-if='inx !== "group"  && selected_data !== undefined '
-                          :class="inx+'_separator'" class="separator">
-                    </span>
-
-
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              ----contents----
-            </div>
-
-          </v-container>
-        </v-main>
-        <!-- contents area end -->
-
-        <!--        <Dialog></Dialog>-->
-
-        <v-footer app>
-          <span>&copy; {{ new Date().getFullYear() }}</span>
-        </v-footer>
-      </v-app>
-    </v-app>
+    </div>
+    <div class="lnb">
+      lnb
+    </div>
+    <div class="contents">
+      content
+    </div>
   </div>
 </template>
 <script>
@@ -127,8 +19,10 @@
 
   // import list_data from "../settings/list_data";
 
+
   import Dialog from "./dialog.vue";
 
+  import '../assets/css/main.css';
 
   import * as R from 'ramda'
 
@@ -163,6 +57,10 @@
         // show_data: [[],[],[],[]],
         show_data: {},
 
+
+        scroll_action: 0,
+        header_active: true,
+
       }
     },
 
@@ -173,7 +71,37 @@
       //   // }
       // }
     },
+    mounted() {
+      window.addEventListener("scroll", this.onScroll)
+    },
+    beforeDestroy() {
+      window.removeEventListener("scroll", this.onScroll)
+    },
     methods: {
+      onScroll(e) {
+        let windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
+        if(this.scroll_action > windowTop ){
+        //  scroll up
+          console.log('scroll up', windowTop);
+          this.header_active = true
+        }else{
+        //  scroll down
+          console.log('scroll down', windowTop);
+          this.header_active = false
+        }
+
+        // this.windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
+        // console.log('scroll event action ',window.top.scrollY)
+
+
+        this.scroll_action = windowTop
+
+      },
+
+      header_action(e){
+
+      },
+
       sendMessage(message) {
         console.log(this.connection);
       },
@@ -248,59 +176,5 @@
   }
 </script>
 
-
-<style lang="scss">
-  .area_wrap{
-    margin: 10px;
-  }
-  .detail{
-    /*width: 400px;*/
-  }
-  .detail .title{
-
-    height: 53px;
-    color:#ffff77;
-    background:
-      url(https://web.poecdn.com/image/item/popup/header-double-rare-left.png?1621837936832) top left no-repeat,
-      url(https://web.poecdn.com/image/item/popup/header-double-rare-right.png?1621837936832) top right no-repeat,
-      url(https://web.poecdn.com/image/item/popup/header-double-rare-middle.png?1621837936832) top center repeat-x;
-  }
-
-  .detail .title p{
-    text-align: center;
-    /*padding: 10px;*/
-    font-size: 19px;
-    margin: unset;
-    line-height: 1.35em;
-    letter-spacing: -0.025;
-  }
-  .detail .content{
-    background-color: rgba(0, 0, 0, 0.8);;
-    text-align: center;
-  }
-
-  .separator{
-    background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1629690613755) center center no-repeat;
-    /*background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1624341092737) top center no-repeat;*/
-    height: 8px;
-    width: 100%;
-    display: flex;
-  }
-
-  .show_requirements{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .show_requirements:first-child{
-    padding-right: 10px;
-  }
-  /*:last-child .content .separator*/
-  .selected_data_area:last-child .separator{
-    display: none;
-    background-color: red;
-  }
-
-
-
+<style>
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    <button @click="main">main btn</button>
+<!--    <button @click="main">main btn</button>-->
     <router-link to="/"></router-link>
     <router-view />
   </div>
@@ -8,6 +8,7 @@
 
 
 <script>
+  import './assets/css/normalize.css';
   export default {
     name: 'App',
     components: {
