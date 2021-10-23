@@ -1,6 +1,6 @@
 <template>
   <div class="app">
-    test1
+    <button @click="main">main btn</button>
     <router-link to="/"></router-link>
     <router-view />
   </div>
@@ -11,6 +11,11 @@
   export default {
     name: 'App',
     components: {
+    },
+    methods: {
+      main(){
+        this.$router.push({ path:'/' });
+      }
     }
   }
 </script>

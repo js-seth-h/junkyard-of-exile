@@ -24,6 +24,9 @@
                 <button @click="get_itemtext">submit</button>
               </div>
             </div>
+            <br />
+            <button @click="$router.push({ path:'/' })">login</button>
+            <br />
 
             <button @click="get_data"> SEND </button>
 
@@ -130,7 +133,7 @@
   import * as R from 'ramda'
 
   export default {
-    name: 'App',
+    name: 'Main',
     components: {Dialog},
     computed: {
       this_state(){
