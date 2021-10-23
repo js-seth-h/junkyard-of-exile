@@ -9,6 +9,7 @@
 
 <script>
   import './assets/css/normalize.css';
+  import './assets/css/common.css';
   export default {
     name: 'App',
     components: {

@@ -27,11 +27,86 @@
 
 /********** content *********/
 .contents{
-  background-color: #880e4f;
+  /*background-color: #880e4f;*/
   height: 2000px;
   position: relative;
   top: 0;
   /*margin-top: 4rem;*/
+  background:#000 url(https://web.poecdn.com/image/layout/scourge-bg.jpg?1632689269280) no-repeat top center fixed;
+  background-size: contain;
+  /*height: 100%;*/
+
 
 
 }
+.contents .item{
+  display: flex;
+  /*margin-bottom: 1rem;*/
+
+  opacity: 1;
+  background-color: rgba(10,10,10,.8);
+}
+.contents .item:nth-child(odd){
+
+  opacity: 1;
+  background-color: rgba(20,20,20,.8);
+}
+
+.contents .item .item_img,
+.contents .item .item_detail,
+.contents .item .item_result
+{
+  width: 33.333%;
+}
+
+/**img**/
+.contents .item .item_img{
+  width: 25%;
+}
+
+/**detail**/
+.contents .item .item_detail{
+  width: 40%;
+
+  /**color: #7f7f7f;**/
+  color: #ddd;
+}
+.contents .item .item_detail .title{
+
+  height: 53px;
+  color:#ffff77;
+  background:
+    url(https://web.poecdn.com/image/item/popup/header-double-rare-left.png?1621837936832) top left no-repeat,
+    url(https://web.poecdn.com/image/item/popup/header-double-rare-right.png?1621837936832) top right no-repeat,
+    url(https://web.poecdn.com/image/item/popup/header-double-rare-middle.png?1621837936832) top center repeat-x;
+}
+
+.contents .item .item_detail .title p{
+  text-align: center;
+  /*padding: 10px;*/
+  font-size: 19px;
+  margin: unset;
+  line-height: 1.35em;
+  letter-spacing: -0.025;
+}
+.contents .item .item_detail .content{
+  background-color: rgba(0, 0, 0, 0.8);;
+  text-align: center;
+}
+
+/**result**/
+.contents .item .item_result{
+  width: 35%;
+
+}
+
+
+
+.separator{
+  background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1629690613755) center center no-repeat;
+  /*background: url(https://web.poecdn.com/image/item/popup/seperator-rare.png?1624341092737) top center no-repeat;*/
+  height: 8px;
+  width: 100%;
+  display: flex;
+}
+

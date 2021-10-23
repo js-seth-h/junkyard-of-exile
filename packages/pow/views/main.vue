@@ -9,7 +9,47 @@
       lnb
     </div>
     <div class="contents">
-      content
+      <div class="item" v-for="(con, key) of list_data" :key="key">
+        <div class="item_img">
+          img
+          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">
+        </div>
+<!--        <div style="background-color: white">{{list_data}}</div>-->
+        <div class="item_detail" >
+
+          <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
+
+            <div v-if="inx === 'group'" class="title wrap">
+              <div v-for="(data, data_inx) of selected_data">
+                <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
+              </div>
+            </div>
+
+            <div class="content">
+              <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
+                <div v-if='inx !== "group" '>
+                  <div v-if='typeof data[1] === "undefined"' class="single">
+                    {{data[0]}}
+                  </div>
+                  <div v-else class="multiple">
+                    {{data[0]}}: {{data[1]}}
+                  </div>
+                </div>
+              </div>
+
+              <span v-if='inx !== "group"  && selected_data !== undefined '
+                    :class="inx+'_separator'" class="separator">
+                </span>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="item_result">
+          result
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -58,7 +98,7 @@
         show_data: {},
 
 
-        scroll_action: 0,
+        last_scroll_postion: 0,
         header_active: true,
 
       }
@@ -69,32 +109,34 @@
       // list_data:{
       //   return this.$store.state.list_data
       //   // }
-      // }
-    },
-    mounted() {
-      window.addEventListener("scroll", this.onScroll)
+      // },
+      window.addEventListener("scroll", this.onScroll, false)
     },
     beforeDestroy() {
-      window.removeEventListener("scroll", this.onScroll)
+      window.removeEventListener("scroll", this.onScroll, false)
     },
     methods: {
       onScroll(e) {
-        let windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
-        if(this.scroll_action > windowTop ){
+        let st = Number((window.pageYOffset).toFixed(0)) || Number((document.documentElement.scrollTop).toFixed(0));
+        console.log('event', e )
+        if(this.last_scroll_postion > st ){
         //  scroll up
-          console.log('scroll up', windowTop);
+          console.log('scroll up', st);
           this.header_active = true
         }else{
         //  scroll down
-          console.log('scroll down', windowTop);
+          console.log('scroll down', st);
           this.header_active = false
         }
+
+
+        // this.last_scroll_postion = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 
         // this.windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
         // console.log('scroll event action ',window.top.scrollY)
 
 
-        this.scroll_action = windowTop
+        // this.last_scroll_postion = windowTop
 
       },
 
