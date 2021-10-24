@@ -7,22 +7,27 @@
   position: sticky;
   width: 100%;
   top: 0;
-  z-index: 999;
+  z-index: 1;
 
 }
 .header.off{
-  display: none;
+  z-index: -1;
+  background-color:#b5ffff;
 }
 
 /********** lnb *********/
 .lnb{
   background-color: #0d47a1;
+  display: block;
+  z-index: 2;
 
-  display: none;
-
-  position: absolute;
+  position: fixed;
   width: 40%;
   height: 100%;
+}
+.lnb.off{
+  display: none;
+
 }
 
 /********** content *********/
@@ -44,12 +49,12 @@
   /*margin-bottom: 1rem;*/
 
   opacity: 1;
-  background-color: rgba(10,10,10,.8);
+  /*background-color: rgba(10,10,10,.8);*/
 }
 .contents .item:nth-child(odd){
 
   opacity: 1;
-  background-color: rgba(20,20,20,.8);
+  /*background-color: rgba(20,20,20,.8);*/
 }
 
 .contents .item .item_img,
@@ -62,13 +67,26 @@
 /**img**/
 .contents .item .item_img{
   width: 25%;
+  /*-----------*/
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+.contents .item .item_img img{
+
+  width: fit-content;
+  height: fit-content;
 }
 
 /**detail**/
 .contents .item .item_detail{
   width: 40%;
 
-  /**color: #7f7f7f;**/
+  /*color: #7f7f7f;*/
   color: #ddd;
 }
 .contents .item .item_detail .title{
@@ -76,9 +94,13 @@
   height: 53px;
   color:#ffff77;
   background:
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-left.png?1621837936832) top left no-repeat,
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-right.png?1621837936832) top right no-repeat,
-    url(https://web.poecdn.com/image/item/popup/header-double-rare-middle.png?1621837936832) top center repeat-x;
+    url(/assets/img/header-double-rare-left-removebg.png) top left no-repeat,
+    url(/assets/img/header-double-rare-right-removebg.png) top right no-repeat,
+    linear-gradient(#1d1414 25%,#46350d 50%,#1d1414 75%);
+/*linear-gradient(#5a4920 0%,#1d1414 25%,#352c19 50%,#1d1414 75%,#5a4920 100%);*/
+  border-top: 2px solid #6b5011;
+  border-bottom: 2px solid #6b5011;
+  /*border-bottom: 2px solid #6b5011;*/
 }
 
 .contents .item .item_detail .title p{
@@ -90,7 +112,7 @@
   letter-spacing: -0.025;
 }
 .contents .item .item_detail .content{
-  background-color: rgba(0, 0, 0, 0.8);;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   text-align: center;
 }
 
@@ -98,6 +120,8 @@
 .contents .item .item_result{
   width: 35%;
 
+  /*-----------*/
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -109,4 +133,6 @@
   width: 100%;
   display: flex;
 }
+
+
 

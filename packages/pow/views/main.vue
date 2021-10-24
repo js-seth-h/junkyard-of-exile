@@ -1,11 +1,14 @@
 <template>
   <div id="app"  @scroll="header_action">
 <!--    <div class="header" @scroll="header_action" >-->
-      <div class="header" :class="header_active === false?'off' : ''">
-      header
 
+
+    <div class="header" :class="show_header === false?'off' : ''">
+      header
+      <button @click="show_gnb = !show_gnb" >gnb</button>
     </div>
-    <div class="lnb">
+    <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
+
       lnb
     </div>
     <div class="contents">
@@ -97,9 +100,14 @@
         // show_data: [[],[],[],[]],
         show_data: {},
 
-
+        // 스크롤의 마지막 위치
         last_scroll_postion: 0,
-        header_active: true,
+        // header on off
+        show_header: true,
+
+        //gnb on off
+        show_gnb: false,
+
 
       }
     },
@@ -117,26 +125,26 @@
     },
     methods: {
       onScroll(e) {
-        let st = Number((window.pageYOffset).toFixed(0)) || Number((document.documentElement.scrollTop).toFixed(0));
-        console.log('event', e )
+        // let st = (window.pageYOffset || document.documentElement.scrollTop);
+        let st = window.top.scrollY
+        // console.log('event', e )
+        let value = true
         if(this.last_scroll_postion > st ){
         //  scroll up
-          console.log('scroll up', st);
-          this.header_active = true
+        //   console.log('scroll up', st);
+          value = true
         }else{
         //  scroll down
-          console.log('scroll down', st);
-          this.header_active = false
+        //   console.log('scroll down', st);
+          value = false
+          this.show_gnb = false
         }
 
+        if(value !== this.show_header){
+          this.show_header = value
+        }
+        this.last_scroll_postion = st <= 0 ? 0 : st; // For Mobile or negative scrolling
 
-        // this.last_scroll_postion = st <= 0 ? 0 : st; // For Mobile or negative scrolling
-
-        // this.windowTop = window.top.scrollY /* or: e.target.documentElement.scrollTop */
-        // console.log('scroll event action ',window.top.scrollY)
-
-
-        // this.last_scroll_postion = windowTop
 
       },
 
