@@ -12,45 +12,50 @@
       lnb
     </div>
     <div class="contents">
-      <div class="item" v-for="(con, key) of list_data" :key="key">
-        <div class="item_img">
-          img
-          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">
-        </div>
-<!--        <div style="background-color: white">{{list_data}}</div>-->
-        <div class="item_detail" >
+      <div class="division" v-for="(data, key) of list_data" :key="key">
+        <div style="color:#fff"><h1>{{key}}</h1></div>
+        <div class="item" v-for="(con, key) of data" :key="key">
+          <div class="item_img">
+            img
+            {{con.img}}
+            <img :src="con.img" alt="">
+  <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
+          </div>
+  <!--        <div style="background-color: white">{{list_data}}</div>-->
+          <div class="item_detail" >
 
-          <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
+            <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
 
-            <div v-if="inx === 'group'" class="title wrap">
-              <div v-for="(data, data_inx) of selected_data">
-                <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
-              </div>
-            </div>
-
-            <div class="content">
-              <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
-                <div v-if='inx !== "group" '>
-                  <div v-if='typeof data[1] === "undefined"' class="single">
-                    {{data[0]}}
-                  </div>
-                  <div v-else class="multiple">
-                    {{data[0]}}: {{data[1]}}
-                  </div>
+              <div v-if="inx === 'group'" class="title wrap">
+                <div v-for="(data, data_inx) of selected_data">
+                  <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
                 </div>
               </div>
 
-              <span v-if='inx !== "group"  && selected_data !== undefined '
-                    :class="inx+'_separator'" class="separator">
-                </span>
+              <div class="content">
+                <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
+                  <div v-if='inx !== "group" '>
+                    <div v-if='typeof data[1] === "undefined"' class="single">
+                      {{data[0]}}
+                    </div>
+                    <div v-else class="multiple">
+                      {{data[0]}}: {{data[1]}}
+                    </div>
+                  </div>
+                </div>
+
+                <span v-if='inx !== "group"  && selected_data !== undefined '
+                      :class="inx+'_separator'" class="separator">
+                  </span>
 
 
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="item_result">
-          result
+          <div class="item_result">
+            result
+          </div>
         </div>
       </div>
     </div>
