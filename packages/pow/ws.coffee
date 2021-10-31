@@ -5,7 +5,7 @@ dcon = require('deco-console')(__filename)
 
 {hostname, port} = location
 port = 8080
-ws = new WebSocket "ws://#{hostname}:#{port}/ws"
+ws = new WebSocket "ws://#{hostname}:#{port}"
 
 ws.on = ws.addEventListener
 ws.on 'open', ->
@@ -19,8 +19,12 @@ ws.on 'open', ->
 STORE = null
 ws.on 'message', (evt)->
   data = JSON.parse evt.data
-  console.debug 'ws msg', data
-  STORE.dispatch('add_item', [data])
+  # console.debug 'ws msg', data
+
+  if data.cmd is 'add-item'
+    STORE.dispatch('add_item', [data])
+  else
+    console.log 'ws unhandled msg', data
 
   # if data.current?
   #   store.commit 'setAll', data.current

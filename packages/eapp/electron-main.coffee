@@ -12,15 +12,17 @@ electron = require('electron')
 
 G = {}
 
+
+WSS = require './wss'
+
 main = ()->
   DCON_ENV.shorten (p)-> p.replace /.+packages\/(.+?)\//, ''
   DCON_ENV.detail parseInt(process.env.DCON_VERBOSE) or 1
   DCON_ENV.formatDatetime process.env.DCON_DT or 'T'
 
+
+
   args = JSON.parse process.env.args
-
-
-
   try
     console.log 'process.args', args
     # console.log '!! process.env', process.env
@@ -36,19 +38,23 @@ main = ()->
     #   detail: parseInt(process.env.# dcon_VERBOSE) or 1
     # }
     # await require('cips/elec-app')()
+
+
+    await WSS.listen 8080
     await createWindow()
 
-    webserver = require 'webserver'
-    await webserver.createServer()
+    # webserver = require 'webserver'
+    # await webserver.createServer()
+
     url = args.url or args.u or "http://localhost:1234"
     # url = "http://naver.com"
     await G.MAIN_WINDOW.loadURL url
 
-    ws = require 'webserver/ws'
-    sensor_poecopy = require './sensor-copy'
-    sensor_poecopy.on 'poe-item-copied', (text)->
-      dcon.F.debug 'copied', text
-      ws.addItem text
+    # ws = require 'webserver/ws'
+    # sensor_poecopy = require './sensor-copy'
+    # sensor_poecopy.on 'poe-item-copied', (text)->
+    #   dcon.F.debug 'copied', text
+    #   ws.addItem text
     #
     # ws.on 'message', (json_str)->
     #   data = JSON.parse evt.data
