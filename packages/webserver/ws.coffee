@@ -28,12 +28,18 @@ _handleFastify = (connection, req)->
   # dcon.debug {connection}
   dcon.F.debug 'send init'
   SOCKETS[sock_id] = socket
-  ws.on 'close', ->
+  socket.on 'close', ->
+    console.log 'closed socket', sock_id
     SOCKETS[sock_id] = null
   for item in ITEMS
     socket.send JSON.stringify item
-  socket.on 'message', (message)=>
-    dcon.F.debug 'message?', message
+
+  socket.on 'message', (json_str)->
+    data = JSON.parse json_str
+    console.log 'get ws msg', json_str
+    if data.cmd is 'openUrl'
+      open = require('open')
+      open data.url
   # socket.on 'open', ->
   # status_list = await LDM.status.fetchMany {}
   # work_logs = await LDM.work_log.fetchMany running: true

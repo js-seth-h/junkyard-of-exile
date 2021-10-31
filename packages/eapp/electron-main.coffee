@@ -49,6 +49,13 @@ main = ()->
     sensor_poecopy.on 'poe-item-copied', (text)->
       dcon.F.debug 'copied', text
       ws.addItem text
+    #
+    # ws.on 'message', (json_str)->
+    #   data = JSON.parse evt.data
+    #
+    #   if data.cmd is 'openUrl'
+    #     open = require('open')
+    #     open data.url
 
   catch error
     console.error error
@@ -62,7 +69,11 @@ createWindow = ->
     throw new Error 'Duplicated Application'
 
   await app.whenReady()
-  wnd = new BrowserWindow {}
+  wnd = new BrowserWindow {
+    webPreferences: {
+        webSecurity: false
+    }
+  }
   # wnd.setMenu(null) # 상단 메뉴 제거
   wnd.on 'closed', ->
     G.MAIN_WINDOW = null

@@ -21,7 +21,7 @@ Vue.config.productionTip = false
 // Vue.use(Vuex)
 Vue.use( Vuetify )
 
-import ws from './ws.coffee'
+import ws from 'pow/ws'
 
 
 let v = new Vue({
@@ -43,5 +43,3 @@ let v = new Vue({
 
 
 export default v
-
-
