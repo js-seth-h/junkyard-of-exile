@@ -10,11 +10,19 @@
     <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
 
       lnb
+      <div  v-for="(data, key) of list_data" :key="key">
+        <div>key: {{key}}</div>
+        <div v-for="(con, key) of data" :key="key">
+<!--          {{con.item_id}}-->
+          <button @click="go_to_content(con.item_id)">{{con.parsed_items.group[2][0]}} {{con.parsed_items.group[3][0]}}</button>
+
+        </div>
+      </div>
     </div>
     <div class="contents">
       <div class="division" v-for="(data, key) of list_data" :key="key">
         <div style="color:#fff"><h1>{{key}}</h1></div>
-        <div class="item" v-for="(con, key) of data" :key="key">
+        <div class="item" v-for="(con, key) of data" :key="key" :id="con.item_id">
           <div class="item_img">
             img
             {{con.img}}
@@ -129,6 +137,9 @@
       window.removeEventListener("scroll", this.onScroll, false)
     },
     methods: {
+      go_to_content(target){
+
+      },
       onScroll(e) {
         // let st = (window.pageYOffset || document.documentElement.scrollTop);
         let st = window.top.scrollY
