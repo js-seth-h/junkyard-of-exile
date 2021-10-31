@@ -1,6 +1,8 @@
 <template>
   <div>
     <div> this is login page</div>
+    <button @click="goto_content">go to contnet</button>
+    <br />
     <button @click="login">Login with Patreon</button>
     <br />
     <!-- <a
@@ -28,6 +30,11 @@
   export default {
     name: "Login",
     methods: {
+
+      goto_content(){
+        this.$router.push({ path:'main' });
+      },
+
       login(){
         // ws = require('pow/ws')
         ws.openUrl(url)
