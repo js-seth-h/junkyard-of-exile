@@ -100,8 +100,8 @@ export default new Vuex.Store({
 
 
     data:'testststst',
-    // list_data: [],
-    list_data: {},
+    list_data: [],
+    // list_data: {},
     show_data: {}
 
   },
@@ -109,18 +109,23 @@ export default new Vuex.Store({
 
     add_item (state, payload) {
       console.log('payload', payload, 'type=->', typeof payload)
-      let division = payload.division
-      console.log('division##############', division, 'type=->', typeof division)
       // let divisions = ['Weapons', 'Rings', 'Amulets', 'Belts', 'Armours', 'Quivers']
 
+      // let division = payload.division
+      // if(state.list_data[division] === undefined){
+      //     Object.assign(state.list_data, {[division]:[payload]})
+      // }else{
+      //   state.list_data[division].push(payload)
+      // }
 
-      if(state.list_data[division] === undefined){
-          Object.assign(state.list_data, {[division]:[payload]})
-      }else{
-        state.list_data[division].push(payload)
-      }
+
+      // state.list_data.division[division_item].push(payload)
+
 
       console.log('state.list_data', state.list_data)
+
+      // state.list_data[division].push(payload)
+      state.list_data.push(payload)
 
 
       // // get img, type id

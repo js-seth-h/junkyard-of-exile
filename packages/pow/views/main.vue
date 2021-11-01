@@ -6,27 +6,75 @@
     <div class="header" :class="show_header === false?'off' : ''">
       header
       <button @click="show_gnb = !show_gnb" >gnb</button>
+      //
+      <button @click="seq_order = !seq_order">seq_order = {{seq_order}}</button>
     </div>
+
+
     <div class="content_wrapper">
+
+
       <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
         <div  v-for="(data, key) of list_data" :key="key">
-          <div>key: {{key}}</div>
-          <div v-for="(con, key) of data" :key="key">
-  <!--          {{con.item_id}}-->
-            <button @click="go_to_content(con.item_id)">{{con.parsed_items.group[2][0]}} {{con.parsed_items.group[3][0]}}</button>
-
-          </div>
+            <button @click="go_to_content(con.item_id)">{{data.parsed_items.group[2][0]}} {{data.parsed_items.group[3][0]}}</button>
         </div>
       </div>
       <div class="contents">
-        <div class="division" v-for="(data, key) of list_data" :key="key">
+
+
+
+<!--        <div class="division" v-for="(data, key) of list_data" :key="key">-->
+<!--          <div style="color:#fff"><h1>{{key}}</h1></div>-->
+        <div v-if="seq_order" class="item" v-for="(con, key) of list_data" :key="key">
+          <div class="item_img">
+            <img :src="con.img" alt="">
+  <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
+          </div>
+  <!--        <div style="background-color: white">{{list_data}}</div>-->
+          <div class="item_detail" >
+
+            <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
+
+              <div v-if="inx === 'group'" class="title wrap">
+                <div v-for="(data, data_inx) of selected_data">
+                  <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
+                </div>
+              </div>
+
+              <div class="content">
+                <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
+                  <div v-if='inx !== "group" '>
+                    <div v-if='typeof data[1] === "undefined"' class="single">
+                      {{data[0]}}
+                    </div>
+                    <div v-else class="multiple">
+                      {{data[0]}}: {{data[1]}}
+                    </div>
+                  </div>
+                </div>
+
+                <span v-if='inx !== "group"  && selected_data !== undefined '
+                      :class="inx+'_separator'" class="separator">
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="item_result">
+            result
+          </div>
+        </div>
+
+        <div v-else class="division" v-for="(data, key) of list_data" :key="key">
           <div style="color:#fff"><h1>{{key}}</h1></div>
           <div class="item" v-for="(con, key) of data" :key="key" :id="con.item_id">
             <div class="item_img">
+              img
+              {{con.img}}
               <img :src="con.img" alt="">
-    <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
+              <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
             </div>
-    <!--        <div style="background-color: white">{{list_data}}</div>-->
+            <!--        <div style="background-color: white">{{list_data}}</div>-->
             <div class="item_detail" >
 
               <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
@@ -51,7 +99,7 @@
 
                   <span v-if='inx !== "group"  && selected_data !== undefined '
                         :class="inx+'_separator'" class="separator">
-                    </span>
+                  </span>
 
 
                 </div>
@@ -63,6 +111,7 @@
             </div>
           </div>
         </div>
+
       </div>
       <div class="search_trade">
         trade
@@ -92,7 +141,6 @@
         return this.$store.state
       },
       list_data(){
-
         return this.$store.state.list_data
       },
     },
@@ -123,6 +171,8 @@
         //gnb on off
         show_gnb: false,
 
+        seq_order: true,
+
 
       }
     },
@@ -152,12 +202,14 @@
         //  scroll up
         //   console.log('scroll up', st);
           value = true
-        }else{
-        //  scroll down
-        //   console.log('scroll down', st);
-          value = false
-          this.show_gnb = false
         }
+        //up 스크롤시 lnb display none
+        // else{
+        // //  scroll down
+        // //   console.log('scroll down', st);
+        //   value = false
+        //   this.show_gnb = false
+        // }
 
         if(value !== this.show_header){
           this.show_header = value

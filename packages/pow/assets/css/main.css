@@ -21,7 +21,7 @@
 .content_wrapper .lnb,
 .content_wrapper .contents,
 .content_wrapper .search_trade{
-  display: inline-flex;
+  display: block;
 
 }
 /********** lnb *********/
@@ -51,34 +51,38 @@
   height: 2000px;
   width: 100%;
   /*background:#000 url(https://web.poecdn.com/image/layout/scourge-bg.jpg?1632689269280) no-repeat top center fixed;*/
-  background:#000 url(https://web.poecdn.com/image/layout/scourge-bg.jpg?1632689269280) no-repeat top center;
+  /*background:#000 url(/assets/img/scourge-bg.jpg) no-repeat top center;*/
 
 }
-.contents .division{
+.contents{
   width: 100%;
 }
-.contents .division .item{
+.contents .item{
   display: flex;
   /*margin-bottom: 1rem;*/
 
   opacity: 1;
   /*background-color: rgba(10,10,10,.8);*/
 }
-.contents .division .item:nth-child(odd){
+
+
+
+
+.contents .item:nth-child(odd){
 
   opacity: 1;
   /*background-color: rgba(20,20,20,.8);*/
 }
 
-.contents .division .item .item_img,
-.contents .division .item .item_detail,
-.contents .division .item .item_result
+.contents .item .item_img,
+.contents .item .item_detail,
+.contents .item .item_result
 {
   width: 33.333%;
 }
 
 /**img**/
-.contents .division .item .item_img{
+.contents .item .item_img{
   width: 25%;
   /*-----------*/
   background-color: rgba(0, 0, 0, 0.8);
@@ -89,20 +93,20 @@
   flex-direction: column;
 
 }
-.contents .division .item .item_img img{
+.contents .item .item_img img{
 
   width: fit-content;
   height: fit-content;
 }
 
 /**detail**/
-.contents .division .item .item_detail{
+.contents .item .item_detail{
   width: 40%;
 
   /*color: #7f7f7f;*/
   color: #ddd;
 }
-.contents .division .item .item_detail .title{
+.contents .item .item_detail .title{
 
   height: 53px;
   color:#ffff77;
@@ -116,7 +120,7 @@
   /*border-bottom: 2px solid #6b5011;*/
 }
 
-.contents .division .item .item_detail .title p{
+.contents .item .item_detail .title p{
   text-align: center;
   /*padding: 10px;*/
   font-size: 19px;
@@ -124,18 +128,36 @@
   line-height: 1.35em;
   letter-spacing: -0.025;
 }
-.contents .division .item .item_detail .content{
+.contents .item .item_detail .content{
   /*background-color: rgba(0, 0, 0, 0.8);*/
   text-align: center;
 }
 
 /**result**/
-.contents .division .item .item_result{
+.contents .item .item_result{
   width: 35%;
-
-  /*-----------*/
-  background-color: rgba(0, 0, 0, 0.8);
+  min-height: 150px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+@media screen and (max-width: 1200px) {
+
+  .contents .item{
+    flex-wrap: wrap;
+  }
+
+  .contents .item .item_img{
+    width: 40%;
+  }
+  .contents .item .item_detail{
+    width: 60%;
+  }
+  .contents .item .item_result{
+    width: 100%;
+  }
+}
+
 
 
 
