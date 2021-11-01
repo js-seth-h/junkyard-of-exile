@@ -19,8 +19,8 @@
     name: "Login",
     async mounted() {
       await ws.isReady
-      ws.appStart()
-      await J.waitOnce(ws, 'app-ready')
+      // ws.appStart()
+      // await J.waitOnce(ws, 'app-ready')
 
     },
     methods: {
@@ -32,7 +32,7 @@
         // ws = require('pow/ws')
         // let url = BEC.getPatreonOauthUrl()
         ws.openPatronOauth()
-        ws.once('oauth-ok', ()=> alert('ok'))
+        ws.once('oauth-login-ok', ()=> alert('ok'))
         // ws.evalItem({ test: true})
         // this.$router.push({ path:'main' });
       }
