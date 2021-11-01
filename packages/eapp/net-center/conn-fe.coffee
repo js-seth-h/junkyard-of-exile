@@ -21,13 +21,14 @@ onConnect = (sock)->
   sock.on 'message', (msg)->
     json = JSON.parse msg
     dcon.F.debug 'sock on message', msg
-    EM.emit 'message', json
+    EM.emit json.evt, json
   sock.on 'close', ->
     console.log 'closed socket', sock.id
     G.CLIENTS[sock.id] = null
     delete G.CLIENTS[sock.id]
   EM.emit 'connection', sock
-  sock.send JSON.stringify {
+
+  send {
     cmd: 'init'
     id: sock.id
     msg: 'Hi, FE websocket.'

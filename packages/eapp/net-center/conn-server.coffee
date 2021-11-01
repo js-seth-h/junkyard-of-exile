@@ -15,8 +15,7 @@ SERVER_ADRR = {}
 
 sock.on 'message', (buf)->
   json = JSON.parse buf
-  EM.emit 'message', json
-
+  EM.emit json.evt, json
 
 send = (json)->
   str = JSON.stringify json

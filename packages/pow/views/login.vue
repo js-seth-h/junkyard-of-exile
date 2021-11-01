@@ -13,14 +13,14 @@
 </template>
 
 <script>
-
-
   import ws from "pow/ws"
-
   export default {
     name: "Login",
-    methods: {
+    mounted() {
+      // ws.startApp()
 
+    },
+    methods: {
       goto_content(){
         this.$router.push({ path:'main' });
       },
@@ -29,8 +29,8 @@
         // ws = require('pow/ws')
         // let url = BEC.getPatreonOauthUrl()
         ws.openPatronOauth()
-
-        ws.evalItem({ test: true})
+        ws.once('oauth-ok', ()=> alert('ok'))
+        // ws.evalItem({ test: true})
         // this.$router.push({ path:'main' });
       }
     }
