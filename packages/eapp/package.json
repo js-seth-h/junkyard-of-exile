@@ -6,8 +6,7 @@
   "bin": {
     "eapp": "./bin/eapp.coffee"
   },
-  "dependencies": {
-    "@tootallnate/once": "^3.0.0",
+  "dependencies": { 
     "argparse": "^2.0.1",
     "electron": "^13.1.4",
     "open": "^8.4.0",

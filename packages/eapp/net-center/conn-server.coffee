@@ -7,8 +7,8 @@ dgram = require('dgram');
 sock = dgram.createSocket('udp4');
 
 EventEmitter = require('events');
-
 EM = new EventEmitter()
+module.exports = exports = EM
 
 SERVER_ADRR = {}
 
@@ -28,5 +28,4 @@ config = (address, port)->
 Object.assign exports, {
   config
   send
-  on: EM.on.bind(EM)
 }

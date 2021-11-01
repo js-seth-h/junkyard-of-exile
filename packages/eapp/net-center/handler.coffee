@@ -1,12 +1,11 @@
 dcon = require('deco-console')(__filename)
 R = require 'ramda'
 RA = require 'ramda-adjunct'
+J = require 'jsl'
 
 FE = require './conn-fe'
 SV = require './conn-server'
 
-import once from '@tootallnate/once'
-# once = require '@tootallnate/once'
 
 CTX = {}
 
@@ -95,5 +94,5 @@ FE.on 'patreon-oauth', (data)->
     state: CTX.MY_ID
   }
   open url
-  [data] = await once SV, 'oauth-login-ok'
+  [data] = await J.waitOnce SV, 'oauth-login-ok'
   FE.send {evt: 'oauth-login-ok'}

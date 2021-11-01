@@ -6,7 +6,7 @@ dcon = require('deco-console')(__filename)
 shortid = require('shortid')
 EventEmitter = require('events');
 EM = new EventEmitter()
-
+module.exports = exports = EM
 { WebSocketServer } = require 'ws'
 
 G = {
@@ -50,5 +50,4 @@ config = (port)->
 Object.assign exports, {
   config
   send
-  on: EM.on.bind(EM)
 }

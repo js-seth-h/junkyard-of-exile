@@ -34,6 +34,17 @@ Error.fromJSON = (json)->
   Object.assign e, json
   return e
 
+
+waitOnce = (emitter, event_name)->
+  console.log {emitter}
+  new Promise (done)->
+    adder = emitter.on or emitter.addListener or emitter.addEventListener
+    remover = emitter.off or emitter.removeListener or emitter.removeEventListener
+    handler = (args...)->
+      remover.call emitter, event_name, handler
+      done args
+    adder.call emitter, event_name, handler
+
 class Deferred
   constructor: ->
     @promise = new Promise (resolve, reject)=>
@@ -209,5 +220,6 @@ Object.assign exports, {
   # willThrowTimeout
   Promise: props: PromiseProps
 
+  waitOnce
   # constants: require './constants'
 }
