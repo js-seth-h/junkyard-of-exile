@@ -13,9 +13,11 @@ electron = require('electron')
 G = {}
 
 
+require 'nx/dot-env'
 WSS = require './wss'
 
 main = ()->
+
   DCON_ENV.shorten (p)-> p.replace /.+packages\/(.+?)\//, ''
   DCON_ENV.detail parseInt(process.env.DCON_VERBOSE) or 1
   DCON_ENV.formatDatetime process.env.DCON_DT or 'T'
@@ -84,16 +86,20 @@ createWindow = ->
   wnd.on 'closed', ->
     G.MAIN_WINDOW = null
 
-  {x, y, width, height} = getWindowRect()
+  {x, y, width, height} = rect = getWindowRect()
+  dcon.F.debug {rect}
   wnd.setPosition x, y
   wnd.setSize width, height
-  wnd.maximize()
+  # wnd.maximize()
   wnd.webContents.openDevTools()
 
   G.MAIN_WINDOW = wnd
 
 
 getWindowRect = ()->
+  rx = parseFloat process.env.RATIO_X or '1'
+  ry = parseFloat process.env.RATIO_Y or '1'
+
   displays = electron.screen.getAllDisplays()
   setRank = (d)->
     d.score = 99 - Math.abs(d.workArea.x) / 100
@@ -109,8 +115,8 @@ getWindowRect = ()->
   return rect =
     x: display.workArea.x
     y: display.workArea.y
-    width: display.workArea.width
-    height: display.workArea.height
+    width: parseInt display.workArea.width * rx
+    height: parseInt display.workArea.height * ry
 
 
 Object.assign exports, {
