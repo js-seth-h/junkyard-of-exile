@@ -36,17 +36,21 @@ ws.on 'message', (evt)->
   #   store.commit 'updateWorkLog', data.work_log
 
 
-openUrl = (url)->
-  console.log 'openUrl', url, ws
+openPatronOauth = (url)->
   ws.send JSON.stringify {
-    cmd: 'openUrl'
-    url: url
+    cmd: 'patreon-oauth'
   }
 
 setStore = (store)->
   STORE = store
 
+evalItem = (data)->
+  ws.send JSON.stringify {
+    cmd: 'eval-item'
+    data
+  }
 Object.assign exports, {
   setStore
-  openUrl
+  openPatronOauth
+  evalItem
 }

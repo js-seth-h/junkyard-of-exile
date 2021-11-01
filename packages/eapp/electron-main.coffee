@@ -14,7 +14,9 @@ G = {}
 
 
 require 'nx/dot-env'
-WSS = require './wss'
+# WSS = require './wss'
+
+NC = require './net-center'
 
 main = ()->
 
@@ -42,7 +44,7 @@ main = ()->
     # await require('cips/elec-app')()
 
 
-    await WSS.listen 8080
+    await NC.init()
     await createWindow()
 
     # webserver = require 'webserver'

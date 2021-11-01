@@ -28,9 +28,10 @@
 
       async login(){
         // ws = require('pow/ws')
-        await BEC.ready()
-        let url = BEC.getPatreonOauthUrl()
-        ws.openUrl(url)
+        // let url = BEC.getPatreonOauthUrl()
+        ws.openPatronOauth()
+
+        ws.evalItem({ test: true})
         // this.$router.push({ path:'main' });
       }
     }
