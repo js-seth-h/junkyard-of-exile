@@ -33,7 +33,11 @@ let v = new Vue({
   store,
   render: h => h(App),
   mounted: ()=> {
-    ws.setStore(store)
+    ws.on('add-item', (data)=>{
+      store.dispatch('add_item', [data])
+    })
+    // await J.waitOnce(ws, 'app-ready')
+    // ws.setStore(store)
   }
 
 }).$mount('#webapp')

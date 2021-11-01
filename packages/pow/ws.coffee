@@ -39,16 +39,16 @@ sendJSON = (json)->
 appStart = ()-> sendJSON {evt: 'app-start'}
 openPatronOauth = (url)->
   sendJSON { evt: 'patreon-oauth' }
-
-setStore = (store)->
-  STORE = store
+#
+# setStore = (store)->
+#   STORE = store
 
 evalItem = (item)->
   sendJSON { evt: 'eval-item', item }
 
 Object.assign exports, {
   isReady
-  setStore
+  # setStore
   sendJSON
   appStart
   openPatronOauth

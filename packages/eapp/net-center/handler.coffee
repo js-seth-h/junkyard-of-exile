@@ -28,6 +28,9 @@ checkClipboard = ->
     evt: 'add-item', text
   }
 
+CTX.PREV_TXT = clipboard.readText()
+setInterval checkClipboard, 300
+
 CTX.TID_GMI = null
 
 FE.on 'app-start', catchErr (data)->
@@ -38,8 +41,6 @@ FE.on 'app-start', catchErr (data)->
   # clearInterval CTX.TID_GMI
   # CTX.MY_ID = data.client_id
 
-  CTX.PREV_TXT = clipboard.readText()
-  setInterval checkClipboard, 300
 
   FE.send {evt: 'app-ready'}
 
