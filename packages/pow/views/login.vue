@@ -16,7 +16,6 @@
 
 
   import ws from "pow/ws"
-  import BEC from "pow/backend-connection"
 
   export default {
     name: "Login",
