@@ -14,10 +14,13 @@
 
 <script>
   import ws from "pow/ws"
+  import J from 'jsl'
   export default {
     name: "Login",
-    mounted() {
-      // ws.startApp()
+    async mounted() {
+      await ws.isReady
+      ws.appStart()
+      await J.waitOnce(ws, 'app-ready')
 
     },
     methods: {

@@ -15,6 +15,7 @@ SERVER_ADRR = {}
 
 sock.on 'message', (buf)->
   json = JSON.parse buf
+  dcon.F.debug 'get msg', json
   EM.emit json.evt, json
 
 send = (json)->

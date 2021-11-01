@@ -67,6 +67,10 @@ main = ()->
     #     open = require('open')
     #     open data.url
 
+    app.on 'window-all-closed', ->
+      NC.shutdown()
+      app.quit()
+
   catch error
     console.error error
     process.exit(1)
@@ -87,6 +91,7 @@ createWindow = ->
   # wnd.setMenu(null) # 상단 메뉴 제거
   wnd.on 'closed', ->
     G.MAIN_WINDOW = null
+
 
   {x, y, width, height} = rect = getWindowRect()
   dcon.F.debug {rect}

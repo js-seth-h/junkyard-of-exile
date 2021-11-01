@@ -5,42 +5,17 @@ J = require 'jsl'
 
 FE = require './conn-fe'
 SV = require './conn-server'
+nanoid = require 'nanoid'
 
 
 CTX = {}
 
-# console.log 'FE', FE
-
-# FE.on 'message', (data)->
-#   dcon.F.debug 'get msg from FE', data
-#   switch data.evt
-#     when 'start-app'
-#       startApp()
-#     when 'patreon-oauth'
-#       unless MY_ID?
-#         FE.send {evt: 'error', message: 'E-0001. App can not connect to server.' }
-#         return
-#       patreonOauth()
-#     when 'eval-item'
-#       SV.send data
-#     else
-#       dcon.error 'FE unhandled msg', data
-#
-#
-# SV.on 'message', (data)->
-#   dcon.F.debug 'get msg from SV', data
-#   switch data.evt
-#     # when 'get-my-id'
-#     #   MY_ID = data.client_id
-#     #   clearInterval TID_GMI
-#     #   TID_GMI = null
-#     when 'eval-item'
-#       FE.send data
-#     # when 'crawl'
-#     #   craw = 1
-#     else
-#       dcon.error 'SV unhandled msg', data
-#
+catchErr = (fn)->
+  return (args...)->
+    try
+      await fn args...
+    catch error
+      dcon.error error
 
 { clipboard } = require('electron')
 checkClipboard = ->
@@ -55,13 +30,13 @@ checkClipboard = ->
 
 CTX.TID_GMI = null
 
-FE.on 'app-start', (data)->
-  _getMyId = ()-> SV.send {evt: 'get-my-id'}
-  CTX.TID_GMI = setInterval _getMyId, 2000
-  _getMyId()
-  [data] = await once SV, 'get-my-id'
-  clearInterval CTX.TID_GMI
-  CTX.MY_ID = data.client_id
+FE.on 'app-start', catchErr (data)->
+  # _getMyId = ()-> SV.send {evt: 'get-my-id'}
+  # CTX.TID_GMI = setInterval _getMyId, 2000
+  # _getMyId()
+  # [data] = await J.waitOnce SV, 'get-my-id'
+  # clearInterval CTX.TID_GMI
+  # CTX.MY_ID = data.client_id
 
   CTX.PREV_TXT = clipboard.readText()
   setInterval checkClipboard, 300
@@ -86,13 +61,29 @@ PK_USING = PK[env_set or 'REAL']
 qs = require 'qs'
 open = require('open')
 
-FE.on 'patreon-oauth', (data)->
+FE.on 'patreon-oauth', catchErr (data)->
+  CTX.MY_ID = nanoid()
+  dcon.F.debug 'I AM', CTX.MY_ID
+  # while true
+  #   SV.send {evt: 'I-am', client_id: CTX.MY_ID}
+  #   [data] = await J.waitOnce SV, 'know-you'
+  #   await J.postpone "100ms"
+
   url = "https://patreon.com/oauth2/authorize?" + qs.stringify {
+    state: CTX.MY_ID
     response_type: 'code'
     client_id: PK_USING.clientId
     redirect_uri: PK_USING.redirect
-    state: CTX.MY_ID
   }
+  console.log {url}
   open url
-  [data] = await J.waitOnce SV, 'oauth-login-ok'
+  while true
+    await J.postpone "1sec"
+    SV.send {evt: 'check-oauth', client_id: CTX.MY_ID}
+    [data] = await J.waitOnce SV, 'check-oauth'
+    break if data.ok
   FE.send {evt: 'oauth-login-ok'}
+
+shutdown = ->
+  SV.send {evt: 'shutdown', client_id: CTX.MY_ID}
+  SV.send {evt: 'shutdown', client_id: CTX.MY_ID}

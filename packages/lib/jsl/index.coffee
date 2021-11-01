@@ -35,8 +35,7 @@ Error.fromJSON = (json)->
   return e
 
 
-waitOnce = (emitter, event_name)->
-  console.log {emitter}
+waitOnce = (emitter, event_name)-> 
   new Promise (done)->
     adder = emitter.on or emitter.addListener or emitter.addEventListener
     remover = emitter.off or emitter.removeListener or emitter.removeEventListener

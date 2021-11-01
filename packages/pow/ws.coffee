@@ -10,10 +10,14 @@ EventEmitter = require('events');
 EVT_BUS = new EventEmitter()
 module.exports = exports = EVT_BUS
 
+J = require 'jsl'
 
 ws = new WebSocket "ws://#{hostname}:#{port}"
 
+
 ws.on = ws.addEventListener
+isReady = J.waitOnce ws, 'open'
+
 ws.on 'open', ->
   console.log 'ws?????????'
   dcon.debug 'ws opend', arguments
@@ -32,7 +36,7 @@ ws.on 'message', (msg_event)->
 sendJSON = (json)->
   ws.send JSON.stringify json
 
-startApp = ()-> sendJSON {evt: 'start-app'}
+appStart = ()-> sendJSON {evt: 'app-start'}
 openPatronOauth = (url)->
   sendJSON { evt: 'patreon-oauth' }
 
@@ -43,9 +47,10 @@ evalItem = (item)->
   sendJSON { evt: 'eval-item', item }
 
 Object.assign exports, {
+  isReady
   setStore
   sendJSON
-  startApp
+  appStart
   openPatronOauth
   evalItem
 }
