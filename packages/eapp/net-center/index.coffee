@@ -4,7 +4,7 @@ handler = require './handler'
 
 init = ->
   await FE.config 8080
-  await SV.config 'localhost', 5000
+  await SV.config 'wiki.cmgom.com', 5000
 
 
 Object.assign exports, {
