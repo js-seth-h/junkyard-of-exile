@@ -12,6 +12,7 @@ import 'vuetify/dist/vuetify.min.css'
 import '@fortawesome/fontawesome-free/css/all.css'
 
 
+import shortid from 'shortid'
 import store from './store'
 
 import 'es6-promise/auto'
@@ -22,7 +23,32 @@ Vue.config.productionTip = false
 Vue.use( Vuetify )
 
 import ws from 'pow/ws'
+import PTF3 from 'ptf3'
+import J from 'jsl'
 
+async function readyWebsock() {
+  await ws.isReady
+  ws.appStart()
+  let [data] = await J.waitOnce(ws, 'app-ready')
+  let {rule} = data
+  console.log(rule)
+  PTF3.setRule(rule)
+  PTF3.setLang('Korean')
+  ws.on('add-item', (data)=>{
+    console.log({data})
+    data.id = shortid.generate()
+    store.dispatch('add_item', [data])
+    let result = PTF3.parseItemText(data.text)
+    let be = result.forBackend()
+    be.evt = "eval-item"
+    console.log('parse forBackend', be)
+    ws.sendJSON(be)
+  })
+  ws.on('eval-result', (data)=>{
+    console.log('eval-result',data)
+    alert('item evaluated')
+  })
+}
 
 let v = new Vue({
   vuetify:new Vuetify({
@@ -33,9 +59,8 @@ let v = new Vue({
   store,
   render: h => h(App),
   mounted: ()=> {
-    ws.on('add-item', (data)=>{
-      store.dispatch('add_item', [data])
-    })
+    readyWebsock()
+
     // await J.waitOnce(ws, 'app-ready')
     // ws.setStore(store)
   }

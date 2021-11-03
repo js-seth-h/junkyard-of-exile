@@ -8,5 +8,10 @@
     "packages/**"
   ],
   "private": true,
-  "license": "MIT"
+  "license": "MIT",
+
+  "scripts": {
+    "build": "yarn workspace pow dev",
+    "start": "yarn eapp"
+  }
 }

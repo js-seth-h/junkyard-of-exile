@@ -18,8 +18,6 @@
   export default {
     name: "Login",
     async mounted() {
-      await ws.isReady
-      // ws.appStart()
       // await J.waitOnce(ws, 'app-ready')
 
     },

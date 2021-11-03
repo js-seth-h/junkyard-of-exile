@@ -33,6 +33,9 @@ setInterval checkClipboard, 300
 
 CTX.TID_GMI = null
 
+{MONO_REPO_DIR} = require('jsl/mono-repo')
+nxJsonFs = require 'nx/jsonfile'
+path = require 'path'
 FE.on 'app-start', catchErr (data)->
   # _getMyId = ()-> SV.send {evt: 'get-my-id'}
   # CTX.TID_GMI = setInterval _getMyId, 2000
@@ -41,9 +44,15 @@ FE.on 'app-start', catchErr (data)->
   # clearInterval CTX.TID_GMI
   # CTX.MY_ID = data.client_id
 
+  rule = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/metric-equip.json'
 
-  FE.send {evt: 'app-ready'}
 
+  FE.send {evt: 'app-ready', rule}
+
+FE.on 'eval-item', catchErr (data)->
+  SV.send data
+SV.on 'eval-result', catchErr (data)->
+  FE.send data
 
 PK = {}
 PK['REAL'] =
