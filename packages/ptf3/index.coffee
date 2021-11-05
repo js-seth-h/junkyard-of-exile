@@ -25,9 +25,11 @@ class Facade
   forBackend: (item_data)->
     req_lv = item_data.requirement.Level
     list = R.flatten R.values item_data.mod
+    list = R.filter R.propEq('know', true), list
     coded = list.map ({rep_inx, value})->
       return [rep_inx, value]
     return {req_lv, coded}
+
 
 module.exports = exports = new Facade
 
