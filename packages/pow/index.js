@@ -30,18 +30,18 @@ async function readyWebsock() {
   await ws.isReady
   ws.appStart()
   let [data] = await J.waitOnce(ws, 'app-ready')
-  let {rule} = data
+  let {rule, ref_data} = data
   console.log(rule)
-  PTF3.setRule(rule)
+  PTF3.setRefData(rule, ref_data)
   PTF3.setLang('Korean')
   ws.on('add-item', (data)=>{
     console.log({data})
     data.id = shortid.generate()
     store.dispatch('add_item', [data])
     let result = PTF3.parseItemText(data.text)
-    let be = result.forBackend()
+    console.log('parse ptf3', result)
+    let be = PTF3.forBackend(result)
     be.evt = "eval-item"
-    console.log('parse forBackend', be)
     ws.sendJSON(be)
   })
   ws.on('eval-result', (data)=>{
