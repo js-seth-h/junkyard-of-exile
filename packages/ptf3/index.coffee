@@ -66,9 +66,10 @@ class ModDetector
       mod_group = Array.from(ma)[1]
     else
       mod_group = 'explict'
-    result = R.objOf mod_group, mods
-    # dcon.F.debug result
-    return result # {unknown, mods}
+    return {mod_group, mods}
+    # result = R.objOf mod_group, mods
+    # # dcon.F.debug result
+    # return result # {unknown, mods}
     # return new PtfResult item_text, match_list, req_lv
 
 MOD = new ModDetector
@@ -76,9 +77,16 @@ MOD = new ModDetector
 class I18nConverter
   loadData: (refs)->
     @tbl = mergeDeepAll R.values refs
+
+    ks = R.keys @tbl['English']
+    vs = R.values @tbl['English']
+    @id_to_eng_tbl = R.zipObj vs, ks
+
   setLang: (@lang)->
   word: (text)=>
     id = @tbl[@lang][text]
+  toEng: (id)=>
+    return @id_to_eng_tbl[id]
   list: (list)=>
     list.map (it)=> @tbl[@lang][it] or it
 
@@ -87,8 +95,8 @@ I18N = new I18nConverter
 trimAll = R.map R.trim
 class Builder
   constructor:()->
-    @item = {}
-    @blk_inx = 0
+    @block_order = []
+    @item = { @block_order }
     # @block.push asHeader blk
 
   feed: (blk)->
@@ -106,20 +114,40 @@ class Builder
       when 'ItemDisplayStringNote'
         @setNote lines
       else
-        if @blk_inx is 1
+        # console.log '@block_order.length', @block_order.length
+        if @block_order.length is 1
           @setProperty lines
-        else if mod_group = @tryParseMods blk
-          @item.mod ?= {}
-          Object.assign @item.mod, mod_group
+        else if can_set = @trySetMods blk
+          # @item.mod ?= {}
+          # Object.assign @item.mod, mod_group
         else
-          @item.unknown_block ?= []
-          @item.unknown_block.push blk
-          dcon.F.debug {maybeSign, ln: R.head lines}
 
-    @blk_inx++
+          bname = 'block_'+ @block_order.length
+          @item.block_order.push bname
+          @item[bname] = {
+            lines
+          }
+          # @item.unknown_block ?= []
+          # @item.unknown_block.push blk
+          # dcon.F.debug {maybeSign, ln: R.head lines}
 
-  tryParseMods: (blk)->
-    MOD.detect blk
+  trySetMods: (blk)->
+    result = MOD.detect blk
+    return false unless result?
+    key_name = result.mod_group + '_mods'
+    if @item[key_name]?
+      key_name = 'mod' + @block_order.length
+
+    blk = {
+      blk_type: 'mod'
+    }
+    Object.assign blk, result
+    @item.block_order.push key_name
+    @item[key_name] = blk
+
+
+    return true
+
     # match_list = []
     # for rep in @rep_list
     #   match = rep.test item_text
@@ -130,57 +158,79 @@ class Builder
 
 
   setHeader: (lines)->
-    [_, item_class] = I18N.list trimAll R.split ':', lines[0]
-    [_, rarity] = I18N.list trimAll R.split ':', lines[1]
-
-    is_rare = rarity is 'ItemDisplayStringRare'
-    base_type = lines[3] if is_rare
-    name = lines[2]
-    Object.assign @item, {
-      # lines
-      name
-      is_rare
-      item_class
-      base_type
-      headers: lines
+    blk = {
+      blk_type: 'header', lines
     }
 
+    [_, item_class] = I18N.list trimAll R.split ':', lines[0]
+    [_, rarity] = I18N.list trimAll R.split ':', lines[1]
+    is_rare = rarity is 'ItemDisplayStringRare'
+    name = lines[2]
+    base_type = lines[3] if is_rare
+    Object.assign blk, {
+      name
+      rarity
+      item_class
+      base_type
+    }
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
+
+
   setProperty: (lines)->
-    properties = lines
-    props = {}
+    blk = {
+      blk_type: 'property', lines
+    }
     for ln in lines
       if R.includes ':', ln
         [name, value] = I18N.list trimAll R.split ':', ln
-        props[name] = value
-    Object.assign @item, {
-      properties
-      props
-    }
+        blk[I18N.toEng name] = value
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
+
   setSocket: (lines)->
+    blk = {
+      blk_type: 'sockets', lines
+    }
     [name, value] = trimAll R.split ':', R.head lines
-    # dcon.F.debug 'socket lins',value
-    @item.sockets = value
+    blk.value = value
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
 
   setRequirement: (lines)->
-    requirement = {}
+    blk = {
+      blk_type: 'requirement', lines
+    }
     for ln in R.tail lines
       [name, value] = I18N.list trimAll R.split ':', ln
-      requirement[name] = if /^\d+$/.test value
+      blk[I18N.toEng name] = if /^\d+$/.test value
         parseInt value
       else
         value
-    Object.assign @item, {
-      requirement
-    }
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
+
   setItemLevel: (lines)->
+    blk = {
+      blk_type: 'item_level', lines
+    }
     [name, value] = trimAll R.split ':', R.head lines
-    # dcon.F.debug 'socket lins',value
-    @item.ilvl = parseInt value
+    blk.value = value
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
 
   setNote: (lines)->
+    blk = {
+      blk_type: 'note', lines
+    }
     [name, value] = trimAll R.split ':', R.head lines
-    # dcon.F.debug 'socket lins',value
-    @item.note = value
+    blk.value = value
+    @item.block_order.push blk.blk_type
+    @item[blk.blk_type] = blk
+    #
+    # [name, value] = trimAll R.split ':', R.head lines
+    # # dcon.F.debug 'socket lins',value
+    # @item.note = value
 
 mergeDeepAll = R.reduce(R.mergeDeepRight, {})
 
