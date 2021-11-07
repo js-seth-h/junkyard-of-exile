@@ -49,7 +49,7 @@ async function readyWebsock() {
     data.id = shortid.generate()
     let result = PTF3.parseItemText(data.text)
     // console.log('parse ptf3', result)
-    store.dispatch('add_item', {'item_list': result})
+    store.dispatch('add_item', {'item_data': result})
     // let be = PTF3.forBackend(result)
     // be.evt = "eval-item"
     // bridge.emit('eval-item', be)
