@@ -22,6 +22,10 @@
       <div class="contents">
         contents
 
+        <Item v-if="list_data[0] !== undefined" :item_data="list_data[0].item_data"></Item>
+        <Item v-if="list_data[0] !== undefined" :item_data="list_data[0].item_result"></Item>
+
+
 
       </div>
       <!-- end contents -->
@@ -68,6 +72,7 @@
 
 
   import Dialog from "./dialog.vue";
+  import Item from "./components/item.vue";
 
   import '../assets/css/main.css';
 
@@ -75,7 +80,7 @@
 
   export default {
     name: 'Main',
-    components: {Dialog},
+    components: {Dialog, Item,},
     computed: {
       list_data(){
         return this.$store.state.list_data
