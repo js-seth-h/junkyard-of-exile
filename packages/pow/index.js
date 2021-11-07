@@ -35,10 +35,10 @@ async function readyWebsock() {
   PTF3.setRefData(rule, ref_data)
   PTF3.setLang('Korean')
   ws.on('add-item', (data)=>{
-    console.log({data})
+    console.log('readyWebsock-> ', {data})
     data.id = shortid.generate()
-    store.dispatch('add_item', [data])
     let result = PTF3.parseItemText(data.text)
+    store.dispatch('add_item', [result])
     console.log('parse ptf3', result)
     let be = PTF3.forBackend(result)
     be.evt = "eval-item"
