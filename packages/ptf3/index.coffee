@@ -32,19 +32,23 @@ class Facade
 
   forTrade: (item_data)->
     stats = []
-
+    stats.push {
+      type: "and"
+      filters: []
+    }
     mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
     for blk in mod_blk
       {mod_group, mods} = blk
       for m in mods
         rep = MOD.getRep m.rep_inx
-        filters = rep.getTradeFilters m.value, mod_group
-        stats.push {
-          filters
-          type: 'count'
-          value: min: 1
-          disabled: false
-        }
+        filter = rep.forTradeSimple m.value, mod_group
+        stats[0].filters.push filter
+        # stats.push {
+        #   filters
+        #   type: 'count'
+        #   value: min: 1
+        #   disabled: false
+        # }
     return result =
       sort: price: 'asc'
       query: {
@@ -92,6 +96,8 @@ class ModDetector
   loadRule: (list)->
     _newRep = (rep)-> new Representative rep
     @rep_list = R.map _newRep, list
+    for rep, inx in @rep_list
+      rep.inx = inx
   setLang: (lang)->
     @use_langs = R.uniq [lang, 'English' ]
 
@@ -122,7 +128,7 @@ class ModDetector
     if ma?
       mod_group = Array.from(ma)[1]
     else
-      mod_group = 'explict'
+      mod_group = 'explicit'
     return {mod_group, mods}
     # result = R.objOf mod_group, mods
     # # dcon.F.debug result
@@ -319,11 +325,9 @@ class Representative
         str, value
       }
     return null
-  getTradeFilters: (value, mod_group)-> 
+  getTradeFilters: (value, mod_group)->
     filters = R.filter R.o(R.includes(mod_group), R.prop('id')), @trade_opts
     filters = R.map R.pick(['id']), filters
-
-
     unless Number.isNaN value
       min = value * (1 - MARGIN_RATE)
       max = value * (1 + MARGIN_RATE)
@@ -331,7 +335,15 @@ class Representative
         Object.assign f, value: {min, max}
 
     return filters
-
+  forTradeSimple: (value, mod_group)->
+    filters = R.filter R.o(R.includes(mod_group), R.prop('id')), @trade_opts
+    filter = R.clone R.head filters
+    dcon.F.debug this, 'forTradeSimple', mod_group, '>>', filter
+    unless Number.isNaN value
+      min = value * (1 - MARGIN_RATE)
+      max = value * (1 + MARGIN_RATE)
+      filter.value = {min}
+    return filter
 # Object.assign exports, {
 #   setRules
 # }

@@ -3,6 +3,7 @@ RA = require 'ramda-adjunct'
 dcon = require('deco-console')(__filename)
 
 bridge = require './bridge'
+trader = require './trader'
 PTF3 = require 'ptf3'
 
 runsExampleCode = (text)->
@@ -13,7 +14,7 @@ runsExampleCode = (text)->
   postdata = PTF3.forTrade result
 
   dcon.F.debug 'for Trader', postdata
-
+  await trader.search postdata
 
 bridge.on 'eval-result', (data)->
   dcon.F.debug 'item evaluated', data
