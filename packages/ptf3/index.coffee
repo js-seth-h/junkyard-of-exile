@@ -30,6 +30,61 @@ class Facade
       return [rep_inx, value]
     return {req_lv, coded}
 
+  forTrade: (item_data)->
+    stats = []
+
+    mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
+    for blk in mod_blk
+      {mod_group, mods} = blk
+      for m in mods
+        rep = MOD.getRep m.rep_inx
+        filters = rep.getTradeFilters m.value, mod_group
+        stats.push {
+          filters
+          type: 'count'
+          value: min: 1
+          disabled: false
+        }
+    return result =
+      sort: price: 'asc'
+      query: {
+        filters:
+          type_filters: {
+            filters:  rarity:"option": "rare"
+            disabled: false
+          }
+        status: option: "online"
+        stats
+      }
+    # for {rep, value} in @components
+    #   filters = rep.getTradeFilters value
+    #   stats.push {
+    #     filters
+    #     type: 'count'
+    #     value: min: 1
+    #     disabled: false
+    #   }
+    # return result =
+    #   sort: price: 'asc'
+    #   query: {
+    #     filters:
+    #       type_filters: {
+    #         filters:  rarity:"option": "rare"
+    #         disabled: false
+    #       }
+    #     status: option: "online"
+    #     stats
+    #     # stats: [
+    #     #   stats[0]
+    #     #   stats[1]
+    #     #   stats[2]
+    #     #   stats[3]
+    #     #   stats[4]
+    #     #   stats[5]
+    #     #   stats[6]
+    #     # ]
+    #   }
+
 
 module.exports = exports = new Facade
 
@@ -40,6 +95,8 @@ class ModDetector
   setLang: (lang)->
     @use_langs = R.uniq [lang, 'English' ]
 
+  getRep:(rep_inx)->
+    @rep_list[rep_inx]
   detect: (blk_text)->
     mods = []
     for rep, rep_inx in @rep_list
@@ -262,8 +319,11 @@ class Representative
         str, value
       }
     return null
-  getTradeFilters: (value)->
-    filters = R.map R.pick(['id']), @trade_opts
+  getTradeFilters: (value, mod_group)-> 
+    filters = R.filter R.o(R.includes(mod_group), R.prop('id')), @trade_opts
+    filters = R.map R.pick(['id']), filters
+
+
     unless Number.isNaN value
       min = value * (1 - MARGIN_RATE)
       max = value * (1 + MARGIN_RATE)

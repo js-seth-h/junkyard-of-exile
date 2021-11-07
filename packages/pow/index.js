@@ -23,6 +23,7 @@ Vue.config.productionTip = false
 Vue.use( Vuetify )
 
 import bridge from 'exterra/bridge'
+import example from 'exterra/example'
 import PTF3 from 'ptf3'
 import J from 'jsl'
 import DCON_ENV from 'deco-console/env'
@@ -47,17 +48,20 @@ async function readyWebsock() {
     console.log('readyWebsock-> ', {data})
     data.id = shortid.generate()
     let result = PTF3.parseItemText(data.text)
-    console.log('parse ptf3', result)
-    store.dispatch('add_item', {'item_list'  :result})
+    // console.log('parse ptf3', result)
+    store.dispatch('add_item', {'item_list': result})
     // let be = PTF3.forBackend(result)
     // be.evt = "eval-item"
-    // bridge.sendJSON(be)
+    // bridge.emit('eval-item', be)
+    example.runsExampleCode(data.text)
   })
-  bridge.on('eval-result', (data)=>{
-    console.log('eval-result',data)
-    alert('item evaluated')
-  })
+  // bridge.on('eval-result', (data)=>{
+  //   console.log('eval-result',data)
+  //   alert('item evaluated')
+  // })
 }
+
+
 
 let v = new Vue({
   vuetify:new Vuetify({
