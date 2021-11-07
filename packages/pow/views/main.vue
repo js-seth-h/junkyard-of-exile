@@ -20,13 +20,8 @@
       <!-- lnb end -->
 
       <div class="contents">
-        contents
-
         <Item v-if="list_data[0] !== undefined" :item_data="list_data[0].item_data"></Item>
-        <Item v-if="list_data[0] !== undefined" :item_data="list_data[0].item_result"></Item>
-
-
-
+        <div v-else> item is not exist </div>
       </div>
       <!-- end contents -->
 

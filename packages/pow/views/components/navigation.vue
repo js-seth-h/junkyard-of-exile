@@ -2,21 +2,8 @@
   <div id="navigation">
 <!--    {{list_data}}-->
 
-    <div v-for="(con, key) of list_data" :key="key">
-
-      {{list_data[key].block_order}}
-      <div v-for="(data, key_data) of list_data" :key="key_data">
-
-        con-> {{data}}
-        <br />
-        key-> {{key_data}}
-        <br />
-      </div>
-<!--      -->
-<!--      con-> {{con}}-->
-<!--      <br />-->
-<!--      key-> {{key}}-->
-<!--      <br />-->
+    <div v-for="(item, key) of list_data" :key="key">
+      {{item.item_data.header}}
     </div>
   </div>
 </template>
