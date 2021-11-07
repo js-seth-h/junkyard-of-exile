@@ -15,11 +15,16 @@
 
 
       <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
+        lnb
+        <button @click="change_show_data(0)"></button>
         <div  v-for="(data, key) of list_data" :key="key">
+
+
             <button @click="go_to_content(con.item_id)">{{data.parsed_items.group[2][0]}} {{data.parsed_items.group[3][0]}}</button>
         </div>
       </div>
       <div class="contents">
+        contents
 
 
 
@@ -113,10 +118,44 @@
         </div>
 
       </div>
+
+    </div>
+<!-- content_wrapper end -->
+<!--    <transition name="search_trade">-->
+
+<!--    <transition name="search_trade_full">-->
+<!--      <div class="search_trade" v-show="!search_trade_full">-->
+<!--        trade-->
+<!--        <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>-->
+<!--      </div>-->
+<!--    </transition>-->
+
+    <transition name="search_trade_full">
       <div class="search_trade">
         trade
+        <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>
       </div>
+    </transition>
+
+    <transition name="search_trade_full">
+    <div class="search_trade" v-show="search_trade_full">
+      trade
+      <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>
+      <transition name="search_trade_full">
+        <div class="search_trade_full"
+             v-show="search_trade_full">
+          detail contents<br />
+          detail contents<br />
+          detail contents<br />
+          detail contents<br />
+          detail contents<br />
+          detail contents<br />
+          detail contents<br />
+        </div>
+      </transition>
     </div>
+    </transition>
+
 
   </div>
 </template>
@@ -171,7 +210,10 @@
         //gnb on off
         show_gnb: false,
 
+        // 출력 옵션 컨트롤 - 미구현
         seq_order: true,
+        // trade 영역 축소/확대
+        search_trade_full: false,
 
 
       }

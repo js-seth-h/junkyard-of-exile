@@ -1,8 +1,8 @@
 {
-  "name": "path-of-wealth",
+  "name": "junkyard-of-exile",
   "version": "1.0.0",
   "main": "packages/pow/index.js",
-  "repository": "git@github.com:js-seth-h/path-of-wealth.git",
+  "repository": "git@github.com:js-seth-h/junkyard-of-exile.git",
   "author": "js <js.seth.h@gmail.com>",
   "workspaces": [
     "packages/**"
