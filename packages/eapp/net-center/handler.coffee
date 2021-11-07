@@ -23,7 +23,7 @@ checkClipboard = ->
   return if CTX.PREV_TXT is text
   CTX.PREV_TXT = text
   return if not R.includes '--------', text
-  dcon.F.debug 'send item', text
+  # dcon.F.debug 'send item', text
   FE.send {
     evt: 'add-item', text
   }
@@ -45,13 +45,16 @@ FE.on 'app-start', catchErr (data)->
   # CTX.MY_ID = data.client_id
 
   rule = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/metric-equip.json'
-
-
-  FE.send {evt: 'app-ready', rule}
+  client_string = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/client-string.json'
+  item_classes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/item-classes.json'
+  ref_data = {client_string, item_classes}
+  FE.send {evt: 'app-ready', rule, ref_data }
 
 FE.on 'eval-item', catchErr (data)->
+  dcon.F.debug 'eval-item', data
   SV.send data
 SV.on 'eval-result', catchErr (data)->
+  dcon.F.debug 'eval-result', data
   FE.send data
 
 PK = {}

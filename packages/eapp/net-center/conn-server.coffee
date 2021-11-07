@@ -20,6 +20,7 @@ sock.on 'message', (buf)->
 
 send = (json)->
   str = JSON.stringify json
+  dcon.F.debug 'SV send to', SERVER_ADRR
   sock.send str, SERVER_ADRR.port, SERVER_ADRR.address
 
 config = (address, port)->
