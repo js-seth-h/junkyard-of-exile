@@ -13,7 +13,7 @@
 </template>
 
 <script>
-  import ws from "pow/ws"
+  import bridge from 'exterra/bridge'
   import J from 'jsl'
   export default {
     name: "Login",
@@ -27,13 +27,10 @@
       },
 
       async login(){
-        // ws = require('pow/ws')
-        // let url = BEC.getPatreonOauthUrl()
-        ws.openPatronOauth()
-        ws.once('oauth-login-ok', ()=> alert('ok'))
-        // ws.evalItem({ test: true})
-        // this.$router.push({ path:'main' });
-      }
+        bridge.emit('patreon-oauth')
+        await J.waitOnce(bridge, 'oauth-login-ok')
+        alert('ok')
+       }
     }
   }
 </script>

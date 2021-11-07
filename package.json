@@ -11,7 +11,7 @@
   "license": "MIT",
 
   "scripts": {
-    "build": "yarn workspace pow dev",
+    "build": "yarn parcel ./packages/pow/index.html",
     "start": "yarn eapp"
   }
 }

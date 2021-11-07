@@ -100,3 +100,7 @@ FE.on 'patreon-oauth', catchErr (data)->
 shutdown = ->
   SV.send {evt: 'shutdown', client_id: CTX.MY_ID}
   SV.send {evt: 'shutdown', client_id: CTX.MY_ID}
+
+Object.assign exports, { 
+  shutdown
+}

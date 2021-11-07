@@ -14,10 +14,7 @@
     "vue-template-compiler": "^2.6.14",
     "vuetify": "^2.5.5",
     "vuex": "^3.6.2"
-  },
-  "scripts": {
-    "dev": "yarn parcel ./index.html"
-  },
+  }, 
   "browserslist": [
     "Chrome 75"
   ],

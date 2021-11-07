@@ -22,29 +22,38 @@ Vue.config.productionTip = false
 // Vue.use(Vuex)
 Vue.use( Vuetify )
 
-import ws from 'pow/ws'
+import bridge from 'exterra/bridge'
 import PTF3 from 'ptf3'
 import J from 'jsl'
+import DCON_ENV from 'deco-console/env'
 
 async function readyWebsock() {
-  await ws.isReady
-  ws.appStart()
-  let [data] = await J.waitOnce(ws, 'app-ready')
+  DCON_ENV.shorten(function(p) {
+    return p.replace(/.+packages\/(.+?)\//, '');
+  });
+  DCON_ENV.detail(parseInt(process.env.DCON_VERBOSE) || 4);
+
+  DCON_ENV.formatDatetime(process.env.DCON_DT || 'T');
+
+
+  await bridge.isReady
+  bridge.emit('app-start' )
+  let [data] = await J.waitOnce(bridge, 'app-ready')
   let {rule, ref_data} = data
   console.log(rule)
   PTF3.setRefData(rule, ref_data)
   PTF3.setLang('Korean')
-  ws.on('add-item', (data)=>{
+  bridge.on('add-item', (data)=>{
     console.log('readyWebsock-> ', {data})
     data.id = shortid.generate()
     let result = PTF3.parseItemText(data.text)
-    store.dispatch('add_item', [result])
     console.log('parse ptf3', result)
-    let be = PTF3.forBackend(result)
-    be.evt = "eval-item"
-    ws.sendJSON(be)
+    store.dispatch('add_item', [result])
+    // let be = PTF3.forBackend(result)
+    // be.evt = "eval-item"
+    // bridge.sendJSON(be)
   })
-  ws.on('eval-result', (data)=>{
+  bridge.on('eval-result', (data)=>{
     console.log('eval-result',data)
     alert('item evaluated')
   })
@@ -62,13 +71,13 @@ let v = new Vue({
     readyWebsock()
 
     // await J.waitOnce(ws, 'app-ready')
-    // ws.setStore(store)
+    // bridge.setStore(store)
   }
 
 }).$mount('#webapp')
 
 
-// ws.setStore(v.store)
+// bridge.setStore(v.store)
 
 
 export default v
