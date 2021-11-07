@@ -1,5 +1,5 @@
 <template>
-  <div id="app"  @scroll="header_action">
+  <div id="app">
 <!--    <div class="header" @scroll="header_action" >-->
 
 
@@ -16,119 +16,19 @@
 
       <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
         lnb
-        <button @click="change_show_data(0)"></button>
-        <div  v-for="(data, key) of list_data" :key="key">
-
-
-            <button @click="go_to_content(con.item_id)">{{data.parsed_items.group[2][0]}} {{data.parsed_items.group[3][0]}}</button>
-        </div>
       </div>
+      <!-- lnb end -->
+
       <div class="contents">
         contents
 
 
-
-<!--        <div class="division" v-for="(data, key) of list_data" :key="key">-->
-<!--          <div style="color:#fff"><h1>{{key}}</h1></div>-->
-        <div v-if="seq_order" class="item" v-for="(con, key) of list_data" :key="key">
-          <div class="item_img">
-            <img :src="con.img" alt="">
-  <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
-          </div>
-  <!--        <div style="background-color: white">{{list_data}}</div>-->
-          <div class="item_detail" >
-
-            <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
-
-              <div v-if="inx === 'group'" class="title wrap">
-                <div v-for="(data, data_inx) of selected_data">
-                  <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
-                </div>
-              </div>
-
-              <div class="content">
-                <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
-                  <div v-if='inx !== "group" '>
-                    <div v-if='typeof data[1] === "undefined"' class="single">
-                      {{data[0]}}
-                    </div>
-                    <div v-else class="multiple">
-                      {{data[0]}}: {{data[1]}}
-                    </div>
-                  </div>
-                </div>
-
-                <span v-if='inx !== "group"  && selected_data !== undefined '
-                      :class="inx+'_separator'" class="separator">
-                </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="item_result">
-            result
-          </div>
-        </div>
-
-        <div v-else class="division" v-for="(data, key) of list_data" :key="key">
-          <div style="color:#fff"><h1>{{key}}</h1></div>
-          <div class="item" v-for="(con, key) of data" :key="key" :id="con.item_id">
-            <div class="item_img">
-              img
-              {{con.img}}
-              <img :src="con.img" alt="">
-              <!--          <img src="https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e3e72321e0/scepter2.png" alt="">-->
-            </div>
-            <!--        <div style="background-color: white">{{list_data}}</div>-->
-            <div class="item_detail" >
-
-              <div v-for="(selected_data, inx) of con.parsed_items" class="selected_data_area">
-
-                <div v-if="inx === 'group'" class="title wrap">
-                  <div v-for="(data, data_inx) of selected_data">
-                    <p v-if="data_inx === 2 || data_inx === 3"> {{data[0]}} </p>
-                  </div>
-                </div>
-
-                <div class="content">
-                  <div v-for="(data, data_inx) of selected_data"  :class="inx+'_subtitle'">
-                    <div v-if='inx !== "group" '>
-                      <div v-if='typeof data[1] === "undefined"' class="single">
-                        {{data[0]}}
-                      </div>
-                      <div v-else class="multiple">
-                        {{data[0]}}: {{data[1]}}
-                      </div>
-                    </div>
-                  </div>
-
-                  <span v-if='inx !== "group"  && selected_data !== undefined '
-                        :class="inx+'_separator'" class="separator">
-                  </span>
-
-
-                </div>
-              </div>
-            </div>
-
-            <div class="item_result">
-              result
-            </div>
-          </div>
-        </div>
-
       </div>
+      <!-- end contents -->
 
     </div>
-<!-- content_wrapper end -->
-<!--    <transition name="search_trade">-->
+    <!-- end contest_wrapper -->
 
-<!--    <transition name="search_trade_full">-->
-<!--      <div class="search_trade" v-show="!search_trade_full">-->
-<!--        trade-->
-<!--        <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>-->
-<!--      </div>-->
-<!--    </transition>-->
 
     <transition name="search_trade_full">
       <div class="search_trade">
@@ -155,6 +55,7 @@
       </transition>
     </div>
     </transition>
+    <!-- end search_trade -->
 
 
   </div>
@@ -176,12 +77,9 @@
     name: 'Main',
     components: {Dialog},
     computed: {
-      this_state(){
-        return this.$store.state
-      },
       list_data(){
         return this.$store.state.list_data
-      },
+      }
     },
     data(){
       return{
@@ -196,10 +94,6 @@
 
         writed_item:'',
 
-        //파싱된 아이템들
-        // list_data: []
-        // list_data: list_data,
-        // show_data: [[],[],[],[]],
         show_data: {},
 
         // 스크롤의 마지막 위치
@@ -231,10 +125,8 @@
       window.removeEventListener("scroll", this.onScroll, false)
     },
     methods: {
-      go_to_content(target){
 
-        console.log('target id', target)
-      },
+
       onScroll(e) {
         // let st = (window.pageYOffset || document.documentElement.scrollTop);
         let st = window.top.scrollY
@@ -261,13 +153,6 @@
 
       },
 
-      header_action(e){
-
-      },
-
-      sendMessage(message) {
-        console.log(this.connection);
-      },
 
       get_data(){
         let data = false
@@ -286,52 +171,9 @@
 
       },
 
-      change_show_data(key){
-        //리스트 클릭 시 화면에 뿌려지는 값
-
-
-        // console.log('store.state.count', this.$store.state.data)
-
-        console.log('this.list_data[key]', this.list_data[key].parsed_items.group[2])
-        this.show_data = this.list_data[key]
-
-        console.log('this.list_data[key].parsed_items', this.list_data[key].parsed_items)
-        console.log('this.show_data', this.show_data)
-
-
-
-
-
-        // console.log(this.show_data)
-      },
-      get_itemtext(){
-
-        //입력된 값을 list_data arr에 push
-        this.list_data.push(this.writed_item)
-
-
-
-
-      },
-      test(){
-        alert(1)
-      }
 
     },
     watch: {
-
-      this_state(newData, oldData){
-        console.log('new, old', newData, oldData)
-      }
-      // this_state:{
-      //   deep: true,
-      //   handler(val){
-      //
-      //     this.this_state = val
-      //     console.log('this is val ', val)
-      //
-      //   }
-      // },
 
     }
 
