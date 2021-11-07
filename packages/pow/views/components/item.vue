@@ -1,8 +1,9 @@
 <template>
   <div id="item">
-    this is item
-    <br />
-    //{{item_data}}//
+    <div class="content">
+      //{{item_data}}//
+
+    </div>
 
   </div>
 </template>

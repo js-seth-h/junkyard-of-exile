@@ -15,7 +15,7 @@
 
 
       <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
-        lnb
+        <Navigation :list_data="list_data"></Navigation>
       </div>
       <!-- lnb end -->
 
@@ -73,6 +73,8 @@
 
   import Dialog from "./dialog.vue";
   import Item from "./components/item.vue";
+  import Navigation from "./components/navigation.vue"
+
 
   import '../assets/css/main.css';
 
@@ -80,7 +82,7 @@
 
   export default {
     name: 'Main',
-    components: {Dialog, Item,},
+    components: {Dialog, Item, Navigation},
     computed: {
       list_data(){
         return this.$store.state.list_data
