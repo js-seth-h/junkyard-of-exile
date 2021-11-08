@@ -319,7 +319,10 @@ class Representative
     unless Number.isNaN value
       min = value * (1 - MARGIN_RATE)
       max = value * (1 + MARGIN_RATE)
-      filter.value = {min}
+      if value > 0
+        filter.value = {min}
+      else
+        filter.value = {max: min}
     return filter
 # Object.assign exports, {
 #   setRules
