@@ -24,26 +24,36 @@ class Facade
     return builder.item
   forBackend: (item_data)->
     req_lv = item_data.requirement.Level
-    list = R.flatten R.values item_data.mod
+    mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
+    # list = R.flatten R.values item_data.mod
+    list = R.flatten R.map R.prop('mods'), mod_blk
     list = R.filter R.propEq('know', true), list
-    coded = list.map ({rep_inx, value})->
-      return [rep_inx, value]
+    # tbl = {}
+    # for {rep_inx, value} in list
+    #   tbl[rep_inx] ?= 0
+    #   tbl[rep_inx] += value
+    # coded = R.zip R.map(parseInt,R.keys(tbl)), R.values(tbl)
+    coded = R.flatten list.map ({found_num, rep_inx, value})->
+      return [found_num, rep_inx, value]
     return {req_lv, coded}
 
   forTrade: (item_data)->
+
+    {item_class} = item_data.header
     stats = []
     stats.push {
       type: "and"
       filters: []
     }
     mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
-    dcon.F.debug {mod_blk}
+    # dcon.F.debug {mod_blk}
     for blk in mod_blk
       {mod_group, mods} = blk
-      for m in mods
+      for m in R.filter R.propEq('know', true), mods
+        # dcon.F.debug m
         rep = MOD.getRep m.rep_inx
-        filter = rep.forTradeSimple m.value, mod_group
-        stats[0].filters.push filter 
+        filter = rep.forTradeSimple m.value, mod_group, item_class
+        stats[0].filters.push filter
     return result =
       sort: price: 'asc'
       query: {
@@ -55,35 +65,6 @@ class Facade
         status: option: "online"
         stats
       }
-    # for {rep, value} in @components
-    #   filters = rep.getTradeFilters value
-    #   stats.push {
-    #     filters
-    #     type: 'count'
-    #     value: min: 1
-    #     disabled: false
-    #   }
-    # return result =
-    #   sort: price: 'asc'
-    #   query: {
-    #     filters:
-    #       type_filters: {
-    #         filters:  rarity:"option": "rare"
-    #         disabled: false
-    #       }
-    #     status: option: "online"
-    #     stats
-    #     # stats: [
-    #     #   stats[0]
-    #     #   stats[1]
-    #     #   stats[2]
-    #     #   stats[3]
-    #     #   stats[4]
-    #     #   stats[5]
-    #     #   stats[6]
-    #     # ]
-    #   }
-
 
 module.exports = exports = new Facade
 
@@ -106,9 +87,20 @@ class ModDetector
       {str, value} = match
       # console.log {match}
       n = R.indexOf str, blk_text
-      mods.push {know: true, str, value, rep_inx, n }
+      ma = /\((.+?)\)$/.exec str
+      if ma?
+        mod_group = Array.from(ma)[1]
+      else
+        mod_group = 'explicit'
+      mods.push {know: true, str, value, rep_inx, n, mod_group }
     if mods.length is 0
       return null
+
+    mod_group = if R.includes 'explicit', mods.map (m)-> m.mod_group
+      'explicit'
+    else
+      mods[0].mod_group
+
     unknown = blk_text
     mods = R.sort R.ascend(R.prop 'n'), mods
     for {str} in mods
@@ -117,18 +109,15 @@ class ModDetector
     unknown = R.trim unknown
     unless R.isEmpty unknown
       mods.push {
-        know: false, str: unknown
+        know: false, str: unknown, mod_group
       }
-    ma = /\((.+?)\)$/.exec R.head(mods).str
-    if ma?
-      mod_group = Array.from(ma)[1]
-    else
-      mod_group = 'explicit'
+    # ma = /\((.+?)\)$/.exec R.head(mods).str
+    # if ma?
+    #   mod_group = Array.from(ma)[1]
+    # else
+    #   mod_group = 'explicit'
+
     return {mod_group, mods}
-    # result = R.objOf mod_group, mods
-    # # dcon.F.debug result
-    # return result # {unknown, mods}
-    # return new PtfResult item_text, match_list, req_lv
 
 MOD = new ModDetector
 
@@ -155,7 +144,7 @@ class Builder
   constructor:()->
     @block_order = []
     @item = { @block_order }
-    # @block.push asHeader blk
+    @found_num = 0
 
   feed: (blk)->
     lines = R.split '\n', blk
@@ -195,25 +184,16 @@ class Builder
     key_name = result.mod_group + '_mods'
     if @item[key_name]?
       key_name = 'mod' + @block_order.length
-
+    for m in result.mods
+      m.found_num = @found_num
+      @found_num++
     blk = {
       blk_type: 'mod'
     }
     Object.assign blk, result
     @item.block_order.push key_name
     @item[key_name] = blk
-
-
     return true
-
-    # match_list = []
-    # for rep in @rep_list
-    #   match = rep.test item_text
-    #   continue unless match?
-    #   {str, value} = match
-    #   console.log {match}
-    #   match_list.push {rep, str, value}
-
 
   setHeader: (lines)->
     blk = {
@@ -233,7 +213,6 @@ class Builder
     }
     @item.block_order.push blk.blk_type
     @item[blk.blk_type] = blk
-
 
   setProperty: (lines)->
     blk = {
@@ -285,10 +264,6 @@ class Builder
     blk.value = value
     @item.block_order.push blk.blk_type
     @item[blk.blk_type] = blk
-    #
-    # [name, value] = trimAll R.split ':', R.head lines
-    # # dcon.F.debug 'socket lins',value
-    # @item.note = value
 
 mergeDeepAll = R.reduce(R.mergeDeepRight, {})
 
@@ -330,10 +305,17 @@ class Representative
         Object.assign f, value: {min, max}
 
     return filters
-  forTradeSimple: (value, mod_group)->
-    filters = R.filter R.o(R.includes(mod_group), R.prop('id')), @trade_opts
-    filter = R.clone R.head filters
-    dcon.F.debug this, 'forTradeSimple', mod_group, '>>', filter
+  forTradeSimple: (value, mod_group, item_class)->
+    # filters = R.filter R.o(R.includes(mod_group), R.prop('id')), @trade_opts
+    is_local = R.includes item_class, @locality
+
+    filter = R.pick ['id'], @trade_opts.find (f)->
+      return false if mod_group isnt f.type
+      return false if f.tag is 'Local' and is_local is false
+      return true
+
+    # filter = R.clone R.head filters
+    # dcon.F.debug this, 'forTradeSimple', mod_group, '>>', filter
     unless Number.isNaN value
       min = value * (1 - MARGIN_RATE)
       max = value * (1 + MARGIN_RATE)
