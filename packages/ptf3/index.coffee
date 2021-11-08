@@ -23,7 +23,7 @@ class Facade
       builder.feed blk
     return builder.item
   forBackend: (item_data)->
-    req_lv = item_data.item_level.value
+    req_lv = item_data.requirement?.Level or 1 
     mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
     # list = R.flatten R.values item_data.mod
     list = R.flatten R.map R.prop('mods'), mod_blk
