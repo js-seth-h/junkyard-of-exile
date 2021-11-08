@@ -25,6 +25,7 @@ send = (json)->
 
 config = (address, port)->
   Object.assign SERVER_ADRR, {address, port}
+  dcon.info 'set SERVER_ADRR', SERVER_ADRR
   sock.bind()
 
 Object.assign exports, {
