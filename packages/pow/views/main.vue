@@ -22,6 +22,8 @@
       <div class="contents">
         <Item v-if="list_data[0] !== undefined" :item_data="list_data[0].item_data"></Item>
         <div v-else> item is not exist </div>
+
+        <Item_result v-if="list_data[0] !== undefined" :item_result="list_data[0].item_data"></Item_result>
       </div>
       <!-- end contents -->
 
@@ -69,6 +71,7 @@
   import Dialog from "./dialog.vue";
   import Item from "./components/item.vue";
   import Navigation from "./components/navigation.vue"
+  import Item_result from "./components/item_result.vue"
 
 
   import '../assets/css/main.css';
@@ -77,7 +80,7 @@
 
   export default {
     name: 'Main',
-    components: {Dialog, Item, Navigation},
+    components: {Dialog, Item, Item_result, Navigation},
     computed: {
       list_data(){
         return this.$store.state.list_data

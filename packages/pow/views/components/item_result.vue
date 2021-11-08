@@ -1,5 +1,5 @@
 <template>
-  <div id="item">
+  <div id="item_result">
     this is item
     <br />
     //{{item_result}}//

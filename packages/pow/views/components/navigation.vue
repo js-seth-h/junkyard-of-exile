@@ -3,7 +3,7 @@
 <!--    {{list_data}}-->
 
     <div v-for="(item, key) of list_data" :key="key">
-      {{item.item_data.header}}
+      {{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}
     </div>
   </div>
 </template>
