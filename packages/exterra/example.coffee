@@ -4,14 +4,14 @@ dcon = require('deco-console')(__filename)
 
 bridge = require './bridge'
 trader = require './trader'
-PTF3 = require 'ptf3'
+PTF = require 'ptf3'
 
 runsExampleCode = (text)->
-  result = PTF3.parseItemText text
-  dcon.log 'parsed PTF3', result
+  result = PTF.parseItemText text
+  dcon.log 'parsed PTF', result
 
-  bridge.emit 'eval-item', PTF3.forBackend result
-  # postdata = PTF3.forTrade result
+  bridge.emit 'eval-item', PTF.forBackend result
+  # postdata = PTF.forTrade result
 
   # dcon.F.debug 'for Trader', postdata
   await trader.search result

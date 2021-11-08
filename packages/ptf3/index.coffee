@@ -37,8 +37,26 @@ class Facade
       return [found_num, rep_inx, value]
     return {req_lv, coded}
 
-  forTrade: (item_data)->
+  applyEvaluate: (item_data, evaled)->
+    {t:tradable, p:power, f:fullness, r: ratings} = evaled
+    mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
+    mods = R.flatten R.map R.prop('mods'), mod_blk
+    ratings = R.splitEvery 2, ratings
+    item_data.fullness = fullness
+    item_data.power = power
+    item_data.tradable = tradable
+    for m in mods
+      {found_num} = m
+      r = ratings.find (r)-> r[0] is found_num
+      m.rating = if r?
+        r[1]
+      else
+        "X"
 
+  forTrade: (item_data, rating_cnt)->
+    condition_cnt = 0
+    [target_ratings] = R.splitAt rating_cnt, 'SABCDF'
+    dcon.F.debug 'target_ratings', target_ratings
     {item_class} = item_data.header
     stats = []
     stats.push {
@@ -50,10 +68,15 @@ class Facade
     for blk in mod_blk
       {mod_group, mods} = blk
       for m in R.filter R.propEq('know', true), mods
-        # dcon.F.debug m
+        # dcon.F.debug m, m.rating in target_ratings
         rep = MOD.getRep m.rep_inx
         filter = rep.forTradeSimple m.value, mod_group, item_class
+        if not R.includes m.rating, target_ratings
+          filter.disabled = true
         stats[0].filters.push filter
+        condition_cnt++
+    if condition_cnt is 0
+      return null
     return result =
       sort: price: 'asc'
       query: {
@@ -92,7 +115,7 @@ class ModDetector
         mod_group = Array.from(ma)[1]
       else
         mod_group = 'explicit'
-      mods.push {know: true, str, value, rep_inx, n, mod_group }
+      mods.push {know: true, str, rating: '?', value, rep_inx, n, mod_group }
     if mods.length is 0
       return null
 
@@ -109,7 +132,7 @@ class ModDetector
     unknown = R.trim unknown
     unless R.isEmpty unknown
       mods.push {
-        know: false, str: unknown, mod_group
+        know: false, str: unknown, rating: "X", mod_group
       }
     # ma = /\((.+?)\)$/.exec R.head(mods).str
     # if ma?
@@ -143,7 +166,12 @@ trimAll = R.map R.trim
 class Builder
   constructor:()->
     @block_order = []
-    @item = { @block_order }
+    @item = {
+      @block_order
+      tradable: "not yet measure"
+      power: "not yet measure"
+      fullness: "not yet measure"
+    }
     @found_num = 0
 
   feed: (blk)->
