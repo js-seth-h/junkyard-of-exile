@@ -14,6 +14,7 @@ search = (ptf_parsed)->
   {data} = res
 
   {id, result} = data
+  dcon.F.debug 'POE ITEM TRADE URL =', "https://poe.game.daum.net/trade/search/Scourge/#{id}"
   dcon.F.debug result
   fetching = result[...10]
   dcon.F.debug {fetching}

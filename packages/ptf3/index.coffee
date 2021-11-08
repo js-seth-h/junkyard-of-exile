@@ -37,18 +37,13 @@ class Facade
       filters: []
     }
     mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
+    dcon.F.debug {mod_blk}
     for blk in mod_blk
       {mod_group, mods} = blk
       for m in mods
         rep = MOD.getRep m.rep_inx
         filter = rep.forTradeSimple m.value, mod_group
-        stats[0].filters.push filter
-        # stats.push {
-        #   filters
-        #   type: 'count'
-        #   value: min: 1
-        #   disabled: false
-        # }
+        stats[0].filters.push filter 
     return result =
       sort: price: 'asc'
       query: {

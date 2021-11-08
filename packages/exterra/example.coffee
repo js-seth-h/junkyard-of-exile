@@ -11,10 +11,10 @@ runsExampleCode = (text)->
   dcon.log 'parsed PTF3', result
 
   bridge.emit 'eval-item', PTF3.forBackend result
-  postdata = PTF3.forTrade result
+  # postdata = PTF3.forTrade result
 
-  dcon.F.debug 'for Trader', postdata
-  await trader.search postdata
+  # dcon.F.debug 'for Trader', postdata
+  await trader.search result
 
 bridge.on 'eval-result', (data)->
   dcon.F.debug 'item evaluated', data
