@@ -5,8 +5,8 @@ dcon = require('deco-console')(__filename)
 axios = require 'axios'
 PTF = require 'ptf3'
 
-search = (ptf_parsed, rating_cnt = 4)->
-  postdata = PTF.forTrade ptf_parsed, rating_cnt
+search = (ptf_parsed)->
+  postdata = PTF.forTrade ptf_parsed
   return null unless postdata
   dcon.F.debug 'search', postdata
   url = 'https://poe.game.daum.net/api/trade/search/Scourge'

@@ -13,16 +13,14 @@ runsExampleCode = (text)->
   dcon.log 'parsed PTF', R.clone result
 
   bridge.emit 'eval-item', PTF.forBackend result
-  # postdata = PTF.forTrade result
-
-  # dcon.F.debug 'for Trader', postdata
-  await trader.search result
 
 bridge.on 'eval-result', (data)->
   dcon.F.log 'item evaluated', data
 
   PTF.applyEvaluate result, data
   dcon.F.log 'applyEvaluted', R.clone result
+  trade_result = await trader.search result
+  PTF.applyTradeResult result, trade_result
 
 
 

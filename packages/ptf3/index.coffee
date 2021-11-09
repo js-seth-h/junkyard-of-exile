@@ -23,7 +23,7 @@ class Facade
       builder.feed blk
     return builder.item
   forBackend: (item_data)->
-    req_lv = item_data.requirement?.Level or 1 
+    req_lv = item_data.requirement?.Level or 1
     mod_blk = R.filter R.propEq('blk_type', 'mod'), R.values item_data
     # list = R.flatten R.values item_data.mod
     list = R.flatten R.map R.prop('mods'), mod_blk
@@ -53,10 +53,10 @@ class Facade
       else
         "X"
 
-  forTrade: (item_data, rating_cnt)->
+  forTrade: (item_data)->
     condition_cnt = 0
-    [target_ratings] = R.splitAt rating_cnt, 'SABCDF'
-    dcon.F.debug 'target_ratings', target_ratings
+    # [target_ratings] = R.splitAt rating_cnt, 'SABCDF'
+    # dcon.F.debug 'target_ratings', target_ratings
     {item_class} = item_data.header
     stats = []
     stats.push {
@@ -71,7 +71,8 @@ class Facade
         # dcon.F.debug m, m.rating in target_ratings
         rep = MOD.getRep m.rep_inx
         filter = rep.forTradeSimple m.value, mod_group, item_class
-        if not R.includes m.rating, target_ratings
+        # if not R.includes m.rating, target_ratings
+        if m.use_trade is false
           filter.disabled = true
         stats[0].filters.push filter
         condition_cnt++
@@ -88,6 +89,7 @@ class Facade
         status: option: "online"
         stats
       }
+  applyTradeResult: (item_data, trade_result)->
 
 module.exports = exports = new Facade
 
@@ -115,7 +117,7 @@ class ModDetector
         mod_group = Array.from(ma)[1]
       else
         mod_group = 'explicit'
-      mods.push {know: true, str, rating: '?', value, rep_inx, n, mod_group }
+      mods.push {know: true, str, rating: '?', use_trade: true,  value, rep_inx, n, mod_group }
     if mods.length is 0
       return null
 
@@ -132,7 +134,7 @@ class ModDetector
     unknown = R.trim unknown
     unless R.isEmpty unknown
       mods.push {
-        know: false, str: unknown, rating: "X", mod_group
+        know: false, str: unknown, rating: "X", use_trade: false, mod_group
       }
     # ma = /\((.+?)\)$/.exec R.head(mods).str
     # if ma?
