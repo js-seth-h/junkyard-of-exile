@@ -2,7 +2,6 @@
   <div id="app">
 <!--    <div class="header" @scroll="header_action" >-->
 
-
     <div class="header" :class="show_header === false?'off' : ''">
       header
       <button @click="show_gnb = !show_gnb" >gnb</button>

@@ -111,6 +111,12 @@
 
 .item_mods_con{
   color:#88f;
+  background: linear-gradient( #1d1414 25%,#46350d 50%,#1d1414 75%);
+  /*background: linear-gradient(1deg, #1d1414 55%,#46350d 75%,rgba(20,20,20,0));*/
+}
+.mod{
+  background: linear-gradient( to right, rgba(20,20,20,.8) 80%, rgba(20,20,20,0) 100% );
+  padding: 0 40px;
 }
 .scourge_mods_con{
   color: #ff6e25;

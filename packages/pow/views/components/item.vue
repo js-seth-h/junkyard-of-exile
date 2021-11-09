@@ -28,7 +28,7 @@
                class="item_mods_con"
                v-for="(item_data, item_data_key) of item_group.mods"
                :key="item_data_key">
-            {{item_data.str}}
+            <span class="mod">{{item_data.str}}</span> <span class="rating" style="float: right;">{{item_data.rating}}</span>
           </div>
         </div>
         <span v-if="order_data !== 'header' && item_data.block_order[item_data.block_order.length-1] !== order_data" :class="order_data+'_separator'" class="separator"></span>
