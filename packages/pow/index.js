@@ -23,8 +23,9 @@ Vue.config.productionTip = false
 Vue.use( Vuetify )
 
 import bridge from 'exterra/bridge'
+import trader from 'exterra/trader'
 import example from 'exterra/example'
-import PTF3 from 'ptf3'
+import PTF from 'ptf3'
 import J from 'jsl'
 import DCON_ENV from 'deco-console/env'
 
@@ -42,18 +43,20 @@ async function readyWebsock() {
   let [data] = await J.waitOnce(bridge, 'app-ready')
   let {rule, ref_data} = data
   console.log(rule)
-  PTF3.setRefData(rule, ref_data)
-  PTF3.setLang('Korean')
+  PTF.setRefData(rule, ref_data)
+  PTF.setLang('Korean')
   bridge.on('add-item', (data)=>{
     console.log('readyWebsock-> ', {data})
     data.id = shortid.generate()
-    let result = PTF3.parseItemText(data.text)
-    // console.log('parse ptf3', result)
+    let result = PTF.parseItemText(data.text)
+    // console.log('parse PTF', result)
     store.dispatch('add_item', {'item_data': result})
-    // let be = PTF3.forBackend(result)
+    // let be = PTF.forBackend(result)
     // be.evt = "eval-item"
     // bridge.emit('eval-item', be)
     example.runsExampleCode(data.text)
+    // PTF.parseItemText(data.text)
+    // bridge.emit( 'eval-item', PTF.forBackend (result))
   })
   // bridge.on('eval-result', (data)=>{
   //   console.log('eval-result',data)
