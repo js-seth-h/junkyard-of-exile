@@ -121,7 +121,7 @@
   height: 3px;
   position: relative;
   top: -8px;
-  background: linear-gradient(to right, rgba(20,20,20, 0) 75% , #46350d 92%, rgba(20,20,20, 0) 93% );
+  background: linear-gradient(to right, rgba(20,20,20, 0) 75% , #46350d 85%, rgba(20,20,20, 0) 93% );
   /*background: linear-gradient(to right, rgba(20,20,20, 0) 75% , #46350d 85%, rgba(20,20,20, 0) 95% );*/
 }
 .mod{
