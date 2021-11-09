@@ -18,7 +18,7 @@ runsExampleCode = (text)->
 # 서버에서 아이템에 대한 평가 패킷이 도착하면 함수 호출됨
 bridge.on 'eval-result', (data)->
   dcon.F.log 'item evaluated', data
-  # 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 바녕ㅇ
+  # 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 반영
   PTF.applyEvaluate result, data
   dcon.F.log 'applyEvaluted', R.clone result
 
