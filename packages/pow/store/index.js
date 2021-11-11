@@ -3,12 +3,33 @@ import Vuex from 'vuex'
 // import router from '../router'
 // import axios from "axios"
 
-import * as R from 'ramda'
+import R from 'ramda'
+import RA from 'ramda-adjunct'
+
+
+import bridge from 'exterra/bridge.coffee'
+
+import trader from 'exterra/trader.coffee'
+import PTF from 'ptf3/index.coffee'
+
 
 Vue.use(Vuex)
 
 import base_item from '../assets/json/base-item.json'
 
+
+let parsed_obj = null;
+
+function send_server(payload){
+  return bridge.emit('eval-item', PTF.forBackend(payload));
+}
+
+bridge.on('eval-result', async (evaluate_result) =>{
+  PTF.applyEvaluate(parsed_obj, evaluate_result);
+  let trade_result = await(trader.search(parsed_obj));
+
+  return PTF.applyTradeResult(parsed_obj, trade_result);
+})
 
 
 export default new Vuex.Store({
@@ -24,69 +45,21 @@ export default new Vuex.Store({
   mutations: {
 
     add_item (state, payload) {
-      console.log('mutations state', state)
       console.log('mutations payload', payload, 'type=->', typeof payload)
-      // let divisions = ['Weapons', 'Rings', 'Amulets', 'Belts', 'Armours', 'Quivers']
-
-      // let division = payload.division
-      // if(state.list_data[division] === undefined){
-      //     Object.assign(state.list_data, {[division]:[payload]})
-      // }else{
-      //   state.list_data[division].push(payload)
-      // }
-
-
-      // state.list_data.division[division_item].push(payload)
-
-
-      console.log('state.list_data', state.list_data)
-
-      // state.list_data[division].push(payload)
-      // state.list_data.push(payload)
-
-
-      // // get img, type id
-      // get_item_detail(parsed_item.group[3])
-      //
-      // let img = {img: 'https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png'}
-      // parsed_item = Object.assign(parsed_item);
-
-
-      console.log('--------------', state.list_data)
-
-
-
-      // let data = Object.assign( item_l, payload);
-      // let test = Object.assign(payload[0], items)
-
       state.list_data.push(payload)
-      console.log('state.list_data', state.list_data)
     }
   },
   actions: {
      add_item (context, payload) {
-         // state로 들어가기 전 모든 값들 assign
-         console.log('add item function ->\n','coetext-> ', context, 'payload->', payload)
+       // state로 들어가기 전 모든 값들 assign
+       console.log('add item function ->\n','coetext-> ', context, 'payload->', payload)
 
-         // state로 들어가기 전 모든 값들 assign
-         // let parsed_item = parse_item(payload)
-         //
-         // let item_name = parsed_item.group[3]
-         // let items = get_item_detail(item_name)
-         // console.log('items', items)
-         // let test = Object.assign(payload[0], items)
-         //
-         // console.log('test------------', test)
-         // console.log('payload.group[3]', parsed_item.group[3])
-         // console.log('payloa1111d', payload)
-         // console.log('parsed_item1111', parsed_item)
+       send_server(payload)
+       parsed_obj = payload;
 
+       return context.commit('add_item', {'item_data': payload})
 
-         // let data = Object.assign(payload[0], {'parsed_items':parsed_item})
-
-         return context.commit('add_item', payload)
-
-       }
+     }
 
   },
 
