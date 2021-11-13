@@ -11,6 +11,7 @@ import bridge from 'exterra/bridge.coffee'
 
 import trader from 'exterra/trader.coffee'
 import PTF from 'ptf3/index.coffee'
+import shortid from 'shortid'
 
 
 Vue.use(Vuex)
@@ -56,10 +57,12 @@ export default new Vuex.Store({
 
        send_server(payload)
        parsed_obj = payload;
+       let res = {'item_data': payload}
+
+       Object.assign(res, {item_id: shortid.generate()});
 
 
-
-       return context.commit('add_item', {'item_data': payload})
+       return context.commit('add_item', res)
 
      }
 
@@ -67,6 +70,7 @@ export default new Vuex.Store({
 
   modules: {
     rating_extraction(data){
+      //parced data에서 rating을 추출
       let rating = []
       for(let block in data) {
         for (let data in data[block]) {

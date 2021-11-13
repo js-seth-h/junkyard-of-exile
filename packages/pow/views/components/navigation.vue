@@ -3,7 +3,7 @@
 <!--    {{list_data}}-->
 
     <div v-for="(item, key) of list_data" :key="key">
-      {{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}
+      <button @click="emit_id(item.item_id)">{{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}</button>
     </div>
   </div>
 </template>
@@ -14,6 +14,12 @@
     props:{
       list_data: Array
     },
+    methods: {
+      emit_id(id){
+        console.log('111111111111111111111111111', id)
+        this.$emit("emited_id", id)
+      }
+    }
   }
 </script>
 
