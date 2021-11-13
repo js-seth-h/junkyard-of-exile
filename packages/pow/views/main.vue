@@ -82,6 +82,7 @@
     components: {Dialog, Item, Item_result, Navigation},
     computed: {
       list_data(){
+        console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
         return this.$store.state.list_data
       }
     },

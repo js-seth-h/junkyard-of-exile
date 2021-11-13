@@ -57,6 +57,8 @@ export default new Vuex.Store({
        send_server(payload)
        parsed_obj = payload;
 
+
+
        return context.commit('add_item', {'item_data': payload})
 
      }
@@ -64,6 +66,21 @@ export default new Vuex.Store({
   },
 
   modules: {
+    rating_extraction(data){
+      let rating = []
+      for(let block in data) {
+        for (let data in data[block]) {
+          if(data[block].blk_type === 'mod'){
+
+            for (let mod in data[block].mods) {
+              rating.push(data[block].mods[mod].rating)
+            }
+          }
+        }
+      }
+
+      console.log('++++++++++++++++++++++++rating', rating)
+    },
     get_item_detail(name){
       let res = {img:'', division: ''}
       // console.log('base_item', base_item)

@@ -115,7 +115,7 @@
   /*linear-gradient( to right, rgba(20,20,20,.8) 80%, rgba(20,20,20,0) 100% );*/
   /*background: linear-gradient(1deg, #1d1414 55%,#46350d 75%,rgba(20,20,20,0));*/
 }
-.item_mods_con:before{
+.item_mods_con:after{
   content: '';
   display: block;
   height: 3px;
