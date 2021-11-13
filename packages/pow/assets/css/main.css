@@ -1,12 +1,14 @@
 /********** header *********/
 .header{
-  background-color: chartreuse;
+  /*background-color: #6D83A3;*/
+  background-color: #800000;
   min-height: 4rem;
 
   display: block;
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 3;
 
 }
 .header.off{
@@ -26,15 +28,26 @@
 }
 /********** lnb *********/
 .lnb{
-  background-color: #0d47a1;
+  padding: 10px 20px;
+  /*background-color: #800000;*/
+  background-color: #000000;
+
+  border-right: 8px solid #3e0000;
+
   width: 40%;
-  min-width: 350px;
+  color: #fff8e1;
+  /*min-width: 350px;*/
 }
 .lnb.off{
   display: none;
 
 }
-
+.lnb .nav_con{
+  margin-top:10px;
+}
+/*.lnb .nav_con:first-child{*/
+/*  margin-top:unset;*/
+/*}*/
 
 /********** content *********/
 .contents{
@@ -50,8 +63,10 @@
   display: flex;
   justify-content: space-around;
   background-color: rgba(20,20,20,.8);
+  /*background:linear-gradient( to right,#0c0c0ce0 5%, rgba(20,20,20,.8) 15%, rgba(20,20,20,.8) 100%) ;*/
   color: #adabab;
-  padding: 10px 0;
+  padding: 10px 20px;
+  border-bottom: 2px solid #3e0000;
 }
 
 /*img start*/
@@ -133,6 +148,13 @@
 }
 
 /*.order_group end*/
+
+/*trade result start*/
+.item_result{
+  padding: 10px 20px;
+}
+/*trade result end*/
+
 
 .search_trade_full-enter-active, .search_trade_full-leave-active {
   /*transition: opacity .5s;*/

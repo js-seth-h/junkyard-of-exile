@@ -20,10 +20,9 @@
 
       <div class="contents" style="color: #fff">
         <Item v-if="Object.keys(selected_data).length > 0" :item_data="selected_data.item_data"></Item>
-        <div v-else> item is not exist
-          {{selected_data}}</div>
+        <div v-else> item is not exist</div>
 
-        <Item_result v-if="list_data[0] !== undefined" :item_result="list_data[0].item_data"></Item_result>
+        <Item_result v-if="Object.keys(selected_data).length > 0" :item_result="selected_data.item_data"></Item_result>
       </div>
       <!-- end contents -->
 

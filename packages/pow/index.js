@@ -55,7 +55,7 @@ async function readyWebsock() {
     // let be = PTF.forBackend(result)
     // be.evt = "eval-item"
     // bridge.emit('eval-item', be)
-    example.runsExampleCode(data.text)
+    // example.runsExampleCode(data.text)
     // PTF.parseItemText(data.text)
     // bridge.emit( 'eval-item', PTF.forBackend (result))
   })

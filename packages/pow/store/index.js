@@ -19,72 +19,85 @@ Vue.use(Vuex)
 import base_item from '../assets/json/base-item.json'
 
 
-let parsed_obj = null;
 
-function send_server(payload){
-  return bridge.emit('eval-item', PTF.forBackend(payload));
+function send_server(data_id, payload){
+  var obj  = {id: data_id}
+  obj = Object.assign(obj, PTF.forBackend(payload))
+  console.log('-------------obj', obj)
+
+  let res = Object.assign(obj,{'item_data': payload})
+  STORE.commit('add_item', res)
+
+  return bridge.emit('eval-item', obj );
 }
 
-bridge.on('eval-result', async (evaluate_result) =>{
-  PTF.applyEvaluate(parsed_obj, evaluate_result);
-  let trade_result = await(trader.search(parsed_obj));
 
-  return PTF.applyTradeResult(parsed_obj, trade_result);
+
+bridge.on('eval-result', (evaluate_result) => {
+  STORE.dispatch('update_item_by_server', evaluate_result)
 })
 
 
-export default new Vuex.Store({
+let STORE = new Vuex.Store({
   state: {
 
 
     data:'testststst',
     list_data: [],
-    // list_data: {},
-    show_data: {}
+
+
 
   },
   mutations: {
 
     add_item (state, payload) {
-      console.log('mutations payload', payload, 'type=->', typeof payload)
       state.list_data.push(payload)
+      console.log('state', state)
+      console.log('state.list_data', state.list_data)
     }
   },
   actions: {
+    async update_item_by_server(context, evaluate_result){
+      // bridge.on('eval-result', async (evaluate_result) =>{
+        console.log('!!!!!!!!!!!!!!!!!!!!!!evaluate_result', evaluate_result)
+      console.log('!!!!!!!!!!!!!!!!!this.store', context.state.list_data)
+        let data_id = evaluate_result.id
+      console.log('data_id')
+
+        let num = null
+        for(let data in context.state.list_data){
+          console.log('data',data)
+          if(data_id === context.state.list_data[data].id){
+            console.log('data', data)
+            num = data
+
+          }
+        }
+
+        let match_key_data = context.state.list_data[num]
+        PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
+        let trade_result = await(trader.search(match_key_data.item_data));
+        //
+        console.log('trade_result---', trade_result)
+
+        return PTF.applyTradeResult(match_key_data, trade_result);
+      // })
+
+    },
      add_item (context, payload) {
+       let item_id = shortid.generate()
        // state로 들어가기 전 모든 값들 assign
        console.log('add item function ->\n','coetext-> ', context, 'payload->', payload)
 
-       send_server(payload)
-       parsed_obj = payload;
-       let res = {'item_data': payload}
+       return send_server(item_id, payload)
 
-       Object.assign(res, {item_id: shortid.generate()});
-
-
-       return context.commit('add_item', res)
 
      }
 
   },
 
   modules: {
-    rating_extraction(data){
-      //parced data에서 rating을 추출
-      let rating = []
-      for(let block in data) {
-        for (let data in data[block]) {
-          if(data[block].blk_type === 'mod'){
 
-            for (let mod in data[block].mods) {
-              rating.push(data[block].mods[mod].rating)
-            }
-          }
-        }
-      }
-
-      console.log('++++++++++++++++++++++++rating', rating)
-    },
     get_item_detail(name){
       let res = {img:'', division: ''}
       // console.log('base_item', base_item)
@@ -108,3 +121,5 @@ export default new Vuex.Store({
 
   }
 })
+
+export default STORE
