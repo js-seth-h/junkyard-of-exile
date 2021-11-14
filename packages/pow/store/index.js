@@ -48,6 +48,7 @@ function rating_extraction(item_data){
       }
     }
   }
+  return rating
 
 }
 
@@ -100,8 +101,9 @@ let STORE = new Vuex.Store({
       PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
 
       // 서버에서 반환된 rating 추출
-      rating_extraction(match_key_data.item_data)
-
+      let rating = rating_extraction(match_key_data.item_data)
+      match_key_data.rating = rating
+      console.log('match_key_data', match_key_data)
       // # poe 거래소에서 검색
       let trade_result = await(trader.search(match_key_data.item_data));
 
