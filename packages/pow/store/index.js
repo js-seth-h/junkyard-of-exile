@@ -16,22 +16,53 @@ import shortid from 'shortid'
 
 Vue.use(Vuex)
 
-import base_item from '../assets/json/base-item.json'
 
 
 
 function send_server(data_id, payload){
   var obj  = {id: data_id}
-  obj = Object.assign(obj, PTF.forBackend(payload))
-  console.log('-------------obj', obj)
+  let parsed_data = payload
 
-  let res = Object.assign(obj,{'item_data': payload})
+  // 서버로 보낼 패킷 작성
+  obj = Object.assign(obj, PTF.forBackend(parsed_data))
+
+  let res = Object.assign(obj,{'item_data': parsed_data})
+
   STORE.commit('add_item', res)
-
+  // 전송
   return bridge.emit('eval-item', obj );
 }
 
 
+
+function rating_extraction(item_data){
+  //parced data에서 rating을 추출
+  let rating = []
+
+  for(let block in item_data) {
+    if(item_data[block].blk_type === 'mod'){
+
+      for (let mod in item_data[block].mods) {
+        const cloned = JSON.parse(JSON.stringify(item_data[block].mods[mod]));
+        rating.push(item_data[block].mods[mod].rating)
+      }
+    }
+  }
+
+}
+
+function get_position_from_item_id( data_id){
+  // state.list_data에서 id를 가진 데이터의 배열 번호를 추출하여 반환
+  let list_data = STORE.state.list_data
+  let num = null
+  for(let data in list_data){
+    if(data_id === list_data[data].id){
+      num = data
+
+    }
+  }
+  return num
+}
 
 bridge.on('eval-result', (evaluate_result) => {
   STORE.dispatch('update_item_by_server', evaluate_result)
@@ -42,7 +73,6 @@ let STORE = new Vuex.Store({
   state: {
 
 
-    data:'testststst',
     list_data: [],
 
 
@@ -52,72 +82,40 @@ let STORE = new Vuex.Store({
 
     add_item (state, payload) {
       state.list_data.push(payload)
-      console.log('state', state)
-      console.log('state.list_data', state.list_data)
     }
   },
   actions: {
     async update_item_by_server(context, evaluate_result){
-      // bridge.on('eval-result', async (evaluate_result) =>{
-        console.log('!!!!!!!!!!!!!!!!!!!!!!evaluate_result', evaluate_result)
-      console.log('!!!!!!!!!!!!!!!!!this.store', context.state.list_data)
-        let data_id = evaluate_result.id
-      console.log('data_id')
+      let data_id = evaluate_result.id
+      let list_data = context.state.list_data
 
-        let num = null
-        for(let data in context.state.list_data){
-          console.log('data',data)
-          if(data_id === context.state.list_data[data].id){
-            console.log('data', data)
-            num = data
+      // 해당 id를 가지고있는 데이터의 배열 번호 추출
+      let num = get_position_from_item_id(data_id)
 
-          }
-        }
+      let match_key_data = list_data[num]
 
-        let match_key_data = context.state.list_data[num]
-        PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
-        let trade_result = await(trader.search(match_key_data.item_data));
-        //
-        console.log('trade_result---', trade_result)
 
-        return PTF.applyTradeResult(match_key_data, trade_result);
-      // })
+      // 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 반영
+      PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
+
+      // 서버에서 반환된 rating 추출
+      rating_extraction(match_key_data.item_data)
+
+      // # poe 거래소에서 검색
+      let trade_result = await(trader.search(match_key_data.item_data));
+
+      // # 거래소 검색 결과를 아이템에 반영
+      return PTF.applyTradeResult(match_key_data, trade_result);
 
     },
+
      add_item (context, payload) {
        let item_id = shortid.generate()
-       // state로 들어가기 전 모든 값들 assign
-       console.log('add item function ->\n','coetext-> ', context, 'payload->', payload)
 
        return send_server(item_id, payload)
 
 
      }
-
-  },
-
-  modules: {
-
-    get_item_detail(name){
-      let res = {img:'', division: ''}
-      // console.log('base_item', base_item)
-      for(let data of base_item){
-        // console.log('data', data)
-        for(const [key, value] of Object.entries(data)){
-          if(name.toString() === value){
-            console.log('get_item_detail res ', data.img_url, data.id)
-
-            res.img = data.img_url
-            res.division = data.id
-          }
-        }
-      }
-
-      let splited_division = res.division.split('/')
-      res.division  = splited_division[2]
-
-      return res
-    }
 
   }
 })
