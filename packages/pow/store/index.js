@@ -65,7 +65,8 @@ function get_position_from_item_id( data_id){
 }
 
 bridge.on('eval-result', (evaluate_result) => {
-  STORE.dispatch('update_item_by_server', evaluate_result)
+  // let update = STORE.dispatch('update_item_by_server', evaluate_result)
+  setTimeout(() => {STORE.dispatch('update_item_by_server', evaluate_result)}, 3000);
 })
 
 

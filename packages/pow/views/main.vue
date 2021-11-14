@@ -132,8 +132,9 @@
     methods: {
       on_selected_id(id){
         // emit에서 받은 데이터
+        console.log('id------------', id)
         for(let data of this.list_data){
-          if(id === data.item_id){
+          if(id === data.id){
             console.log('!!!!!!!!!!!!!', data)
             this.selected_data = data
           }

@@ -3,7 +3,7 @@
 <!--    {{list_data}}-->
 
     <div v-for="(item, key) of list_data" :key="key">
-      <button class="nav_con" @click="emit_id(item.item_id)">{{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}</button>
+      <button class="nav_con" @click="emit_id(item.id)">{{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}</button>
     </div>
   </div>
 </template>
