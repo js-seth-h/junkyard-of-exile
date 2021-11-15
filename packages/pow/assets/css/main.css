@@ -73,6 +73,7 @@
 .v-tooltip__content .item{
   display: block;
   text-align: center;
+  padding: unset;
 }
 
 .v-tooltip__content .item .img{

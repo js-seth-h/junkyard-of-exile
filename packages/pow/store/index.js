@@ -28,6 +28,7 @@ function send_server(data_id, payload){
 
   let res = Object.assign(obj,{'item_data': parsed_data})
 
+  res.bookmark = false
   STORE.commit('add_item', res)
   // 전송
   return bridge.emit('eval-item', obj );
@@ -103,6 +104,8 @@ let STORE = new Vuex.Store({
       // 서버에서 반환된 rating 추출
       let rating = rating_extraction(match_key_data.item_data)
       match_key_data.rating = rating
+
+      // match_key_data.bookmark = false
       console.log('match_key_data', match_key_data)
       // # poe 거래소에서 검색
       let trade_result = await(trader.search(match_key_data.item_data));

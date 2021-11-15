@@ -19,10 +19,11 @@
       <!-- lnb end -->
 
       <div class="contents" style="color: #fff">
-        <Item v-if="Object.keys(selected_data).length > 0" :item_data="selected_data.item_data"></Item>
+        <Item v-if="Object.keys(selected_data).length > 0 && list_data.length > 0" :item_data="selected_data.item_data"></Item>
         <div v-else> item is not exist</div>
 
-        <Item_result v-if="Object.keys(selected_data).length > 0" :item_result="selected_data.item_data"></Item_result>
+        <Item_result v-if="Object.keys(selected_data).length > 0 && list_data.length > 0" :item_result="selected_data.item_data"></Item_result>
+        <div v-else> empty result</div>
       </div>
       <!-- end contents -->
 
