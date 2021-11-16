@@ -17,12 +17,11 @@
         <Navigation :list_data="list_data" @emited_id="on_selected_id"></Navigation>
       </div>
       <!-- lnb end -->
-
       <div class="contents" style="color: #fff">
-        <Item v-if="Object.keys(selected_data).length > 0 && list_data.length > 0" :item_data="selected_data.item_data"></Item>
+        <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
         <div v-else> item is not exist</div>
 
-        <Item_result v-if="Object.keys(selected_data).length > 0 && list_data.length > 0" :item_result="selected_data.item_data"></Item_result>
+        <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
         <div v-else> empty result</div>
       </div>
       <!-- end contents -->
@@ -85,6 +84,11 @@
       list_data(){
         console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
         return this.$store.state.list_data
+      },
+
+      storage_data(){
+        console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))
+        return JSON.parse(localStorage.getItem('storage_data'))
       }
     },
     data(){
@@ -134,10 +138,20 @@
       on_selected_id(id){
         // emit에서 받은 데이터
         console.log('id------------', id)
+        let stat = false
         for(let data of this.list_data){
           if(id === data.id){
             console.log('!!!!!!!!!!!!!', data)
             this.selected_data = data
+            stat = true
+          }
+        }
+        if(stat === false){
+          for(let data of this.storage_data){
+            if(id === data.id){
+              console.log('!!!!!!!!!!!!22222!', data)
+              this.selected_data = data
+            }
           }
         }
       },
