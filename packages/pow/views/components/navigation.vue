@@ -3,21 +3,21 @@
   <v-app>
 
 
-    <div v-for="(item, key) of storage_data" :key="key">
+    <div v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
       <v-tooltip right>
         <template v-slot:activator="{ on, attrs }">
-          <button @click="add_bookmark(item.id, item.bookmark)">
-            //{{item.bookmark}}//
+          <button >
+            //{{storage_item.bookmark}}//
           </button>
           <button
               v-bind="attrs"
               v-on="on"
               class="nav_con"
-              @click="emit_id(item.id)">
-            {{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}
+              @click="emit_id(storage_item.id)">
+            {{storage_item.item_data.header.lines[2]}} {{storage_item.item_data.header.lines[3]}}
           </button>
         </template>
-        <Item v-if="Object.keys(item).length > 0" :item_data="item.item_data"></Item>
+        <Item v-if="Object.keys(storage_item).length > 0" :item_data="storage_item.item_data"></Item>
       </v-tooltip>
     </div>
 <!-- 즐겨찾기 end -->
