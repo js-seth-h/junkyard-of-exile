@@ -12,15 +12,18 @@ class Facade
     @version = rule_obj.version
     I18N.loadData refs
     MOD.loadRule rule_obj.list
-  setLang: (lang)->
-    I18N.setLang lang
-    MOD.setLang lang
+  setLang: (@lang)->
+    I18N.setLang @lang
+    MOD.setLang @lang
     # USE_LANG = R.uniq [@lang, 'English' ]
   parseItemText: (item_text)->
     blocks = R.map R.trim, R.split '--------', item_text
     builder = new Builder
     for blk in  blocks
       builder.feed blk
+
+    bt = @basetypes.find (bt)=> bt.i18n[@lang] is builder.item.header.base_type
+    builder.item.basetype = bt 
     return builder.item
   forBackend: (item_data)->
     req_lv = item_data.requirement?.Level or 1
@@ -89,7 +92,6 @@ class Facade
         status: option: "online"
         stats
       }
-  applyTradeResult: (item_data, trade_result)->
 
 module.exports = exports = new Facade
 
