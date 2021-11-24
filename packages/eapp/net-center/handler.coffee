@@ -47,7 +47,8 @@ FE.on 'app-start', catchErr (data)->
   rule = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/metric-equip.json'
   client_string = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/client-string.json'
   item_classes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/item-classes.json'
-  ref_data = {client_string, item_classes}
+  basetypes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/basetypes.json'
+  ref_data = {client_string, item_classes, basetypes}
   FE.send {evt: 'app-ready', rule, ref_data }
 
 FE.on 'eval-item', catchErr (data)->
