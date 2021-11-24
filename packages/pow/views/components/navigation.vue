@@ -1,12 +1,15 @@
 <template>
   <div id="navigation">
   <v-app>
+
+
     <div v-if="storage_data !== undefined" v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
       <v-tooltip right>
         <template v-slot:activator="{ on, attrs }">
           <button @click="remove_bookmark(storage_item)">
             remove
           </button>
+          {{storage_data.rating}}
           <button
               v-bind="attrs"
               v-on="on"
@@ -28,6 +31,7 @@
           <button @click="add_bookmark(item)">
             add
           </button>
+          {{list_data.rating}}
           <button
               v-bind="attrs"
               v-on="on"
@@ -57,21 +61,23 @@
     },
     components: {Item},
     computed: {
-      // storage_data: {
-      //   get() {
-      //     return JSON.parse(localStorage.getItem('storage_data'))
-      //     },
-      //   set() {}
-      // },
-
       // storage_data(){
-      //   console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))
       //   return JSON.parse(localStorage.getItem('storage_data'))
       // }
+
+      // storage_auto_trade_option(){
+      //   console.log('JSON.parse(localStorage.getItem(\'ranking\'))', JSON.parse(localStorage.getItem('auto_trade_option')))
+      //   if(JSON.parse(localStorage.getItem('auto_trade_option')) === null){
+      //     localStorage.setItem('auto_trade_option', JSON.stringify(true))
+      //   }
+      //   return this.auto_trade_option = JSON.parse(localStorage.getItem('auto_trade_option'))
+      // }
+
     },
     data() {
       return {
         storage_data: JSON.parse(localStorage.getItem('storage_data')),
+
       }
     },
     methods: {
@@ -144,8 +150,9 @@
 
           if(storage_data === null){
             localStorage.setItem('storage_data', JSON.stringify([this_data]))
-            this.$store.state.list_data.splice(num,1)
+            this.storage_data = storage_data
 
+            this.$store.state.list_data.splice(num,1)
           }else{
             // localStorage에 데이터가 있는경우
             let check_num = this.exist_id_from_storage(this_data.id)
@@ -158,6 +165,7 @@
 
               this.$store.state.list_data.splice(num,1)
               localStorage.setItem('storage_data', JSON.stringify(storage_data))
+              this.storage_data = storage_data
             }
           }
         }else{

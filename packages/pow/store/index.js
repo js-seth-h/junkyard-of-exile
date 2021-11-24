@@ -30,7 +30,27 @@ function send_server(data_id, payload){
 
   STORE.commit('add_item', res)
   // 전송
-  return bridge.emit('eval-item', obj );
+  // return bridge.emit('eval-item', obj );
+  bridge.emit('eval-item', obj );
+
+
+  setTimeout(() => {
+
+
+  let list_data = STORE.state.list_data
+  let num = get_position_from_item_id(data_id)
+
+  let rating = rating_extraction(list_data[num].item_data)
+
+  if(rating.includes('?')){
+    // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
+    console.log('???????????????????????????????????????????????????????????????????????????????????')
+    bridge.emit('eval-item', obj );
+  }
+
+  }, 5000);
+
+
 }
 
 
@@ -66,8 +86,12 @@ function get_position_from_item_id( data_id){
 }
 
 bridge.on('eval-result', (evaluate_result) => {
-  // let update = STORE.dispatch('update_item_by_server', evaluate_result)
-  setTimeout(() => {STORE.dispatch('update_item_by_server', evaluate_result)}, 3000);
+  console.log('evaluate_result', evaluate_result)
+
+  // let rating = rating_extraction(evaluate_result.item_data)
+  // evaluate_result.rating = rating
+
+  STORE.dispatch('update_item_by_server', evaluate_result)
 })
 
 

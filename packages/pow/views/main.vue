@@ -17,6 +17,8 @@
         <Navigation :list_data="list_data" @emited_id="on_selected_id"></Navigation>
       </div>
       <!-- lnb end -->
+
+
       <div class="contents" style="color: #fff">
         <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
         <div v-else> item is not exist</div>
@@ -29,33 +31,16 @@
     </div>
     <!-- end contest_wrapper -->
 
+    <!-- start trade -->
+    <div class="trade">
+      <Trade :list_data="list_data" ></Trade>
 
-    <transition name="search_trade_full">
-      <div class="search_trade">
-        trade
-        <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>
       </div>
-    </transition>
-
-    <transition name="search_trade_full">
-    <div class="search_trade" v-show="search_trade_full">
-      trade
-      <button class="search_trade_btn" @click="search_trade_full = !search_trade_full"> + </button>
-      <transition name="search_trade_full">
-        <div class="search_trade_full"
-             v-show="search_trade_full">
-          detail contents<br />
-          detail contents<br />
-          detail contents<br />
-          detail contents<br />
-          detail contents<br />
-          detail contents<br />
-          detail contents<br />
-        </div>
-      </transition>
     </div>
-    </transition>
-    <!-- end search_trade -->
+
+
+
+    <!-- end trade -->
 
 
   </div>
@@ -71,6 +56,8 @@
   import Item from "./components/item.vue";
   import Navigation from "./components/navigation.vue"
   import Item_result from "./components/item_result.vue"
+  import Trade from "./components/trade.vue"
+
 
 
   import '../assets/css/main.css';
@@ -79,7 +66,7 @@
 
   export default {
     name: 'Main',
-    components: {Dialog, Item, Item_result, Navigation},
+    components: {Dialog, Item, Item_result, Navigation, Trade},
     computed: {
       list_data(){
         console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
@@ -116,8 +103,6 @@
 
         // 출력 옵션 컨트롤 - 미구현
         seq_order: true,
-        // trade 영역 축소/확대
-        search_trade_full: false,
 
 
       }

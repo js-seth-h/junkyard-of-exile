@@ -34,7 +34,7 @@
 
   border-right: 8px solid #3e0000;
 
-  width: 40%;
+  width: 50%;
   color: #fff8e1;
   /*min-width: 350px;*/
 }
@@ -158,29 +158,18 @@
 }
 
 /*.order_group end*/
-
-/*trade result start*/
+/* item_result start*/
 .item_result{
   padding: 10px 20px;
 }
-/*trade result end*/
-
-
-.search_trade_full-enter-active, .search_trade_full-leave-active {
-  /*transition: opacity .5s;*/
-  transition: all .5s cubic-bezier(0, 0, 1.0, 1.0);
+/* item_result end*/
+/*trade start*/
+.trade{
+  background-color: red;
+  position: sticky;
+  bottom: 0;
 }
-.search_trade_full-enter, .search_trade_full-leave-to /* .fade-leave-active below version 2.1.8 */ {
-  opacity: 0;
-  transform: translateY(300px);
-}
-
-/*.search_trade_min-enter-active, .search_trade_min-leave-active {*/
-/*  transition: opacity .5s;*/
-/*}*/
-/*.search_trade_min-enter, .search_trade_min-leave-to !* .fade-leave-active below version 2.1.8 *! {*/
-/*  opacity: 0;*/
-/*}*/
+/*trade end*/
 
 
 .separator{
