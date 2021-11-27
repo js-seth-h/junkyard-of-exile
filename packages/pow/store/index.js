@@ -3,114 +3,131 @@ import Vuex from 'vuex'
 // import router from '../router'
 // import axios from "axios"
 
-import * as R from 'ramda'
+import R from 'ramda'
+import RA from 'ramda-adjunct'
+
+
+import bridge from 'exterra/bridge.coffee'
+
+import trader from 'exterra/trader.coffee'
+import PTF from 'ptf3/index.coffee'
+import shortid from 'shortid'
+
 
 Vue.use(Vuex)
 
-import base_item from '../assets/json/base-item.json'
 
 
 
-export default new Vuex.Store({
+function send_server(data_id, payload){
+  var obj  = {id: data_id}
+  let parsed_data = payload
+
+  // 서버로 보낼 패킷 작성
+  obj = Object.assign(obj, PTF.forBackend(parsed_data))
+
+  let res = Object.assign(obj,{'item_data': parsed_data})
+
+  STORE.commit('add_item', res)
+  // 전송
+  return bridge.emit('eval-item', obj );
+}
+
+
+
+function rating_extraction(item_data){
+  //parced data에서 rating을 추출
+  let rating = []
+
+  for(let block in item_data) {
+    if(item_data[block].blk_type === 'mod'){
+
+      for (let mod in item_data[block].mods) {
+        const cloned = JSON.parse(JSON.stringify(item_data[block].mods[mod]));
+        rating.push(item_data[block].mods[mod].rating)
+      }
+    }
+  }
+  return rating
+
+}
+
+function get_position_from_item_id( data_id){
+  // state.list_data에서 id를 가진 데이터의 배열 번호를 추출하여 반환
+  let list_data = STORE.state.list_data
+  let num = null
+  for(let data in list_data){
+    if(data_id === list_data[data].id){
+      num = data
+
+    }
+  }
+  return num
+}
+
+bridge.on('eval-result', (evaluate_result) => {
+  // let update = STORE.dispatch('update_item_by_server', evaluate_result)
+  setTimeout(() => {STORE.dispatch('update_item_by_server', evaluate_result)}, 3000);
+})
+
+
+let STORE = new Vuex.Store({
   state: {
 
 
-    data:'testststst',
     list_data: [],
-    // list_data: {},
-    show_data: {}
+
+
 
   },
+  getters: {
+    list_data: (state) => {
+      return state.list_data;
+    }
+  },
+
   mutations: {
 
     add_item (state, payload) {
-      console.log('mutations state', state)
-      console.log('mutations payload', payload, 'type=->', typeof payload)
-      // let divisions = ['Weapons', 'Rings', 'Amulets', 'Belts', 'Armours', 'Quivers']
-
-      // let division = payload.division
-      // if(state.list_data[division] === undefined){
-      //     Object.assign(state.list_data, {[division]:[payload]})
-      // }else{
-      //   state.list_data[division].push(payload)
-      // }
-
-
-      // state.list_data.division[division_item].push(payload)
-
-
-      console.log('state.list_data', state.list_data)
-
-      // state.list_data[division].push(payload)
-      // state.list_data.push(payload)
-
-
-      // // get img, type id
-      // get_item_detail(parsed_item.group[3])
-      //
-      // let img = {img: 'https://web.poecdn.com/image/Art/2DItems/Weapons/OneHandWeapons/Wands/Wand2.png'}
-      // parsed_item = Object.assign(parsed_item);
-
-
-      console.log('--------------', state.list_data)
-
-
-
-      // let data = Object.assign( item_l, payload);
-      // let test = Object.assign(payload[0], items)
-
       state.list_data.push(payload)
-      console.log('state.list_data', state.list_data)
     }
   },
   actions: {
+    async update_item_by_server(context, evaluate_result){
+      let data_id = evaluate_result.id
+      let list_data = context.state.list_data
+
+      // 해당 id를 가지고있는 데이터의 배열 번호 추출
+      let num = get_position_from_item_id(data_id)
+
+      let match_key_data = list_data[num]
+
+
+      // 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 반영
+      PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
+
+      // 서버에서 반환된 rating 추출
+      let rating = rating_extraction(match_key_data.item_data)
+      match_key_data.rating = rating
+
+      console.log('match_key_data', match_key_data)
+      // # poe 거래소에서 검색
+      let trade_result = await(trader.search(match_key_data.item_data));
+
+      // # 거래소 검색 결과를 아이템에 반영
+      return PTF.applyTradeResult(match_key_data, trade_result);
+
+    },
+
      add_item (context, payload) {
-         // state로 들어가기 전 모든 값들 assign
-         console.log('add item function ->\n','coetext-> ', context, 'payload->', payload)
+       let item_id = shortid.generate()
 
-         // state로 들어가기 전 모든 값들 assign
-         // let parsed_item = parse_item(payload)
-         //
-         // let item_name = parsed_item.group[3]
-         // let items = get_item_detail(item_name)
-         // console.log('items', items)
-         // let test = Object.assign(payload[0], items)
-         //
-         // console.log('test------------', test)
-         // console.log('payload.group[3]', parsed_item.group[3])
-         // console.log('payloa1111d', payload)
-         // console.log('parsed_item1111', parsed_item)
+       return send_server(item_id, payload)
 
 
-         // let data = Object.assign(payload[0], {'parsed_items':parsed_item})
-
-         return context.commit('add_item', payload)
-
-       }
-
-  },
-
-  modules: {
-    get_item_detail(name){
-      let res = {img:'', division: ''}
-      // console.log('base_item', base_item)
-      for(let data of base_item){
-        // console.log('data', data)
-        for(const [key, value] of Object.entries(data)){
-          if(name.toString() === value){
-            console.log('get_item_detail res ', data.img_url, data.id)
-
-            res.img = data.img_url
-            res.division = data.id
-          }
-        }
-      }
-
-      let splited_division = res.division.split('/')
-      res.division  = splited_division[2]
-
-      return res
-    }
+     }
 
   }
 })
+
+export default STORE

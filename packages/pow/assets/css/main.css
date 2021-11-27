@@ -1,12 +1,14 @@
 /********** header *********/
 .header{
-  background-color: chartreuse;
+  /*background-color: #6D83A3;*/
+  background-color: #800000;
   min-height: 4rem;
 
   display: block;
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 3;
 
 }
 .header.off{
@@ -26,15 +28,26 @@
 }
 /********** lnb *********/
 .lnb{
-  background-color: #0d47a1;
+  padding: 10px 20px;
+  /*background-color: #800000;*/
+  background-color: #000000;
+
+  border-right: 8px solid #3e0000;
+
   width: 40%;
-  min-width: 350px;
+  color: #fff8e1;
+  /*min-width: 350px;*/
 }
 .lnb.off{
   display: none;
 
 }
-
+.lnb .nav_con{
+  margin-top:10px;
+}
+/*.lnb .nav_con:first-child{*/
+/*  margin-top:unset;*/
+/*}*/
 
 /********** content *********/
 .contents{
@@ -46,23 +59,36 @@
   background:#000 url(/assets/img/scourge-bg.jpg) no-repeat top center;
 
 }
-.contents .item{
+
+.item{
   display: flex;
   justify-content: space-around;
   background-color: rgba(20,20,20,.8);
+  /*background:linear-gradient( to right,#0c0c0ce0 5%, rgba(20,20,20,.8) 15%, rgba(20,20,20,.8) 100%) ;*/
   color: #adabab;
-  padding: 10px 0;
+  padding: 10px 20px;
+  border-bottom: 2px solid #3e0000;
 }
 
+.v-tooltip__content .item{
+  display: block;
+  text-align: center;
+  padding: unset;
+}
+
+.v-tooltip__content .item .img{
+  display: none;
+}
 /*img start*/
 
-.contents .item .img{
+.item .img{
   width: 200px;
   height: 200px;
   background-color: gray;
 }
+
 /*title start*/
-.contents .item .title{
+.item .title{
 
   height: 53px;
   color:#ffff77;
@@ -75,8 +101,7 @@
   border-bottom: 2px solid #6b5011;
   /*border-bottom: 2px solid #6b5011;*/
 }
-
-.contents .item .title p{
+.item .title p{
   /*padding: 10px;*/
   font-size: 1rem;
   margin: unset;
@@ -111,11 +136,21 @@
 
 .item_mods_con{
   color:#88f;
-  background: linear-gradient( #1d1414 25%,#46350d 50%,#1d1414 75%);
+  /*background: linear-gradient(to right, rgba(20,20,20, 0) 25%, rgba(20,20,20, 0) 55%, #46350d 80%);*/
+  /*linear-gradient( to right, rgba(20,20,20,.8) 80%, rgba(20,20,20,0) 100% );*/
   /*background: linear-gradient(1deg, #1d1414 55%,#46350d 75%,rgba(20,20,20,0));*/
 }
+.item_mods_con:after{
+  content: '';
+  display: block;
+  height: 3px;
+  position: relative;
+  top: -8px;
+  background: linear-gradient(to right, rgba(20,20,20, 0) 75% , #46350d 85%, rgba(20,20,20, 0) 93% );
+  /*background: linear-gradient(to right, rgba(20,20,20, 0) 75% , #46350d 85%, rgba(20,20,20, 0) 95% );*/
+}
 .mod{
-  background: linear-gradient( to right, rgba(20,20,20,.8) 80%, rgba(20,20,20,0) 100% );
+  background: linear-gradient( to right, rgb(20,20,20) 80%, rgba(20,20,20,.8) 80%, rgba(20,20,20,0) 100% );
   padding: 0 40px;
 }
 .scourge_mods_con{
@@ -123,6 +158,13 @@
 }
 
 /*.order_group end*/
+
+/*trade result start*/
+.item_result{
+  padding: 10px 20px;
+}
+/*trade result end*/
+
 
 .search_trade_full-enter-active, .search_trade_full-leave-active {
   /*transition: opacity .5s;*/
@@ -149,4 +191,17 @@
   display: flex;
 }
 
+#navigation .v-tooltip__content {
+  background-color: transparent;
+  padding: unset;
+  width: max-content;
+  line-height: 1rem;
+}
+.v-tooltip__content{
 
+}
+
+
+#navigation .theme--dark.v-application{
+  background-color: transparent;
+}
