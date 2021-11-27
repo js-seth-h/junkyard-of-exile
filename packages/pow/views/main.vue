@@ -34,11 +34,7 @@
     <!-- start trade -->
     <div class="trade">
       <Trade :list_data="list_data" ></Trade>
-
-      </div>
     </div>
-
-
 
     <!-- end trade -->
 

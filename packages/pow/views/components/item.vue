@@ -1,6 +1,7 @@
 <template>
   <div id="item" class="item">
-    <div class="img">this is image
+    <div class="img">
+      <img :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+item_data.basetype.img" alt="">
     </div>
 
     <div class="content">

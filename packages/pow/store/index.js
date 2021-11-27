@@ -38,9 +38,9 @@ function send_server(data_id, payload){
 
 
   let list_data = STORE.state.list_data
-  let num = get_position_from_item_id(data_id)
+  let result = get_position_from_item_id(data_id)
 
-  let rating = rating_extraction(list_data[num].item_data)
+  let rating = rating_extraction(result.item_data)
 
   if(rating.includes('?')){
     // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
@@ -75,14 +75,8 @@ function rating_extraction(item_data){
 function get_position_from_item_id( data_id){
   // state.list_data에서 id를 가진 데이터의 배열 번호를 추출하여 반환
   let list_data = STORE.state.list_data
-  let num = null
-  for(let data in list_data){
-    if(data_id === list_data[data].id){
-      num = data
+  return list_data.find((el)=> el.id === data_id)
 
-    }
-  }
-  return num
 }
 
 bridge.on('eval-result', (evaluate_result) => {
@@ -122,9 +116,9 @@ let STORE = new Vuex.Store({
       let list_data = context.state.list_data
 
       // 해당 id를 가지고있는 데이터의 배열 번호 추출
-      let num = get_position_from_item_id(data_id)
+      let result = get_position_from_item_id(data_id)
 
-      let match_key_data = list_data[num]
+      let match_key_data = result
 
 
       // 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 반영

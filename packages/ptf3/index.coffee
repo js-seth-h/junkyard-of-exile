@@ -23,7 +23,7 @@ class Facade
       builder.feed blk
 
     bt = @basetypes.find (bt)=> bt.i18n[@lang] is builder.item.header.base_type
-    builder.item.basetype = bt 
+    builder.item.basetype = bt
     return builder.item
   forBackend: (item_data)->
     req_lv = item_data.requirement?.Level or 1
@@ -55,7 +55,7 @@ class Facade
         r[1]
       else
         "X"
-
+  applyTradeResult: ()->
   forTrade: (item_data)->
     condition_cnt = 0
     # [target_ratings] = R.splitAt rating_cnt, 'SABCDF'

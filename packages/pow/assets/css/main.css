@@ -84,7 +84,9 @@
 .item .img{
   width: 200px;
   height: 200px;
-  background-color: gray;
+}
+.item .img img{
+  width: 120px;
 }
 
 /*title start*/
