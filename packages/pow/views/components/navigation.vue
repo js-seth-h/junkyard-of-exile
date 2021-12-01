@@ -31,7 +31,11 @@
           <button @click="add_bookmark(item)">
             add
           </button>
-          {{list_data.rating}}
+          <p v-if="item.rating != 'undefined'">
+<!--            **{{item.rating.includes('F')}}**-->
+<!--            **{{item.rating.find(element => element = 'F')}}**-->
+            {{item.rating}}
+          </p>
           <button
               v-bind="attrs"
               v-on="on"

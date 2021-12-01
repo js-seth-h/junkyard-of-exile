@@ -33,7 +33,7 @@
 
     <!-- start trade -->
     <div class="trade">
-      <Trade :list_data="list_data" ></Trade>
+      <Trade :trade_data="trade_data" ></Trade>
     </div>
 
     <!-- end trade -->
@@ -67,6 +67,10 @@
       list_data(){
         console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
         return this.$store.state.list_data
+      },
+      trade_data(){
+        console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
+        return this.$store.state.trade_data
       },
 
       storage_data(){

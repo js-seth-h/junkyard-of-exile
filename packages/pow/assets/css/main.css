@@ -196,3 +196,20 @@
 #navigation .theme--dark.v-application{
   background-color: transparent;
 }
+
+
+
+
+
+
+
+/**/
+.normal{
+  background-color: #fff;
+}
+.item_over{
+ background-color: blue;
+}
+.item_drag_ing{
+  opacity: .5;
+}

@@ -62,7 +62,7 @@ PK = {}
 PK['REAL'] =
   # NOTE 절대 비밀 정보를 넣지 말것
   clientId: 'GNLVthqCf49GAa9jaDbGZioqk3xvz0QoAcPkWKR3WbI5087O1Um68INjPTLVd5kQ'
-  redirect: 'http://wiki.cmgom.com:5000/patreon/redirect'
+  redirect: 'http://150.95.202.40:5000/patreon/redirect'
 
 PK['LOCAL_TEST'] =
   # NOTE 절대 비밀 정보를 넣지 말것
@@ -102,6 +102,6 @@ shutdown = ->
   SV.send {evt: 'shutdown', client_id: CTX.MY_ID}
   SV.send {evt: 'shutdown', client_id: CTX.MY_ID}
 
-Object.assign exports, { 
+Object.assign exports, {
   shutdown
 }
