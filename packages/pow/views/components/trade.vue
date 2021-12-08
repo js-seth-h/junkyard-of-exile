@@ -4,7 +4,7 @@
 <!--    <v-app>-->
 
       <button class="trade_btn" @click="trade_content = !trade_content"> + </button>
-      <div>
+      <div class="wrapper">
         {{auto_trade_option}}
         <v-switch
             v-model="auto_trade_option"
@@ -21,19 +21,25 @@
       <div class="trade_content" v-show="trade_content" style="margin-left: 50px">
 
         <div v-for="(item, key) of trade_data" :key="key"
+             draggable="true"
+             @drag="drag"
+             @dragend="dragend"
+             @dragenter="dragenter"
+             @dragexit="dragexit"
+             @dragleave="dragleave"
+             @dragover="dragover"
+             @dragstart="dragstart"
+             @drop="drop"
+             v-bind:id="item.id"
+             style="background-color: #fff; margin-bottom: 40px; cursor: move;"
         >
           {{item.status}}
-          <button draggable="true"
-                  v-on:dragstart="dragstart"
-                  v-on:dragover="dragover"
-                  v-on:dragleave="onDragLeave"
-                  v-on:drop="onDrop"
-                  v-on:draged="dragend"
-                  v-on:dragenter="dragenter"
-                  v-bind:id="item.id"
-                  style="background-color: #fff; margin-bottom: 40px;">
-            {{item.name}}
+          {{item.name}}
+
+          <button draggable="false">
+             // {{item.name}}
           </button>
+
 
         </div>
       </div>
@@ -63,8 +69,9 @@
         trade_content : true,
         auto_trade_option: true,
         dragged:null,
-
+        drag_target:null,
         drag_status_ing: false,
+
       }
     },
     methods: {
@@ -77,37 +84,46 @@
         }
         this.trade_data.splice(2, 0, data)
       },
-      onDragLeave(e){
-        console.log('onDragLeave', e)
-        e.target.style.background = "white";
-        e.target.style.opacity = 1;
-      },
-      dropHandler(e){
-        // console.log('dropHandler', e)
-      },
-      dragstart(e){
-        this.dragged = e.target;
-        e.target.style.opacity = .5;
-        console.log('dragstart', e)
+      drag(e){
+        // console.log('drag', e)
       },
       dragend(e){
         e.target.style.opacity = 1;
       },
-      dragover(e){
-        console.log('dragHandler', e)
-      },
+
       dragenter(e){
 
         e.target.style.background = "blue";
+
         // e.target.addClass = "item_over";
         console.log('ondragover', e)
       },
-      onDrop(e){
+      dragexit(e){
 
-        e.target.parentNode.removeChild( this.dragged );
-        e.target.appendChild( this.dragged );
-        console.log('onDrop', e)
-        alert(1)
+        console.log('dragexit', e)
+      },
+
+      dragleave(e){
+        console.log('onDragLeave', e)
+        e.target.style.background = "green";
+        e.target.style.opacity = 1;
+      },
+      dragover(e){
+        e.preventDefault()
+      },
+      dragstart(e){
+        this.dragged = e.target;
+        console.log(this.dragged)
+
+
+        e.target.style.display = 'hidden';
+      },
+      drop(e){
+        e.preventDefault();
+        e.target.style.background = "purple";
+
+        e.target.before( this.dragged );
+
       }
     }
 
