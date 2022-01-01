@@ -37,14 +37,14 @@ function send_server(data_id, payload){
   setTimeout(() => {
 
 
-  let list_data = STORE.state.list_data
-  let result = get_position_from_item_id(data_id)
+    let list_data = STORE.state.list_data
+    let result = get_position_from_item_id(data_id)
 
-  if(rating_extraction(result.item_data).includes('?')){
-    // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
-    console.log('???????????????????????????????????????????????????????????????????????????????????')
-    // bridge.emit('eval-item', obj );
-  }
+    if(rating_extraction(result.item_data).includes('?')){
+      // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
+      console.log('???????????????????????????????????????????????????????????????????????????????????')
+      // bridge.emit('eval-item', obj );
+    }
 
   }, 5000);
 
@@ -89,40 +89,95 @@ let STORE = new Vuex.Store({
 
 
     list_data: [],
+    trade_data2:{
+      use:[
+        {
+          id: 'test1',
+          name:'용의 파괴자 카루이 절단기 1',
+          process:'done',
+          status: true,
+        },
+        {
+          id: 'test2',
+          name:'태풍 꼬챙이 원석 검 2',
+          process:'ing',
+          status: true,
+        },
+        {
+          id: 'test4',
+          name:'강풍의 꼬임 성채 활 4',
+          process:'before',
+          status: true,
+        },
+      ],
+      unused:[
+        {
+          id: 'test3',
+          name:'마음의 바늘 아로새긴 마법봉 3',
+          process:'before',
+          status: false,
+        },
+        {
+          id: 'test5',
+          name:'슬픔의 갈망 에조미어 도끼 5',
+          process:'before',
+          status: false,
+        },
+        {
+          id: 'test6',
+          name:'슬픔의 갈망 에조미어 도끼 6',
+          process:'before',
+          status: false,
+        },
+        {
+          id: 'test7',
+          name:'슬픔의 갈망 에조미어 도끼 7',
+          process:'before',
+          status: false,
+        }
+      ],
+    },
     trade_data: [
       {
         id: 'test1',
         name:'용의 파괴자 카루이 절단기 1',
+        process:'done',
         status: true,
       },
       {
         id: 'test2',
         name:'태풍 꼬챙이 원석 검 2',
-        status: 'ing',
+        process:'ing',
+        status: true,
       },
       {
         id: 'test3',
         name:'마음의 바늘 아로새긴 마법봉 3',
+        process:'before',
         status: false,
       },
       {
         id: 'test4',
         name:'강풍의 꼬임 성채 활 4',
-        status: false,
+        process:'before',
+        status: true,
       },
       {
         id: 'test5',
         name:'슬픔의 갈망 에조미어 도끼 5',
+        process:'before',
         status: false,
       },
       {
         id: 'test6',
         name:'슬픔의 갈망 에조미어 도끼 6',
+        process:'before',
         status: false,
       },
       {
         id: 'test7',
         name:'슬픔의 갈망 에조미어 도끼 7',
+        process:'before',
         status: false,
       }
 
@@ -188,13 +243,13 @@ let STORE = new Vuex.Store({
 
     },
 
-     add_item (context, payload) {
-       let item_id = shortid.generate()
+    add_item (context, payload) {
+      let item_id = shortid.generate()
 
-       return send_server(item_id, payload)
+      return send_server(item_id, payload)
 
 
-     }
+    }
 
   }
 })
