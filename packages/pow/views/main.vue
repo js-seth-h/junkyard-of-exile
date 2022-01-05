@@ -69,8 +69,10 @@
         return this.$store.state.list_data
       },
       trade_data(){
-        console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
-        return this.$store.state.trade_data
+        // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
+        // return this.$store.state.trade_data
+
+        return this.$store.state.list_data
       },
 
       storage_data(){

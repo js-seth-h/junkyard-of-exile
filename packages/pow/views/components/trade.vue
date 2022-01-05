@@ -13,11 +13,10 @@
           hide-details
       ></v-switch>
     </div>
-    <button @click="trade_data_splice" style="background-color: yellow"> splice </button>
-    <br />
+
+    <button @click="filter_drag_data" style="background-color: yellow"> drag_data add </button>
     {{trade_data}}
-    <br />
-    dragged: {{dragged}}
+
     <div class="trade_content" v-show="trade_content" style="margin-left: 50px; display: flex">
 
       <div id="trade_use" style="display: inline-block;">
@@ -111,7 +110,13 @@ export default {
 
     }
   },
+
   methods: {
+    filter_drag_data(){
+      // let trade_data = this.$store.state.trade_data
+      console.log('trade_data', this.trade_data)
+    },
+
     get_trade_data_for_id(id){
       let trade_data = this.$store.state.trade_data
 
@@ -126,15 +131,6 @@ export default {
       //   }
       // };
 
-    },
-    trade_data_splice(){
-      // 중간에 삽입
-      let data = {
-        id: 'test11',
-        name:'마음의 바늘 아로새긴 마법봉 11',
-        status: false,
-      }
-      this.trade_data.splice(2, 0, data)
     },
     drag(e){
       // console.log('drag', e)
@@ -184,10 +180,10 @@ export default {
       // if(! e.target.id.includes('wrap')){
       //   // 내부 컨텐츠만
       //
-      //   // var make_blank_div = document.removeElement('div');
+      //   // let make_blank_div = document.removeElement('div');
       //
       //   console.log('22222222222222222222222222222222222222222', e)
-      //   var chk_blank_div = document.getElementById('blank_div');
+      //   let chk_blank_div = document.getElementById('blank_div');
       //
       //
       //
@@ -229,7 +225,7 @@ export default {
 
       console.log('drop000000000000000000000000000000000000',e)
 
-      var target_id = status
+      let target_id = status
       if (status === undefined) {
         status = null
         target_id = e.target.id
@@ -239,26 +235,12 @@ export default {
       if (e.target.id.match("drag")){
         return;
       }
-
-      // var data = e.dataTransfer.getData("text");
-      // e.target.appendChild(document.getElementById(data));
-      // stop();
-
-
-      console.log('e.dataTransfer.getData',e.dataTransfer.getData('text'))
-      // alert(2222222222222222)
       e.preventDefault();
-      console.log('onDrop', e)
 
       let trade_data = this.$store.state.trade_data
       let trade_data2 = this.$store.state.trade_data2
-      console.log('trade_data2', this.$store.state.trade_data2)
-      console.log('trade_data', this.$store.state.trade_data)
 
       let status_data = null
-
-      // var dragged_id = e.dataTransfer.getData('text')
-      // dragged_id = this.dragged.id
 
       if(e.target.parentNode.parentNode.id === 'trade_use'){
         status_data = true
@@ -269,100 +251,75 @@ export default {
         console.log('222222222222222222222222222222222')
         status_data = false
       }
+      console.log('e.target.parentNode.parentNode.id', e.target.parentNode.parentNode.id , 'status_data === true', status_data)
 
-      console.log('dragged', this.dragged.id)
-      console.log('e.target.id', e.target.id)
-      console.log('isNaN(status_data)', status_data)
       if(status_data !== null){
         console.log('3333333333333333333333333333333333333333')
-        this.$store.state.trade_data = trade_data.map(
+        trade_data = trade_data.map(
             p => p.id !== this.dragged.id ? p : {...p, status: status_data }
         )
-
         console.log('trade_data', trade_data)
-
-        // trade_data2 = trade_data2.map(
-        //     p => p.id !== e.target.id ? p : {...p, status: status_data}
-        // )
       }
 
-      console.log(trade_data.map(p => p.id === this.dragged.id))
-      // if()
-      //값의 변경이 잘 되었는지 확인 후 html 추가
-      // e.target.before( this.dragged.html );
+      if(status_data === true){
+        // e.target.parentNode.parentNode.id === 'trade_use'
 
-
-
-      console.log('444444444444444444444444444444444e.target', e.target.parentNode.parentNode.id)
-      if(e.target.parentNode.parentNode.id === 'trade_use'){
-
-        console.log('444444444444444444444444444444444')
-        // e.target.after( this.dragged.html );
-        // 배열 순서를 바꿔야겠음
-
-        console.log('trade_data.lastIndexOf(e.target.id)', trade_data.lastIndexOf(e.target.id))
-
-        // const isLargeNumber = (element) => element === e.target.id;
-
-
-        // console.log('test', trade_data.map((value,index)=> {if( value.id === e.target.id){ return index} }));
+        console.log('444444444444444444444444444444444e.target', e.target.parentNode.parentNode.id)
         let target_entry = null
         let dragged_entry = null
-        for (const [key, val] of Object.entries(trade_data)){
+
+        trade_data.flatMap((val, inx) =>{
           if(target_id === val.id){
-            // if(e.target.id === val.id){
-
-            target_entry = key
+            dragged_entry = inx
           }
-
           if(this.dragged.id === val.id){
-            dragged_entry = key
+            target_entry = inx
           }
+        })
 
-        }
-        console.log('dragged_item', dragged_entry)
-        let dragged_item = this.$store.state.trade_data.splice(dragged_entry, 1);
-        let target_item = this.$store.state.trade_data.splice(target_entry, 1);
+        const arr = trade_data;
+        [arr[target_entry], arr[dragged_entry]] = [arr[dragged_entry], arr[target_entry]];
 
-        console.log('dragged_item', dragged_item[0], 'target_item', target_item[0])
-        this.$store.state.trade_data.splice(target_entry, 1, dragged_item[0], target_item[0]);
+        this.$store.state.trade_data = trade_data
 
-        console.log('this.$store.state.trade_data', this.$store.state.trade_data)
+        console.log('this.$store.state.trade_data-----------splice', this.$store.state.trade_data)
 
-      }else if(e.target.parentNode.parentNode.id === 'trade_unused'){
+
+      }else if(status_data === false){
+        // e.target.parentNode.parentNode.id === 'trade_unused'
         console.log('555555555555555555555555555555555555')
-        if(target_id !== this.dragged.id){
+        // if(target_id !== this.dragged.id){
+          console.log('6666666666666666666666666666666666666')
           // if(e.target.id !== this.dragged.id){
 
 
-          // let test = null
-          // this.$store.state.trade_data = trade_data.map(
-          //     p => p.id !== this.dragged.id ? p : test = p
-          // )
-          // console.log('test', test)
-          // this.$store.state.trade_data.push()
-
           let dragged_entry = null
-          for (const [key, val] of Object.entries(trade_data)) {
-            if(this.dragged.id === val.id){
-              dragged_entry = key
+          let target_entry = null
+          trade_data.flatMap((val, inx) =>{
+            if(target_id === val.id){
+              dragged_entry = inx
             }
-          }
-          let dragged_item = this.$store.state.trade_data.splice(dragged_entry, 1);
 
-          // this.$store.state.trade_data.splice(dragged_entry, 1);
-          this.$store.state.trade_data.push(dragged_item[0])
+            if(this.dragged.id === val.id){
+              target_entry = inx
+            }
+          })
 
+        let dragged_item = trade_data.splice(target_entry , 1);
+        trade_data.push(dragged_item[0])
+
+          this.$store.state.trade_data = trade_data
           console.log('this.$store.state.trade_data11111', this.$store.state.trade_data)
 
 
 
-        }
+        // }
       }else{
         console.log('6666666666666666666666666666666')
 
         // e.target.append( this.dragged.html );
       }
+      // this.$store.state.trade_data = trade_data
       console.log('trade_data11111', trade_data)
       console.log('trade_data222222', this.$store.state.trade_data)
 

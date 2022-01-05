@@ -17,7 +17,105 @@ import shortid from 'shortid'
 Vue.use(Vuex)
 
 
+function add_error(result){
+  let exist = false
+  let num = 1
+  let error_data_test = {
+    id : result.id,
+    num: num
+  }
 
+  let exit_electron = false
+
+
+  STORE.state.error_occurred.map((val, inx) =>{
+    if(val.id === result.id){
+      console.log('error is exist')
+      val.num  = val.num + 1
+      exist = true
+    }
+    if(val.num >= 3){
+
+      // alert('error is bigger then 3')
+      console.log('error is bigger then 3',val.num)
+      // exist = true
+    }
+  })
+
+  if(!exist){
+    let error_data = {
+      id : result.id,
+      num: num
+    }
+
+    STORE.state.error_occurred.push(error_data)
+  }
+  console.log('STORE.state.error_occurred3', STORE.state.error_occurred)
+  // console.log('test',  STORE.state.error_occurred)
+
+
+}
+
+
+function server_eval_item(res, obj){
+
+  let list_data = STORE.state.list_data
+  let stat  = true
+  list_data.map(x => {
+    if(x.id === obj.id){
+      console.log('res: ', res, 'obj: ', obj)
+      console.log('동일한 id 입니다')
+      stat = false
+      x = res
+
+    }
+  })
+
+  STORE.state.list_data = list_data
+
+  console.log('eval_list_data', list_data)
+  console.log('eval_list_data', STORE.state.list_data)
+
+  if(stat){
+    STORE.commit('add_item', res)
+  }
+
+  bridge.emit('eval-item', obj );
+
+  let error_stat = false
+  setTimeout(() => {
+
+
+    // let result = get_position_from_item_id(data_id)
+    let result = get_position_from_item_id(obj.id)
+    let error_stat = false
+    if(rating_extraction(result.item_data).includes('?')){
+      // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
+      console.log('???????????????????????????????????????????????????????????????????????????????????', result)
+
+      add_error(result)
+
+      error_stat = true
+
+      // bridge.emit('eval-item', obj );
+    }else{
+      list_data.map(x=>{
+        if(x.id === obj.id){
+          x.item_data = result.item_data
+        }
+      })
+    }
+
+
+    console.log('error_stat', error_stat)
+    if(error_stat){
+      server_eval_item(res, obj)
+    }
+
+  }, 3000);
+
+
+}
 
 function send_server(data_id, payload){
   var obj  = {id: data_id}
@@ -28,30 +126,9 @@ function send_server(data_id, payload){
 
   let res = Object.assign(obj,{'item_data': parsed_data})
 
-  STORE.commit('add_item', res)
-  // 전송
-  // return bridge.emit('eval-item', obj );
-  bridge.emit('eval-item', obj );
-
-
-  setTimeout(() => {
-
-
-    let list_data = STORE.state.list_data
-    let result = get_position_from_item_id(data_id)
-
-    if(rating_extraction(result.item_data).includes('?')){
-      // setTimeout(() => {bridge.emit('eval-item', obj )}, 1000);
-      console.log('???????????????????????????????????????????????????????????????????????????????????')
-      // bridge.emit('eval-item', obj );
-    }
-
-  }, 5000);
-
+  server_eval_item(res, obj)
 
 }
-
-
 
 function rating_extraction(item_data){
   //parced data에서 rating을 추출
@@ -87,7 +164,7 @@ bridge.on('eval-result', (evaluate_result) => {
 let STORE = new Vuex.Store({
   state: {
 
-
+    error_occurred:[],
     list_data: [],
     trade_data2:{
       use:[
