@@ -14,15 +14,17 @@
 .header.off{
   background-color:#b5ffff;
 }
-.content_wrapper{
+.wrapper{
  display: flex;
+
+  min-height: 100vh;
   width: 100%;
   justify-content: space-between;
 }
 
-.content_wrapper .lnb,
-.content_wrapper .contents,
-.content_wrapper .search_trade{
+.wrapper .lnb,
+.wrapper .contents,
+.wrapper .search_trade{
   display: block;
 
 }
@@ -49,10 +51,15 @@
 /*  margin-top:unset;*/
 /*}*/
 
+.contents_wrap{
+  width: 100%;
+}
 /********** content *********/
 .contents{
-  height: 2000px;
-  width: 100%;
+
+  height: 100%;
+  /*height: 2000px;*/
+  /*width: 100%;*/
   text-align: center;
   /*background:#000 url(https://web.poecdn.com/image/layout/scourge-bg.jpg?1632689269280) no-repeat top center fixed;*/
   /*background:#000 url(/assets/img/scourge-bg.jpg) no-repeat top center;*/
@@ -168,7 +175,8 @@
 /*trade start*/
 .trade{
   background-color: red;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   bottom: 0;
 }
 /*trade end*/

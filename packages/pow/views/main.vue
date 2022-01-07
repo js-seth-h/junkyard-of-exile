@@ -10,7 +10,7 @@
     </div>
 
 
-    <div class="content_wrapper">
+    <div class="wrapper">
 
 
       <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
@@ -18,25 +18,26 @@
       </div>
       <!-- lnb end -->
 
+      <div class="contents_wrap">
+        <div class="contents" style="color: #fff">
+          <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
+          <div v-else> item is not exist</div>
 
-      <div class="contents" style="color: #fff">
-        <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
-        <div v-else> item is not exist</div>
+          <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
+          <div v-else> empty result</div>
+        </div>
+        <!-- end contents -->
 
-        <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
-        <div v-else> empty result</div>
+        <!-- start trade -->
+        <div class="trade">
+          <Trade :trade_data="trade_data" ></Trade>
+        </div>
+        <!-- end trade -->
+
       </div>
-      <!-- end contents -->
-
     </div>
     <!-- end contest_wrapper -->
 
-    <!-- start trade -->
-    <div class="trade">
-      <Trade :trade_data="trade_data" ></Trade>
-    </div>
-
-    <!-- end trade -->
 
 
   </div>

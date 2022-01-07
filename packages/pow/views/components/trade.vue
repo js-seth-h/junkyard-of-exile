@@ -2,17 +2,16 @@
   <div class="trade_wrap" id="trade_wrap" >
 
     <!--    <v-app>-->
-
+    trade_content :{{trade_content}} <br />
     <button class="trade_btn" @click="trade_content = !trade_content"> + </button>
-    <div class="wrapper">
-      {{auto_trade_option}}
+    <br />
+    auto_trade_option : {{auto_trade_option}}
       <v-switch
           v-model="auto_trade_option"
           label="auto ranking"
           color="red darken-3"
           hide-details
       ></v-switch>
-    </div>
 
     <button @click="filter_drag_data" style="background-color: yellow"> drag_data add </button>
     {{trade_data}}
