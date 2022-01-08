@@ -1,0 +1,41 @@
+#trade .wrap{
+  background-color: gray;
+}
+.trade_content_draggable_wrap{
+  display: flex;
+  width: 100%;
+}
+
+.trade_done, .trade_ing{
+  display: block;
+}
+.trade_use, .trade_unused{
+  display: block;
+  width: 50%;
+  min-height: 350pxpx;
+  background-color: green;
+  cursor: move;
+}
+
+.trade_use{
+  margin: 1% 0.5% 1% 0.5%;
+}
+.trade_unused {
+  margin: 1% 0.5% 1% 0.5%;
+}
+.trade_item{
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  argin-bottom: 40px;
+}
+/**/
+.normal{
+  background-color: #fff;
+}
+.item_over{
+  background-color: blue;
+}
+.item_drag_ing{
+  opacity: .5;
+}

@@ -58,6 +58,7 @@
 
 
   import '../assets/css/main.css';
+  import '../assets/css/trade.css';
 
   import * as R from 'ramda'
 
@@ -71,9 +72,9 @@
       },
       trade_data(){
         // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
-        // return this.$store.state.trade_data
+        return this.$store.state.trade_data
 
-        return this.$store.state.list_data
+        // return this.$store.state.list_data
       },
 
       storage_data(){

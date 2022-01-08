@@ -1,76 +1,125 @@
 <template>
-  <div class="trade_wrap" id="trade_wrap" >
+  <div class="trade_wrap" id="trade" >
 
     <!--    <v-app>-->
-    trade_content :{{trade_content}} <br />
-    <button class="trade_btn" @click="trade_content = !trade_content"> + </button>
-    <br />
-    auto_trade_option : {{auto_trade_option}}
+    <button class="trade_btn" @click="trade_content = !trade_content"> +++++ btn </button>
       <v-switch
           v-model="auto_trade_option"
           label="auto ranking"
           color="red darken-3"
           hide-details
       ></v-switch>
+    collapse...
+    <button @click="filter_drag_data" style="background-color: yellow"> drag_data filter btn </button>
+    <div class="wrap">
+      <div class="trade_content _wrap" v-show="trade_content">
 
-    <button @click="filter_drag_data" style="background-color: yellow"> drag_data add </button>
-    {{trade_data}}
-
-    <div class="trade_content" v-show="trade_content" style="margin-left: 50px; display: flex">
-
-      <div id="trade_use" style="display: inline-block;">
-        <div
-            v-if="item.status === true" v-for="(item, key) of trade_data"
-            :key="key"
-            v-bind:id="'wrap_'+item.id"
-        >
-          <div class="trade_item"
-
-               draggable="true"
-               @drag="drag"
-               @dragend="dragend"
-               @dragenter="dragenter"
-               @dragexit="dragexit"
-               @dragleave="dragleave"
-               @dragover="dragover"
-               @dragstart="dragstart"
-               @drop="drop"
-               v-bind:id="item.id"
+        <div id="trade_done" class="trade_done " >
+          trade_done:
+          <div
+              v-if="item.status === true && item.process === 'done'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id"
           >
-            process: {{item.process}}//
-            status: {{item.status}}//
-            {{item.name}}
+            <div class="trade_item"
+                 v-bind:id="item.id"
+            >
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+              </div>
 
           </div>
+        </div>
 
+        <div id="trade_ing" class="trade_ing " >
+          trade_done:
+          <div
+              v-if="item.status === true && item.process === 'ing'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id"
+          >
+            <div class="trade_item"
+                 v-bind:id="item.id"
+            >
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+            </div>
 
+          </div>
         </div>
       </div>
-      <div id="trade_unused" style="display: inline-block;">
-        <div v-if="item.status === false" v-for="(item, key) of trade_data" :key="key"
-        >
-          <div class="trade_item"
 
-               v-bind:id="item.id"
-               draggable="true"
-               @drag="drag"
-               @dragend="dragend"
-               @dragenter="dragenter"
-               @dragexit="dragexit"
-               @dragleave="dragleave"
-               @dragover="dragover"
-               @dragstart="dragstart"
-               @drop="drop"
-          >
-            process: {{item.process}}//
-            status: {{item.status}}//
-            {{item.name}}
+      <div class="trade_content_draggable_wrap"
+        v-show="trade_content"
+      >
+
+        <div id="trade_use"
+          class="trade_use trade_content"
+          draggable="true"
+
+          @drag="drag"
+          @dragend="dragend"
+          @dragenter="dragenter"
+          @dragexit="dragexit"
+          @dragleave="dragleave"
+          @dragover="dragover"
+          @dragstart="dragstart"
+          @drop="drop"
+        >
+          trade_use:
+          <div
+              v-if="item.status === true && item.process === 'before'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id">
+            <div class="trade_item"
+              draggable="true"
+              v-bind:id="item.id">
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+
+            </div>
+
 
           </div>
+        </div>
+        <div id="trade_unused"
+             class="trade_unused trade_content"
+             draggable="true"
+             @drag="drag"
+             @dragend="dragend"
+             @dragenter="dragenter"
+             @dragexit="dragexit"
+             @dragleave="dragleave"
+             @dragover="dragover"
+             @dragstart="dragstart"
+             @drop="drop"
+        >
+
+          trade_unused:
+          <div v-if="item.status === false  && item.process === 'before'"
+               v-for="(item, key) of trade_data"
+               :key="key"
+          >
+            <div class="trade_item"
+                 draggable="true"
+              v-bind:id="item.id">
+
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+
+            </div>
 
 
 
 
+          </div>
         </div>
       </div>
     </div>
@@ -80,6 +129,8 @@
 </template>
 
 <script>
+
+
 export default {
   name: "trade",
   props:{
@@ -220,35 +271,35 @@ export default {
       console.log('dragstart', e)
     },
     // drop(e){
-    drop(e, status) {
+    drop(e) {
+      let target_id = e.target.id
 
-      console.log('drop000000000000000000000000000000000000',e)
-
-      let target_id = status
-      if (status === undefined) {
-        status = null
-        target_id = e.target.id
-      }
-
-      e.preventDefault();
-      if (e.target.id.match("drag")){
-        return;
-      }
-      e.preventDefault();
+      let dragged_data = this.dragged.id
 
       let trade_data = this.$store.state.trade_data
       let trade_data2 = this.$store.state.trade_data2
 
       let status_data = null
 
-      if(e.target.parentNode.parentNode.id === 'trade_use'){
+      console.log('drop000000000000000000000000000000000000',e)
+
+      if (e.target.id.match("drag")){
+        return;
+      }
+      e.preventDefault();
+
+
+      // child contents
+      if(e.target.parentNode.parentNode.id === 'trade_use' || e.target.id === 'trade_use'){
         status_data = true
         console.log('11111111111111111111111111111111')
-      }else{
+      }else if(e.target.parentNode.parentNode.id === 'trade_unused' || e.target.id === 'trade_unused'){
         // trade_unused
 
         console.log('222222222222222222222222222222222')
         status_data = false
+      }else{
+        return
       }
       console.log('e.target.parentNode.parentNode.id', e.target.parentNode.parentNode.id , 'status_data === true', status_data)
 
@@ -259,11 +310,8 @@ export default {
         )
         console.log('trade_data', trade_data)
       }
-
       if(status_data === true){
-        // e.target.parentNode.parentNode.id === 'trade_use'
 
-        console.log('444444444444444444444444444444444e.target', e.target.parentNode.parentNode.id)
         let target_entry = null
         let dragged_entry = null
 
@@ -276,39 +324,43 @@ export default {
           }
         })
 
-        const arr = trade_data;
-        [arr[target_entry], arr[dragged_entry]] = [arr[dragged_entry], arr[target_entry]];
 
+        if (e.target.id === 'trade_use'){
+          console.log('99999999999999999999999999999999999')
+          let dragged_item = trade_data.splice(target_entry , 1);
+          trade_data.push(dragged_item[0])
+
+        }else{
+
+          console.log('444444444444444444444444444444444e.target', e.target.parentNode.parentNode.id)
+
+          let arr = trade_data;
+          [arr[target_entry], arr[dragged_entry]] = [arr[dragged_entry], arr[target_entry]];
+        }
         this.$store.state.trade_data = trade_data
-
-        console.log('this.$store.state.trade_data-----------splice', this.$store.state.trade_data)
 
 
       }else if(status_data === false){
         // e.target.parentNode.parentNode.id === 'trade_unused'
         console.log('555555555555555555555555555555555555')
-        // if(target_id !== this.dragged.id){
-          console.log('6666666666666666666666666666666666666')
-          // if(e.target.id !== this.dragged.id){
 
+        let dragged_entry = null
+        let target_entry = null
+        trade_data.flatMap((val, inx) =>{
+          if(target_id === val.id){
+            dragged_entry = inx
+          }
 
-          let dragged_entry = null
-          let target_entry = null
-          trade_data.flatMap((val, inx) =>{
-            if(target_id === val.id){
-              dragged_entry = inx
-            }
-
-            if(this.dragged.id === val.id){
-              target_entry = inx
-            }
-          })
+          if(this.dragged.id === val.id){
+            target_entry = inx
+          }
+        })
 
         let dragged_item = trade_data.splice(target_entry , 1);
         trade_data.push(dragged_item[0])
 
-          this.$store.state.trade_data = trade_data
-          console.log('this.$store.state.trade_data11111', this.$store.state.trade_data)
+        this.$store.state.trade_data = trade_data
+        console.log('this.$store.state.trade_data11111', this.$store.state.trade_data)
 
 
 
@@ -323,7 +375,7 @@ export default {
       console.log('trade_data222222', this.$store.state.trade_data)
 
 
-    }
+    },
   }
 
 }

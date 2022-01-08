@@ -231,7 +231,7 @@ let STORE = new Vuex.Store({
         id: 'test3',
         name:'마음의 바늘 아로새긴 마법봉 3',
         process:'before',
-        status: false,
+        status: true,
       },
       {
         id: 'test4',

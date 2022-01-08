@@ -68,15 +68,6 @@
   background-color: rgba(255,255,255,.08);
 }
 
-.trade_item{
-  padding: 10px;
-  margin: 10px;
-  background-color: #fff;
-  argin-bottom: 40px;
-  cursor: move;
-}
-
-
 
 #blank_div.blank_div{
   margin: 10px;
