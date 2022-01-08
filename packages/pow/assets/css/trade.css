@@ -1,41 +1,120 @@
-#trade .wrap{
-  background-color: gray;
+#trade{
+  /*background-color: #E59500;*/
+  /*background-color: #D17A22;*/
+  /*800000*/
+  background-color: #800000;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  box-shadow: 0px -10px 20px #000;
+  /*box-shadow: 0px -5px 10px #BA1200;*/
+  /*padding-top: 10px;*/
 }
-.trade_content_draggable_wrap{
+
+
+
+
+#trade .wrap{
+  /*margin-top: 20px;*/
+  /*box-shadow: 0px -5px 10px #3e0000;*/
+
+
+
+  /*background-color: #2f3238;*/
+  /*border-top: 1px solid #031927;*/
+  /*box-shadow: 0px -5px 10px #d17a22;*/
+
+
+  /*border-top: 3px solid #D17A22;*/
+  /*background-color: #02040F;*/
+
+}
+#trade .wrap, #trade .theme--light.v-expansion-panels .v-expansion-panel{
+  background-color: #002642;
+  color: #E5DADA ;
+}
+
+
+
+#trade .v-expansion-panel-content__wrap{
+  display: block;
+  width: 100%;
+  /*padding: unset;*/
+  padding: 0 10px 10px 10px;
+}
+
+#trade .contents_draggable_wrap{
   display: flex;
   width: 100%;
 }
 
-.trade_done, .trade_ing{
+#trade .trade_done, .trade_ing{
   display: block;
 }
-.trade_use, .trade_unused{
-  display: block;
-  width: 50%;
-  min-height: 350pxpx;
-  background-color: green;
-  cursor: move;
+#trade .trade_ing .trade_item{
+  /*border: 2px dashed #ddd;*/
+  background-color: transparent;
+  padding: unset;
+  margin: unset;
 }
 
-.trade_use{
-  margin: 1% 0.5% 1% 0.5%;
+#trade .trade_use, .trade_unused{
+  display: block;
+  width: 50%;
+  min-height: 350px;
+  background-color: #031927;
+  /*background-color: #800000;*/
+  /*border: 1px solid #E5DADA;*/
+  cursor: move;
+
+  box-shadow: inset 0px 0px 10px #051621;
 }
-.trade_unused {
-  margin: 1% 0.5% 1% 0.5%;
+
+#trade .trade_use{
+  margin: 1% 0.5% 1% 0%;
 }
-.trade_item{
+#trade .trade_unused {
+  margin: 1% 0% 1% 0.5%;
+}
+
+#trade .trade_item{
+
   padding: 10px;
   margin: 10px;
-  background-color: #fff;
-  argin-bottom: 40px;
+  background-color: #840032;
+  /*border:1px solid  #60130a;*/
+
+  /*background-color: #60130a;*/
+  /*border:1px solid #350c07;*/
+
+  color: #E5DADA;
+
 }
+
+#trade .v-expansion-panel-header{
+  background-color: #800000;
+  width: 100%;
+}
+
+#trade .v-expansion-panel-header.sub_panel{
+  background-color: transparent;
+  /*border-top: 5px solid #800000;*/
+}
+#trade .trade_content_wrap, #trade .draggable_wrap{
+
+  border-bottom: 5px solid #800000;
+}
+
 /**/
-.normal{
-  background-color: #fff;
-}
-.item_over{
+/*.normal{*/
+/*  background-color: #fff;*/
+/*}*/
+#trade .item_over{
   background-color: blue;
 }
-.item_drag_ing{
+#trade .item_drag_ing{
   opacity: .5;
 }
+
+
+

@@ -1,11 +1,13 @@
 <template>
-  <div id="navigation">
+  <div>
   <v-app>
 
 
-    <div v-if="storage_data !== undefined" v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
+    <div class="nav_item storage"  v-if="storage_data !== undefined" v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
       <v-tooltip right>
         <template v-slot:activator="{ on, attrs }">
+          <img class="item_img" :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+item.item_data.basetype.img" alt="">
+
           <button @click="remove_bookmark(storage_item)">
             remove
           </button>
@@ -25,10 +27,15 @@
     <div>-----------------------------</div>
 
     <button @click="remove_all">remove all item</button>
-    <div v-if="list_data !== undefined"  v-for="(item, key) of list_data" :key="key">
+    <div class="nav_item normal" v-if="list_data !== undefined"  v-for="(item, key) of list_data" :key="key">
+      S+,S,A,B,C,D,F
+      <i class="fas fa-arrow-right"></i>
+      <br />
       <v-tooltip right>
-        <template v-slot:activator="{ on, attrs }">
-          <button @click="add_bookmark(item)">
+        <template v-slot:activator="{ on, attrs }" style="color: #fff">
+          <img class="item_img" :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+item.item_data.basetype.img" alt="">
+
+          <button class="bookmark_btn" @click="add_bookmark(item)">
             add
           </button>
           <p v-if="item.rating != 'undefined'">
@@ -39,7 +46,7 @@
           <button
               v-bind="attrs"
               v-on="on"
-              class="nav_con"
+              class="nav_con_name"
               @click="emit_id(item.id)">
             {{item.item_data.header.lines[2]}} {{item.item_data.header.lines[3]}}
           </button>

@@ -13,7 +13,7 @@
     <div class="wrapper">
 
 
-      <div class="lnb" class="off" :class="show_gnb === false?'off' : ''">
+      <div id="navigation" :class="show_gnb === false?'off' : ''">
         <Navigation :list_data="list_data" @emited_id="on_selected_id"></Navigation>
       </div>
       <!-- lnb end -->
@@ -29,7 +29,7 @@
         <!-- end contents -->
 
         <!-- start trade -->
-        <div class="trade">
+        <div class="trade" id="trade" >
           <Trade :trade_data="trade_data" ></Trade>
         </div>
         <!-- end trade -->
@@ -58,6 +58,7 @@
 
 
   import '../assets/css/main.css';
+  import '../assets/css/navigation.css';
   import '../assets/css/trade.css';
 
   import * as R from 'ramda'
