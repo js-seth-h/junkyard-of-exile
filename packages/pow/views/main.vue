@@ -13,7 +13,7 @@
     <div class="wrapper">
 
 
-      <div id="navigation" :class="show_gnb === false?'off' : ''">
+      <div id="navigation" :class="show_gnb === false?'off' : 'on'">
         <Navigation :list_data="list_data" @emited_id="on_selected_id"></Navigation>
       </div>
       <!-- lnb end -->
