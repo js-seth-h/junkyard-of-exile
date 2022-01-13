@@ -1,168 +1,130 @@
 <template>
-  <div class="trade_wrap" >
+  <div class="trade_wrap" id="trade" >
 
-<!--    <v-expansion-panels-->
-<!--        v-model="panel"-->
-<!--        :disabled="disabled"-->
-<!--        multiple-->
-<!--    >-->
-    <v-expansion-panels
-        multiple
-    >
-    <v-expansion-panel>
+    <!--    <v-app>-->
+    <div class="top_area">
+      <button class="trade_btn" @click="trade_content = !trade_content"> +++++ btn </button>
+      <v-switch
+          v-model="auto_trade_option"
+          label="auto ranking"
+          color="red darken-3"
+          hide-details
+      ></v-switch>
+      collapse...
+      <button @click="filter_drag_data" style="background-color: yellow"> drag_data filter btn </button>
+    </div>
+    <div class="wrap">
+      <div class="trade_content _wrap" v-show="trade_content">
 
-      <!--    <v-app>-->
-      <div class="top_area">
-
-        <v-expansion-panel-header>
-          <div id="trade_ing" class="trade_ing" >
-            <div
-                v-if="item.status === true && item.process === 'ing'"
-                v-for="(item, key) of trade_data"
-                :key="key"
-                v-bind:id="'wrap_'+item.id"
+        <div id="trade_done" class="trade_done " >
+          trade_done:
+          <div
+              v-if="item.status === true && item.process === 'done'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id"
+          >
+            <div class="trade_item"
+                 v-bind:id="item.id"
             >
-              <div class="trade_item"
-                   v-bind:id="item.id"
-              >
-                process: {{item.process}}//
-                status: {{item.status}}//
-                {{item.name}}
-              </div>
-
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
             </div>
+
           </div>
-        </v-expansion-panel-header>
+        </div>
+
+        <div id="trade_ing" class="trade_ing " >
+          trade_done:
+          <div
+              v-if="item.status === true && item.process === 'ing'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id"
+          >
+            <div class="trade_item"
+                 v-bind:id="item.id"
+            >
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+            </div>
+
+          </div>
+        </div>
       </div>
-      <v-expansion-panel-content>
-        <div class="wrap">
-          <div class="trade_content_wrap">
 
-            <div id="trade_done" class="trade_done " >
+      <div class="trade_content_draggable_wrap"
+           v-show="trade_content"
+      >
 
-              <v-expansion-panel>
-                <v-expansion-panel-header class="sub_panel">trade_done:</v-expansion-panel-header>
-                <v-expansion-panel-content>
-                  <div
-                      v-if="item.status === true && item.process === 'done'"
-                      v-for="(item, key) of trade_data"
-                      :key="key"
-                      v-bind:id="'wrap_'+item.id"
-                  >
-                    <div class="trade_item"
-                         v-bind:id="item.id"
-                    >
-                      process: {{item.process}}//
-                      status: {{item.status}}//
-                      {{item.name}}
-                    </div>
+        <div id="trade_use"
+             class="trade_use trade_content"
+             draggable="true"
 
-                  </div>
-                </v-expansion-panel-content>
-              </v-expansion-panel>
+             @drag="drag"
+             @dragend="dragend"
+             @dragenter="dragenter"
+             @dragexit="dragexit"
+             @dragleave="dragleave"
+             @dragover="dragover"
+             @dragstart="dragstart"
+             @drop="drop"
+        >
+          trade_use:
+          <div
+              v-if="item.status === true && item.process === 'before'"
+              v-for="(item, key) of trade_data"
+              :key="key"
+              v-bind:id="'wrap_'+item.id">
+            <div class="trade_item"
+                 draggable="true"
+                 v-bind:id="item.id">
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
+
             </div>
 
 
-<!--            <div id="trade_ing" class="trade_ing " >-->
-<!--              trade_ing:-->
-<!--              <div-->
-<!--                  v-if="item.status === true && item.process === 'ing'"-->
-<!--                  v-for="(item, key) of trade_data"-->
-<!--                  :key="key"-->
-<!--                  v-bind:id="'wrap_'+item.id"-->
-<!--              >-->
-<!--                <div class="trade_item"-->
-<!--                     v-bind:id="item.id"-->
-<!--                >-->
-<!--                  process: {{item.process}}//-->
-<!--                  status: {{item.status}}//-->
-<!--                  {{item.name}}-->
-<!--                </div>-->
-
-<!--              </div>-->
-<!--            </div>-->
           </div>
+        </div>
+        <div id="trade_unused"
+             class="trade_unused trade_content"
+             draggable="true"
+             @drag="drag"
+             @dragend="dragend"
+             @dragenter="dragenter"
+             @dragexit="dragexit"
+             @dragleave="dragleave"
+             @dragover="dragover"
+             @dragstart="dragstart"
+             @drop="drop"
+        >
 
-          <v-expansion-panel class="draggable_wrap">
-            <v-expansion-panel-header class="sub_panel">dragable trades</v-expansion-panel-header>
-            <v-expansion-panel-content>
-              <div class="contents_draggable_wrap"
-              >
+          trade_unused:
+          <div v-if="item.status === false  && item.process === 'before'"
+               v-for="(item, key) of trade_data"
+               :key="key"
+          >
+            <div class="trade_item"
+                 draggable="true"
+                 v-bind:id="item.id">
 
+              process: {{item.process}}//
+              status: {{item.status}}//
+              {{item.name}}
 
-                <div id="trade_use"
-                  class="trade_use trade_content"
-                  draggable="true"
-
-                  @drag="drag"
-                  @dragend="dragend"
-                  @dragenter="dragenter"
-                  @dragexit="dragexit"
-                  @dragleave="dragleave"
-                  @dragover="dragover"
-                  @dragstart="dragstart"
-                  @drop="drop"
-                >
-                  trade_use:
-                  <div
-                      v-if="item.status === true && item.process === 'before'"
-                      v-for="(item, key) of trade_data"
-                      :key="key"
-                      v-bind:id="'wrap_'+item.id">
-                    <div class="trade_item"
-                      draggable="true"
-                      v-bind:id="item.id">
-                      process: {{item.process}}//
-                      status: {{item.status}}//
-                      {{item.name}}
-
-                    </div>
-
-
-                  </div>
-                </div>
-                <div id="trade_unused"
-                     class="trade_unused trade_content"
-                     draggable="true"
-                     @drag="drag"
-                     @dragend="dragend"
-                     @dragenter="dragenter"
-                     @dragexit="dragexit"
-                     @dragleave="dragleave"
-                     @dragover="dragover"
-                     @dragstart="dragstart"
-                     @drop="drop"
-                >
-
-                  trade_unused:
-                  <div v-if="item.status === false  && item.process === 'before'"
-                       v-for="(item, key) of trade_data"
-                       :key="key"
-                  >
-                    <div class="trade_item"
-                         draggable="true"
-                      v-bind:id="item.id">
-
-                      process: {{item.process}}//
-                      status: {{item.status}}//
-                      {{item.name}}
-
-                    </div>
+            </div>
 
 
 
 
-                  </div>
-                </div>
-              </div>
-
-            </v-expansion-panel-content>
-          </v-expansion-panel>
-
-
-        </v-expansion-panel-content>
-      </v-expansion-panel>
-    </v-expansion-panels>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!--    </v-app>-->
   </div>
@@ -189,6 +151,7 @@ export default {
   data() {
     return {
       // 컨텐츠 영역 열고닫기 버튼 조작
+      trade_content : true,
       auto_trade_option: true,
       dragged:{
         id: null,
