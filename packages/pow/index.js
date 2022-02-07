@@ -25,7 +25,7 @@ Vue.use( Vuetify )
 import bridge from 'exterra/bridge'
 import trader from 'exterra/trader'
 import example from 'exterra/example'
-import PTF from 'ptf3'
+import PTF from 'ptf4'
 import J from 'jsl'
 import DCON_ENV from 'deco-console/env'
 

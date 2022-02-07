@@ -10,7 +10,7 @@ import RA from 'ramda-adjunct'
 import bridge from 'exterra/bridge.coffee'
 
 import trader from 'exterra/trader.coffee'
-import PTF from 'ptf3/index.coffee'
+import PTF from 'ptf4/index.coffee'
 import shortid from 'shortid'
 
 

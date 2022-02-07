@@ -3,7 +3,7 @@ RA = require 'ramda-adjunct'
 dcon = require('deco-console')(__filename)
 
 axios = require 'axios'
-PTF = require 'ptf3'
+PTF = require 'ptf4'
 
 search = (ptf_parsed)->
   postdata = PTF.forTrade ptf_parsed
