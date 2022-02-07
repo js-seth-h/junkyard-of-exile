@@ -6,6 +6,7 @@
   /*width: 50%;*/
   transition-duration: 0.8s;
   transition-property: all;
+  overflow: hidden;
   color: #fff8e1;
 
   width: 0%;
@@ -27,9 +28,33 @@
 #navigation.off > *{
   /*color: transparent;*/
   /*width: 0%;*/
-  display: none;
+  /*display: none;*/
 }
-#navigation .item_img{
+
+#navigation .nav_wrap{
+  min-width: 200px;
+}
+
+
+#navigation .nav_wrap .nav_item{
+}
+#navigation .nav_wrap .search_wrap{
+  display: flex;
+}
+#navigation .nav_wrap .search_wrap .select_level_combobox{
+  padding: unset;
+  width: 70%;
+}
+
+#navigation .nav_wrap .search_wrap .search_btn {
+  width: 30%;
+  border: 1px solid #ddd;
+  /*height: 60px;*/
+  margin-left: 1rem;
+  height: 40px;
+  margin-top: 20px;
+}
+#navigation .nav_wrap .nav_item .item_img{
   width: 30px;
 }
 #navigation .bookmark_btn{

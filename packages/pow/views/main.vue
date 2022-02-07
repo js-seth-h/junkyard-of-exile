@@ -3,6 +3,7 @@
 <!--    <div class="header" @scroll="header_action" >-->
 
     <div class="header" :class="show_header === false?'off' : ''">
+      <div class="header_title">Junkyard of Exile</div>
       header
       <button @click="show_gnb = !show_gnb" >gnb</button>
       //
