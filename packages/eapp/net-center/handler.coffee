@@ -62,7 +62,7 @@ PK = {}
 PK['REAL'] =
   # NOTE 절대 비밀 정보를 넣지 말것
   clientId: 'GNLVthqCf49GAa9jaDbGZioqk3xvz0QoAcPkWKR3WbI5087O1Um68INjPTLVd5kQ'
-  redirect: 'http://150.95.202.40:5000/patreon/redirect'
+  redirect: 'http://54.151.203.228:5000/patreon/redirect'
 
 PK['LOCAL_TEST'] =
   # NOTE 절대 비밀 정보를 넣지 말것
