@@ -10,6 +10,7 @@
   width: 100%;
   top: 0;
   z-index: 3;
+  padding: 15px 20px;
 
 }
 .header.off{
@@ -18,7 +19,17 @@
 .header_title{
   color: #fff;
   font-size: 1.8rem;
+  margin-left: 5rem;
+}
+.nav_btn{
+  font-size: 1.8rem;
+}
+.nav_btn.on{
+  color: green
+}
 
+.nav_btn.off{
+  color: blue;
 }
 .wrapper{
  display: flex;
