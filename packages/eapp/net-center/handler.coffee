@@ -54,6 +54,9 @@ FE.on 'app-start', catchErr (data)->
 FE.on 'eval-item', catchErr (data)->
   dcon.F.debug 'eval-item', data
   SV.send data
+FE.on 'eval-ptf4', catchErr (data)->
+  dcon.F.debug 'eval-ptf4', data
+  SV.send data
 SV.on 'eval-result', catchErr (data)->
   dcon.F.debug 'eval-result', data
   FE.send data

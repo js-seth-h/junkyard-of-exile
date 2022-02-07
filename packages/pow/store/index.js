@@ -80,7 +80,7 @@ function server_eval_item(res, obj){
     STORE.commit('add_item', res)
   }
 
-  bridge.emit('eval-item', obj );
+  bridge.emit('eval-ptf4', obj );
 
   let error_stat = false
   setTimeout(() => {
