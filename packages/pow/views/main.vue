@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-<!--    <div class="header" @scroll="header_action" >-->
+    <!--    <div class="header" @scroll="header_action" >-->
 
     <div class="header" :class="show_header === false?'off' : ''">
       <div class="left">
@@ -48,160 +48,160 @@
 </template>
 <script>
 
-  // import axios from "axios"
+// import axios from "axios"
 
-  // import list_data from "../settings/list_data";
-
-
-  import Dialog from "./dialog.vue";
-  import Item from "./components/item.vue";
-  import Navigation from "./components/navigation.vue"
-  import Item_result from "./components/item_result.vue"
-  import Trade from "./components/trade.vue"
+// import list_data from "../settings/list_data";
 
 
+import Dialog from "./dialog.vue";
+import Item from "./components/item.vue";
+import Navigation from "./components/navigation.vue"
+import Item_result from "./components/item_result.vue"
+import Trade from "./components/trade.vue"
 
-  import '../assets/css/main.css';
-  import '../assets/css/navigation.css';
-  import '../assets/css/trade.css';
 
-  import * as R from 'ramda'
 
-  export default {
-    name: 'Main',
-    components: {Dialog, Item, Item_result, Navigation, Trade},
-    computed: {
-      list_data(){
-        console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
-        return this.$store.state.list_data
-      },
-      trade_data(){
-        // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
-        return this.$store.state.trade_data
+import '../assets/css/main.css';
+import '../assets/css/navigation.css';
+import '../assets/css/trade.css';
 
-        // return this.$store.state.list_data
-      },
+import * as R from 'ramda'
 
-      storage_data(){
-        console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))
-        return JSON.parse(localStorage.getItem('storage_data'))
-      }
+export default {
+  name: 'Main',
+  components: {Dialog, Item, Item_result, Navigation, Trade},
+  computed: {
+    list_data(){
+      console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
+      return this.$store.state.list_data
     },
-    data(){
-      return{
-        // drawer: null,
-        //gnb 노출 셋팅
-        // drawer: null,
-        drawer: null,
-        // textarea 보여주기 세팅
-        show_textarea : true,
+    trade_data(){
+      // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
+      return this.$store.state.trade_data
 
-
-
-        writed_item:'',
-
-        selected_data: {},
-
-        // 스크롤의 마지막 위치
-        last_scroll_postion: 0,
-        // header on off
-        show_header: true,
-
-        //gnb on off
-        show_gnb: false,
-
-        // 출력 옵션 컨트롤 - 미구현
-        seq_order: true,
-
-
-      }
+      // return this.$store.state.list_data
     },
 
-    mounted() {
-
-      // list_data:{
-      //   return this.$store.state.list_data
-      //   // }
-      // },
-      window.addEventListener("scroll", this.onScroll, false)
-    },
-    beforeDestroy() {
-      window.removeEventListener("scroll", this.onScroll, false)
-    },
-    methods: {
-      on_selected_id(id){
-        // emit에서 받은 데이터
-        console.log('id------------', id)
-        let stat = false
-        for(let data of this.list_data){
-          if(id === data.id){
-            console.log('!!!!!!!!!!!!!', data)
-            this.selected_data = data
-            stat = true
-          }
-        }
-        if(stat === false){
-          for(let data of this.storage_data){
-            if(id === data.id){
-              console.log('!!!!!!!!!!!!22222!', data)
-              this.selected_data = data
-            }
-          }
-        }
-      },
-
-      onScroll(e) {
-        // let st = (window.pageYOffset || document.documentElement.scrollTop);
-        let st = window.top.scrollY
-        // console.log('event', e )
-        let value = true
-        if(this.last_scroll_postion > st ){
-        //  scroll up
-        //   console.log('scroll up', st);
-          value = true
-        }
-        //up 스크롤시 lnb display none
-        // else{
-        // //  scroll down
-        // //   console.log('scroll down', st);
-        //   value = false
-        //   this.show_gnb = false
-        // }
-
-        if(value !== this.show_header){
-          this.show_header = value
-        }
-        this.last_scroll_postion = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+    storage_data(){
+      console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))
+      return JSON.parse(localStorage.getItem('storage_data'))
+    }
+  },
+  data(){
+    return{
+      // drawer: null,
+      //gnb 노출 셋팅
+      // drawer: null,
+      drawer: null,
+      // textarea 보여주기 세팅
+      show_textarea : true,
 
 
-      },
 
+      writed_item:'',
 
-      get_data(){
-        let data = false
-        if(data){
-          console.log('call data pass -- data exist')
-        }else{
-          console.log('call data block -- data not exist -- call wall')
-          this.call_dialog_event()
-        }
-      },
+      selected_data: {},
 
-      call_dialog_event(){
-      // 다이얼로그 이벤트 call
-        alert('call dialog')
-        return true
+      // 스크롤의 마지막 위치
+      last_scroll_postion: 0,
+      // header on off
+      show_header: true,
 
-      },
+      //gnb on off
+      show_gnb: false,
 
+      // 출력 옵션 컨트롤 - 미구현
+      seq_order: true,
 
-    },
-    watch: {
 
     }
+  },
 
+  mounted() {
+
+    // list_data:{
+    //   return this.$store.state.list_data
+    //   // }
+    // },
+    window.addEventListener("scroll", this.onScroll, false)
+  },
+  beforeDestroy() {
+    window.removeEventListener("scroll", this.onScroll, false)
+  },
+  methods: {
+    on_selected_id(id){
+      // emit에서 받은 데이터
+      console.log('id------------', id)
+      let stat = false
+      for(let data of this.list_data){
+        if(id === data.id){
+          console.log('!!!!!!!!!!!!!', data)
+          this.selected_data = data
+          stat = true
+        }
+      }
+      if(stat === false){
+        for(let data of this.storage_data){
+          if(id === data.id){
+            console.log('!!!!!!!!!!!!22222!', data)
+            this.selected_data = data
+          }
+        }
+      }
+    },
+
+    onScroll(e) {
+      // let st = (window.pageYOffset || document.documentElement.scrollTop);
+      let st = window.top.scrollY
+      // console.log('event', e )
+      let value = true
+      if(this.last_scroll_postion > st ){
+        //  scroll up
+        //   console.log('scroll up', st);
+        value = true
+      }
+      //up 스크롤시 lnb display none
+      // else{
+      // //  scroll down
+      // //   console.log('scroll down', st);
+      //   value = false
+      //   this.show_gnb = false
+      // }
+
+      if(value !== this.show_header){
+        this.show_header = value
+      }
+      this.last_scroll_postion = st <= 0 ? 0 : st; // For Mobile or negative scrolling
+
+
+    },
+
+
+    get_data(){
+      let data = false
+      if(data){
+        console.log('call data pass -- data exist')
+      }else{
+        console.log('call data block -- data not exist -- call wall')
+        this.call_dialog_event()
+      }
+    },
+
+    call_dialog_event(){
+      // 다이얼로그 이벤트 call
+      alert('call dialog')
+      return true
+
+    },
+
+
+  },
+  watch: {
 
   }
+
+
+}
 </script>
 
 <style>
