@@ -1,23 +1,60 @@
 #navigation{
-  padding: 10px 20px;
   /*background-color: #800000;*/
   background-color: #000000;
 
-  border-right: 8px solid #3e0000;
 
-  width: 50%;
+  /*width: 50%;*/
+  transition-duration: 0.8s;
+  transition-property: all;
+  overflow: hidden;
   color: #fff8e1;
 
-  box-shadow: 5px 0px 15px #000;
-  z-index: 5;
+  width: 0%;
 
   /*min-width: 350px;*/
+  /*transition: all ease 2s 0s;*/
 }
-#navigation.off{
-  display: none;
+#navigation.on{
 
+  padding: 10px 20px;
+  border-right: 8px solid #3e0000;
+  box-shadow: 5px 0px 15px #000;
+  width: 50%;
+
+  /*transition-duration: 4s;*/
+  /*transition-property: all;*/
 }
-#navigation .item_img{
+
+#navigation.off > *{
+  /*color: transparent;*/
+  /*width: 0%;*/
+  /*display: none;*/
+}
+
+#navigation .nav_wrap{
+  min-width: 200px;
+}
+
+
+#navigation .nav_wrap .nav_item{
+}
+#navigation .nav_wrap .search_wrap{
+  display: flex;
+}
+#navigation .nav_wrap .search_wrap .select_level_combobox{
+  padding: unset;
+  width: 70%;
+}
+
+#navigation .nav_wrap .search_wrap .search_btn {
+  width: 30%;
+  border: 1px solid #ddd;
+  /*height: 60px;*/
+  margin-left: 1rem;
+  height: 40px;
+  margin-top: 20px;
+}
+#navigation .nav_wrap .nav_item .item_img{
   width: 30px;
 }
 #navigation .bookmark_btn{

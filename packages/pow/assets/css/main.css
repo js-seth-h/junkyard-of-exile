@@ -15,6 +15,11 @@
 .header.off{
   background-color:#b5ffff;
 }
+.header_title{
+  color: #fff;
+  font-size: 1.8rem;
+
+}
 .wrapper{
  display: flex;
 
@@ -34,6 +39,8 @@
 .contents_wrap{
   width: 100%;
 }
+
+
 /********** content *********/
 .contents{
 

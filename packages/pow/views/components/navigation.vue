@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="nav_wrap">
   <v-app>
 
 
@@ -24,15 +24,33 @@
       </v-tooltip>
     </div>
 <!-- 즐겨찾기 end -->
+
+
     <div>-----------------------------</div>
+
+    <div class="search_wrap">
+      <div class="select_level_combobox">
+      <v-combobox
+          v-model="selected_level"
+          :items="level"
+          label="Choose an item that includes level type."
+          multiple
+          chips
+
+      ></v-combobox>
+      </div>
+      <button class="search_btn">검색하기</button>
+    </div>
 
     <button @click="remove_all">remove all item</button>
     <div class="nav_item normal" v-if="list_data !== undefined"  v-for="(item, key) of list_data" :key="key">
       S+,S,A,B,C,D,F
       <i class="fas fa-arrow-right"></i>
       <br />
+
       <v-tooltip right>
         <template v-slot:activator="{ on, attrs }" style="color: #fff">
+
           <img class="item_img" :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+item.item_data.basetype.img" alt="">
 
           <button class="bookmark_btn" @click="add_bookmark(item)">
@@ -88,6 +106,8 @@
     data() {
       return {
         storage_data: JSON.parse(localStorage.getItem('storage_data')),
+        selected_level:[],
+        level: ['S+','S','A','B','C','D','F'],
 
       }
     },
