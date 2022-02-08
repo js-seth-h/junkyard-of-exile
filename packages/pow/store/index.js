@@ -80,7 +80,7 @@ function server_eval_item(res, obj){
     STORE.commit('add_item', res)
   }
 
-  bridge.emit('eval-ptf4', obj );
+  bridge.emit('eval-ptf4', obj.be_msg );
 
   let error_stat = false
   setTimeout(() => {
@@ -122,7 +122,7 @@ function send_server(data_id, payload){
   let parsed_data = payload
 
   // 서버로 보낼 패킷 작성
-  obj = Object.assign(obj, PTF.forBackend(parsed_data))
+  obj.be_msg = PTF.forBackend(parsed_data)
 
   let res = Object.assign(obj,{'item_data': parsed_data})
 
@@ -291,6 +291,7 @@ let STORE = new Vuex.Store({
 
 
       // 서버에서 반환된 평가 데이터(Rating)을 아이템 데이터에 반영
+      console.log('applyEval', match_key_data, evaluate_result)
       PTF.applyEvaluate(match_key_data.item_data, evaluate_result);
 
       // 서버에서 반환된 rating 추출
