@@ -45,10 +45,13 @@ FE.on 'app-start', catchErr (data)->
   # CTX.MY_ID = data.client_id
 
   rule = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/metric-equip.json'
-  client_string = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/client-string.json'
-  item_classes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/item-classes.json'
-  basetypes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/basetypes.json'
-  ref_data = {client_string, item_classes, basetypes}
+  # client_string = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/client-string.json'
+  # item_classes = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/item-classes.json'
+  BASETYPES = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/basetypes.json'
+  KEYWORDS = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/keyword.json'
+  MOD_WORDS = await nxJsonFs.read path.join MONO_REPO_DIR, 'ref-data/mod_words.json'
+
+  ref_data = {MOD_WORDS, KEYWORDS, BASETYPES}
   FE.send {evt: 'app-ready', rule, ref_data }
 
 FE.on 'eval-item', catchErr (data)->

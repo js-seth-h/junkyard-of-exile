@@ -43,7 +43,7 @@ async function readyWebsock() {
   let [data] = await J.waitOnce(bridge, 'app-ready')
   let {rule, ref_data} = data
   console.log(rule)
-  PTF.setRefData(rule, ref_data)
+  PTF.setRefData(ref_data)
   PTF.setLang('Korean')
   bridge.on('add-item', (data)=>{
     console.log('readyWebsock-> ', {data})
