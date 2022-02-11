@@ -1,6 +1,7 @@
 dcon = require('deco-console')(__filename)
 R = require 'ramda'
 RA = require 'ramda-adjunct'
+CC = require 'change-case'
 
 MM = require './mod-matcher'
 
@@ -16,16 +17,25 @@ class Builder
       fullness: "not yet measure"
     }
     @found_num = 0
-  toEng: (it)->
-    @refs.KEYWORDS['English'][it]
-  toI18n: (it)->
+  toFieldName: (it)=>
+    dcon.F.debug 'toFieldName', it 
+    for own eng, code of @refs.KEYWORDS['English']
+      if code is it 
+        return CC.snakeCase eng 
+    return 'UNKNOWN_FIELD'
+
+
+  toI18n: (it)=>
     reserved_word = @refs.KEYWORDS[@use_lang][it]
     reserved_word ?= @refs.KEYWORDS['English'][it]
     return reserved_word
-  toI18nList: (words)->
-    dcon.F.debug 'words', words
-    words.map (it)=> @toI18n it
-
+  toI18nList: (words)=>
+    dcon.F.debug 'toI18nList:: words', words
+    list = words.map (it)=> 
+      w = @toI18n it
+      return w or it 
+    dcon.F.debug 'toI18nList:: to list', list
+    return list
   feed: (blk)->
     lines = R.split '\n', blk
     dcon.F.debug 'lines', lines
@@ -61,9 +71,13 @@ class Builder
       blk_type: 'header', lines
     }
 
-    [_, item_class] = @toI18nList trimAll R.split ':', lines[0]
-    [_, rarity] = @toI18nList trimAll R.split ':', lines[1]
-    is_rare = rarity is 'ItemDisplayStringRare'
+
+    dcon.F.debug 'setHeader lines[0]', lines[0], trimAll R.split ':', lines[0]
+    dcon.F.debug 'setHeader lines[0]', @toI18nList trimAll R.split ':', lines[0]
+
+    [_, item_class] = trimAll R.split ':', lines[0]
+    [_, rarity] = trimAll R.split ':', lines[1]
+    is_rare = 'ItemDisplayStringRare' is @toI18n rarity
     name = lines[2]
     base_type = lines[3] if is_rare
     Object.assign blk, {
@@ -72,6 +86,7 @@ class Builder
       item_class
       base_type
     }
+    @item.is_rare = is_rare
     @item.block_order.push blk.blk_type
     @item[blk.blk_type] = blk
 
@@ -82,7 +97,7 @@ class Builder
     for ln in lines
       if R.includes ':', ln
         [name, value] = @toI18nList trimAll R.split ':', ln
-        blk[@toEng name] = value
+        blk[@toFieldName name] = value
     @item.block_order.push blk.blk_type
     @item[blk.blk_type] = blk
 
@@ -101,7 +116,7 @@ class Builder
     }
     for ln in R.tail lines
       [name, value] = @toI18nList trimAll R.split ':', ln
-      blk[@toEng name] = if /^\d+$/.test value
+      blk[@toFieldName name] = if /^\d+$/.test value
         parseInt value
       else
         value
