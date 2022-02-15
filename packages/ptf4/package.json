@@ -1,6 +1,9 @@
 {
   "name": "ptf4",
   "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT"
+  "main": "index",
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^4.1.2"
+  }
 }

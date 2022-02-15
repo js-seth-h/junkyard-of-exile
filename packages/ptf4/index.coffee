@@ -30,6 +30,7 @@ class Facade
     bt = @refs.BASETYPES.find (bt)=> 
       bt.i18n[@lang] is builder.item.header.base_type
     builder.item.basetype = bt 
+    # builder.item.header.item_class = bt.class_name
     return builder.item 
 
   forBackend: (item_data)->
@@ -62,6 +63,20 @@ class Facade
         r[1]
       else
         "X"
+
+  forTrade: (item_data)->
+    # 우선 고정 처리
+    return result =
+      sort: price: 'asc'
+      query: {
+        filters:
+          type_filters: {
+            filters:  rarity:"option": "rare"
+            disabled: false
+          }
+        status: option: "online" 
+        stats:[{"type":"and","filters":[{"id":"pseudo.pseudo_total_cold_resistance"}]}]
+      }
 
 
 module.exports = exports = new Facade
