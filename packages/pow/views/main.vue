@@ -7,10 +7,14 @@
         <div class="header_title">Junkyard of Exile</div>
         <button class="nav_btn" :class="show_gnb === false?'off' : 'on'" @click="show_gnb = !show_gnb" >gnb</button>
       </div>
-      //
+
       <div class="right">
         <button @click="seq_order = !seq_order">seq_order = {{seq_order}}</button>
+        <Dialog_trade_controller></Dialog_trade_controller>
+        <button @click="trade_ctl = !trade_ctl">Trade_controller</button>
       </div>
+
+
     </div>
 
 
@@ -24,18 +28,23 @@
 
       <div class="contents_wrap">
         <div class="contents" style="color: #fff">
+          <div v-if="trade_ctl === false">
           <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
           <div v-else> item is not exist</div>
 
           <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
           <div v-else> empty result</div>
         </div>
+        <div v-else>
+          <Trade_controller id="trade_controller"></Trade_controller>
+        </div>
+
         <!-- end contents -->
 
         <!-- start trade -->
-        <div class="trade" id="trade" >
-          <Trade :trade_data="trade_data" ></Trade>
-        </div>
+<!--        <div class="trade" id="trade" >-->
+<!--          <Trade :trade_data="trade_data" ></Trade>-->
+<!--        </div>-->
         <!-- end trade -->
 
       </div>
@@ -54,6 +63,7 @@
 
 
 import Dialog from "./dialog.vue";
+import Dialog_trade_controller from "./components/dialog/trade_controller"
 import Item from "./components/item.vue";
 import Navigation from "./components/navigation.vue"
 import Item_result from "./components/item_result.vue"
@@ -65,22 +75,24 @@ import '../assets/css/main.css';
 import '../assets/css/navigation.css';
 import '../assets/css/trade.css';
 
+
+
 import * as R from 'ramda'
 
 export default {
   name: 'Main',
-  components: {Dialog, Item, Item_result, Navigation, Trade},
+  components: {Dialog, Dialog_trade_controller, Item, Item_result, Navigation, Trade},
   computed: {
     list_data(){
       console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
       return this.$store.state.list_data
     },
-    trade_data(){
-      // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
-      return this.$store.state.trade_data
-
-      // return this.$store.state.list_data
-    },
+    // trade_data(){
+    //   // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
+    //   return this.$store.state.trade_data
+    //
+    //   // return this.$store.state.list_data
+    // },
 
     storage_data(){
       console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))
@@ -89,6 +101,10 @@ export default {
   },
   data(){
     return{
+
+      //검색 필터 컨트롤 화면
+      trade_ctl: false,
+
       // drawer: null,
       //gnb 노출 셋팅
       // drawer: null,

@@ -79,7 +79,8 @@ function server_eval_item(res, obj){
   if(stat){
     STORE.commit('add_item', res)
   }
-
+  //패킷으로 보낼때 아이디 추가
+  obj.be_msg.id = obj.id
   bridge.emit('eval-ptf4', obj.be_msg );
 
   let error_stat = false
