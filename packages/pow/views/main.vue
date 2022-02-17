@@ -29,14 +29,15 @@
       <div class="contents_wrap">
         <div class="contents" style="color: #fff">
           <div v-if="trade_ctl === false">
-          <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
-          <div v-else> item is not exist</div>
+            <Item v-if="Object.keys(selected_data).length > 0 " :item_data="selected_data.item_data"></Item>
+            <div v-else> item is not exist</div>
 
-          <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
-          <div v-else> empty result</div>
-        </div>
-        <div v-else>
-          <Trade_controller id="trade_controller"></Trade_controller>
+            <Item_result v-if="Object.keys(selected_data).length > 0 " :item_result="selected_data.item_data"></Item_result>
+            <div v-else> empty result</div>
+          </div>
+          <div v-else>
+            <Trade_controller id="trade_controller"></Trade_controller>
+          </div>
         </div>
 
         <!-- end contents -->
