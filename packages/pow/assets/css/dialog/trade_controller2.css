@@ -1,0 +1,73 @@
+/*#trade_controller{*/
+
+/*}*/
+
+/*#trade_controller .wrapper{*/
+/*  display: block;*/
+/*}*/
+
+/*#trade_controller .wrapper .wrap_area{*/
+/*  margin :30px;*/
+/*}*/
+
+/*!* wrap - 블록 생성 영역 *!*/
+/*#trade_controller .wrapper .make_block{*/
+/*  border: 1px solid #ddd;*/
+/*}*/
+/*!* wrap - 블록 컨트롤 영역 *!*/
+/*#trade_controller .wrapper .block_ctl{*/
+/*  border: 1px solid #ddd;*/
+/*}*/
+
+/*!* 블록 컨트롤 드래그 영역 *!*/
+
+/*#trade_controller .wrapper .block_ctl .maked_block_list{*/
+
+/*  border: 1px solid #2196f3;*/
+/*  margin: 20px;*/
+/*}*/
+
+/*!* 블록 컨트롤 드랍영역 *!*/
+/*#trade_controller .wrapper .block_ctl .block_select_used{*/
+
+/*  border: 1px solid #2196f3;*/
+/*  margin: 20px;*/
+/*}*/
+
+/*!* wrap -  지정한 블록 값의 결과 확인 영역 *!*/
+/*#trade_controller .wrapper .block_res_wrap{*/
+/*  border: 1px solid #ddd;*/
+/*}*/
+
+/*#trade_controller .wrapper .block_res_wrap .block_res{*/
+
+/*  display: flex;*/
+/*}*/
+
+/*!* 기존 블록 아이템 리스트 *!*/
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_input{*/
+
+/*  border: 1px solid #32f321;*/
+/*  margin: 20px;*/
+
+/*}*/
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_input .block{*/
+/*  border: 1px solid #ddd;*/
+/*}*/
+/*!* 기존 블록에서 필터링된 아이템 리스트 *!*/
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_output{*/
+
+/*  border: 1px solid #32f321;*/
+/*  margin: 20px;*/
+
+/*}*/
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_output .block{*/
+/*  border: 1px solid #ddd;*/
+/*}*/
+
+
+
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_input,*/
+/*#trade_controller .wrapper .block_res_wrap .block_res .block_res_output{*/
+/*  width: 50%;*/
+/*}*/

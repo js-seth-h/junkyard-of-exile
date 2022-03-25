@@ -3,53 +3,70 @@
 }
 
 #trade_controller .wrapper{
+  display: flex;
+  /*justify-content: space-around;*/
+  width: 100%;
+}
+
+#trade_controller .box_wrap{
+  border: 1px solid #ddd;
+}
+
+
+/* all blocks */
+#trade_controller .filter_box_wrap{
+}
+#trade_controller .filter_box{
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+#trade_controller .filter{
+  border: 1px solid #ddd;
+  margin: 10px;
+}
+
+
+/* selected block + result area*/
+#trade_controller .content{
+  width: 100%;
+}
+#trade_controller .content .selected_block{
+
+  border: 1px solid #dfdfdf;
+}
+#trade_controller .content .result{
+
+}
+
+/* block detail */
+/*#trade_controller .block_detail{*/
+
+/*  transition-duration: 0.7s;*/
+/*  transition-property: all;*/
+/*}*/
+
+#trade_controller .block_detail{
+
+  display: block !important;
+  transition-duration: 0.8s;
+  transition-property: all;
+  overflow: hidden;
+  /*width: 0%;*/
+  /*transition-property: margin-right;*/
+  /*display: block;*/
+  width: 0px;
+
+}
+#trade_controller .block_detail.on{
+  width: 300px;
+
+}
+
+
+
+.btn{
   display: block;
-}
-
-#trade_controller .wrapper .wrap_area{
-  margin :30px;
-}
-
-/* wrap - 블록 생성 영역 */
-#trade_controller .wrapper .make_block{
-  border: 1px solid #ddd;
-}
-/* wrap - 블록 컨트롤 영역 */
-#trade_controller .wrapper .block_ctl{
-  border: 1px solid #ddd;
-}
-
-/* 블록 컨트롤 드래그 영역 */
-
-#trade_controller .wrapper .block_ctl .maked_block_list{
-
-  border: 1px solid #2196f3;
-  margin: 20px;
-}
-
-/* 블록 컨트롤 드랍영역 */
-#trade_controller .wrapper .block_ctl .block_select_used{
-
-  border: 1px solid #2196f3;
-  margin: 20px;
-}
-
-/* wrap -  지정한 블록 값의 결과 확인 영역 */
-#trade_controller .wrapper .block_res{
-  border: 1px solid #ddd;
-}
-
-/* 기존 블록 아이템 리스트 */
-#trade_controller .wrapper .block_res .block_res_input{
-
-  border: 1px solid #32f321;
-  margin: 20px;
-
-}
-/* 기존 블록에서 필터링된 아이템 리스트 */
-#trade_controller .wrapper .block_res .block_res_output{
-
-  border: 1px solid #32f321;
-  margin: 20px;
-
+  border:1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
 }

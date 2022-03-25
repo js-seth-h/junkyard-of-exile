@@ -11,6 +11,7 @@
       <div class="right">
         <button @click="seq_order = !seq_order">seq_order = {{seq_order}}</button>
         <Dialog_trade_controller></Dialog_trade_controller>
+        <Dialog_trade_controller2></Dialog_trade_controller2>
         <button @click="trade_ctl = !trade_ctl">Trade_controller</button>
       </div>
 
@@ -42,11 +43,11 @@
 
         <!-- end contents -->
 
-        <!-- start trade -->
-<!--        <div class="trade" id="trade" >-->
-<!--          <Trade :trade_data="trade_data" ></Trade>-->
-<!--        </div>-->
-        <!-- end trade -->
+         start trade
+        <div class="trade" id="trade" >
+          <Trade :trade_data="trade_data" ></Trade>
+        </div>
+         end trade
 
       </div>
     </div>
@@ -64,6 +65,7 @@
 
 
 import Dialog from "./dialog.vue";
+import Dialog_trade_controller2 from "./components/dialog/trade_controller2"
 import Dialog_trade_controller from "./components/dialog/trade_controller"
 import Item from "./components/item.vue";
 import Navigation from "./components/navigation.vue"
@@ -82,18 +84,18 @@ import * as R from 'ramda'
 
 export default {
   name: 'Main',
-  components: {Dialog, Dialog_trade_controller, Item, Item_result, Navigation, Trade},
+  components: {Dialog, Dialog_trade_controller, Dialog_trade_controller2, Item, Item_result, Navigation, Trade},
   computed: {
     list_data(){
       console.log('----------------------this.$store.state.list_data', this.$store.state.list_data)
       return this.$store.state.list_data
     },
-    // trade_data(){
-    //   // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
-    //   return this.$store.state.trade_data
-    //
-    //   // return this.$store.state.list_data
-    // },
+    trade_data(){
+      // console.log('----------------------this.$store.state.trade_data', this.$store.state.trade_data)
+      return this.$store.state.trade_data
+
+      // return this.$store.state.list_data
+    },
 
     storage_data(){
       console.log('----------------------JSON.parse(localStorage.getItem(\'storage_data\'))', JSON.parse(localStorage.getItem('storage_data')))

@@ -167,54 +167,6 @@ let STORE = new Vuex.Store({
 
     error_occurred:[],
     list_data: [],
-    trade_data2:{
-      use:[
-        {
-          id: 'test1',
-          name:'용의 파괴자 카루이 절단기 1',
-          process:'done',
-          status: true,
-        },
-        {
-          id: 'test2',
-          name:'태풍 꼬챙이 원석 검 2',
-          process:'ing',
-          status: true,
-        },
-        {
-          id: 'test4',
-          name:'강풍의 꼬임 성채 활 4',
-          process:'before',
-          status: true,
-        },
-      ],
-      unused:[
-        {
-          id: 'test3',
-          name:'마음의 바늘 아로새긴 마법봉 3',
-          process:'before',
-          status: false,
-        },
-        {
-          id: 'test5',
-          name:'슬픔의 갈망 에조미어 도끼 5',
-          process:'before',
-          status: false,
-        },
-        {
-          id: 'test6',
-          name:'슬픔의 갈망 에조미어 도끼 6',
-          process:'before',
-          status: false,
-        },
-        {
-          id: 'test7',
-          name:'슬픔의 갈망 에조미어 도끼 7',
-          process:'before',
-          status: false,
-        }
-      ],
-    },
     trade_data: [
       {
         id: 'test1',
@@ -260,6 +212,100 @@ let STORE = new Vuex.Store({
       }
 
     ],
+
+    trade_data_controller:{
+      item_list: [
+        {item_name:'슬픔의 갈망 에조미어 도끼 1'},
+        {item_name:'슬픔의 갈망 에조미어 도끼 2'},
+      ],
+      all_blocks: [
+        {
+          block_name:'내 블록 리스트',
+          filters:[
+            {
+              filter_name:'블록1-0',
+              status: true,
+            },
+            {
+              filter_name:'블록2-0',
+              status: true,
+            },
+          ]
+        },
+        {
+          block_name:'블록_wrap1',
+          filters:[
+            {
+              filter_name:'블록1-1',
+              status: true,
+            },
+            {
+              filter_name:'블록2-1',
+              status: true,
+            },
+          ]
+        },
+        {
+          block_name:'블록_wrap2',
+          filters:[
+            {
+              filter_name:'블록1-2',
+              status: true,
+            },
+            {
+              filter_name:'블록2-2',
+              status: true,
+            },
+          ]
+        },
+
+      ],
+
+      used_filters: [
+        {
+          filter_name:'블록1',
+          status: true,
+        },
+        {
+          filter_name:'블록2',
+          status: true,
+        },
+      ]
+    },
+
+    // trade_data_controller: [
+    //   {
+    //     name:'용의 파괴자 카루이 절단기 1',
+    //     status: true,
+    //   },
+    //   {
+    //     name:'태풍 꼬챙이 원석 검 2',
+    //     status: true,
+    //   },
+    //   {
+    //     name:'마음의 바늘 아로새긴 마법봉 3',
+    //     status: true,
+    //   },
+    //   {
+    //     name:'강풍의 꼬임 성채 활 4',
+    //     status: true,
+    //   },
+    //   {
+    //     name:'슬픔의 갈망 에조미어 도끼 5',
+    //     status: false,
+    //   },
+    //   {
+    //     name:'슬픔의 갈망 에조미어 도끼 6',
+    //     status: false,
+    //   },
+    //   {
+    //     name:'슬픔의 갈망 에조미어 도끼 7',
+    //     status: false,
+    //   }
+    //
+    // ],
+
+
 
 
 

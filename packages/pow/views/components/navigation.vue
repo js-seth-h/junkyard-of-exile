@@ -28,19 +28,7 @@
 
     <div>-----------------------------</div>
 
-    <div class="search_wrap">
-      <div class="select_level_combobox">
-      <v-combobox
-          v-model="selected_level"
-          :items="level"
-          label="Choose an item that includes level type."
-          multiple
-          chips
 
-      ></v-combobox>
-      </div>
-      <button class="search_btn">검색하기</button>
-    </div>
 
     <button @click="remove_all">remove all item</button>
     <div class="nav_item normal" v-if="list_data !== undefined"  v-for="(item, key) of list_data" :key="key">
@@ -106,8 +94,6 @@
     data() {
       return {
         storage_data: JSON.parse(localStorage.getItem('storage_data')),
-        selected_level:[],
-        level: ['S+','S','A','B','C','D','F'],
 
       }
     },

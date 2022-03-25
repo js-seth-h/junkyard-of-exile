@@ -49,94 +49,36 @@
         </v-toolbar-items>
       </v-toolbar>
       <div class="wrapper">
-        <div class="make_block wrap_area">
-          <div>name</div>
-          <div>first select itme</div>
-          <div>second select itme</div>
-          <button class="btn"> save </button>
-          <button>import</button>
-          <button>export</button>
-        </div>
-        <div class="block_ctl wrap_area">
-          <div class="maked_block_list">
-            <div class="block"> 이름2 </div>
-            <div class="block"> 이름3 </div>
-            <div>+</div>
+
+        <div class="filter_box_wrap box_wrap">
+          <div class="filter_box" v-for="(filter_wrap_val,filter_wrap_key) of this.trade_data_controller.all_blocks">
+            {{filter_wrap_val.block_name}}
+            <div class="filter" v-for="(filter_val,filter_key) of filter_wrap_val.filters">
+              {{filter_val.filter_name}}
+              <button class="btn_show_detail btn" @click="swap_active_block_detail(true)">show detail</button>
+            </div>
           </div>
-          <div class="block_select_used">
-            <div class="block"> 이름1 </div>
-          </div>
-          <button class="btn"> save </button>
         </div>
 
-        <div class="block_res wrap_area">
-          <button>run</button>
-          <div class="block_res_input">
-            <p>all block</p>
-            <div class="block"> 이름1 </div>
-            <div class="block"> 이름2 </div>
-            <div class="block"> 이름3 </div>
+        <div class="content box_wrap">
+          <div class="selected_block_wrap">
+            <div class="selected_block">
+              블록4
+              <button class="btn_show_detail btn" @click="swap_active_block_detail(true)">show detail</button>
+            </div>
+            <div class="selected_block">
+              블록5
+              <button class="btn_show_detail btn" @click="swap_active_block_detail(true)">show detail</button>
+            </div>
           </div>
-          <div class="block_res_output">
-            <p>filtered block</p>
-            <div class="block"> 이름1 </div>
-            <div class="block"> 이름2 </div>
-          </div>
+          <div class="result"> res text</div>
+        </div>
+        <div class="block_detail box_wrap" v-show="this.block_detail_show" :class="block_detail_show === false?'off' : 'on'" >
+          <button class="btn" @click="swap_active_block_detail(false)">close detail</button>
+          detail data
         </div>
 
       </div>
-<!--      <v-list-->
-<!--        three-line-->
-<!--        subheader-->
-<!--      >-->
-<!--        <v-subheader>User Controls</v-subheader>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-content>-->
-<!--            <v-list-item-title>Content filtering</v-list-item-title>-->
-<!--            <v-list-item-subtitle>Set the content filtering level to restrict apps that can be downloaded</v-list-item-subtitle>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-content>-->
-<!--            <v-list-item-title>Password</v-list-item-title>-->
-<!--            <v-list-item-subtitle>Require password for purchase or use password to restrict purchase</v-list-item-subtitle>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--      </v-list>-->
-<!--      <v-divider></v-divider>-->
-<!--      <v-list-->
-<!--        three-line-->
-<!--        subheader-->
-<!--      >-->
-<!--        <v-subheader>General</v-subheader>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-action>-->
-<!--            <v-checkbox v-model="notifications"></v-checkbox>-->
-<!--          </v-list-item-action>-->
-<!--          <v-list-item-content>-->
-<!--            <v-list-item-title>Notifications</v-list-item-title>-->
-<!--            <v-list-item-subtitle>Notify me about updates to apps or games that I downloaded</v-list-item-subtitle>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-action>-->
-<!--            <v-checkbox v-model="sound"></v-checkbox>-->
-<!--          </v-list-item-action>-->
-<!--          <v-list-item-content>-->
-<!--            <v-list-item-title>Sound</v-list-item-title>-->
-<!--            <v-list-item-subtitle>Auto-update apps at any time. Data charges may apply</v-list-item-subtitle>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--        <v-list-item>-->
-<!--          <v-list-item-action>-->
-<!--            <v-checkbox v-model="widgets"></v-checkbox>-->
-<!--          </v-list-item-action>-->
-<!--          <v-list-item-content>-->
-<!--            <v-list-item-title>Auto-add widgets</v-list-item-title>-->
-<!--            <v-list-item-subtitle>Automatically add home screen widgets</v-list-item-subtitle>-->
-<!--          </v-list-item-content>-->
-<!--        </v-list-item>-->
-<!--      </v-list>-->
     </v-card>
   </v-dialog>
 </template>
@@ -151,12 +93,31 @@ import '../../../assets/css/dialog/trade_controller.css';
     name: "trade_controller",
     data () {
       return {
+
         dialog: false,
         notifications: false,
         sound: true,
         widgets: false,
+
+
+        block_detail_show :false,
+
       }
     },
+    computed: {
+      trade_data_controller() {
+        console.log('----------------------this.$store.state.list_data', this.$store.state.trade_data_controller)
+        return this.$store.state.trade_data_controller
+      },
+    },
+    methods:{
+      swap_active_block_detail(val){
+        console.log('////', val)
+
+        this.block_detail_show = val;
+        console.log('block_detail_show', this.block_detail_show, '////', val)
+      }
+    }
   }
 
 
