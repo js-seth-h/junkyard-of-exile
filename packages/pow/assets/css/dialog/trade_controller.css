@@ -15,6 +15,7 @@
 
 /* all blocks */
 #trade_controller .filter_box_wrap{
+  min-width: 300px;
 }
 #trade_controller .filter_box{
   border: 1px solid #ddd;
@@ -58,7 +59,7 @@
 
 }
 #trade_controller .block_detail.on{
-  width: 300px;
+  width: 600px;
 
 }
 

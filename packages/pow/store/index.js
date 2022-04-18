@@ -225,10 +225,13 @@ let STORE = new Vuex.Store({
             {
               filter_name:'블록1-0',
               status: true,
+              exp: "F>3.3 and A+>2 and D-<0 and P>2.3",
+
             },
             {
-              filter_name:'블록2-0',
+              filter_name:'블록1-0',
               status: true,
+              exp: "F>3.4 and A+>2 and D-<0 and P>2.3",
             },
           ]
         },
@@ -236,12 +239,14 @@ let STORE = new Vuex.Store({
           block_name:'블록_wrap1',
           filters:[
             {
-              filter_name:'블록1-1',
+              filter_name:'블록2-1',
               status: true,
+              exp: "F>3.5 and A+>2 and D-<0 and P>2.3",
             },
             {
               filter_name:'블록2-1',
               status: true,
+              exp: "F>3.6 and A+>2 and D-<0 and P>2.3",
             },
           ]
         },
@@ -249,12 +254,14 @@ let STORE = new Vuex.Store({
           block_name:'블록_wrap2',
           filters:[
             {
-              filter_name:'블록1-2',
+              filter_name:'블록3-2',
               status: true,
+              exp: "F>3.7 and A+>2 and D-<0 and P>2.3",
             },
             {
-              filter_name:'블록2-2',
+              filter_name:'블록3-2',
               status: true,
+              exp: "F>3.8 and A+>2 and D-<0 and P>2.3",
             },
           ]
         },
@@ -265,10 +272,12 @@ let STORE = new Vuex.Store({
         {
           filter_name:'블록1',
           status: true,
+          exp: "F>3.9 and A+>2 and D-<0 and P>2.3",
         },
         {
           filter_name:'블록2',
           status: true,
+          exp: "F>3.0 and A+>2 and D-<0 and P>2.3",
         },
       ]
     },
