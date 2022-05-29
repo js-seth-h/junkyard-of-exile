@@ -269,16 +269,16 @@ let STORE = new Vuex.Store({
       ],
 
       used_filters: [
-        {
-          filter_name:'블록1',
-          status: true,
-          exp: "F>3.9 / P>2.3 / A+ and D > 2",
-        },
-        {
-          filter_name:'블록2',
-          status: true,
-          exp: "F>3.0 / P>2.3 / A+ and D > 3",
-        },
+        // {
+        //   filter_name:'블록1',
+        //   status: true,
+        //   exp: "F>3.9 / P>2.3 / A+ and D > 2",
+        // },
+        // {
+        //   filter_name:'블록2',
+        //   status: true,
+        //   exp: "F>3.0 / P>2.3 / A+ and D > 3",
+        // },
       ]
     },
 

@@ -128,6 +128,11 @@
               <label for="parsed_data">selected_filter_data.parsed_data :</label>
               <input type="text" style="border:1px solid #fff; color: #fff;" name="parsed_data" id="parsed_data" :value="selected_filter_data.parsed_data">
 
+              ///////////////
+
+              <p>selected_filter_data : {{selected_filter_data}}</p>
+              ///////////////
+              <br /><br />
 
 <!--              5: detail_default_data: {{detail_default_data}}<br />-->
 <!---->
@@ -135,10 +140,10 @@
               <br /><br />
               <div>
                 <label for="data_F">F :</label>
-                <input type="text" style="border:1px solid #fff; color: #fff;" name="data_F" id="data_F" :value="selected_filter_data.parsed_data.F">
+                <input type="text" style="border:1px solid #fff; color: #fff;" name="data_F" id="data_F" v-model="selected_filter_data.parsed_data.F">
                 <br />
                 <label for="data_P">P :</label>
-                <input type="text" style="border:1px solid #fff; color: #fff;" name="data_P" id="data_P" :value="selected_filter_data.parsed_data.P">
+                <input type="text" style="border:1px solid #fff; color: #fff;" name="data_P" id="data_P" v-model="selected_filter_data.parsed_data.P">
 
 
               </div>
@@ -153,12 +158,12 @@
                      style="border:1px solid #fff; color: #fff;"
                      name="slider_data_count"
                      id="slider_data_count"
-                     :value="selected_filter_data.parsed_data.mods.count"
+                     v-model="selected_filter_data.parsed_data.mods.count"
               >
 
               <v-range-slider
                   :tick-labels="detail_default_data.level"
-                  :value="selected_filter_data.parsed_data.mods.slider"
+                  v-model="selected_filter_data.parsed_data.mods.slider"
                   :color="detail_default_data.selected_color"
                   :track-color="detail_default_data.unselected_color"
                   min="0"
@@ -167,6 +172,19 @@
                   tick-size="4"
               >
               </v-range-slider>
+
+<!--              <v-range-slider-->
+<!--                  :tick-labels="detail_default_data.level"-->
+<!--                  :value="selected_filter_data.parsed_data.mods.slider"-->
+<!--                  :color="detail_default_data.selected_color"-->
+<!--                  :track-color="detail_default_data.unselected_color"-->
+<!--                  min="0"-->
+<!--                  max="6"-->
+<!--                  ticks="always"-->
+<!--                  tick-size="4"-->
+<!--              >-->
+<!--              </v-range-slider>-->
+<!--              -->
 
             </div>
             <div v-else>
@@ -436,22 +454,94 @@ export default {
     save_block_detail(){
       let data = this.selected_filter_data
       // let data = this.selected_filter_data
-      console.log('this.selected_filter_data-------------', this.selected_filter_data)
-      console.log('save_block_detail: ' , data)
+      console.log('this.selected_filter_data-------------', data)
       if(data.position !== 'undefined' ){
-
-        this.parsing_exp(data)
 
         if(data.position[0] === null){
           console.log('사용중 필터 - 저장 불가')
         }else{
           console.log('사용중이지 않은 필터 - 저장 가능')
 
-          console.log('data.position[0]', data)
 
-          console.log('selected_filter_data', this.selected_filter_data)
+
+
+          let level = this.slider_level
+
+          let slider_position = []
+
+          console.log(data.parsed_data.mods.slider)
+          data.parsed_data.mods.slider.map(x=>{
+            console.log('x: ', x)
+
+            level.map((val,key)=>{
+
+              console.log('val: ', val, 'key: ', key)
+              if(key === x){
+                slider_position.push(val)
+              }
+            })
+            // position.push(level.indexOf(x))
+            //
+            // for (const slider_position in data.parsed_data.mods.slider) {
+            //   if(slider_position === key){
+            //     after_slider_position.push(val)
+            //   }
+            // }
+          })
+
+          console.log('slider_position', slider_position)
+          data.parsed_data.mods.level = slider_position
+
+
+
+          console.log('this.selected_filter_data-------------2', data)
+
+          let assignd_exp = data_to_exp(data.parsed_data)
+
+          function data_to_exp(data){
+             let F =data.F
+            let P =data.P
+            let level =data.mods.level
+            let count =data.mods.count
+
+
+
+            const assignd_exp = "F>" + F + ' / ' + "P>" + P + ' / ' + level[0] + ' and '+ level[1] + ' > ' + count
+
+            console.log('assignd_exp:', assignd_exp)
+
+            return assignd_exp
+          }
+
+
+          // data.position
+
+          let get_position_from_data = this.$store.state.trade_data_controller.all_blocks[data.position[0]].filters[data.position[1]]
+
+          get_position_from_data.exp = assignd_exp
+
+          console.log('outer assignd_exp', assignd_exp)
+          console.log('get_position_from_data', get_position_from_data)
+
+
+
         }
 
+
+
+      //
+      //   this.parsing_exp(data)
+      //
+      //   if(data.position[0] === null){
+      //     console.log('사용중 필터 - 저장 불가')
+      //   }else{
+      //     console.log('사용중이지 않은 필터 - 저장 가능')
+      //
+      //     console.log('data.position[0]', data)
+      //
+      //     console.log('selected_filter_data', this.selected_filter_data)
+      //   }
+      //>
       }else{
         alert('error occured')
         this.block_detail_show = false;
