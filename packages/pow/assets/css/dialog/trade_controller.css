@@ -62,7 +62,13 @@
   width: 600px;
 
 }
-
+#trade_controller .block_detail.on.full{
+  width: calc(100% - 300px);
+  position: absolute;
+  min-height: 100vh;
+  right: 0;
+  background-color: #000;
+}
 
 
 .btn{

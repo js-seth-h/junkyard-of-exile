@@ -81,8 +81,16 @@
 
 
 
-        <div class="block_detail box_wrap" v-show="block_detail_show" :class="block_detail_show === false?'off' : 'on'" >
-          <button class="btn" @click="selected_filter_data = 'boolean', block_detail_show = false">close detail</button>
+          <div class="block_detail box_wrap" v-show="block_detail_show"
+             :class="[
+                 block_detail_show === false?'off' : 'on' ,
+                 block_detail_fullscreen === false ? '':'full'
+             ]"
+          >
+
+            <button class="btn" @click="block_detail_fullscreen = !block_detail_fullscreen">full Screen :  {{block_detail_fullscreen}}</button>
+
+            <button class="btn" @click="selected_filter_data = 'boolean', block_detail_show = false">close detail</button>
 
           <br />
 <!--          <button  class="btn"  @click="parsing_exp(selected_filter_data)">parsing_exp</button>-->
@@ -217,7 +225,9 @@ export default {
         unselected_color:'gray',
 
       },
+
       block_detail_show :false,
+      block_detail_fullscreen: false,
 
       maked_block:{
         filter_name:'boolean',
