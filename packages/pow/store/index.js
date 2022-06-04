@@ -172,25 +172,25 @@ let STORE = new Vuex.Store({
         id: 'test1',
         name:'용의 파괴자 카루이 절단기 1',
         process:'done',
-        status: true,
+        status: false,
       },
       {
         id: 'test2',
         name:'태풍 꼬챙이 원석 검 2',
         process:'ing',
-        status: true,
+        status: false,
       },
       {
         id: 'test3',
         name:'마음의 바늘 아로새긴 마법봉 3',
         process:'before',
-        status: true,
+        status: false,
       },
       {
         id: 'test4',
         name:'강풍의 꼬임 성채 활 4',
         process:'before',
-        status: true,
+        status: false,
       },
       {
         id: 'test5',
@@ -224,13 +224,13 @@ let STORE = new Vuex.Store({
           filters:[
             {
               filter_name:'블록1-0',
-              status: true,
+              status: false,
               exp: "F>3.3 / P>2.3 / A and D > 1",
 
             },
             {
               filter_name:'블록1-0',
-              status: true,
+              status: false,
               exp: "F>3.4 / P>2.3 / D and D > 2",
             },
           ]
@@ -240,12 +240,12 @@ let STORE = new Vuex.Store({
           filters:[
             {
               filter_name:'블록2-1',
-              status: true,
+              status: false,
               exp: "F>3.5 / P>2.3 / B and D > 2",
             },
             {
               filter_name:'블록2-1',
-              status: true,
+              status: false,
               exp: "F>3.6 / P>2.3 / A and D > 2",
             },
           ]
@@ -255,12 +255,12 @@ let STORE = new Vuex.Store({
           filters:[
             {
               filter_name:'블록3-2',
-              status: true,
+              status: false,
               exp: "F>3.7 / P>2.3 / A+ and D > 2",
             },
             {
               filter_name:'블록3-2',
-              status: true,
+              status: false,
               exp: "F>3.8 / P>2.3 / A+ and D > 2",
             },
           ]
@@ -271,12 +271,12 @@ let STORE = new Vuex.Store({
       used_filters: [
         // {
         //   filter_name:'블록1',
-        //   status: true,
+        //   status: false,
         //   exp: "F>3.9 / P>2.3 / A+ and D > 2",
         // },
         // {
         //   filter_name:'블록2',
-        //   status: true,
+        //   status: false,
         //   exp: "F>3.0 / P>2.3 / A+ and D > 3",
         // },
       ]
@@ -285,19 +285,19 @@ let STORE = new Vuex.Store({
     // trade_data_controller: [
     //   {
     //     name:'용의 파괴자 카루이 절단기 1',
-    //     status: true,
+    //     status: false,
     //   },
     //   {
     //     name:'태풍 꼬챙이 원석 검 2',
-    //     status: true,
+    //     status: false,
     //   },
     //   {
     //     name:'마음의 바늘 아로새긴 마법봉 3',
-    //     status: true,
+    //     status: false,
     //   },
     //   {
     //     name:'강풍의 꼬임 성채 활 4',
-    //     status: true,
+    //     status: false,
     //   },
     //   {
     //     name:'슬픔의 갈망 에조미어 도끼 5',
@@ -325,14 +325,32 @@ let STORE = new Vuex.Store({
     },
     trade_data: (state) => {
       return state.trade_data;
-    }
+    },
+
   },
 
   mutations: {
 
     add_item (state, payload) {
       state.list_data.push(payload)
-    }
+    },
+
+    change_trade_used_filter(state, payload) {
+      // payload = {type, filters}
+      let tdc = state.trade_data_controller
+      if(payload.type === 'block'){
+        // tdc.used_filters = payload.filters
+
+        if (window.confirm("Are you sure you want to change all filter lists??")) {
+          tdc.used_filters = payload.filters
+        }
+
+      }else{
+        tdc.used_filters.push(payload.filters)
+      }
+      return tdc.used_filters
+    },
+
   },
   actions: {
     async update_item_by_server(context, evaluate_result){
@@ -383,7 +401,9 @@ let STORE = new Vuex.Store({
       return send_server(item_id, payload)
 
 
-    }
+    },
+
+
 
   }
 })

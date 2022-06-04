@@ -52,12 +52,19 @@
 
         <div class="filter_box_wrap box_wrap">
           <div>
+            {{this.$store.state.trade_data_controller.used_filters}}
             <button class="btn" @click="show_block_detail('new')">add new</button>
           </div>
           <div class="filter_box" v-for="(filter_wrap_val, filter_wrap_key) of trade_data_controller.all_blocks">
             {{filter_wrap_val.block_name}}
-            <button @click=""> add block</button>
+            <button class="btn"> b_add </button>
+            <button class="btn" @click=""> b_remove </button>
+            <button class="btn" @click=""> b_duplicate </button>
+            <button class="btn"  @click="select_block_or_filter('block', filter_wrap_val, filter_wrap_key)"> b_select </button>
             <div class="filter" v-for="(filter_val, filter_key) of filter_wrap_val.filters">
+
+              <button class="btn" @click=""> f_remove</button>
+              <button class="btn" @click="select_block_or_filter('filter', filter_val, [filter_wrap_key,filter_key])"> f_select </button>
               {{filter_val.filter_name}} <br /> {{filter_val.exp}}
               <button class="btn_show_detail btn"
                       @click="show_block_detail(filter_val, [filter_wrap_key,filter_key])"
@@ -210,6 +217,7 @@
 
 // import '../assets/css/dialog/trade_controller.css';
 import '../../../assets/css/dialog/trade_controller.css';
+import store from "../../../store";
 
 export default {
   name: "trade_controller",
@@ -267,6 +275,37 @@ export default {
   },
   methods:{
 
+    select_block_or_filter(type, val, keys){
+
+      var filters, position = ''
+      console.log('val:', val, 'keys', keys)
+
+      val = JSON.parse(JSON.stringify(val))
+
+      if(type === 'block'){
+        filters = val.filters
+        position = keys
+
+        filters = filters.map( x =>  {
+          x.status = true
+          Object.assign(x, {position:[position]})
+          return x;
+        })
+
+      }else{
+        //filter
+        position = keys
+
+        val.status = true
+        val.position = position
+
+        filters = val
+
+      }
+      this.$store.commit('change_trade_used_filter', {type, filters})
+
+    },
+
     show_block_detail(val, key){
 
       console.log('val: ' , val, '//', 'key: ', key)
@@ -284,17 +323,11 @@ export default {
 
       this.block_detail_show = true;
 
-
-
       // this.selected_filter_data = data
       this.selected_filter_data = Object.assign(data, {position: key})
 
       console.log('%%%%%%%%%%%%%%%%%%%   selected_filter_data ----      ', this.selected_filter_data)
       this.parsing_exp(this.selected_filter_data.exp)
-
-      // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-      // this.make_slide(this.selected_filter_data.exp)
-
 
       console.log('selected_filter_data', this.selected_filter_data)
     },
@@ -516,7 +549,7 @@ export default {
 
           // data.position
 
-          let get_position_from_data = this.$store.state.trade_data_controller.all_blocks[data.position[0]].filters[data.position[1]]
+          const get_position_from_data = this.$store.state.trade_data_controller.all_blocks[data.position[0]].filters[data.position[1]]
 
           get_position_from_data.exp = assignd_exp
 
