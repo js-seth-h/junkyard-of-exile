@@ -66,7 +66,7 @@
 
               <button class="btn" @click=""> f_remove</button>
               <button class="btn" @click="select_block_or_filter('filter', filter_val)"> f_select </button>
-              {{filter_val.filter_name}} <br /> {{filter_val.exp}}
+              {{filter_val.filter_name}} <br /> {{filter_val.exp}} <br /> {{filter_val.status}}
               <button class="btn_show_detail btn"
                       @click="show_block_detail('filter' ,filter_val)"
               >
@@ -80,7 +80,7 @@
           <div class="selected_block_wrap">
 
             <div class="selected_block" v-for="(used_filter_val, used_filter_key) of trade_data_controller.used_filters">
-              {{used_filter_val.filter_name}} <br /> {{used_filter_val.exp}}
+              {{used_filter_val.filter_name}} <br /> {{used_filter_val.exp}} <br /> {{used_filter_val.status}}
               <button class="btn_show_detail btn" @click="show_block_detail('filter', used_filter_val)">show detail - 사용안함</button>
             </div>
           </div>
@@ -280,7 +280,8 @@ export default {
     select_block_or_filter(type, val){
 
       var filters, position = ''
-      console.log('val:', val)
+      console.log('va222l:', val)
+
 
       val = JSON.parse(JSON.stringify(val))
 
@@ -301,7 +302,6 @@ export default {
       }else{
         //filter
         position  = val.filter_name
-
         console.log('filter val', val)
 
         position = ['filter' , position]
@@ -314,7 +314,17 @@ export default {
       }
 
       console.log('filters', filters)
-      this.$store.dispatch('change_trade_used_filter', {type, filters})
+
+
+      if(type === 'block'){
+        if (window.confirm("Are you sure you want to change all filter lists??")) {
+          this.$store.dispatch('replace_trade_used_filter', filters)
+        }
+
+      }else{
+        this.$store.dispatch('add_trade_used_filter', filters)
+      }
+
 
     },
 
@@ -508,6 +518,8 @@ export default {
 
 
     check_duplicated_name(type, value){
+      // block name, filter name
+
       // value = (tdc, payload)
       // lettype = value.type
 
@@ -528,18 +540,18 @@ export default {
 
       })
 
-      //get target_names
-      if(type === 'block'){
-        target_names = data.filters.map( x => target_names.push(x.filter_name))
-      }else{
-        target_names = data.filters.position[1]
-      }
+      // //get target_names
+      // if(type === 'block'){
+      //   target_names = data.filters.map( x => target_names.push(x.filter_name))
+      // }else{
+      //   target_names = data.filters.position[1]
+      // }
+      //
+      // let concat_names = all_names.concat(target_names);
+      //
+      // let test = [...new Set(concat_names)];
 
-      let concat_names = all_names.concat(target_names);
-
-      let test = [...new Set(concat_names)];
-
-      console.log('test', test)
+      // console.log('test', test)
 
 
       return true

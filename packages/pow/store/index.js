@@ -338,30 +338,23 @@ let STORE = new Vuex.Store({
     add_item (state, payload) {
       state.list_data.push(payload)
     },
-
-    change_trade_used_filter(state, payload) {
-
+    replace_trade_used_filter(state, payload) {
+      state.trade_data_controller.used_filters = payload
     },
+    add_trade_used_filter(state, payload) {
+      state.trade_data_controller.used_filters.push(payload)
+    },
+
 
   },
   actions: {
 
-    change_trade_used_filter(context, payload) {
-      // payload = {type, filters}
+    replace_trade_used_filter(context, payload) {
+      context.commit('replace_trade_used_filter', payload)
+    },
 
-      let tdc = context.getters.trade_data_controller
-
-      if(payload.type === 'block'){
-
-        if (window.confirm("Are you sure you want to change all filter lists??")) {
-          tdc.used_filters = payload.filters
-          context.commit('change_trade_used_filter')
-        }
-
-      }else{
-        tdc.used_filters.push(payload.filters)
-        context.commit('change_trade_used_filter')
-      }
+    add_trade_used_filter(context, payload) {
+      context.commit('add_trade_used_filter', payload)
     },
 
     async update_item_by_server(context, evaluate_result){
