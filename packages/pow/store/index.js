@@ -162,6 +162,8 @@ bridge.on('eval-result', (evaluate_result) => {
 })
 
 
+
+
 let STORE = new Vuex.Store({
   state: {
 
@@ -229,7 +231,7 @@ let STORE = new Vuex.Store({
 
             },
             {
-              filter_name:'블록1-0',
+              filter_name:'블록1-1',
               status: false,
               exp: "F>3.4 / P>2.3 / D and D > 2",
             },
@@ -244,7 +246,7 @@ let STORE = new Vuex.Store({
               exp: "F>3.5 / P>2.3 / B and D > 2",
             },
             {
-              filter_name:'블록2-1',
+              filter_name:'블록2-2',
               status: false,
               exp: "F>3.6 / P>2.3 / A and D > 2",
             },
@@ -254,7 +256,7 @@ let STORE = new Vuex.Store({
           block_name:'블록_wrap2',
           filters:[
             {
-              filter_name:'블록3-2',
+              filter_name:'블록3-1',
               status: false,
               exp: "F>3.7 / P>2.3 / A+ and D > 2",
             },
@@ -326,7 +328,9 @@ let STORE = new Vuex.Store({
     trade_data: (state) => {
       return state.trade_data;
     },
-
+    trade_data_controller: (state) => {
+      return state.trade_data_controller;
+    },
   },
 
   mutations: {
@@ -336,23 +340,30 @@ let STORE = new Vuex.Store({
     },
 
     change_trade_used_filter(state, payload) {
-      // payload = {type, filters}
-      let tdc = state.trade_data_controller
-      if(payload.type === 'block'){
-        // tdc.used_filters = payload.filters
 
-        if (window.confirm("Are you sure you want to change all filter lists??")) {
-          tdc.used_filters = payload.filters
-        }
-
-      }else{
-        tdc.used_filters.push(payload.filters)
-      }
-      return tdc.used_filters
     },
 
   },
   actions: {
+
+    change_trade_used_filter(context, payload) {
+      // payload = {type, filters}
+
+      let tdc = context.getters.trade_data_controller
+
+      if(payload.type === 'block'){
+
+        if (window.confirm("Are you sure you want to change all filter lists??")) {
+          tdc.used_filters = payload.filters
+          context.commit('change_trade_used_filter')
+        }
+
+      }else{
+        tdc.used_filters.push(payload.filters)
+        context.commit('change_trade_used_filter')
+      }
+    },
+
     async update_item_by_server(context, evaluate_result){
       let data_id = evaluate_result.id
       let list_data = context.state.list_data
