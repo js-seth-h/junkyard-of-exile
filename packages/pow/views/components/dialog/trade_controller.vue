@@ -89,21 +89,21 @@
 
 
 
-          <div class="block_detail box_wrap" v-show="block_detail_show"
+        <div class="block_detail box_wrap" v-show="block_detail_show"
              :class="[
                  block_detail_show === false?'off' : 'on' ,
                  block_detail_fullscreen === false ? '':'full'
              ]"
-          >
+        >
 
-            <button class="btn" @click="block_detail_fullscreen = !block_detail_fullscreen">full Screen :  {{block_detail_fullscreen}}</button>
+          <button class="btn" @click="block_detail_fullscreen = !block_detail_fullscreen">full Screen :  {{block_detail_fullscreen}}</button>
 
-            <button class="btn" @click="selected_filter_data = 'boolean', block_detail_show = false">close detail</button>
+          <button class="btn" @click="selected_filter_data = 'boolean', block_detail_show = false">close detail</button>
 
           <br />
-<!--          <button  class="btn"  @click="parsing_exp(selected_filter_data)">parsing_exp</button>-->
-<!--          <button  class="btn"  @click="make_exp()">make_exp</button>-->
-<!--          <button  class="btn"  @click="make_slide()">make_slide</button>-->
+          <!--          <button  class="btn"  @click="parsing_exp(selected_filter_data)">parsing_exp</button>-->
+          <!--          <button  class="btn"  @click="make_exp()">make_exp</button>-->
+          <!--          <button  class="btn"  @click="make_slide()">make_slide</button>-->
 
 
 
@@ -111,20 +111,20 @@
 
           <div v-if="selected_filter_data !== 'boolean'">
             <div v-if="selected_filter_data.status === false">
-<!--              <div v-if="selected_filter_data.position[0] !== null">-->
+              <!--              <div v-if="selected_filter_data.position[0] !== null">-->
               <!-- 블록 리스트 -->
-<!--              <p>&#45;&#45;&#45;&#45;test1 - 리스트&#45;&#45;&#45;&#45;</p>-->
-<!--              {{trade_data_controller.all_blocks[selected_filter_data.position[0]].block_name}}-->
-<!--              <br />-->
+              <!--              <p>&#45;&#45;&#45;&#45;test1 - 리스트&#45;&#45;&#45;&#45;</p>-->
+              <!--              {{trade_data_controller.all_blocks[selected_filter_data.position[0]].block_name}}-->
+              <!--              <br />-->
 
 
               selected_filter_data: {{selected_filter_data}}
 
               <p>//////////////////////</p>
-<!--              <p>1: {{selected_filter_data.filter_name}}</p>-->
-<!--              <p>2: {{selected_filter_data.status}}</p>-->
-<!--              <p>3: {{selected_filter_data.exp}}</p>-->
-<!--              <p>4: {{selected_filter_data.parsed_data}}</p>-->
+              <!--              <p>1: {{selected_filter_data.filter_name}}</p>-->
+              <!--              <p>2: {{selected_filter_data.status}}</p>-->
+              <!--              <p>3: {{selected_filter_data.exp}}</p>-->
+              <!--              <p>4: {{selected_filter_data.parsed_data}}</p>-->
 
 
 
@@ -143,9 +143,9 @@
               ///////////////
               <br /><br />
 
-<!--              5: detail_default_data: {{detail_default_data}}<br />-->
-<!---->
-<!--              6: <br />-->
+              <!--              5: detail_default_data: {{detail_default_data}}<br />-->
+              <!---->
+              <!--              6: <br />-->
               <br /><br />
               <div>
                 <label for="data_F">F :</label>
@@ -182,18 +182,18 @@
               >
               </v-range-slider>
 
-<!--              <v-range-slider-->
-<!--                  :tick-labels="detail_default_data.level"-->
-<!--                  :value="selected_filter_data.parsed_data.mods.slider"-->
-<!--                  :color="detail_default_data.selected_color"-->
-<!--                  :track-color="detail_default_data.unselected_color"-->
-<!--                  min="0"-->
-<!--                  max="6"-->
-<!--                  ticks="always"-->
-<!--                  tick-size="4"-->
-<!--              >-->
-<!--              </v-range-slider>-->
-<!--              -->
+              <!--              <v-range-slider-->
+              <!--                  :tick-labels="detail_default_data.level"-->
+              <!--                  :value="selected_filter_data.parsed_data.mods.slider"-->
+              <!--                  :color="detail_default_data.selected_color"-->
+              <!--                  :track-color="detail_default_data.unselected_color"-->
+              <!--                  min="0"-->
+              <!--                  max="6"-->
+              <!--                  ticks="always"-->
+              <!--                  tick-size="4"-->
+              <!--              >-->
+              <!--              </v-range-slider>-->
+              <!--              -->
 
             </div>
             <div v-else>
@@ -365,7 +365,7 @@ export default {
     },
 
     make_slide(test){
-    // make_slide(data){
+      // make_slide(data){
 
       console.log('^^^^^^^^^^^^^^^^^^^^    ', this.selected_filter_data)
       let data = this.selected_filter_data.mods
@@ -552,12 +552,104 @@ export default {
       // let test = [...new Set(concat_names)];
 
       // console.log('test', test)
+      // https://ko.javascript.info/map-set
+
+      const set1 = new Set([1, 2, 3, 4, 5]);
+
+      console.log(set1.has(1));
+      // expected output: true
 
 
       return true
     },
 
+    get_name_position(value){
+      // val.type val.position_name
 
+      // value = (tdc, payload)
+      // lettype = value.type
+
+      let type = value[0]
+      let position = value[1]
+
+
+
+      console.log('value', value)
+      let tdc = this.$store.state.trade_data_controller.all_blocks
+      // let data = value.payload
+      var all_names = []
+      var target_names = []
+
+      // tdc.map( (val,key) => console.log(val.block_name) )
+
+      // let test = map.set(value.position)
+
+      var position_num = []
+
+
+      console.log('tdc', tdc)
+      console.log('value.position', value)
+
+      console.log('function position' ,position_num)
+
+      if(type === 'block'){
+        tdc.map( (val,key) =>{
+          if(val.block_name === position){
+            position_num.push(key)
+          }
+        })
+      }else{
+        tdc.map( (val,key) =>{
+          console.log(val.block_name)
+          // if(val.block_name === position){
+          //   position_num = key
+          // }
+
+
+          console.log('position_num00000', position_num)
+          console.log('val',val, 'key', key)
+          val.filters.map( (filter_val, filter_key) =>  {
+            console.log('filter_val', filter_val, 'filter_key', filter_key)
+            if(filter_val.filter_name === position){
+
+              position_num = Array.of(key)
+              position_num.push(filter_key)
+
+              return position_num
+              console.log('position_num99999', position_num)
+            }
+          })
+
+        })
+
+        console.log('position_num99999', position_num)
+      }
+      //get all_names
+      // tdc.map( x =>  {
+      //   all_names.push(x.block_name)
+      //
+      //   x.filters.map( x =>  {
+      //     all_names.push(x.filter_name)
+      //   })
+      //
+      // })
+
+      // //get target_names
+      // if(type === 'block'){
+      //   target_names = data.filters.map( x => target_names.push(x.filter_name))
+      // }else{
+      //   target_names = data.filters.position[1]
+      // }
+      //
+      // let concat_names = all_names.concat(target_names);
+      //
+      // let test = [...new Set(concat_names)];
+
+      // console.log('test', test)
+
+
+      return position_num
+    },
 
 
     save_block_detail(){
@@ -608,7 +700,7 @@ export default {
           let assignd_exp = data_to_exp(data.parsed_data)
 
           function data_to_exp(data){
-             let F =data.F
+            let F =data.F
             let P =data.P
             let level =data.mods.level
             let count =data.mods.count
@@ -623,9 +715,12 @@ export default {
           }
 
 
-          // data.position
+          let position_num = this.get_name_position(data.position)
 
-          const get_position_from_data = this.$store.state.trade_data_controller.all_blocks[data.position[0]].filters[data.position[1]]
+          // data.position
+          console.log('position', data.position)
+          console.log(this.$store.state.trade_data_controller.all_blocks)
+          const get_position_from_data = this.$store.state.trade_data_controller.all_blocks[position_num[0]].filters[position_num[1]]
 
           get_position_from_data.exp = assignd_exp
 
@@ -633,24 +728,8 @@ export default {
           console.log('get_position_from_data', get_position_from_data)
 
 
-
         }
 
-
-
-      //
-      //   this.parsing_exp(data)
-      //
-      //   if(data.position[0] === null){
-      //     console.log('사용중 필터 - 저장 불가')
-      //   }else{
-      //     console.log('사용중이지 않은 필터 - 저장 가능')
-      //
-      //     console.log('data.position[0]', data)
-      //
-      //     console.log('selected_filter_data', this.selected_filter_data)
-      //   }
-      //>
       }else{
         alert('error occured')
         this.block_detail_show = false;
