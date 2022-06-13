@@ -4,9 +4,10 @@
 
 
     <div class="nav_item storage"  v-if="storage_data !== undefined" v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
+
       <v-tooltip right>
         <template v-slot:activator="{ on, attrs }">
-          <img class="item_img" :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+item.item_data.basetype.img" alt="">
+          <img class="item_img" :src="'https://raw.githubusercontent.com/js-seth-h/image-of-exile/master/'+storage_item.item_data.basetype.img" alt="">
 
           <button @click="remove_bookmark(storage_item)">
             remove
@@ -20,6 +21,8 @@
             {{storage_item.item_data.header.lines[2]}} {{storage_item.item_data.header.lines[3]}}
           </button>
         </template>
+        {{storage_item}}
+
         <Item v-if="Object.keys(storage_item).length > 0" :item_data="storage_item.item_data"></Item>
       </v-tooltip>
     </div>
@@ -44,7 +47,7 @@
           <button class="bookmark_btn" @click="add_bookmark(item)">
             add
           </button>
-          <p v-if="item.rating != 'undefined'">
+          <p v-if="item.rating !== 'undefined'">
 <!--            **{{item.rating.includes('F')}}**-->
 <!--            **{{item.rating.find(element => element = 'F')}}**-->
             {{item.rating}}
