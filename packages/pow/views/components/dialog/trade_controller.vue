@@ -53,19 +53,21 @@
         <div class="filter_box_wrap box_wrap">
           <div>
             {{this.$store.state.trade_data_controller.used_filters}}
-            <button class="btn" @click="show_block_detail('new')">add new</button>
+<!--            <button class="btn" @click="show_block_detail('new')">add new</button>-->
+            <button class="btn" @click="add_block_or_filter('block', 'boolean')">add new</button>
           </div>
           <div class="filter_box" v-for="(filter_wrap_val, filter_wrap_key) of trade_data_controller.all_blocks">
             {{filter_wrap_val.block_name}}
             {{filter_wrap_key}}
-            <button class="btn"> b_add </button>
+            <button class="btn" @click="add_block_or_filter('filter', filter_wrap_key)"> b_add </button>
             <button class="btn" @click=""> b_remove </button>
-            <button class="btn" @click=""> b_duplicate </button>
+            <button class="btn" @click="duplicate_block_or_filter('block', filter_wrap_key)"> b_duplicate </button>
             <button class="btn"  @click="select_block_or_filter('block', filter_wrap_val)"> b_select </button>
             <div class="filter" v-for="(filter_val, filter_key) of filter_wrap_val.filters">
 
               <button class="btn" @click=""> f_remove</button>
               <button class="btn" @click="select_block_or_filter('filter', filter_val)"> f_select </button>
+              <button class="btn" @click="duplicate_block_or_filter('filter', filter_key)"> b_duplicate </button>
               {{filter_val.filter_name}} <br /> {{filter_val.exp}} <br /> {{filter_val.status}}
               <button class="btn_show_detail btn"
                       @click="show_block_detail('filter' ,filter_val)"
@@ -276,6 +278,49 @@ export default {
     },
   },
   methods:{
+    duplicate_block_or_filter(type, key){
+      let tdc = this.$store.state.trade_data_controller
+
+      console.log('type, key', type, '//', key)
+
+      if(type === 'block'){
+
+      }else{
+
+      }
+
+    },
+    add_block_or_filter(type, key){
+      let tdc = this.$store.state.trade_data_controller
+
+      var block_form = {}
+      console.log('tdc', tdc, '//', tdc.all_blocks.length)
+      console.log('type, key', type, key)
+      if(type === 'block'){
+        block_form = {
+          block_name: 'block list - '+tdc.all_blocks.length,
+          filters: []
+        }
+        tdc.all_blocks.unshift(block_form);
+      }else{
+
+        console.log('tdc[key]', tdc.all_blocks[key], '//',tdc.all_blocks)
+
+        // Array.prototype.push.apply(tdc.all_blocks, block_form);
+        block_form = {
+          filter_name:'block - ' + tdc.all_blocks[key].filters.length,
+          status: false,
+          exp: " / / A and D > ",
+
+        }
+        console.log('tdc.all_blocks', tdc.all_blocks[key].filters.length)
+
+        tdc.all_blocks[key].filters.unshift(block_form);
+
+        console.log('tdc.all_blocks', tdc.all_blocks)
+
+      }
+    },
 
     select_block_or_filter(type, val){
 
