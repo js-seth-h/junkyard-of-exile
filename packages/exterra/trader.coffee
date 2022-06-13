@@ -9,7 +9,7 @@ search = (ptf_parsed)->
   postdata = PTF.forTrade ptf_parsed
   return null unless postdata
   dcon.F.debug 'search', postdata
-  url = 'https://poe.game.daum.net/api/trade/search/Scourge'
+  url = 'https://poe.game.daum.net/api/trade/search/Sentinel'
   res = await axios.post url, postdata # {"query":{"status":{"option":"any"},"stats":[{"type":"and","filters":[]}],"filters":{"type_filters":{"filters":{"rarity":{"option":"rare"}}}}},"sort":{"price":"asc"}}
   dcon.F.debug 'trade search', R.pick [
     'data','status', 'statusText', 'headers', 'config'

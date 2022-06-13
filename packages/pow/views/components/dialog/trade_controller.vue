@@ -52,8 +52,11 @@
 
         <div class="filter_box_wrap box_wrap">
           <div>
-            {{this.$store.state.trade_data_controller.used_filters}}
+<!--            {{this.$store.state.trade_data_controller.used_filters}}-->
 <!--            <button class="btn" @click="show_block_detail('new')">add new</button>-->
+
+            <input type="file" @change="import_selected_filter()" id="fileUpload" />
+
             <button class="btn" @click="add_block_or_filter('block', 'boolean')">add new</button>
           </div>
           <div class="filter_box" v-for="(filter_wrap_val, filter_wrap_key) of trade_data_controller.all_blocks">
@@ -86,7 +89,12 @@
               <button class="btn_show_detail btn" @click="show_block_detail('filter', used_filter_val)">show detail - 사용안함</button>
             </div>
           </div>
-          <div class="result"> res text</div>
+          <div class="result">
+            res text
+
+            <button class="btn" @click="run_selected_filter()">run</button>
+            <button class="btn" @click="export_selected_filter()">export</button>
+          </div>
         </div>
 
 
@@ -228,6 +236,9 @@ export default {
   data () {
     return {
 
+
+      storage_data: JSON.parse(localStorage.getItem('storage_data')),
+
       dialog: false,
       notifications: false,
       sound: true,
@@ -278,6 +289,89 @@ export default {
     },
   },
   methods:{
+    run_selected_filter(){
+      console.log('click - run_selected_filter')
+      let storage_data = this.storage_data
+      let filter_data = this.trade_data_controller.used_filters
+
+      storage_data.map(x =>{
+        console.log('x.rating', x.rating)
+      })
+      // let parsed_filter_data = {}
+
+      let parsed_filter_data = []
+      filter_data.map(x =>{
+        console.log('x.exp', x.exp)
+        // Object.assign(parsed_filter_data, this.parsing_exp(x.exp));
+        parsed_filter_data.push(this.parsing_exp(x.exp))
+      })
+
+
+
+
+      // parsing_exp
+
+      console.log('click - run_selected_filter', 'storage_data', storage_data , '//', 'filter_data', filter_data, '//', 'parsed_filter_data', parsed_filter_data)
+
+      // this.storage_data
+
+    },
+    async import_selected_filter(){
+      console.log('click - import_selected_filter')
+      const fileInput = document.getElementById("fileUpload");
+
+      // const selectedFile = fileInput.files[0];
+      var selectedFile = JSON.parse(await fileInput.files[0].text());
+
+      console.log(selectedFile);
+
+      // this.add_block_or_filter('block', )
+
+      let blocks = {
+        block_name:'내 블록 리스트11111',
+        filters:selectedFile
+      }
+
+      console.log('ablocks', blocks)
+      let tdc = this.$store.state.trade_data_controller
+
+      console.log('tdc', tdc)
+      tdc.all_blocks.unshift(blocks);
+
+    },
+
+    export_selected_filter(){
+      console.log('click - export_selected_fitler')
+      let used_filters = this.trade_data_controller.used_filters;
+      if(used_filters.length === 0){
+        alert('Please choose a filter first')
+      }else{
+
+        console.log('used_filters', used_filters)
+
+        used_filters.map(x=>{
+          delete x.position
+        })
+        this.file_download(used_filters)
+      }
+    },
+
+    file_download(data){
+
+      let content = JSON.stringify(data)
+
+      const blob = new Blob([content], {type: 'text/plain'})
+      const url = window.URL.createObjectURL(blob)
+      const a = document.createElement("a")
+      a.href = url
+      // a.download = `${this.$store.state.nickname}_${this.title}.md`
+      a.download = `JOE_filter_export.js`
+      a.click()
+      a.remove()
+      window.URL.revokeObjectURL(url);
+    },
+
+
     duplicate_block_or_filter(type, key){
       let tdc = this.$store.state.trade_data_controller
 
@@ -455,7 +549,7 @@ export default {
       let parsed_data = this.parsed_data
       // data를 / 기준으로 분리
 
-      console.log('---------------11111', data)
+      console.log('---------------11111', data, '//', parsed_data)
       let stat = data.split(/[/]/gi);
       // <, > 를 기준으로 분리하기위해 선언해둔 변수
       let reg_carret = /[<>]/gi;
@@ -553,8 +647,10 @@ export default {
       console.log('parse_P: ', parse_P, '//', 'parse_F: ',parse_F, '//', 'parse_mods: ', parse_mods )
 
 
+      if(this.parsed_data ==! 'boolean'){
+        this.selected_filter_data.parsed_data = assignd_data
+      }
 
-      this.selected_filter_data.parsed_data = assignd_data
 
       return assignd_data
 
