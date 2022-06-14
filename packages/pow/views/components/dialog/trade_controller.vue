@@ -290,32 +290,115 @@ export default {
   },
   methods:{
     run_selected_filter(){
+
+
       console.log('click - run_selected_filter')
       let storage_data = this.storage_data
       let filter_data = this.trade_data_controller.used_filters
-
-      storage_data.map(x =>{
-        console.log('x.rating', x.rating)
-      })
+      let P, F =''
+      // storage_data.map(x =>{
+      //   x.rating
+      //   P = 3.7;
+      //   F = 2.3;
+      //   // console.log('x.rating', x.rating)
+      // })
       // let parsed_filter_data = {}
 
-      let parsed_filter_data = []
-      filter_data.map(x =>{
-        console.log('x.exp', x.exp)
-        // Object.assign(parsed_filter_data, this.parsing_exp(x.exp));
-        parsed_filter_data.push(this.parsing_exp(x.exp))
-      })
+
+      // let parsed_filter_data = []
+      // filter_data.map(x =>{
+      //   console.log('x.exp', x.exp)
+      //   // Object.assign(parsed_filter_data, this.parsing_exp(x.exp));
+      //   parsed_filter_data.push(this.parsing_exp(x.exp))
+      // })
+
+
+
+      // storage_data.forEach(x => {
+      //
+      //   console.log('x.rating', x.rating)
+      //
+      //   // x.rating
+      //   // if(false){
+      //   //   return false;
+      //   // }
+      // })
+
+
+
+
+
+      this.loop_filter(storage_data, filter_data)
+
+      //
+      // function loop_filter(){
+      //   filter_data.forEach(x => {
+      //     x.rating
+      //     if(false){
+      //       return false;
+      //     }
+      //   })
+      // }
+      //
+      // filter_data.forEach(x => {
+      //   x.rating
+      //   if(false){
+      //     return false;
+      //   }
+      // })
+
+
 
 
 
 
       // parsing_exp
 
-      console.log('click - run_selected_filter', 'storage_data', storage_data , '//', 'filter_data', filter_data, '//', 'parsed_filter_data', parsed_filter_data)
+      // console.log('click - run_selected_filter', 'storage_data', storage_data , '//', 'filter_data', filter_data, '//', 'parsed_filter_data', parsed_filter_data)
 
       // this.storage_data
 
     },
+
+    loop_filter(storage_data, filter_data) {
+      console.log('test loop');
+      filter_data.map(data => {
+
+
+        let parsed_filter_data = this.parsing_exp(data.exp)
+
+
+        storage_data.map(x => {
+          console.log('x',x.rating, '//', 'data', data, '//', 'parsed_filter_data', parsed_filter_data )
+
+          //parsed_filter_data.mods.level
+          let this_level = parsed_filter_data.mods.level
+          let position_to_arr = parsed_filter_data.mods.slider
+          let level_count = parsed_filter_data.mods.count
+
+          let parsed_rating = this.parse_level(x.rating)
+
+
+          console.log('x.rating', x.rating , '//','this_level', this_level, 'position_to_arr', position_to_arr, 'parsed_rating', parsed_rating)
+          // if(){
+          //
+          // }
+
+        })
+
+      })
+
+
+
+      let val = false
+
+      if (val === false) {
+        return false // 종료 조건
+      }
+
+    return this.loop_filter(storage_data) // 재귀함수
+  },
+
     async import_selected_filter(){
       console.log('click - import_selected_filter')
       const fileInput = document.getElementById("fileUpload");
@@ -545,14 +628,14 @@ export default {
       console.log('/////////////',data)
       let edge_slider = this.edge_slider_option
       let level = this.slider_level
+      // <, > 를 기준으로 분리하기위해 선언해둔 변수
+      let reg_carret = /[<>]/gi;
 
       let parsed_data = this.parsed_data
       // data를 / 기준으로 분리
 
       console.log('---------------11111', data, '//', parsed_data)
       let stat = data.split(/[/]/gi);
-      // <, > 를 기준으로 분리하기위해 선언해둔 변수
-      let reg_carret = /[<>]/gi;
 
 
 
@@ -570,60 +653,8 @@ export default {
         return { [splited_data[0]] : splited_data[1]}
       }
 
-      function parse_exp_mods(data){
-        data = data.replace(/\s+/g, '');
-        console.log('1111111zzzz', data)
-
-        let test0 = data.split(reg_carret)
-        test0 = test0[0].split('and')
-        let test1 = data.split('>')[1]
-        console.log('test0: ', test0, 'test1: ', test1)
 
 
-        let test_carret = /(and)|[<>]/gi;
-
-        let splited_data = []
-        splited_data = data.trim().split(reg_carret)
-
-        const splited_level = splited_data[0].split('and')
-
-        let selected_level = [splited_level[0], splited_level[1]]
-
-        let parsed_level = parse_level(selected_level)
-
-        let assignd_data = Object.assign({},
-            {level: selected_level},
-            {count: splited_data[1]},
-            {slider: parsed_level}
-        )
-
-        return { mods:assignd_data }
-      }
-
-      function parse_level(selected_level) {
-
-        console.log('xxxxxxxxxxxxxx - ', selected_level)
-
-        // indexof
-        // map]
-        let level_position = []
-        selected_level.map(x=>{
-          level_position.push(level.indexOf(x))
-        })
-
-
-        console.log('^^^^^^^^^^^^^^^^^level:',level,'\nlevel_position:', level_position , '\nselected_level:', selected_level)
-
-        // let data = []
-        // level.map(x, key => {
-        //   console.log('level x', x, key)
-        //
-        //   if(x === selected_level[0]){
-        //     data = result.item_data
-        //   }
-        // })
-        return level_position
-      }
 
 
       console.log(';;;;;;;;;;;;;;', stat)
@@ -638,7 +669,7 @@ export default {
       // parse_exp
 
       // this.parsed_data = Object.assign({}, parse_exp(parse_F), parse_exp(parse_P), parse_exp_mods(parse_mods))
-      const assignd_data = Object.assign({}, parse_exp(parse_F), parse_exp(parse_P), parse_exp_mods(parse_mods))
+      const assignd_data = Object.assign({}, parse_exp(parse_F), parse_exp(parse_P), this.parse_exp_mods(parse_mods))
 
       // this.parsed_data = [parse_F, parse_P, parse_mods]
 
@@ -656,7 +687,57 @@ export default {
 
     },
 
+    parse_exp_mods(data){
 
+      let reg_carret = /[<>]/gi;
+
+      data = data.replace(/\s+/g, '');
+      console.log('1111111zzzz', data)
+
+      let test0 = data.split(reg_carret)
+      test0 = test0[0].split('and')
+      let test1 = data.split('>')[1]
+      console.log('test0: ', test0, 'test1: ', test1)
+
+
+      let test_carret = /(and)|[<>]/gi;
+
+      let splited_data = []
+      splited_data = data.trim().split(reg_carret)
+
+      const splited_level = splited_data[0].split('and')
+
+      let selected_level = [splited_level[0], splited_level[1]]
+
+      let parsed_level = this.parse_level(selected_level)
+
+      let assignd_data = Object.assign({},
+          {level: selected_level},
+          {count: splited_data[1]},
+          {slider: parsed_level}
+      )
+
+      return { mods:assignd_data }
+    },
+
+
+    parse_level(val) {
+      console.log('xxxxxxxxxxxxxx - ', val)
+
+      let level = this.slider_level
+
+      // indexof
+      // map]
+      let level_position = []
+      val.map(x=>{
+        level_position.push(level.indexOf(x))
+      })
+
+
+      console.log('^^^^^^^^^^^^^^^^^level:',level,'\nlevel_position:', level_position , '\nval:', val)
+
+      return level_position
+    },
 
     check_duplicated_name(type, value){
       // block name, filter name
