@@ -91,7 +91,13 @@
           </div>
           <div class="result">
             res text
+<!--            {{filter_result}}-->
 
+            <div v-if="filter_result.length > 0">
+              <div v-for="(filter_result_val, filter_result_key) in filter_result">
+                {{filter_result_val.item_data.header.lines}}
+              </div>
+            </div>
             <button class="btn" @click="run_selected_filter()">run</button>
             <button class="btn" @click="export_selected_filter()">export</button>
           </div>
@@ -280,6 +286,8 @@ export default {
 
       selected_filter_data: 'boolean',
 
+
+      filter_result :[],
     }
   },
   computed: {
@@ -291,85 +299,28 @@ export default {
   methods:{
     run_selected_filter(){
 
-
       console.log('click - run_selected_filter')
       let storage_data = this.storage_data
       let filter_data = this.trade_data_controller.used_filters
       let P, F =''
-      // storage_data.map(x =>{
-      //   x.rating
-      //   P = 3.7;
-      //   F = 2.3;
-      //   // console.log('x.rating', x.rating)
-      // })
-      // let parsed_filter_data = {}
-
-
-      // let parsed_filter_data = []
-      // filter_data.map(x =>{
-      //   console.log('x.exp', x.exp)
-      //   // Object.assign(parsed_filter_data, this.parsing_exp(x.exp));
-      //   parsed_filter_data.push(this.parsing_exp(x.exp))
-      // })
-
-
-
-      // storage_data.forEach(x => {
-      //
-      //   console.log('x.rating', x.rating)
-      //
-      //   // x.rating
-      //   // if(false){
-      //   //   return false;
-      //   // }
-      // })
-
-
-
-
-
+      this.filter_result = []
       this.loop_filter(storage_data, filter_data)
-
-      //
-      // function loop_filter(){
-      //   filter_data.forEach(x => {
-      //     x.rating
-      //     if(false){
-      //       return false;
-      //     }
-      //   })
-      // }
-      //
-      // filter_data.forEach(x => {
-      //   x.rating
-      //   if(false){
-      //     return false;
-      //   }
-      // })
-
-
-
-
-
-
-      // parsing_exp
-
-      // console.log('click - run_selected_filter', 'storage_data', storage_data , '//', 'filter_data', filter_data, '//', 'parsed_filter_data', parsed_filter_data)
-
-      // this.storage_data
 
     },
 
     loop_filter(storage_data, filter_data) {
       console.log('test loop');
-      filter_data.map(data => {
 
 
-        let parsed_filter_data = this.parsing_exp(data.exp)
+      storage_data.map(x => {
 
+        filter_data.map(data => {
 
-        storage_data.map(x => {
-          console.log('x',x.rating, '//', 'data', data, '//', 'parsed_filter_data', parsed_filter_data )
+          let parsed_filter_data = this.parsing_exp(data.exp)
+
+          let F = x.item_data.fullness
+          let P = x.item_data.power
+          console.log('x', x,'///x',x.rating, '//', 'data', data, '//', 'parsed_filter_data', parsed_filter_data )
 
           //parsed_filter_data.mods.level
           let this_level = parsed_filter_data.mods.level
@@ -379,16 +330,36 @@ export default {
           let parsed_rating = this.parse_level(x.rating)
 
 
-          console.log('x.rating', x.rating , '//','this_level', this_level, 'position_to_arr', position_to_arr, 'parsed_rating', parsed_rating)
-          // if(){
-          //
-          // }
+          // const result = words.filter(word => word.length > 6);
+
+          // x.rating (6) ["D", "C", "D", "F", "A", "C", __ob__: Observer]
+          // this_level (2) ["D", "D"]
+          // position_to_arr (2) [5, 5]
+          // parsed_rating (6) [5, 4, 5, 6, 2, 4]
+          // level_count 2
+
+          let filter_option = (val => {
+            let stat = false
+            if(position_to_arr[0] >= val && position_to_arr[1] <= val) {
+              stat = true
+            }
+            return stat
+          })
+
+          console.log(parsed_rating.filter(filter_option), '////', parsed_rating.filter(filter_option) === true );
+          //필터를 통과한 데이터
+          if(parsed_rating.filter(filter_option).length >= level_count ){
+            let cloned_data = JSON.parse(JSON.stringify(x))
+            // cloned_data.push()
+            this.filter_result.push(cloned_data)
+          }
+
+          console.log('filter_option', filter_option)
+          console.log('x.rating', x.rating , '//','this_level', this_level, 'position_to_arr', position_to_arr, 'parsed_rating', parsed_rating, 'level_count', level_count)
 
         })
 
       })
-
-
 
       let val = false
 
