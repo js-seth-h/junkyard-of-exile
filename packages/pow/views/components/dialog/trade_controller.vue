@@ -63,12 +63,12 @@
             {{filter_wrap_val.block_name}}
             {{filter_wrap_key}}
             <button class="btn" @click="add_block_or_filter('filter', filter_wrap_key)"> b_add </button>
-            <button class="btn" @click=""> b_remove </button>
+            <button class="btn" @click="remove_block_or_filter('block', [filter_wrap_key, 'boolean'])"> b_remove </button>
             <button class="btn" @click="duplicate_block_or_filter('block', filter_wrap_key)"> b_duplicate </button>
             <button class="btn"  @click="select_block_or_filter('block', filter_wrap_val)"> b_select </button>
             <div class="filter" v-for="(filter_val, filter_key) of filter_wrap_val.filters">
 
-              <button class="btn" @click=""> f_remove</button>
+              <button class="btn" @click="remove_block_or_filter('filter', [filter_wrap_key, filter_key])"> f_remove</button>
               <button class="btn" @click="select_block_or_filter('filter', filter_val)"> f_select </button>
               <button class="btn" @click="duplicate_block_or_filter('filter', filter_key)"> b_duplicate </button>
               {{filter_val.filter_name}} <br /> {{filter_val.exp}} <br /> {{filter_val.status}}
@@ -297,6 +297,21 @@ export default {
     },
   },
   methods:{
+
+    remove_block_or_filter(type, key){
+      console.log('type:', type, 'key: ', key)
+      let saved_blocks = this.trade_data_controller.all_blocks
+
+      if(type === 'block'){
+        console.log('block - default - saved_blocks', saved_blocks)
+
+        saved_blocks = saved_blocks.splice(key[0],1)
+      }else{
+
+        saved_blocks = saved_blocks[key[0]].filters.splice(key[1],1)
+      }
+      console.log('saved_blocks', saved_blocks)
+    },
     run_selected_filter(){
 
       console.log('click - run_selected_filter')
