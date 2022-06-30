@@ -331,6 +331,9 @@ let STORE = new Vuex.Store({
     trade_data_controller: (state) => {
       return state.trade_data_controller;
     },
+    used_filters: () => {
+      return JSON.parse(localStorage.getItem('used_filters'))
+    },
   },
 
   mutations: {
@@ -346,14 +349,52 @@ let STORE = new Vuex.Store({
     },
 
 
+
+    replace_storage_filters(state, payload) {
+      localStorage.removeItem('used_filters');
+      // let used_filters = state.used_filters.push(payload)
+
+      localStorage.setItem('used_filters', JSON.stringify(payload));
+    },
+    add_storage_filters(state, payload) {
+      let used_filters = localStorage.getItem('used_filters')
+
+      var data = ''
+
+      if(used_filters === null || used_filters === 'undefined'){
+
+        localStorage.removeItem('used_filters');
+
+        data = payload
+        // localStorage.setItem('used_filters', JSON.stringify(payload));
+      }else{
+        var storage_filter = JSON.parse(used_filters);
+
+        storage_filter.push(payload)
+        // localStorage.setItem('used_filters', JSON.stringify(storage_filter));
+        data = storage_filter
+      }
+
+      localStorage.removeItem('used_filters');
+
+      localStorage.setItem('used_filters', JSON.stringify(data));
+
+      // localStorage.setItem('used_filters', JSON.parse(JSON.stringify(data)));
+
+
+    },
+
+
+
   },
   actions: {
-
     replace_trade_used_filter(context, payload) {
+      context.commit('replace_storage_filters', payload)
       context.commit('replace_trade_used_filter', payload)
     },
 
     add_trade_used_filter(context, payload) {
+      context.commit('add_storage_filters', payload)
       context.commit('add_trade_used_filter', payload)
     },
 
