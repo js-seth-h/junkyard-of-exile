@@ -83,8 +83,10 @@
 
         <div class="content box_wrap">
           <div class="selected_block_wrap">
-
-            <div class="selected_block" v-for="(used_filter_val, used_filter_key) of trade_data_controller.used_filters">
+            <div v-if="used_filter === null">
+              The filter is empty. Choose your filter
+            </div>
+            <div class="selected_block" v-else v-for="(used_filter_val, used_filter_key) of used_filter">
               {{used_filter_val.filter_name}} <br /> {{used_filter_val.exp}} <br /> {{used_filter_val.status}}
               <button class="btn_show_detail btn" @click="show_block_detail('filter', used_filter_val)">show detail - 사용안함</button>
             </div>
@@ -98,8 +100,13 @@
                 {{filter_result_val.item_data.header.lines}}
               </div>
             </div>
-            <button class="btn" @click="run_selected_filter()">run</button>
+            <button class="btn" @click="run_selected_filter('saved')">saved item list data run</button>
+            <button class="btn" @click="run_selected_filter('list')">item list data run</button>
             <button class="btn" @click="export_selected_filter()">export</button>
+
+
+            <button class="btn" @click="apply_filter()">Apply selected filter to item list</button>
+
           </div>
         </div>
 
@@ -292,12 +299,18 @@ export default {
   },
   computed: {
     trade_data_controller() {
-      console.log('----------------------this.$store.state.list_data', this.$store.state.trade_data_controller)
+      // console.log('----------------------this.$store.state.list_data', this.$store.state.trade_data_controller)
       return this.$store.state.trade_data_controller
+      // return JSON.parse(localStorage.getItem('storage_data'))
+    },
+    used_filter(){
+      return JSON.parse(localStorage.getItem('used_filters'))
     },
   },
   methods:{
+    apply_filter(){
 
+    },
     remove_block_or_filter(type, key){
       console.log('type:', type, 'key: ', key)
       let saved_blocks = this.trade_data_controller.all_blocks
@@ -312,11 +325,21 @@ export default {
       }
       console.log('saved_blocks', saved_blocks)
     },
-    run_selected_filter(){
+    run_selected_filter(type){
 
-      console.log('click - run_selected_filter')
-      let storage_data = this.storage_data
-      let filter_data = this.trade_data_controller.used_filters
+      var storage_data = ''
+      if(type === 'saved'){
+      //  saved: local storage saved item lsit
+        storage_data = this.storage_data
+        // let filter_data = this.trade_data_controller.used_filters
+      }else{
+      //  list: store save item list
+        storage_data = this.$store.state.list_data
+      }
+
+      console.log('click - run_selected_filter // type: ' ,type )
+      // let filter_data = this.trade_data_controller.used_filters
+      let filter_data = this.used_filter
       let P, F =''
       this.filter_result = []
       this.loop_filter(storage_data, filter_data)
@@ -324,7 +347,7 @@ export default {
     },
 
     loop_filter(storage_data, filter_data) {
-      console.log('test loop');
+      console.log('test loop', filter_data, '//', storage_data);
 
 
       storage_data.map(x => {
