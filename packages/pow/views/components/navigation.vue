@@ -2,7 +2,7 @@
   <div class="nav_wrap">
   <v-app>
 
-
+    즐겨찾기:
     <div class="nav_item storage"  v-if="storage_data !== undefined" v-for="(storage_item, storage_key) of storage_data" :key="'storage'+storage_key">
 
       <v-tooltip right>
@@ -34,6 +34,8 @@
 
 
     <button @click="remove_all">remove all item</button>
+
+    저장된 아이템:
     <div class="nav_item normal" v-if="list_data !== undefined"  v-for="(item, key) of list_data" :key="key">
       S+,S,A,B,C,D,F
       <i class="fas fa-arrow-right"></i>
