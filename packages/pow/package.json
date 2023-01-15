@@ -6,10 +6,10 @@
   "dependencies": {
     "axios": "^0.21.1",
     "es6-promise": "^4.2.8",
-    "parcel-bundler": "^1.12.5",
+    "parcel": "^2.0.0",
     "qs": "^6.10.1",
     "shortid": "^2.2.16",
-    "vue": "^2.6.4",
+    "vue": "^3.0.0",
     "vue-hot-reload-api": "^2.3.4",
     "vue-router": "^3.5.1",
     "vue-template-compiler": "^2.6.14",

@@ -9,7 +9,6 @@
   ],
   "private": true,
   "license": "MIT",
-
   "scripts": {
     "build": "yarn parcel ./packages/pow/index.html",
     "start": "yarn eapp"
